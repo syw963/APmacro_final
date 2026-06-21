@@ -1,0 +1,333 @@
+{
+  "chapter": 30,
+  "chapterTitle": "The Monetary System",
+  "questions": [
+    {
+      "id": "ch30-q01",
+      "difficulty": "easy",
+      "question": "In economics, the term \"money\" is defined as which of the following?",
+      "options": [
+        "The total of all stores of value a person owns, including stocks, bonds, and real estate",
+        "The set of assets in an economy that people regularly use to buy goods and services from each other",
+        "Any asset that has intrinsic value even when it is not used in exchange",
+        "Paper currency printed and declared legal tender by a national government",
+        "A measure of a person's overall wealth and ability to buy almost anything"
+      ],
+      "answer": 1,
+      "explanation": "Mankiw defines money specifically as the set of assets in an economy that people regularly use to buy goods and services from each other. The other choices confuse money with wealth (the total of all stores of value), with commodity money (intrinsic value), with one particular kind of money (fiat currency declared legal tender), or with the everyday sense of money as overall wealth."
+    },
+    {
+      "id": "ch30-q02",
+      "difficulty": "medium",
+      "question": "A landlord and tenant sign a lease today stating that rent will be $1,500 per month for the next year, with the amount fixed in dollars rather than in any quantity of goods. Using money this way to post the price and record the future debt is an example of money serving primarily as a:",
+      "options": [
+        "Medium of exchange",
+        "Store of value",
+        "Commodity with intrinsic value",
+        "Unit of account"
+      ],
+      "answer": 3,
+      "explanation": "Posting prices and recording debts in dollars is the unit-of-account function (the yardstick people use to post prices and record debts; e.g., future loan or rent payments set in dollars, not in a quantity of goods). It is not the medium of exchange (money handed from buyer to seller to complete a purchase) nor the store of value (transferring purchasing power to the future). 'Commodity with intrinsic value' describes commodity money, not a function of money."
+    },
+    {
+      "id": "ch30-q03",
+      "difficulty": "medium",
+      "question": "Consider three monetary objects discussed in the chapter: gold coins, World War II prisoner-of-war camp cigarettes, and a U.S. paper dollar. Which single statement correctly classifies all three and identifies the key distinguishing feature?",
+      "options": [
+        "All three are commodity money because each has been used as a medium of exchange at some point",
+        "Gold is commodity money, but cigarettes and the paper dollar are both fiat money established by decree",
+        "All three are fiat money because their value rests on social convention and expectations",
+        "Gold is fiat money under the gold standard, while cigarettes and the dollar are commodity money",
+        "Gold and cigarettes are commodity money (they have intrinsic value), while the paper dollar is fiat money (it has no intrinsic value and is money by government decree)"
+      ],
+      "answer": 4,
+      "explanation": "Commodity money is a commodity with intrinsic value (value even if not used as money). Gold has intrinsic value (industry, jewelry) and WWII POW-camp cigarettes have intrinsic value to smokers, so both are commodity money. The paper dollar has no intrinsic value and is money only because the U.S. government decreed it legal tender, making it fiat money. The chapter notes that expectations and social convention also matter for a currency's acceptance, but that does not reclassify gold and cigarettes as fiat money."
+    },
+    {
+      "id": "ch30-q04",
+      "difficulty": "medium",
+      "question": "Bitcoin is presented in the chapter as a cryptocurrency that is 'neither commodity money nor fiat money.' Which multi-part reasoning correctly explains BOTH why it is not commodity money AND why it is not fiat money, consistent with the text?",
+      "options": [
+        "It is not commodity money because it has no intrinsic value (you cannot use it for anything but exchange), and not fiat money because it is not created by government decree",
+        "It is not commodity money because its supply is capped at 21 million units, and not fiat money because it has intrinsic value in industrial uses",
+        "It is not commodity money because it exists only electronically, and not fiat money because no government tracks it on a blockchain",
+        "It is not commodity money because it is included in official money measures, and not fiat money because it is convertible into gold on demand",
+        "It is not commodity money because its price is volatile, and not fiat money because it is legal tender for all debts"
+      ],
+      "answer": 0,
+      "explanation": "The text states bitcoin is unlike commodity money because it has no intrinsic value (it can't be used for anything other than exchange), and unlike fiat money because it is not created by government decree. The distractors misattribute features: the 21-million cap and blockchain are real bitcoin facts but are not the reasons given for the classification; bitcoin is excluded from (not included in) standard money measures and is not convertible into gold or legal tender."
+    },
+    {
+      "id": "ch30-q05",
+      "difficulty": "easy",
+      "question": "In the U.S. monetary statistics, the term \"currency\" refers specifically to which of the following?",
+      "options": [
+        "The paper bills and coins held in the hands of the public",
+        "All balances held in checking and savings accounts",
+        "The total of M1 plus small time deposits and money market funds",
+        "Lines of credit that can be accessed using credit cards"
+      ],
+      "answer": 0,
+      "explanation": "The chapter defines currency as \"the paper bills and coins in the hands of the public.\" It is the most widely accepted medium of exchange and is unambiguously part of the money stock. Checking and savings balances are deposits (not currency), the M1-plus-time-deposits description is the M2 measure, and credit-card lines of credit are excluded from all measures of money."
+    },
+    {
+      "id": "ch30-q06",
+      "difficulty": "medium",
+      "question": "A consumer pays for a restaurant meal in two different ways on two different nights: once with a credit card and once with a debit card. According to the chapter, how does each transaction relate to the economy's money stock?",
+      "options": [
+        "Both the credit card and the debit card draw on funds counted in the money stock",
+        "Neither the credit card nor the debit card relates to the money stock, since both are just plastic",
+        "The debit card draws on a bank account balance that is part of the money stock, while the credit card merely defers payment and is excluded",
+        "The credit card draws on funds counted in the money stock, while the debit card defers payment and is excluded",
+        "Both are excluded from the money stock because cards are never counted as money"
+      ],
+      "answer": 2,
+      "explanation": "A debit card gives immediate access to deposits in a bank account, and the chapter states that \"the account balances that lie behind debit cards are included in measures of the quantity of money.\" A credit card is not a method of payment but a way of deferring payment - the issuing bank pays the merchant and you repay later - so credit cards are excluded from all measures of money. The option that puts the credit card in the money stock and excludes the debit card reverses the two cards."
+    },
+    {
+      "id": "ch30-q07",
+      "difficulty": "medium",
+      "question": "Consider these four assets: (1) coins in your pocket, (2) the balance in your checking (demand-deposit) account, (3) the balance in a money market mutual fund, and (4) the Empire State Building. Using the chapter's measures of the money stock, which statement is correct?",
+      "options": [
+        "All four items are part of M2",
+        "Only item 1 is money; items 2, 3, and 4 are excluded",
+        "Items 1, 2, and 3 are in M1, and item 4 is added in M2",
+        "Items 1 and 2 are in M1; item 3 is added in M2; item 4 is not money",
+        "Item 4 is in M2 because it is a valuable asset, while items 1-3 are in M1"
+      ],
+      "answer": 3,
+      "explanation": "Currency such as coins (item 1) and demand deposits in a checking account (item 2) are both part of M1. Money market mutual funds (item 3) are included in M2 but not in M1. The chapter explicitly uses the Empire State Building (item 4) as the example of a valuable asset that is clearly NOT money. So items 1 and 2 are in M1, item 3 is added in M2, and item 4 is not money at all."
+    },
+    {
+      "id": "ch30-q08",
+      "difficulty": "hard",
+      "question": "In November 2021 there was about $2.1 trillion of U.S. currency outstanding, and the chapter divides this by 262 million adults to find more than $8,000 of currency per adult - far more than most people carry. The chapter notes that estimates suggest more than half of U.S. dollars circulate outside the United States and that currency does not earn interest while bank deposits do. Which conclusion is best supported by this reasoning?",
+      "options": [
+        "The $8,000-per-adult figure proves that the typical U.S. adult keeps over $8,000 of cash in their wallet at all times",
+        "Most currency is held by ordinary U.S. residents precisely because currency earns interest while deposits do not",
+        "Because more than half of dollars are abroad, the domestic money stock excludes that foreign-held currency from M1",
+        "Criminals avoid currency because a bank deposit gives police no paper trail to trace",
+        "Per-adult currency held domestically by ordinary law-abiding U.S. residents is well below $8,000, because much currency is held abroad and by criminals, and ordinary people avoid holding non-interest-bearing currency"
+      ],
+      "answer": 4,
+      "explanation": "Multi-step reasoning: the $8,000-per-adult figure is an average over all outstanding currency, but two facts pull actual domestic ordinary holdings below it. (1) More than half of U.S. dollars circulate abroad, so a large share of the $2.1 trillion is not held by U.S. adults at all. (2) Currency earns no interest while deposits do, so most ordinary people hold only small amounts, with criminals (who avoid the paper trail of a bank deposit) holding much of the rest. Therefore ordinary domestic per-adult holdings are far below $8,000. The other options misstate the case study: the average is not each wallet's contents (the chapter says people carry far less); the interest comparison is reversed; the paper-trail logic is reversed (criminals prefer currency precisely because a bank deposit DOES create a paper trail); and the M1-exclusion claim is never stated by the chapter."
+    },
+    {
+      "id": "ch30-q09",
+      "difficulty": "easy",
+      "question": "According to the chapter, in what year was the Federal Reserve created, and what event prompted Congress to establish it?",
+      "options": [
+        "1913, after a series of bank failures in 1907",
+        "1789, as part of the U.S. Constitution",
+        "1929, in response to the stock market crash",
+        "1907, immediately during the banking panic itself",
+        "1933, following the Great Depression"
+      ],
+      "answer": 0,
+      "explanation": "The text states the Federal Reserve was created in 1913 after a series of bank failures in 1907 convinced Congress that the United States needed a central bank to ensure the health of the nation's banking system. The chapter's QuickQuiz also confirms it was NOT established by the U.S. Constitution."
+    },
+    {
+      "id": "ch30-q10",
+      "difficulty": "medium",
+      "question": "A student claims that the Federal Reserve was established by the U.S. Constitution and that its governors serve 4-year terms. Based on the chapter, what is the correct description of the Fed's structure?",
+      "options": [
+        "The Fed was created by the Constitution, and all governors serve 4-year terms",
+        "The Fed was created in 1913, and all governors and the chair serve lifetime appointments",
+        "The Fed was created by an act of Congress in 1913, and its Board of Governors members serve 14-year terms while the chair serves a 4-year term",
+        "The Fed was created by the Constitution, and the chair serves a 14-year term while governors serve 4-year terms"
+      ],
+      "answer": 2,
+      "explanation": "The Fed was created in 1913 by Congress (after the bank failures of 1907), not by the Constitution. Its Board of Governors has up to seven members appointed by the president and confirmed by the Senate, who serve 14-year terms to insulate them from short-term political pressures. The chair is appointed by the president to a 4-year term. The student's claim is wrong on both the origin and the term lengths."
+    },
+    {
+      "id": "ch30-q11",
+      "difficulty": "hard",
+      "question": "The Federal Open Market Committee (FOMC) sets U.S. monetary policy. Suppose the FOMC decides at one of its meetings to increase the money supply using the Fed's historically primary tool. Which combination correctly describes (1) who is eligible to cast votes on this decision and (2) the open-market action the Fed would take to increase the money supply?",
+      "options": [
+        "All twelve regional bank presidents plus the Board of Governors vote, and the Fed sells government bonds to the public",
+        "Only the seven-member Board of Governors votes, and the Fed buys government bonds from the public",
+        "The seven-member Board of Governors plus five of the twelve regional bank presidents vote, and the Fed buys government bonds from the public",
+        "The seven-member Board of Governors plus five of the twelve regional bank presidents vote, and the Fed sells government bonds to the public",
+        "Only the twelve regional bank presidents vote, and the Fed buys government bonds from the public"
+      ],
+      "answer": 2,
+      "explanation": "Two linked facts must both be correct. Voting composition: the FOMC consists of the Board of Governors plus five of the twelve regional bank presidents; all twelve presidents attend each meeting, but only five vote (with the New York Fed president always voting). Action: the historically primary tool is the open-market operation; to increase the money supply the Fed creates dollars and buys government bonds from the public, putting dollars into public hands. Selling bonds would instead decrease the money supply. Only the option pairing the correct voting body with buying bonds is right."
+    },
+    {
+      "id": "ch30-q12",
+      "difficulty": "easy",
+      "question": "In Mankiw's discussion of the monetary system, what does the term \"reserves\" refer to?",
+      "options": [
+        "The interest banks earn by charging borrowers for loans",
+        "The total value of loans a bank has made to households and firms",
+        "The portion of a bank's profits set aside for shareholders",
+        "Deposits that banks have received but have not loaned out"
+      ],
+      "answer": 3,
+      "explanation": "The chapter defines reserves precisely as \"deposits that banks have received but have not loaned out.\" Under 100-percent-reserve banking all deposits are held as reserves; under fractional-reserve banking only a fraction is. Loans are a separate asset category, explicitly distinguished from reserves in the bank's T-account."
+    },
+    {
+      "id": "ch30-q13",
+      "difficulty": "hard",
+      "question": "Suppose $100 of currency is deposited into a bank that practices fractional-reserve banking with a reserve ratio of 10 percent, and the bank lends out the maximum it can. Immediately after this single bank makes its loan (before the loaned funds are redeposited in any other bank), what is the economy's money supply, defined as currency plus demand deposits?",
+      "options": [
+        "$90",
+        "$190",
+        "$100",
+        "$110",
+        "$1,000"
+      ],
+      "answer": 1,
+      "explanation": "The depositors still hold $100 in demand deposits. The bank keeps 10% ($10) as reserves and lends out $90, which the borrower now holds as currency. Money supply = currency + demand deposits = $90 + $100 = $190. The $1,000 figure is the eventual total after the full money-multiplier process across all banks (multiplier = 1/0.10 = 10), not the effect of this one bank's single loan."
+    },
+    {
+      "id": "ch30-q14",
+      "difficulty": "hard",
+      "question": "Two economies receive identical injections of $200 in bank reserves and both fully lend out excess reserves. Economy A's banks maintain a reserve ratio of 1/20 (5 percent); Economy B's banks maintain a reserve ratio of 1/10 (10 percent). How much larger is the total money supply created in Economy A than in Economy B?",
+      "options": [
+        "$1,000 larger in A",
+        "$2,000 larger in A",
+        "They create the same amount of money",
+        "$2,000 larger in B"
+      ],
+      "answer": 1,
+      "explanation": "The money multiplier equals 1/R. Economy A: multiplier = 1/(1/20) = 20, so $200 x 20 = $4,000. Economy B: multiplier = 1/(1/10) = 10, so $200 x 10 = $2,000. The difference is $4,000 - $2,000 = $2,000, so Economy A creates $2,000 more money. A lower reserve ratio produces a larger multiplier and thus more money creation."
+    },
+    {
+      "id": "ch30-q15",
+      "difficulty": "hard",
+      "question": "A banking system as a whole holds a total of $250 in reserves, and every bank maintains a uniform reserve ratio of R. If the system supports a total of $5,000 in deposits, what reserve ratio R are the banks using?",
+      "options": [
+        "1/20 (5 percent)",
+        "1/4 (25 percent)",
+        "1/10 (10 percent)",
+        "1/5 (20 percent)"
+      ],
+      "answer": 0,
+      "explanation": "The money multiplier equals the ratio of deposits to reserves: $5,000 / $250 = 20. Because the money multiplier equals 1/R, we have 1/R = 20, so R = 1/20 = 5 percent. The chapter notes that a reserve ratio of 1/20 yields a money multiplier of 20."
+    },
+    {
+      "id": "ch30-q16",
+      "difficulty": "easy",
+      "question": "In the more realistic view of banking presented in this chapter, what is meant by \"bank capital\"?",
+      "options": [
+        "The total amount of currency a bank holds in its vault as reserves",
+        "The sum of all deposits that customers have placed with the bank",
+        "The interest a bank earns on the loans it makes to borrowers",
+        "The government-provided insurance that protects depositors",
+        "The financial resources that a bank's owners have put into the institution"
+      ],
+      "answer": 4,
+      "explanation": "The chapter defines bank capital as the resources a bank's owners have put into the institution (the equity issued to its owners). In the more realistic balance sheet, capital is the $50 of owners' equity. The other options are distinct concepts: reserves ($200) and deposits ($800) appear elsewhere on the balance sheet, loan interest is a source of profit, and deposit insurance is a separate government program."
+    },
+    {
+      "id": "ch30-q17",
+      "difficulty": "medium",
+      "question": "A bank's balance sheet lists, on the left side, Reserves $200, Loans $700, and Securities $100. On the right side it lists Deposits $800 and Debt $150. By the accounting identity used in the chapter, what must the bank's capital (owners' equity) equal?",
+      "options": [
+        "$1,000",
+        "$150",
+        "$50",
+        "$950"
+      ],
+      "answer": 2,
+      "explanation": "Owners' equity (capital) equals total assets minus total liabilities. Total assets = $200 + $700 + $100 = $1,000. Total liabilities = deposits + debt = $800 + $150 = $950. Capital = $1,000 - $950 = $50. The $1,000 is total assets, $950 is total liabilities, and $150 is the debt line item."
+    },
+    {
+      "id": "ch30-q18",
+      "difficulty": "hard",
+      "question": "Two banks each have $1,000 in total assets. Bank A has a leverage ratio of 20, and Bank B has a leverage ratio of 10. Both banks suffer an identical 4 percent decline in the value of their assets. Which statement correctly describes the effect on each bank's capital?",
+      "options": [
+        "Bank A's capital falls 40% and Bank B's capital falls 80%, so the less leveraged bank loses a larger percentage of its capital",
+        "Both banks lose the same percentage of capital because the asset decline is identical",
+        "Bank A becomes insolvent while Bank B's capital is unaffected",
+        "Bank A's capital falls 80% and Bank B's capital falls 40%, so the more highly leveraged bank loses a larger percentage of its capital",
+        "Bank A's capital falls 4% and Bank B's capital falls 4%, matching the asset decline"
+      ],
+      "answer": 3,
+      "explanation": "Percentage change in capital = leverage ratio x percentage change in assets. Bank A: 20 x 4% = 80% decline; Bank B: 10 x 4% = 40% decline. In dollars, each bank loses 4% of $1,000 = $40 of assets. Bank A's capital is $1,000/20 = $50, so it falls from $50 to $10 (an 80% drop); Bank B's capital is $1,000/10 = $100, so it falls from $100 to $60 (a 40% drop). Higher leverage amplifies the same asset move into a larger swing in capital, so Bank A loses a larger fraction of its capital. Neither bank is insolvent because each still has positive capital after the 4% decline."
+    },
+    {
+      "id": "ch30-q19",
+      "difficulty": "hard",
+      "question": "A bank holds $2,000 in total assets and has bank capital of $100. The chapter explains that a bank becomes insolvent when the value of its assets falls below the value of its liabilities. By what percentage must this bank's assets decline for it to just reach the point of insolvency?",
+      "options": [
+        "20 percent",
+        "5 percent",
+        "10 percent",
+        "2 percent"
+      ],
+      "answer": 1,
+      "explanation": "The bank's liabilities equal assets minus capital = $2,000 - $100 = $1,900. Insolvency occurs once assets fall below liabilities, which happens once losses exceed the $100 of capital. A loss of $100 is $100/$2,000 = 5 percent of assets. Equivalently, the leverage ratio is $2,000/$100 = 20, so a 5% asset decline wipes out 100% of capital (20 x 5% = 100%); any larger fall pushes assets below liabilities and makes the bank insolvent."
+    },
+    {
+      "id": "ch30-q20",
+      "difficulty": "hard",
+      "question": "Suppose the Fed buys $1,000 of government bonds from the public in an open-market operation, paying with newly created dollars. The banking system holds a reserve ratio of 10 percent and lends out all reserves above that level. Considering the two extreme cases for what the public does with these new dollars, what are, respectively, the LARGEST and SMALLEST possible increases in the money supply that could result?",
+      "options": [
+        "Largest $10,000 (all deposited in banks); smallest $1,000 (all kept as currency)",
+        "Largest $1,000 (all kept as currency); smallest $10,000 (all deposited)",
+        "Largest $100 (all deposited); smallest $1,000 (all kept as currency)",
+        "Largest $10,000 (all kept as currency); smallest $100 (all deposited)",
+        "Largest $1,000 (all deposited); smallest $900 (all kept as currency)"
+      ],
+      "answer": 0,
+      "explanation": "Each new dollar kept as currency raises the money supply by exactly $1, so if all $1,000 is held as currency the money supply rises by just $1,000 - the SMALLEST effect. Each new dollar deposited raises bank reserves and is multiplied by the money multiplier (1/reserve ratio = 1/0.10 = 10), so if all $1,000 is deposited the money supply rises by $1,000 x 10 = $10,000 - the LARGEST effect. The actual increase lies somewhere between $1,000 and $10,000 depending on how much the public deposits versus holds as currency."
+    },
+    {
+      "id": "ch30-q21",
+      "difficulty": "hard",
+      "question": "A bank currently holds reserves of $40 million against deposits of $400 million, exactly meeting a 10 percent reserve ratio, so the economy-wide money multiplier is 10. The Fed now RAISES the interest rate it pays on reserves, and in response banks choose to hold more reserves, pushing the system-wide reserve ratio up to 12.5 percent. Holding the monetary base fixed, how does this single change affect the money multiplier and the money supply?",
+      "options": [
+        "The multiplier rises from 10 to 12.5 and the money supply increases",
+        "The multiplier rises from 10 to 12.5 and the money supply decreases",
+        "The multiplier falls from 10 to 8 and the money supply decreases",
+        "The multiplier falls from 10 to 8 and the money supply increases",
+        "The multiplier is unchanged at 10 because interest on reserves does not affect the multiplier"
+      ],
+      "answer": 2,
+      "explanation": "A higher interest rate on reserves makes banks want to hold more reserves, raising the reserve ratio. The money multiplier equals 1/reserve ratio, so it falls from 1/0.10 = 10 to 1/0.125 = 8. With the monetary base held fixed, money supply = multiplier x base, so a smaller multiplier means the banking system creates less money and the money supply decreases. The chain is: higher interest on reserves -> higher reserve ratio -> lower multiplier -> lower money supply. The 'unchanged' option is wrong because the text states interest on reserves does affect the reserve ratio and thus the multiplier."
+    },
+    {
+      "id": "ch30-q22",
+      "difficulty": "easy",
+      "question": "In Mankiw's discussion of the monetary system, what is the federal funds rate?",
+      "options": [
+        "The interest rate the Fed pays banks for holding reserves on deposit at the Fed",
+        "The interest rate the Fed charges banks when it acts as lender of last resort",
+        "The short-term interest rate that banks charge one another for overnight loans of reserves",
+        "The required reserve ratio that banks must hold against their deposits"
+      ],
+      "answer": 2,
+      "explanation": "The federal funds rate is defined in the text as the short-term interest rate banks charge one another for overnight loans of reserves; a bank short of reserves can borrow them from another bank, and these loans are temporary, typically overnight. The other choices describe different rates: the interest rate the Fed PAYS banks on reserves held at the Fed, the discount rate the Fed charges when it lends to banks as lender of last resort, and the required reserve ratio - none of which is the federal funds rate."
+    },
+    {
+      "id": "ch30-q23",
+      "difficulty": "hard",
+      "question": "In a fractional-reserve banking system, a wave of bank runs erupts. Frightened households withdraw deposits and hold the cash as currency, while surviving bankers, fearing future runs, deliberately raise their reserve ratios. Following the causal chain in the chapter, what happens to the money supply even if the central bank takes NO deliberate action?",
+      "options": [
+        "It rises, because holding more currency directly increases the monetary base",
+        "It falls, because the currency drain pulls reserves out of banks and the higher reserve ratio lowers the money multiplier",
+        "It is unchanged, because withdrawals only convert deposits into currency one-for-one",
+        "It falls only if the central bank simultaneously sells bonds in an open-market operation",
+        "It rises, because banks make more loans to attract nervous depositors back"
+      ],
+      "answer": 1,
+      "explanation": "This traces the 1929-1933 mechanism from the chapter's bank-run Case Study. When households hold more currency, reserves are pulled out of banks, so bankers cut loans, reversing money creation. Bankers also raise reserve ratios, and a higher reserve ratio reduces the money multiplier. Both forces shrink the money supply with no deliberate central-bank contraction (the money supply fell 28 percent from 1929 to 1933 without the Fed acting). Currency held outside banks does not multiply, so converting deposits to currency is NOT neutral and does not raise the monetary base; and no open-market sale is required."
+    },
+    {
+      "id": "ch30-q24",
+      "difficulty": "hard",
+      "question": "A commercial bank is fully solvent: its assets clearly exceed its liabilities. On a single morning, every one of its depositors arrives demanding immediate withdrawal of all their funds in cash. Based on the chapter, why is the bank still unable to satisfy them, and what is its recourse?",
+      "options": [
+        "It can satisfy them instantly, because solvency guarantees enough cash is on hand",
+        "It cannot, because solvency means liabilities exceed assets, so it is actually bankrupt",
+        "It can satisfy them only by raising its reserve ratio above 100 percent that same day",
+        "It cannot, because under fractional-reserve banking it holds only a fraction of deposits in reserve; it must close until loans are repaid or a lender of last resort supplies currency",
+        "It cannot, but the FDIC is legally required to convert all of the bank's loans to cash within the hour"
+      ],
+      "answer": 3,
+      "explanation": "Under fractional-reserve banking a bank holds only a fraction of its deposits as reserves, so even a solvent bank (assets exceed liabilities) lacks the cash on hand to honor all withdrawals simultaneously. The chapter states the bank is forced to close its doors until some loans are repaid or a lender of last resort, such as the Fed, supplies the currency. The reversed-definition option inverts the chapter's definition of solvency (assets exceed liabilities), a 100 percent reserve ratio cannot be created the same day against already-lent funds, and the FDIC insures deposits rather than converting loans to cash."
+    }
+  ]
+}

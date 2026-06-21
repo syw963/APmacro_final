@@ -1,0 +1,337 @@
+{
+  "chapter": 31,
+  "chapterTitle": "Money Growth and Inflation",
+  "questions": [
+    {
+      "id": "ch31-q01",
+      "difficulty": "easy",
+      "question": "In the value-of-money model of the money market, why is the money supply curve drawn as a vertical line?",
+      "options": [
+        "Because the quantity of money supplied is fixed by the Fed and does not depend on the value of money",
+        "Because people always demand exactly the amount of money the Fed creates",
+        "Because the value of money never changes in the long run",
+        "Because the quantity of money supplied rises as the value of money rises"
+      ],
+      "answer": 0,
+      "explanation": "The money supply curve is vertical because the Fed fixes the quantity of money as a policy variable; the amount supplied therefore does not respond to the value of money (or the price level), making option 0 correct. Option 1 confuses the supply curve with demand or equilibrium—a vertical supply does not mean quantity demanded always equals what the Fed creates at every value of money. Option 2 is false because the value of money is determined in equilibrium and does change (for example, a monetary injection lowers it). Option 3 describes an upward-sloping, price-sensitive supply, which is not how the Fed-controlled money supply is modeled."
+    },
+    {
+      "id": "ch31-q02",
+      "difficulty": "medium",
+      "question": "On the value-of-money money market diagram, the right vertical axis (the price level P) is drawn inverted, with a low price level near the top and a high price level near the bottom. What is the reason for inverting this axis?",
+      "options": [
+        "To align a high value of money (near the top of the left axis) with a low price level (near the top of the right axis), since the two move in opposite directions",
+        "To show that the price level and the value of money always move in the same direction",
+        "To make the money demand curve slope upward instead of downward",
+        "To indicate that the Fed, rather than the market, sets the price level",
+        "To reflect that a higher price level increases the value of each dollar"
+      ],
+      "answer": 0,
+      "explanation": "Because the value of money equals 1/P, the value of money and the price level move in OPPOSITE directions. The left axis (value of money) has high values at the top, so inverting the right axis places a LOW price level at the top. This way a single equilibrium point reads consistently off both axes: high value of money corresponds to low P, and low value of money corresponds to high P. The correct option captures exactly this. 'Same direction' is wrong — value of money and P are inversely related, which is the whole reason the axis must be flipped. 'Makes money demand slope upward' is wrong: money demand still slopes downward (a lower value of money / higher P means a larger quantity of money demanded); the axis inversion is a labeling convention, not a change in the curve's economic behavior. 'The Fed sets the price level' is wrong: the price level is determined by the market equilibrium of money supply and demand, not assigned by the Fed. 'A higher price level increases the value of each dollar' reverses the 1/P relationship — a higher P means each dollar buys less, lowering its value."
+    },
+    {
+      "id": "ch31-q03",
+      "difficulty": "hard",
+      "question": "Suppose the economy starts in equilibrium in the value-of-money money market. Picture this market with the quantity of money on the horizontal axis, the value of money (1/P) on the left vertical axis, and the price level P on the right vertical axis with the price-level scale inverted (low P at the top). The money supply curve is vertical and money demand slopes downward. The Fed then doubles the money supply by dropping new dollar bills from helicopters. What happens to the equilibrium value of money and the equilibrium price level?",
+      "options": [
+        "The money supply curve shifts right; the value of money falls and the price level rises",
+        "The money supply curve shifts left; the value of money rises and the price level falls",
+        "The money demand curve shifts right; the value of money rises and the price level rises",
+        "The money supply curve shifts right; the value of money rises and the price level falls",
+        "Neither curve shifts; the value of money and the price level are unchanged because money is neutral"
+      ],
+      "answer": 0,
+      "explanation": "A monetary injection shifts the vertical money supply curve to the right. With unchanged downward-sloping money demand, the new intersection occurs at a lower value of money; because the right-hand price-level axis is the inverse of the value of money, this corresponds to a higher price level (the chapter's example: doubling money roughly halves the value of money, e.g., from 1/2 to 1/4, while the price level rises, e.g., from 2 to 4). The second option describes a monetary contraction, not an injection. The fourth option correctly shifts supply right but reverses the direction of the value of money. The third option wrongly shifts demand. The last option misapplies monetary neutrality, which says money does not affect REAL variables; the price level is a NOMINAL variable, so it does change."
+    },
+    {
+      "id": "ch31-q04",
+      "difficulty": "hard",
+      "question": "Suppose the Fed holds the money supply fixed, but the widespread adoption of credit cards and ATMs reduces how much money people want to hold for any given price level, shifting money demand to the left. On the value-of-money diagram (vertical money supply, value of money on the left axis, inverted price level on the right axis), what is the new long-run equilibrium relative to the original?",
+      "options": [
+        "The value of money rises and the price level falls",
+        "The value of money falls and the price level rises",
+        "The value of money rises and the price level rises",
+        "The value of money and the price level are both unchanged because the money supply did not change"
+      ],
+      "answer": 1,
+      "explanation": "A decrease in money demand while the money supply is held fixed creates an excess supply of money: at the original price level people now hold more dollars than they wish to. They try to shed the extra money by spending and lending it, which bids up the prices of goods and services, so the price level RISES and the value of money (1/P) FALLS. On the diagram, the downward-sloping money-demand curve shifts left while the vertical supply curve stays put, so they intersect at a lower value of money (a higher price level). Equivalently, holding less money means a higher velocity V in the quantity equation M*V = P*Y; with M and Y unchanged, P must rise. The option that the value of money rises and the price level falls reverses the true effect, and the 'both unchanged' option wrongly assumes a money-demand shift has no effect when the supply is fixed."
+    },
+    {
+      "id": "ch31-q05",
+      "difficulty": "medium",
+      "question": "A student is sorting variables into nominal versus real according to the classical dichotomy. Using the chapter's reasoning, which of the following is a REAL variable?",
+      "options": [
+        "The dollar price of a bushel of corn",
+        "A corn farmer's income measured in dollars",
+        "Nominal GDP",
+        "The real wage (the wage measured in terms of the goods and services it can buy)",
+        "The dollar wage of a worker"
+      ],
+      "answer": 3,
+      "explanation": "Under the classical dichotomy, real variables are measured in physical units, while nominal variables are measured in monetary (dollar) units. The real wage is a real variable because, by adjusting the money wage for the price level, it measures the rate at which a worker exchanges a unit of labor for goods and services. By contrast, a dollar price, a dollar income, nominal GDP, and a worker's dollar wage are all expressed in monetary units and are therefore nominal variables. The chapter's clue is the word 'real,' which signals adjustment for the price level so the variable reflects purchasing power in goods rather than dollars."
+    },
+    {
+      "id": "ch31-q06",
+      "difficulty": "easy",
+      "question": "The chapter says a relative price is a real variable. What is the BEST reason given for this classification?",
+      "options": [
+        "Relative prices are set by the government rather than by the money supply",
+        "When comparing the prices of any two goods, the dollar signs cancel, and the resulting number is expressed in physical units",
+        "Relative prices are always quoted directly in units of money like other prices",
+        "Relative prices adjust only in the short run when money is non-neutral",
+        "Relative prices are part of nominal GDP and therefore double when money doubles"
+      ],
+      "answer": 1,
+      "explanation": "The text explains that although the dollar price of corn ($2 a bushel) and of wheat ($1 a bushel) are nominal, the relative price 'a bushel of corn is worth 2 bushels of wheat' is not measured in money: 'When comparing the prices of any two goods, the dollar signs cancel, and the resulting number is expressed in physical units.' Because the result is in physical units rather than dollars, relative prices are real variables. The distractors contradict the text: relative prices are NOT quoted in money (the dollar signs cancel), and the chapter does not attribute this classification to government control, short-run non-neutrality, or membership in nominal GDP (which would instead make them nominal and double when money doubles)."
+    },
+    {
+      "id": "ch31-q07",
+      "difficulty": "hard",
+      "question": "Suppose the central bank doubles the money supply. Applying the chapter's account of monetary neutrality in the LONG RUN, which statement correctly traces what happens to the variables involved?",
+      "options": [
+        "The price level and the dollar wage both double, while real wages, real GDP, and the real interest rate are unchanged",
+        "The price level doubles, but the dollar wage and all other dollar values stay constant, so real wages fall by half",
+        "The price level, the dollar wage, AND the real wage all double, since money raises every wage measure equally",
+        "Real GDP and employment double along with the price level, because more money lets the economy supply more output",
+        "The real interest rate doubles while the price level and dollar wage are unchanged, since money works only through interest rates"
+      ],
+      "answer": 0,
+      "explanation": "The text states that when the central bank doubles the money supply, 'the price level doubles, the dollar wage doubles, and all other dollar values double,' while real variables such as production, employment, real wages, and real interest rates are unchanged. This is monetary neutrality. The 'dollar wage stays constant' option is wrong because the text explicitly says the dollar wage doubles (so the real wage is preserved, not halved). The 'real wage also doubles' option is wrong because the real wage is a real variable and is unchanged. The 'real GDP and employment double' option contradicts the chapter's point that a money injection alters none of the economy's real productive factors. The 'real interest rate doubles' option is exactly backwards: the real interest rate is a real variable that money leaves unchanged, and money works through the price level, not by altering the real rate."
+    },
+    {
+      "id": "ch31-q08",
+      "difficulty": "easy",
+      "question": "According to the chapter, the velocity of money refers to which of the following?",
+      "options": [
+        "The speed at which the typical dollar travels around the economy from person to person",
+        "The rate at which the central bank prints new currency each year",
+        "The percentage by which the price level rises in a typical year",
+        "The total dollar value of all goods and services an economy produces in a year"
+      ],
+      "answer": 0,
+      "explanation": "The text defines the velocity of money as the rate at which money changes hands, that is, the speed at which the typical dollar travels around the economy from person to person. The other options describe money growth (the central bank printing currency), inflation (the percentage rise in the price level), and nominal GDP (the total dollar value of output), respectively, which are distinct concepts. In the quantity equation M*V = P*Y, velocity V is the factor linking the money stock M to nominal spending P*Y, confirming it is a turnover rate, not a growth rate or a level of output."
+    },
+    {
+      "id": "ch31-q09",
+      "difficulty": "medium",
+      "question": "The quantity equation is written M × V = P × Y. According to the chapter, an increase in the quantity of money M must be reflected in one (or more) of the other three variables. Which statement correctly lists those directional possibilities?",
+      "options": [
+        "The price level must rise, the quantity of output must rise, or the velocity of money must fall",
+        "The price level must fall, the quantity of output must fall, or the velocity of money must rise",
+        "The real interest rate must rise, output must fall, or velocity must rise",
+        "The price level must rise, velocity must rise, or nominal GDP must fall",
+        "The price level must fall, output must rise, or velocity must rise"
+      ],
+      "answer": 0,
+      "explanation": "Because M is on the left side of M × V = P × Y, raising M increases the left side, so the right side (P × Y) must rise or the offsetting variable V must fall. Thus an increase in M must show up as a higher price level, higher output, or lower velocity — option 0. The other options reverse one or more directions: option 1 flips all three; option 4 mixes a falling P with a rising V; option 3 wrongly has nominal GDP (P × Y) FALLING, when it must rise to match a larger M × V; and option 2 introduces the real interest rate, which is not part of the quantity equation at all."
+    },
+    {
+      "id": "ch31-q10",
+      "difficulty": "medium",
+      "question": "An economy produces only pizza. It makes 200 pizzas in a year, each pizza sells for $8, and the quantity of money is $40. Using the chapter's formula V = (P x Y)/M, what is the velocity of money?",
+      "options": [
+        "40",
+        "20",
+        "8",
+        "1,600",
+        "0.025"
+      ],
+      "answer": 0,
+      "explanation": "Velocity equals nominal output divided by the money stock: V = (P x Y)/M = ($8 x 200)/$40 = $1,600/$40 = 40. Each dollar is used in transactions 40 times per year. The distractor 1,600 is just nominal GDP (P x Y) without dividing by M; 0.025 inverts the ratio (M divided by nominal GDP); 8 is the price per pizza (the price level), not velocity; and 20 results from a calculation error (e.g., dividing nominal GDP by twice the money stock)."
+    },
+    {
+      "id": "ch31-q11",
+      "difficulty": "hard",
+      "question": "Use the growth-rate form of the quantity equation: %change in M + %change in V = %change in P + %change in Y. Suppose the money supply grows at 9% per year and, consistent with the chapter's five-step logic, velocity is stable (0% growth) while real output Y is fixed by factor supplies and technology (0% growth because money is neutral). What is the resulting rate of inflation (%change in P)?",
+      "options": [
+        "9%",
+        "0%",
+        "18%",
+        "4.5%",
+        "-9%"
+      ],
+      "answer": 0,
+      "explanation": "In growth-rate form, 9% + 0% = %change in P + 0%, so inflation equals 9%. This is the chapter's conclusion that, with stable velocity and output fixed by factor supplies and technology, a rapid increase in the money supply is reflected one-for-one in the price level (\"inflation is always and everywhere a monetary phenomenon\"). 0% wrongly assumes money has no effect on P (contradicts the quantity theory); 18% double-counts money growth; 4.5% halves it for no valid reason; and -9% reverses the sign."
+    },
+    {
+      "id": "ch31-q12",
+      "difficulty": "easy",
+      "question": "The chapter says the inflation tax is 'subtler' than other taxes and falls on a particular group. On whom does the inflation tax ultimately fall?",
+      "options": [
+        "Only on people who owe money, since their debts grow in nominal terms",
+        "On foreign governments that hold the country's bonds",
+        "On everyone who holds money, because rising prices make their currency less valuable",
+        "Only on wage earners, who must be sent a bill for the tax each year"
+      ],
+      "answer": 2,
+      "explanation": "The text states that when the government prints money the price level rises, 'the dollars in your wallet become less valuable,' and 'the inflation tax is like a tax on everyone who holds money.' Unlike ordinary taxes, no bill is sent. The chapter does not say it falls only on debtors (debtors can actually benefit from unexpected inflation), nor only on wage earners, nor on foreign bondholders."
+    },
+    {
+      "id": "ch31-q13",
+      "difficulty": "hard",
+      "question": "A government has high spending, weak tax revenue, and little ability to borrow, and it begins financing its deficit by running the printing press; the result is hyperinflation. Based on the chapter's reasoning about the cause and cure of hyperinflation, which statement is correct?",
+      "options": [
+        "The hyperinflation is best ended by printing money even faster so that the government can quickly pay off its existing debts",
+        "The hyperinflation arises because money growth is unrelated to prices, and it ends only when consumers voluntarily stop spending",
+        "The hyperinflation arises because the deficit is financed by money creation, and it ends when fiscal reforms such as spending cuts eliminate the need for the inflation tax",
+        "The hyperinflation reflects too few goods being produced, so it ends automatically once output recovers without any change in government policy",
+        "The hyperinflation is caused by lenders demanding higher real interest rates, and it ends when the central bank lowers the nominal interest rate to zero"
+      ],
+      "answer": 2,
+      "explanation": "The chapter explains that almost all hyperinflations follow the same pattern: a government with high spending, inadequate tax revenue, and limited capacity to borrow turns to the printing press, and the massive increase in the quantity of money produces massive inflation (consistent with the quantity theory). It states the hyperinflation ends 'when the government institutes fiscal reforms—such as cuts in government spending—that eliminate the need for the inflation tax.' Printing even faster (option 0) would worsen inflation; the link between money growth and prices is strong, not absent (option 1); the cause is money creation, not a spontaneous output shortfall that self-corrects (option 3); and it is not driven by lenders' real-rate demands or cured by a central bank cutting the nominal rate to zero (option 4)—real rates are set in the market for loanable funds, and the cure is fiscal-monetary, not interest-rate policy."
+    },
+    {
+      "id": "ch31-q14",
+      "difficulty": "easy",
+      "question": "According to the Fisher effect as defined in the chapter, the nominal interest rate is equal to which of the following?",
+      "options": [
+        "The real interest rate minus the inflation rate",
+        "The real interest rate plus the inflation rate",
+        "The inflation rate minus the real interest rate",
+        "The real interest rate multiplied by the inflation rate"
+      ],
+      "answer": 1,
+      "explanation": "The chapter defines the real interest rate as Real interest rate = Nominal interest rate - Inflation rate, which rearranges to Nominal interest rate = Real interest rate + Inflation rate. So the nominal rate is the real rate PLUS inflation (the correct option). The choice 'real rate minus inflation rate' actually defines the REAL rate, not the nominal rate, so it reverses the relationship. The choice 'inflation rate minus real interest rate' has the terms backwards and the wrong sign. The choice that multiplies the two rates uses the wrong operation entirely; the Fisher relationship is additive."
+    },
+    {
+      "id": "ch31-q15",
+      "difficulty": "medium",
+      "question": "The chapter says it is useful to view the nominal interest rate as the sum of the real interest rate and the inflation rate because \"different forces determine each of the two terms.\" Which pairing correctly matches each term to the force that determines it?",
+      "options": [
+        "The real interest rate is determined by money growth; the inflation rate is determined by the supply and demand for loanable funds",
+        "The real interest rate is determined by the supply and demand for loanable funds; the inflation rate is determined by growth in the money supply",
+        "Both the real interest rate and the inflation rate are determined by growth in the money supply",
+        "The real interest rate is determined by the Fed's choice of the nominal rate; the inflation rate is determined by the supply and demand for loanable funds",
+        "Both the real interest rate and the inflation rate are determined by the supply and demand for loanable funds"
+      ],
+      "answer": 1,
+      "explanation": "The text states that the supply and demand for loanable funds determine the real interest rate, while the quantity theory of money says growth in the money supply determines the inflation rate (ch31: \"the supply and demand for loanable funds determine the real interest rate. And according to the quantity theory of money, growth in the money supply determines the inflation rate.\"). Option (a) reverses the two forces. Options (c) and (e) wrongly assign a single force to both terms. Option (d) invents a Fed-sets-the-nominal-rate mechanism that is not part of this long-run/classical analysis."
+    },
+    {
+      "id": "ch31-q16",
+      "difficulty": "hard",
+      "question": "Suppose an economy is in the long run, money is neutral, and the supply and demand for loanable funds keep the real interest rate fixed at 2 percent. Initially money growth produces 3 percent inflation. The central bank then permanently raises the rate of money growth so that the inflation rate rises to 8 percent. According to the Fisher effect, what happens to the nominal interest rate and the real interest rate?",
+      "options": [
+        "The nominal interest rate rises from 5 percent to 10 percent, and the real interest rate stays at 2 percent",
+        "The nominal interest rate rises from 5 percent to 13 percent, and the real interest rate stays at 2 percent",
+        "The nominal interest rate stays at 5 percent, and the real interest rate falls from 2 percent to -3 percent",
+        "The nominal interest rate rises from 3 percent to 8 percent, and the real interest rate stays at 2 percent",
+        "The nominal interest rate rises from 5 percent to 10 percent, and the real interest rate rises from 2 percent to 5 percent"
+      ],
+      "answer": 0,
+      "explanation": "Initially nominal = real + inflation = 2 + 3 = 5 percent. Inflation rises by 5 percentage points (from 3 to 8). Because money is neutral in the long run, the real interest rate is unchanged at 2 percent, so the nominal rate must change one-for-one with inflation: 2 + 8 = 10 percent. Option (b) double-counts by adding the new inflation on top of the old nominal rate (5 + 8 = 13). Option (c) holds the nominal rate fixed and lets the real rate absorb the change, contradicting monetary neutrality. Option (d) forgets the real-rate component. Option (e) wrongly lets the real rate move with inflation."
+    },
+    {
+      "id": "ch31-q17",
+      "difficulty": "hard",
+      "question": "A bank and a borrower sign a one-year fixed-rate loan based on an expected inflation of 2 percent and a desired real return of 3 percent, so the nominal rate is set at 5 percent. During the year, an unexpected surge sends actual inflation to 9 percent, and the rate cannot be renegotiated. Which statement BEST describes what this episode illustrates about the Fisher effect?",
+      "options": [
+        "The Fisher effect held perfectly: the realized real interest rate stayed at 3 percent because the nominal rate already embedded the inflation",
+        "The Fisher effect failed in the short run because inflation was unanticipated; the realized real rate fell to -4 percent even though the nominal rate stayed at 5 percent",
+        "The Fisher effect predicts the real interest rate, not the nominal rate, will adjust one-for-one to expected inflation",
+        "The episode shows monetary neutrality breaking down permanently, so the real rate will stay negative in the long run",
+        "The Fisher effect failed because the central bank set the nominal interest rate too low relative to the loanable-funds equilibrium"
+      ],
+      "answer": 1,
+      "explanation": "The chapter stresses that the Fisher effect need not hold in the short run because inflation may be unanticipated: a nominal rate set when the loan is made cannot reflect a surprise jump in inflation. Here the realized real rate = nominal - actual inflation = 5 - 9 = -4 percent, hurting the lender. The Fisher effect concerns adjustment to EXPECTED inflation, which moves with actual inflation in the long run but not necessarily the short run. Option (a) is wrong because the surprise inflation eroded the real return below 3 percent. Option (c) reverses which variable adjusts (it is the nominal rate that adjusts one-for-one to expected inflation). Option (d) overstates a temporary, short-run deviation as a permanent breakdown of neutrality. Option (e) invokes a Fed-sets-the-nominal-rate / liquidity-preference mechanism, which is not this chapter's explanation."
+    },
+    {
+      "id": "ch31-q18",
+      "difficulty": "easy",
+      "question": "The chapter calls the 'shoeleather cost' of inflation a metaphor. What does it actually refer to?",
+      "options": [
+        "The literal wear and tear on shoes from walking to stores during hyperinflation",
+        "The time and convenience sacrificed in order to keep less money on hand than one would without inflation",
+        "The cost firms bear when printing new price tags and menus",
+        "The arbitrary redistribution of wealth from creditors to debtors",
+        "The higher income taxes paid on nominal capital gains"
+      ],
+      "answer": 1,
+      "explanation": "The chapter explicitly states the term is not to be taken literally: the actual cost of reducing your money holdings 'is not the wear and tear on your shoes but the time and convenience you must sacrifice to keep less money on hand than you would if there were no inflation.' Reducing money holdings (e.g., more frequent trips to the bank) is how people try to escape the inflation tax, and the wasted time and convenience is the real deadweight cost. Option 0 takes the metaphor literally, which the text warns against; option 2 is the definition of menu costs; option 3 is the unexpected-inflation redistribution of wealth; option 4 is the inflation-induced tax distortion on nominal capital gains. Each is a distinct, separately named cost of inflation, so none competes with the correct answer."
+    },
+    {
+      "id": "ch31-q19",
+      "difficulty": "medium",
+      "question": "Eatabit Eatery prints a new menu each January and leaves prices unchanged all year. With 12 percent annual inflation, the chapter says this illustrates which cost of inflation, and why does it matter?",
+      "options": [
+        "Menu costs, because the restaurant must reprint its menu more than once a year",
+        "Relative-price variability, because Eatabit's relative prices fall about 1 percent each month, distorting the price signals markets use to allocate resources",
+        "Shoeleather costs, because customers must visit the restaurant more frequently before prices rise",
+        "The inflation fallacy, because customers wrongly believe rising menu prices lower their living standards",
+        "Inflation-induced tax distortions, because the restaurant's nominal profits are overtaxed"
+      ],
+      "answer": 1,
+      "explanation": "The Eatabit example is the textbook's own illustration of relative-price variability and the misallocation of resources (section 31-2d). With 12 percent annual inflation and a menu reprinted only each January, Eatabit's relative prices automatically fall about 1 percent each month, highest just after reprinting and lowest later in the year. This matters because market economies rely on relative prices to allocate scarce resources; when inflation distorts those relative prices, consumer decisions are distorted and markets allocate resources less efficiently. Option 0 (menu costs) names the separate cost of the reprinting act itself, and the firm reprints only once a year, so it is not what the example highlights. Option 2 (shoeleather costs) concerns economizing on money holdings and extra bank trips, not restaurant visits. Option 3 (inflation fallacy) is the mistaken belief that inflation cuts real purchasing power even though nominal incomes also rise. Option 4 (tax distortions) concerns nominal capital gains and nominal interest being taxed, unrelated to fixed menu pricing."
+    },
+    {
+      "id": "ch31-q20",
+      "difficulty": "medium",
+      "question": "Using the chapter's IBM stock example, an investor buys a share in 1975 for $10 and sells it in 2020 for $110; the price level rose fivefold over that period. Why does the chapter use this to illustrate an inflation-induced tax distortion?",
+      "options": [
+        "The tax code taxes only the $60 real gain and ignores the larger nominal gain, so inflation actually lowers the investor's tax burden",
+        "The tax code taxes the full $100 nominal gain, even though the real gain in purchasing power is only $60, so inflation raises the effective tax burden",
+        "Indexation already corrects this, so capital gains taxes impose no extra burden under inflation",
+        "The investor pays no tax because the $10 invested in 1975 equals $50 of 2020 purchasing power",
+        "Inflation lowers the investor's nominal gain, reducing the amount of tax owed"
+      ],
+      "answer": 1,
+      "explanation": "Because the price level rose fivefold, the original $10 is equivalent to $50 in 2020 purchasing power, so the real gain is $110 - $50 = $60. The tax code ignores inflation and taxes the full $100 nominal gain, exaggerating the gain and increasing the tax burden on saving. Option 0 reverses reality (the code taxes the $100 nominal gain, not the $60 real gain, and inflation raises rather than lowers the burden). Option 2 is false because the chapter explicitly states capital gains are NOT indexed. Option 3 wrongly concludes no tax is owed. Option 4 misstates the direction of the effect on the nominal gain."
+    },
+    {
+      "id": "ch31-q21",
+      "difficulty": "hard",
+      "question": "Consider an economy where the real interest rate is 4 percent and the government taxes ALL nominal interest income at a rate of 25 percent. Inflation is 8 percent, so by the Fisher effect the nominal interest rate is 12 percent. Applying the chapter's method for inflation-induced tax distortions (the tax is levied on the full nominal interest income, and the real return is then found by subtracting inflation), what is the saver's after-tax REAL interest rate?",
+      "options": [
+        "3 percent",
+        "1 percent",
+        "9 percent",
+        "0 percent",
+        "-1 percent"
+      ],
+      "answer": 1,
+      "explanation": "Step 1: By the Fisher effect, the nominal interest rate = real rate + inflation = 4% + 8% = 12%. Step 2: The 25% tax is levied on the full nominal interest income, so tax = 0.25 x 12% = 3%, leaving an after-tax nominal rate of 12% - 3% = 9%. Step 3: The after-tax REAL rate = after-tax nominal rate - inflation = 9% - 8% = 1%. This illustrates the inflation-induced tax distortion: even though the pre-tax real return is 4%, taxing nominal interest in the presence of 8% inflation cuts the saver's real return to just 1%. Distractor 3% is the result with zero inflation (nominal = real = 4%, tax = 1%, after-tax real = 3%), which does not apply here. Distractor 9% is the after-tax NOMINAL rate and forgets to subtract inflation (nominal/real confusion). The 0% and -1% options come from miscomputing the tax or applying it to the wrong base."
+    },
+    {
+      "id": "ch31-q22",
+      "difficulty": "hard",
+      "question": "Sophie Student borrows $50,000 at a 7 percent nominal rate; after 10 years she will owe Bigbank $100,000. Both parties expected moderate inflation when the rate was set, but instead the economy experiences a SURPRISE hyperinflation over the decade. Compared with what each party expected, who gains and who loses, and why?",
+      "options": [
+        "Sophie gains and Bigbank loses, because the surprise inflation lowers the real value of the fixed $100,000 repayment, so Sophie repays in dollars worth less than she expected",
+        "Bigbank gains and Sophie loses, because the surprise inflation raises the real value of the fixed dollar debt",
+        "Neither gains nor loses, because the 7 percent nominal rate already incorporated the inflation via the Fisher effect",
+        "Both lose equally, because hyperinflation imposes menu costs and shoeleather costs on borrowers and lenders alike",
+        "Sophie loses and Bigbank gains, because hyperinflation raises the nominal interest rate she must pay on the loan"
+      ],
+      "answer": 0,
+      "explanation": "Because the debt is fixed in dollar terms ($100,000), surprise inflation erodes its real value: Sophie repays in dollars worth far less than expected, so the debtor gains and the creditor (Bigbank) loses. This is the chapter's cost of inflation called the arbitrary redistribution of wealth from UNEXPECTED inflation. Option 1 reverses the direction (that outcome describes surprise deflation). Option 2 misapplies the Fisher effect: nominal rates adjust only to EXPECTED inflation, and here the inflation was unexpected, so it could not have been built into the 7 percent rate. Option 3's menu and shoeleather costs are real costs of hyperinflation but are separate from, and do not describe, the asymmetric debtor/creditor redistribution; the loss is not shared equally. Option 4 is wrong because the nominal rate was locked at 7 percent when the loan was made and does not rise afterward."
+    },
+    {
+      "id": "ch31-q23",
+      "difficulty": "hard",
+      "question": "From 1880 to 1896 the U.S. price level fell by 23 percent under a gold standard, and this deflation was UNANTICIPATED. Western farmers were debtors and eastern bankers were their creditors. Why did Populists argue that the 'free coinage of silver' would help the farmers?",
+      "options": [
+        "Allowing silver alongside gold as money would increase the money supply, push up the price level, and shrink the real burden of the farmers' debts",
+        "Coining silver would lower the money supply, causing further deflation that benefits debtors",
+        "Free silver would raise the real interest rate, transferring wealth from bankers to farmers",
+        "Free silver would leave the price level unchanged but redistribute gold reserves from bankers to farmers",
+        "Free silver would index farmers' loans to the price level, neutralizing the effect of deflation"
+      ],
+      "answer": 0,
+      "explanation": "The chapter explains that under the gold standard the quantity of gold fixed the money supply and price level; adding silver as money would have increased the money supply sharply, pushing up the price level and reducing the real burden of farmers' debts. The unanticipated deflation had raised the real value of the farmers' nominal debts, hurting farmer-debtors and enriching banker-creditors. The distractors fail: lowering the money supply (option 2) would worsen deflation, which hurts debtors, not helps them; the channel is monetary, not the real interest rate (option 3), which is set by loanable funds and would hurt debtors if it rose; the price level does not stay unchanged and no gold-reserve transfer occurs (option 4); and free silver does not index loans (option 5) even though indexation is a real Ch31 concept used elsewhere as a tax-distortion remedy."
+    },
+    {
+      "id": "ch31-q24",
+      "difficulty": "hard",
+      "question": "Milton Friedman argued that a small, predictable amount of deflation could be desirable (the Friedman rule). Which sequence of reasoning correctly captures his argument as presented in the chapter?",
+      "options": [
+        "Deflation lowers the nominal interest rate via the Fisher effect; a near-zero nominal rate reduces the cost of holding money; this minimizes shoeleather costs, which requires deflation equal to the real interest rate",
+        "Deflation raises the real interest rate, which lowers the nominal interest rate and reduces menu costs to nearly zero",
+        "A near-zero nominal rate requires inflation equal to the real interest rate, which Friedman called optimal because it eliminates the inflation tax",
+        "Deflation increases velocity and thereby reduces the quantity of money people must hold, minimizing menu costs",
+        "Mild deflation transfers wealth from creditors to debtors, which Friedman favored because debtors are poorer"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states the Friedman rule chain exactly: deflation lowers the nominal interest rate via the Fisher effect, a lower nominal rate reduces the cost of holding money, shoeleather costs are minimized by a nominal interest rate close to zero, and achieving that requires deflation equal to the real interest rate. The correct cost addressed is the shoeleather cost (not menu cost). The distractors fail because: (1) the real interest rate is set by loanable funds and is not 'raised' by deflation, and the relevant cost is shoeleather not menu; (2) a near-zero nominal rate requires deflation, not inflation, and the rationale is reduced shoeleather cost, not elimination of the inflation tax; (3) velocity is not the mechanism and the cost is shoeleather, not menu; (4) deflation actually enriches creditors at debtors' expense (the reverse of the claim), and this redistribution is a COST of unexpected deflation, the opposite of Friedman's case for mild, predictable deflation."
+    }
+  ]
+}
