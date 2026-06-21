@@ -5,20 +5,20 @@
     {
       "id": "ch35-q01",
       "difficulty": "easy",
-      "question": "According to Keynes's theory of liquidity preference, why does the money demand curve slope downward?",
+      "question": "Holding wealth as money rather than as an interest-bearing asset means forgoing the interest that asset would have paid. Suppose the interest rate rises. What happens to the quantity of money people choose to hold, and what slope does this imply for the money-demand curve?",
       "options": [
-        "Because the Federal Reserve directly controls the quantity of money households choose to hold",
-        "Because a higher interest rate increases people's wealth, leading them to hold more money",
-        "Because money is the least liquid of all assets, so people economize on it as rates rise",
-        "Because the interest rate is the opportunity cost of holding money, so a higher interest rate reduces the quantity of money demanded"
+        "The quantity demanded rises, because a higher interest rate makes households wealthier, so the curve slopes upward",
+        "The quantity demanded is unaffected, because the Fed fixes how much money households hold, so the curve is vertical",
+        "The quantity demanded falls, because money is the least liquid asset and people economize on it, so the curve slopes downward",
+        "The quantity demanded falls, because a higher interest rate raises the opportunity cost of holding money, so the curve slopes downward"
       ],
       "answer": 3,
-      "explanation": "The theory of liquidity preference emphasizes that the interest rate is the opportunity cost of holding money: holding wealth as money means giving up the interest that interest-bearing assets would pay. A higher interest rate raises that cost and reduces the quantity of money demanded, giving the curve its downward slope. The option saying the Fed controls the quantity demanded is wrong because the Fed controls the money supply (vertical curve), not the quantity demanded. The option calling money the least liquid asset is wrong because money is the most liquid asset."
+      "explanation": "The interest rate is the opportunity cost of holding money: wealth held as money gives up the interest an interest-bearing asset would pay. A higher interest rate raises that cost, so people hold less money, giving the money-demand curve a downward slope. The Fed controls the money supply (a vertical supply curve), not the quantity households demand, so the vertical-curve option is wrong. Money is the most liquid asset, not the least, so that option misstates the reason even though it reaches the right slope. Higher rates do not make holding money more attractive, so the upward-sloping option is wrong."
     },
     {
       "id": "ch35-q02",
       "difficulty": "medium",
-      "question": "In the money market, suppose the current interest rate is ABOVE the equilibrium level. According to the theory of liquidity preference, what happens and why?",
+      "question": "In the money market, the current interest rate is ABOVE the level that clears it. With the money supply fixed by the Fed, what imbalance exists and how does the adjustment back to equilibrium occur?",
       "options": [
         "The quantity of money demanded exceeds the fixed supply, creating a shortage, and people sell bonds, pushing the interest rate up",
         "The Fed must shift the vertical money-supply curve rightward to restore equilibrium",
@@ -26,39 +26,39 @@
         "The quantity of money demanded is less than the fixed supply, creating a surplus, and people sell bonds, pushing the interest rate up"
       ],
       "answer": 2,
-      "explanation": "When the interest rate is above equilibrium, the quantity of money people want to hold is less than the fixed quantity the Fed has supplied, so there is a surplus of money. People holding that surplus try to get rid of it by buying interest-bearing bonds (or depositing in banks). Because issuers can then offer lower rates, the interest rate falls back toward equilibrium. A shortage (with people selling bonds) occurs when the rate is below equilibrium, not above."
+      "explanation": "Above the equilibrium rate, the quantity of money people want to hold is less than the fixed quantity supplied, so there is a surplus of money. People holding that surplus use it to buy interest-bearing bonds or deposit it in banks; issuers can then offer lower rates, so the interest rate falls back to equilibrium. A shortage with people selling bonds occurs when the rate is below equilibrium, not above. Equilibrium is restored by the rate adjusting, not by the Fed shifting the fixed money supply."
     },
     {
       "id": "ch35-q03",
       "difficulty": "medium",
-      "question": "In Mankiw's reconciliation of the two interest-rate theories, which statement correctly pairs each theory with the time horizon it is best suited to explain?",
+      "question": "Two theories explain how the interest rate is determined: one built on saving and investment, the other on money supply and money demand. Which statement correctly pairs each theory with the time horizon over which it is most useful?",
       "options": [
-        "The liquidity-preference theory explains the long-run interest rate, while the loanable-funds theory explains the short-run interest rate.",
-        "The loanable-funds theory explains the long-run interest rate (emphasizing saving and investment), while the liquidity-preference theory explains the short-run interest rate (emphasizing monetary policy).",
-        "The loanable-funds theory explains the short-run interest rate (emphasizing money demand), while the liquidity-preference theory explains the long-run interest rate (emphasizing technology).",
-        "Neither theory determines the interest rate; in both the long run and short run the price level adjusts to clear the money market."
+        "The liquidity-preference theory best explains the long-run interest rate, while the loanable-funds theory best explains the short-run interest rate.",
+        "The loanable-funds theory best explains the long-run interest rate, emphasizing saving and investment, while the liquidity-preference theory best explains the short-run interest rate, emphasizing monetary policy.",
+        "The loanable-funds theory best explains the short-run interest rate, emphasizing money demand, while the liquidity-preference theory best explains the long-run interest rate, emphasizing technology.",
+        "Neither theory determines the interest rate; in both the long run and the short run the price level adjusts to clear the money market."
       ],
       "answer": 1,
-      "explanation": "The chapter states that the loanable-funds theory highlights an economy's saving propensities and investment opportunities and is best for thinking about the LONG-run determinants of the interest rate, while the liquidity-preference theory highlights monetary policy and is best for the SHORT-run determinants. The option pairing loanable funds with the long run and liquidity preference with the short run matches exactly; the others swap the pairing or misstate what clears the market."
+      "explanation": "The loanable-funds theory centers on an economy's saving propensities and investment opportunities, which are the long-run determinants of the interest rate, while the liquidity-preference theory centers on monetary policy and money demand, which dominate in the short run. The pairing of loanable funds with the long run and liquidity preference with the short run is therefore correct. The other options swap the pairing, attach the wrong variables, or wrongly claim the price level clears the market in both horizons."
     },
     {
       "id": "ch35-q04",
       "difficulty": "hard",
-      "question": "Consider the classical (long-run) sequence Mankiw uses: (1) output is set at the natural level by capital, labor, and technology; (2) given output, the interest rate balances the supply and demand for loanable funds; (3) given output and the interest rate, the price level balances money supply and demand. The text says this order is REVERSED in the short run. Which single feature of the short run is the reason the order must reverse?",
+      "question": "In the classical long-run analysis, output is set by capital, labor, and technology; then the interest rate balances loanable funds; then the price level balances money supply and demand. In the short run this order of determination reverses. Which feature of the short run forces the reversal?",
       "options": [
         "The natural level of output is no longer determined by capital, labor, and technology, so output must be solved for last.",
         "The Fed loses the ability to control the money supply in the short run, so money demand alone sets the interest rate.",
         "Changes in the money supply produce exactly proportionate changes in the price level only in the short run, forcing output to adjust first.",
         "Saving and investment become irrelevant in the short run, so the loanable-funds market disappears entirely.",
-        "Prices are sticky (the short-run aggregate-supply curve is upward-sloping), so the price level cannot move to clear the money market, and the interest rate moves instead."
+        "Many prices are sticky, so the short-run aggregate-supply curve slopes upward; with the price level slow to move, it cannot clear the money market, and the interest rate adjusts instead."
       ],
       "answer": 4,
-      "explanation": "In the long run the price level (step 3) does the adjusting because long-run supply is vertical. The chapter explains that in the short run many prices are slow to adjust, making the short-run aggregate-supply curve upward-sloping; because the price level is stuck, it cannot move to clear the money market, so the INTEREST RATE adjusts instead. This is precisely why the order of analysis reverses. The option denying the natural level's determinants is wrong, the option about exactly proportionate price-level changes misstates proportionality (a long-run result), and the options claiming the Fed loses control of the money supply and that saving and investment become irrelevant invent claims not made by the text."
+      "explanation": "In the long run the price level does the adjusting because long-run aggregate supply is vertical. In the short run many prices are slow to change, making short-run aggregate supply upward-sloping; with the price level stuck, it cannot move to clear the money market, so the interest rate adjusts instead, reversing the order of analysis. The natural level of output retains its determinants, the Fed keeps control of the money supply, exact proportionality is a long-run result, and saving and investment do not vanish, so the other options are wrong."
     },
     {
       "id": "ch35-q05",
       "difficulty": "easy",
-      "question": "According to Chapter 35, which of the following are the three reasons economists give for the downward slope of the aggregate-demand curve?",
+      "question": "A fall in the overall price level raises the real value of money holdings, lowers the interest rate, and depreciates the currency. Which set of effects names the three channels through which a lower price level raises the quantity of output demanded, giving the aggregate-demand curve its downward slope?",
       "options": [
         "The multiplier effect, the crowding-out effect, and the accelerator effect",
         "The substitution effect, the income effect, and the wealth effect",
@@ -67,12 +67,12 @@
         "The wealth effect, the multiplier effect, and the exchange-rate effect"
       ],
       "answer": 3,
-      "explanation": "The chapter lists exactly three reasons for the downward slope of the AD curve: the wealth effect (a lower price level raises the real value of money holdings, boosting consumption), the interest-rate effect (a lower price level reduces money demand, lowering the interest rate and raising investment), and the exchange-rate effect (a lower interest rate sends funds overseas, depreciating the currency and raising net exports). The multiplier, crowding-out, accelerator, and supply-side effects are concepts from the policy sections, not reasons the AD curve slopes downward."
+      "explanation": "A lower price level raises the real value of money holdings and boosts consumption (wealth effect), reduces money demand so the interest rate falls and investment rises (interest-rate effect), and that lower rate sends funds abroad, depreciating the currency and raising net exports (exchange-rate effect). These three channels make the AD curve slope downward. The multiplier, crowding-out, accelerator, and supply-side effects belong to the policy analysis, not to the slope of AD; the substitution and income effects describe individual demand curves, not aggregate demand."
     },
     {
       "id": "ch35-q06",
       "difficulty": "medium",
-      "question": "For the U.S. economy, the textbook ranks the three effects behind the downward slope of the AD curve by importance. Which statement matches the chapter's ranking and reasoning?",
+      "question": "For the U.S. economy, the three channels behind the downward-sloping AD curve are not equally strong. Which statement correctly ranks them and gives the right reason?",
       "options": [
         "The interest-rate effect is most important; the wealth effect is least important because money is a small part of household wealth.",
         "The exchange-rate effect is most important for the U.S. because exports and imports dominate U.S. GDP.",
@@ -80,12 +80,12 @@
         "The wealth effect is most important, and the interest-rate effect is least important for any economy."
       ],
       "answer": 0,
-      "explanation": "The chapter states the three effects are not of equal importance. The interest-rate effect is the MOST important reason for the U.S. The wealth effect is the LEAST important because money holdings are a small part of household wealth. The exchange-rate effect is small for the U.S. (because exports and imports are a small fraction of U.S. GDP) but larger for smaller open economies that trade a larger fraction of their GDP. This rules out the other options, which scramble the ranking or the justification."
+      "explanation": "For the U.S., the interest-rate effect is the most important channel. The wealth effect is the weakest because money holdings are only a small part of total household wealth. The exchange-rate effect is small for the U.S. because exports and imports are a small fraction of GDP, though it is larger for small open economies. This rules out the options that crown the wealth or exchange-rate effect for the U.S. or that misstate why money matters."
     },
     {
       "id": "ch35-q07",
       "difficulty": "hard",
-      "question": "Two economies are identical except that Economy A is a large, relatively closed economy (like the U.S.) while Economy B is a small open economy where exports and imports are a large share of GDP. A given drop in the price level lowers the interest rate by the same amount in both. Holding the wealth and interest-rate channels equal, which conclusion about the resulting increase in quantity of output demanded is best supported by Chapter 35, and through which channel does the difference operate?",
+      "question": "Economy A is large and relatively closed (like the U.S.); Economy B is small and open, with exports and imports a large share of GDP. A given drop in the price level lowers the interest rate by the same amount in both, and the wealth and interest-rate channels are equal across them. Which economy gets the larger increase in quantity of output demanded, and through which channel?",
       "options": [
         "The increase is larger in Economy B, working through a stronger exchange-rate effect, because net exports are a larger share of its GDP.",
         "The increase is larger in Economy A, working through a stronger wealth effect, because closed economies hold more money.",
@@ -94,12 +94,12 @@
         "The increase is larger in Economy B, working through a stronger wealth effect, because small economies hold money as a larger share of wealth."
       ],
       "answer": 0,
-      "explanation": "The chapter says the exchange-rate effect is not large for the U.S. because exports and imports are a small fraction of GDP, but it is more important for smaller countries that export and import a larger fraction of their GDP. With the wealth and interest-rate channels held equal, the difference must come through the exchange-rate channel: a lower interest rate sends funds overseas, depreciates the currency, and raises net exports more in the small open economy where net exports are a larger share of GDP. So Economy B gets the larger increase via a stronger exchange-rate effect. The wealth effect (options B and E) is the least important channel and is not driven by openness, and the interest-rate effect is assumed equal here (option D)."
+      "explanation": "With the wealth and interest-rate channels held equal, the only remaining difference operates through the exchange-rate channel. A lower interest rate sends funds overseas, depreciates the currency, and raises net exports, and net exports are a larger share of GDP in the small open economy, so Economy B gets the larger increase. The wealth effect is the weakest channel and is not driven by openness, and the interest-rate effect is assumed equal here, so the other options fail."
     },
     {
       "id": "ch35-q08",
       "difficulty": "hard",
-      "question": "Suppose the Federal Open Market Committee announces it has lowered its target for the federal funds rate. Using the theory of liquidity preference (with a fixed-position money-demand curve at a given price level), which sequence correctly traces what the Fed must do and what results in the short run?",
+      "question": "The Federal Open Market Committee announces a lower target for the federal funds rate. With the money-demand curve fixed at a given price level, which sequence correctly traces the Fed's open-market action and its short-run consequences?",
       "options": [
         "The Fed sells government bonds, shifting the money-supply curve left; the equilibrium interest rate rises, investment falls, and aggregate demand shifts left.",
         "The Fed buys government bonds, shifting the money-demand curve right; the equilibrium interest rate rises, investment falls, and aggregate demand shifts left.",
@@ -108,12 +108,12 @@
         "The Fed buys government bonds, but because the money-supply curve is vertical the interest rate cannot change and aggregate demand is unaffected."
       ],
       "answer": 2,
-      "explanation": "Lowering the federal funds target commits the Fed to adjust the money supply to hit that target. To reach a lower rate, the Fed buys government bonds, shifting the vertical money-supply curve rightward. With money demand fixed at the given price level, the equilibrium interest rate falls, which lowers borrowing costs, raises residential and business investment, and shifts aggregate demand to the right. The option in which the Fed sells bonds describes a contraction; the option that has the Fed buying bonds but shifting the money-demand curve right wrongly shifts money demand and reverses the rate move; the option shifting the money-demand curve left and the option claiming the vertical money-supply curve prevents any rate change both deny that a money-supply change moves the rate or AD, contradicting the chapter."
+      "explanation": "Hitting a lower funds-rate target requires raising the money supply, which the Fed does by buying government bonds, shifting the vertical money-supply curve rightward. With money demand fixed, the equilibrium interest rate falls, lowering borrowing costs, raising investment, and shifting aggregate demand right. Selling bonds describes a contraction; shifting money demand rather than supply misidentifies the curve that moves; and a vertical supply curve still shifts position, so it does not prevent the rate from changing."
     },
     {
       "id": "ch35-q09",
       "difficulty": "hard",
-      "question": "Consider a money market drawn with a vertical money-supply curve and a downward-sloping money-demand curve at a fixed price level. The Fed wants to CONTRACT aggregate demand. Which description of the diagram and its consequences is consistent with the chapter?",
+      "question": "The Fed wants to CONTRACT aggregate demand. In a money market with a vertical money-supply curve and a downward-sloping money-demand curve at a fixed price level, which description of the open-market action and its consequences is correct?",
       "options": [
         "The money-supply curve shifts right; the equilibrium interest rate falls; investment rises; AD shifts right.",
         "The money-supply curve shifts left; the equilibrium interest rate rises; residential and business investment fall; AD shifts left.",
@@ -121,26 +121,26 @@
         "The money-supply curve stays fixed while the interest rate is raised directly; investment rises; AD shifts right."
       ],
       "answer": 1,
-      "explanation": "A contraction is the mirror image of a monetary injection. The Fed sells bonds, shifting the vertical money-supply curve left. Along the unchanged downward-sloping money-demand curve, the equilibrium interest rate rises, which raises the cost of borrowing, reduces residential and business investment, and shifts AD left. The option shifting the money-supply curve right describes an expansion; the option shifting the money-demand curve left incorrectly moves money demand rather than supply; the option leaving supply fixed while raising the rate directly incorrectly pairs a higher rate with higher investment and a rightward AD shift."
+      "explanation": "To contract demand, the Fed sells bonds, shifting the vertical money-supply curve left. Along the unchanged downward-sloping money-demand curve, the equilibrium interest rate rises, raising borrowing costs, cutting residential and business investment, and shifting AD left. Shifting the supply curve right describes an expansion; shifting money demand misidentifies the curve that moves; and a higher rate cannot raise investment or shift AD right."
     },
     {
       "id": "ch35-q10",
       "difficulty": "hard",
-      "question": "A news report states: 'The Fed has reduced the target for the federal funds rate from 4 percent to 3 percent.' Drawing on the equivalence principle and the post-2008 interest-on-reserves mechanism, which interpretation is correct?",
+      "question": "A news report says the Fed has reduced its federal funds rate target from 4 percent to 3 percent. Given that monetary policy can be described equivalently as a money-supply change or a rate change, and given the post-2008 interest-on-reserves mechanism, which interpretation is correct?",
       "options": [
         "Because the change is described as a rate cut rather than a money-supply change, it has no effect on aggregate demand.",
         "The Fed must be selling bonds to push the rate down, which decreases the money supply and contracts aggregate demand.",
         "The federal funds rate is the rate the Fed pays households on deposits, so the cut reduces household income and contracts aggregate demand.",
         "Lowering the target raises interest on reserves, causing banks to hold more reserves and lend less, which contracts aggregate demand.",
-        "The money supply is being adjusted upward to hit the lower target; the Fed also lowers interest on reserves, so banks lend more, the money supply rises, and aggregate demand expands."
+        "The money supply is adjusted upward to hit the lower target; the Fed also lowers interest on reserves, so banks lend more, the money supply rises, and aggregate demand expands."
       ],
       "answer": 4,
-      "explanation": "Monetary policy can be described either as a money-supply change or an interest-rate change: a reduction in the funds target means the money supply is adjusted upward to hit it, lowering the equilibrium rate. Since 2008, the link is nearly automatic through interest on reserves: a lower funds target means the Fed lowers interest on reserves, so banks lend more, raising the money supply and expanding AD. The option saying a rate cut has no effect on AD denies the equivalence; the option that has the Fed selling bonds reverses the open-market action; the option calling the funds rate the rate the Fed pays households misdefines the funds rate; the option claiming the cut raises interest on reserves reverses the interest-on-reserves direction."
+      "explanation": "A reduction in the funds target means the money supply is adjusted upward to reach it, lowering the equilibrium rate. Since 2008 this works largely through interest on reserves: a lower target means the Fed lowers the rate it pays on reserves, so banks lend more, the money supply rises, and AD expands. Describing the move as a rate cut does not erase its effect on AD; pushing the rate down requires buying bonds, not selling; the funds rate is the rate banks charge one another for reserves, not a rate paid to households; and lowering the target lowers interest on reserves rather than raising it."
     },
     {
       "id": "ch35-q11",
       "difficulty": "medium",
-      "question": "In Chapter 35's case study, the Fed kept real interest rates high by historical standards during the stock-market boom of the late 1990s. Which chain of reasoning best explains why the Fed would tighten in response to a booming stock market?",
+      "question": "During the stock-market boom of the late 1990s, the Fed kept real interest rates high by historical standards. Which chain of reasoning explains why a booming stock market would lead the Fed to tighten?",
       "options": [
         "A boom lowers household wealth, so the Fed must raise rates to restore consumption",
         "Higher share prices raise the cost of borrowing, so the Fed offsets this by adding to the money supply",
@@ -148,12 +148,12 @@
         "Rising stock prices raise consumption and make share issuance attractive for investment, pushing AD up, so the Fed tightens to offset the AD increase and stabilize the economy"
       ],
       "answer": 3,
-      "explanation": "The chapter says a stock boom makes households wealthier (consumption up) and makes issuing new shares attractive (investment up), so AD rises. To promote stability the Fed may keep the money supply lower and interest rates higher to offset this AD increase, which it did in the late 1990s. The other choices reverse the wealth/AD logic or invent automatic mechanisms not in the chapter."
+      "explanation": "A stock boom makes households wealthier, raising consumption, and makes issuing new shares cheaper, encouraging investment, so aggregate demand rises. To keep the economy stable the Fed can hold the money supply lower and rates higher to offset that AD increase, as it did in the late 1990s. The other choices reverse the wealth-to-AD logic or invent an automatic link between stock prices and the money supply."
     },
     {
       "id": "ch35-q12",
       "difficulty": "easy",
-      "question": "According to Chapter 35, when an economy is in a \"liquidity trap,\" why may conventional expansionary monetary policy fail to stimulate aggregate demand?",
+      "question": "When an economy is in a liquidity trap, expansionary monetary policy may fail to stimulate aggregate demand. What feature of such a situation undermines the usual mechanism?",
       "options": [
         "The Fed loses the legal authority to conduct open-market operations during recessions",
         "Nominal interest rates are already near zero and cannot fall much further, so the extra liquidity may have no effect",
@@ -162,12 +162,12 @@
         "Money demand becomes perfectly vertical, fixing the interest rate above zero"
       ],
       "answer": 1,
-      "explanation": "The chapter explains that expansionary monetary policy works by reducing interest rates to stimulate investment. In a liquidity trap nominal rates have already fallen to about zero and cannot fall much below zero (people would just hold cash instead of lending at a negative rate), so the added liquidity may have no effect and AD, production, and employment can stay 'trapped' at low levels. The other options describe mechanisms the chapter does not invoke."
+      "explanation": "Expansionary monetary policy works by lowering interest rates to stimulate investment. In a liquidity trap nominal rates are already near zero and cannot fall much below it, because lenders would simply hold cash rather than lend at a negative rate, so additional liquidity has little effect and output and employment stay depressed. The Fed retains its open-market authority, banks are not forced to hold all new reserves, and money demand does not turn vertical, so the other options are wrong."
     },
     {
       "id": "ch35-q13",
       "difficulty": "hard",
-      "question": "A central bank's policy rate is stuck at the zero lower bound. The bank wants to give itself more room to push the REAL interest rate below zero in future downturns and announces it will raise its long-run inflation target from 0 to 4 percent. Using only Chapter 35's reasoning, which statement is correct?",
+      "question": "A central bank stuck at the zero lower bound wants more room to push the REAL interest rate below zero in future downturns, so it raises its long-run inflation target from 0 to 4 percent. Which statement correctly describes the effect?",
       "options": [
         "Raising the inflation target has no effect on the real rate because the Fisher relationship does not hold at the zero lower bound",
         "With a 4 percent inflation target, setting the nominal rate to zero yields a real rate of about positive 4 percent, which contracts the economy",
@@ -176,12 +176,12 @@
         "With a 4 percent inflation target, setting the nominal rate to zero yields a real rate of about negative 4 percent, giving more room to stimulate; under a zero inflation target the real rate, like the nominal rate, cannot fall below zero"
       ],
       "answer": 4,
-      "explanation": "The chapter states that under zero inflation the real interest rate, like the nominal rate, can never fall below zero, but if normal inflation is 4 percent the central bank can push the real rate to about negative 4 percent by setting the nominal rate to zero. A higher inflation target therefore gives policymakers more room to stimulate and reduces the risk of a liquidity trap. The distractor with positive 4 percent reverses the sign (real = nominal minus inflation = 0 - 4 = -4)."
+      "explanation": "The real rate equals the nominal rate minus inflation. With zero inflation, the real rate cannot fall below zero because the nominal rate cannot. With 4 percent inflation, setting the nominal rate to zero gives a real rate of about negative 4 percent (0 minus 4), so a higher inflation target gives policymakers more room to stimulate and reduces the risk of a liquidity trap. The positive-4-percent option reverses the sign; the nominal-rate floor itself is not pushed below zero; and the Fisher relationship still holds, so the other options fail."
     },
     {
       "id": "ch35-q14",
       "difficulty": "hard",
-      "question": "At the zero lower bound the conventional easing channel is blocked, yet Chapter 35 notes skeptics argue the central bank still has tools. Consider two tools: (I) forward guidance and (II) quantitative easing. Which option correctly pairs each tool with the mechanism the chapter attributes to it?",
+      "question": "At the zero lower bound the conventional easing channel is blocked, but a central bank may still use unconventional tools. Consider (I) forward guidance and (II) quantitative easing. Which option correctly pairs each tool with its mechanism?",
       "options": [
         "I: committing to keep rates low for an extended period, so the promise of low future rates stimulates investment now; II: buying mortgage-backed and longer-term bonds to lower those rates, increasing the quantity of bank reserves",
         "I: buying mortgage-backed and longer-term bonds to lower those rates; II: committing to keep rates low for an extended period",
@@ -190,25 +190,25 @@
         "Both I and II work solely by raising the present value of stocks, which boosts consumption through the wealth effect"
       ],
       "answer": 0,
-      "explanation": "The chapter defines forward guidance as the central bank committing to keep interest rates low for an extended period, so the promise of low future rates stimulates investment spending now. Quantitative easing is conducting open-market operations with a larger variety of instruments (mortgage-backed securities and longer-term government bonds) to lower those rates; it is called QE because it increases the quantity of bank reserves. The option that pairs forward guidance with bond-buying and QE with the low-rate commitment swaps the two definitions, and the remaining choices invent mechanisms not in the chapter."
+      "explanation": "Forward guidance is a commitment to keep interest rates low for an extended period, so the expectation of low future rates stimulates investment spending now. Quantitative easing conducts open-market operations across a wider range of instruments, such as mortgage-backed securities and longer-term government bonds, to push down those rates; it increases the quantity of bank reserves, which gives it its name. The second option swaps the two definitions, and the remaining choices invent mechanisms that do not apply."
     },
     {
       "id": "ch35-q15",
       "difficulty": "medium",
-      "question": "According to Chapter 35, why can the rightward shift in aggregate demand from a $20 billion government purchase end up being LARGER than $20 billion?",
+      "question": "A $20 billion increase in government purchases can shift aggregate demand to the right by MORE than $20 billion. What accounts for this larger-than-initial shift?",
       "options": [
-        "Because the multiplier effect creates a positive feedback loop in which higher income raises consumer spending, which raises income again",
-        "Because government purchases work indirectly by first changing the interest rate before affecting spending",
-        "Because the crowding-out effect adds to private investment spending",
-        "Because taxes automatically fall, providing an additional stimulus to consumption"
+        "The multiplier effect creates a positive feedback loop in which higher income raises consumer spending, which raises income again",
+        "Government purchases work indirectly by first changing the interest rate before affecting spending",
+        "The crowding-out effect adds to private investment spending",
+        "Taxes automatically fall, providing an additional stimulus to consumption"
       ],
       "answer": 0,
-      "explanation": "The multiplier effect is defined as the additional shifts in AD that occur when the initial purchase raises income, prompting more consumer spending, which raises income further (a positive feedback loop), possibly strengthened by the investment accelerator. Government purchases shift AD directly, not indirectly through interest rates. Crowding-out makes the shift SMALLER, not larger, so it is the opposite of the multiplier."
+      "explanation": "The multiplier effect is the chain of additional AD shifts set off when the initial purchase raises income, which prompts more consumer spending, which raises income again, possibly reinforced by the investment accelerator. Government purchases shift AD directly rather than first working through interest rates. Crowding out makes the shift smaller, not larger, and the purchase itself does not automatically cut taxes."
     },
     {
       "id": "ch35-q16",
       "difficulty": "hard",
-      "question": "The government places a $30 billion order with domestic firms. Economists estimate that for every extra dollar of income households receive, they spend $0.80 and save the rest. Ignoring crowding-out and the investment accelerator, by how much does the spending multiplier ultimately shift the aggregate-demand curve?",
+      "question": "The government places a $30 billion order with domestic firms. For every extra dollar of income households receive, they spend $0.80 and save the rest. Ignoring crowding-out and the investment accelerator, by how much does the spending multiplier ultimately shift the aggregate-demand curve?",
       "options": [
         "$37.5 billion",
         "$150 billion",
@@ -217,12 +217,12 @@
         "$90 billion"
       ],
       "answer": 1,
-      "explanation": "MPC = 0.80, so the multiplier = 1/(1 - MPC) = 1/(1 - 0.80) = 1/0.20 = 5. The total AD shift = multiplier x change in government purchases = 5 x $30 billion = $150 billion. The trap answer $120 billion forgets to count the initial $30 billion of government spending itself (it computes only the induced consumption, MPC/(1-MPC) x 30 = 4 x 30), and $37.5 billion misapplies the saving fraction."
+      "explanation": "With MPC = 0.80, the multiplier is 1/(1 - 0.80) = 1/0.20 = 5, so the total AD shift is 5 x $30 billion = $150 billion. The $120 billion answer counts only the induced consumption and forgets the initial $30 billion of government spending; $37.5 billion misapplies the saving fraction; $90 billion and $24 billion use the wrong multiplier."
     },
     {
       "id": "ch35-q17",
       "difficulty": "hard",
-      "question": "A recession overseas reduces foreign demand for U.S. net exports by $10 billion. The marginal propensity to consume is 3/4. Which statement BEST describes the resulting effect through the income-consumption feedback loop, according to the chapter?",
+      "question": "A recession overseas reduces foreign demand for U.S. net exports by $10 billion. The marginal propensity to consume is 3/4. Through the income-consumption feedback loop, what is the resulting effect on aggregate demand?",
       "options": [
         "Aggregate demand is unaffected, because the multiplier applies only to government purchases, not to net exports",
         "Aggregate demand contracts by $10 billion, since the multiplier raises an effect only when spending rises",
@@ -230,12 +230,12 @@
         "Aggregate demand contracts by $7.5 billion, because households save 1/4 of the lost income"
       ],
       "answer": 2,
-      "explanation": "The chapter states the multiplier applies to any GDP component (C, I, G, or NX), in either direction. With MPC = 3/4 the multiplier is 1/(1 - 3/4) = 4, so a $10 billion fall in net exports leads to a $40 billion contraction in aggregate demand. The multiplier amplifies decreases as well as increases, ruling out the unchanged and $10 billion options."
+      "explanation": "The multiplier applies to any component of GDP, including net exports, and works in both directions. With MPC = 3/4 the multiplier is 1/(1 - 3/4) = 4, so a $10 billion fall in net exports produces a $40 billion contraction in aggregate demand. The multiplier amplifies decreases just as it does increases, ruling out the unchanged and $10 billion options, and it applies to net exports, not only to government purchases."
     },
     {
       "id": "ch35-q18",
       "difficulty": "hard",
-      "question": "Economists observe that an increase in government purchases of $10 billion raises the total quantity of goods and services demanded by $30 billion. If they IGNORE crowding out and attribute the entire effect to the spending multiplier, what marginal propensity to consume (MPC) does this imply, and how would also allowing for crowding out change that implied MPC estimate?",
+      "question": "A $10 billion increase in government purchases raises the total quantity of goods and services demanded by $30 billion. If the entire effect is attributed to the spending multiplier and crowding out is ignored, what marginal propensity to consume does this imply, and how would also allowing for crowding out change that implied MPC estimate?",
       "options": [
         "MPC = 1/3; allowing for crowding out, the implied MPC would be larger",
         "MPC = 1/2; allowing for crowding out, the implied MPC would be unchanged",
@@ -244,12 +244,12 @@
         "MPC = 3/4; allowing for crowding out, the implied MPC would be smaller"
       ],
       "answer": 3,
-      "explanation": "Ignoring crowding out, the entire $30B is credited to the multiplier, so multiplier = $30B / $10B = 3. Since multiplier = 1/(1 - MPC), we get 3 = 1/(1 - MPC), so 1 - MPC = 1/3 and MPC = 2/3. This rules out the options with MPC = 1/3, 1/2, or 3/4. Now allow for crowding out: the higher income raises money demand, which raises the interest rate and reduces investment, partially OFFSETTING the expansion. The observed $30B is therefore the NET effect = (gross multiplier effect) minus (crowding-out offset). So the pure multiplier effect must be GREATER than $30B to still net out to $30B after crowding out. A larger multiplier requires a larger MPC. Hence the implied MPC estimate would be LARGER, making the 'MPC = 2/3; larger' option correct. The other 'MPC = 2/3' option has the right MPC but the wrong direction (smaller)."
+      "explanation": "Crediting the whole $30 billion to the multiplier gives a multiplier of $30B / $10B = 3, and since the multiplier is 1/(1 - MPC), we have 3 = 1/(1 - MPC), so 1 - MPC = 1/3 and MPC = 2/3. Allowing for crowding out, the higher income raises money demand, pushing up the interest rate and cutting investment, which partly offsets the expansion. The observed $30 billion is then the net of a larger gross multiplier effect minus the crowding-out offset, so the pure multiplier effect must exceed $30 billion, which requires a larger multiplier and therefore a larger MPC. The other MPC = 2/3 option has the right MPC but the wrong direction."
     },
     {
       "id": "ch35-q19",
       "difficulty": "hard",
-      "question": "A government increases its purchases of goods and services by $20 billion. Trace the mechanism the textbook describes by which this fiscal expansion partially offsets its own impact on aggregate demand. Which sequence correctly describes the crowding-out effect, assuming the Fed holds the money supply fixed?",
+      "question": "The government increases its purchases of goods and services by $20 billion while the Fed holds the money supply fixed. Which sequence correctly describes the crowding-out effect that partly offsets the fiscal expansion's own impact on aggregate demand?",
       "options": [
         "Higher government purchases raise income, which raises saving and the supply of loanable funds; the interest rate falls and investment rises, amplifying the rightward shift in aggregate demand",
         "Higher government purchases raise the price level, which shifts the money supply curve left; the interest rate falls and investment rises, fully reversing the shift in aggregate demand",
@@ -258,12 +258,12 @@
         "Higher government purchases force the Fed to raise the money supply, lowering the interest rate and raising investment so that aggregate demand shifts by exactly $20 billion"
       ],
       "answer": 2,
-      "explanation": "Per Figure 5 and the text: the fiscal expansion raises income, which raises money demand (shifts MD right). With a fixed money-supply curve, the equilibrium interest rate must rise. A higher rate makes borrowing more expensive, reducing residential and business investment, which partially offsets the initial rightward AD shift (AD1 to AD2 pulled back to AD3). The other options reverse the direction of money demand, interest rate, or investment, or invoke loanable funds (the long-run framework), which is not the crowding-out mechanism described here."
+      "explanation": "The fiscal expansion raises income, which raises money demand. With the money supply fixed, the equilibrium interest rate must rise, making borrowing more expensive and reducing residential and business investment, which partly offsets the initial rightward AD shift. The options that raise the supply of loanable funds or reduce money demand reverse the direction of the mechanism, the loanable-funds story is the long-run framework rather than crowding out, and the Fed is assumed to hold the money supply fixed."
     },
     {
       "id": "ch35-q20",
       "difficulty": "hard",
-      "question": "The government announces a $1,000-per-person tax cut. Holding the multiplier and crowding-out effects the same in both cases, why does the textbook argue that whether the tax cut is perceived as PERMANENT versus TEMPORARY changes the size of the aggregate-demand shift, and what does the 1992 episode illustrate?",
+      "question": "The government announces a $1,000-per-person tax cut. Holding the multiplier and crowding-out effects equal, why would whether the cut is perceived as PERMANENT versus TEMPORARY change the size of the aggregate-demand shift, and what does the 1992 withholding episode illustrate?",
       "options": [
         "A permanent cut is saved while a temporary cut is spent, so temporary cuts shift AD more; the 1992 episode shows a temporary cut with a large effect",
         "Permanent and temporary cuts produce identical AD shifts because both raise take-home pay equally; the 1992 episode confirms tax timing is irrelevant",
@@ -272,26 +272,26 @@
         "A permanent cut shifts AD left because households expect future tax increases; the 1992 episode shows AD falling after the cut"
       ],
       "answer": 3,
-      "explanation": "The text states that if people expect a tax cut to be permanent they view it as adding substantially to their financial resources and increase spending by a large amount (large AD impact); if they expect it to be temporary they increase spending only slightly (small AD impact). The 1992 reduction in tax WITHHOLDING did not change legislated rates, so every dollar withheld less in 1992 was an extra dollar of taxes due in April 1993 - effectively a short-term loan - and its effect on consumer spending and AD was relatively small. The distractors invert the permanent/temporary spending logic or misattribute the effect to aggregate supply."
+      "explanation": "A cut perceived as permanent adds substantially to a household's lifetime resources, so spending and the AD shift are large; a cut perceived as temporary adds little, so spending and the AD shift are small. The 1992 reduction in tax withholding did not change legislated rates, so each dollar withheld less in 1992 was an extra dollar of tax due in April 1993, effectively a short-term loan, and its effect on consumer spending and AD was relatively small. The other options invert the permanent/temporary logic or wrongly attribute the effect to aggregate supply."
     },
     {
       "id": "ch35-q21",
       "difficulty": "hard",
-      "question": "A supply-side economist and a demand-side economist debate a cut in personal income tax rates. According to Chapter 35, which statement most accurately captures the chapter's treatment of the supply-side channel?",
+      "question": "A supply-side economist and a demand-side economist debate a cut in personal income tax rates. Which statement most accurately captures the supply-side channel of such a cut?",
       "options": [
-        "Cutting tax rates raises the after-tax reward to working, increasing the incentive to work and shifting aggregate supply right; the Laffer claim that a rate cut raises revenue is a theoretical possibility but not, according to most economists, the normal case",
+        "Cutting tax rates raises the after-tax reward to working, increasing the incentive to work and shifting aggregate supply right; the claim that a rate cut raises tax revenue is a theoretical possibility but, in the view of most economists, not the normal case",
         "Cutting tax rates always raises tax revenue because supply-side effects on aggregate supply are large enough to dominate, which most economists accept",
         "Cutting tax rates shifts aggregate supply left because workers, now richer, choose more leisure, so output falls",
-        "Tax-rate cuts have no effect on aggregate supply; the chapter says fiscal policy works only through aggregate demand in both the short run and the long run",
+        "Tax-rate cuts have no effect on aggregate supply; fiscal policy works only through aggregate demand in both the short run and the long run",
         "Cutting tax rates raises aggregate supply mainly in the short run, while infrastructure spending raises aggregate demand mainly in the long run"
       ],
       "answer": 0,
-      "explanation": "The FYI box explains that because people respond to incentives, cutting tax rates lets workers keep more of each dollar earned, raising the incentive to work and shifting AS right (the 'supply siders' view). The Laffer-type argument - that a rate cut could so stimulate production that revenue rises - is called a theoretical possibility that most economists do NOT consider the normal case. Option D contradicts the chapter (most economists believe short-run effects work primarily through AD, not that there is never any AS effect), and E inverts the timing (infrastructure's AS effect is more important in the long run, and it shifts AS, not AD)."
+      "explanation": "Because people respond to incentives, cutting tax rates lets workers keep more of each dollar earned, raising the incentive to work and shifting aggregate supply right. The argument that a rate cut could stimulate production enough to raise revenue is a theoretical possibility that most economists do not consider the normal case. Tax cuts do affect aggregate supply through incentives, so the no-effect option is wrong, and the final option inverts the timing, since infrastructure's aggregate-supply effect matters most in the long run and shifts supply rather than demand."
     },
     {
       "id": "ch35-q22",
       "difficulty": "medium",
-      "question": "According to Chapter 35, how can an increase in government spending on infrastructure such as roads and railroads affect aggregate supply, and over what time horizon is this effect more important?",
+      "question": "An increase in government spending on infrastructure such as roads and railroads can affect aggregate supply as well as aggregate demand. How does this aggregate-supply effect arise, and over what time horizon is it more important?",
       "options": [
         "It has no effect on aggregate supply because government purchases work only through aggregate demand",
         "It raises aggregate supply, but only in the short run, because infrastructure can be built and used almost immediately",
@@ -299,12 +299,12 @@
         "It raises business productivity by improving the capital firms use for deliveries, shifting aggregate supply right, and this matters mainly in the long run because building takes time"
       ],
       "answer": 3,
-      "explanation": "The text explains that roads and railroads are government-provided capital used by private businesses to make deliveries; better infrastructure raises those businesses' productivity, increasing the quantity of goods and services supplied at any price level and shifting AS right. It adds that this AS effect is probably more important in the long run than the short run because it takes time to build infrastructure and put it into use - which rules out the 'short run' and 'no effect' options."
+      "explanation": "Roads and railroads are government-provided capital that private firms use to make deliveries; better infrastructure raises those firms' productivity, increasing the quantity of goods and services supplied at any price level and shifting aggregate supply right. Because building and bringing infrastructure into use takes time, this effect matters mainly in the long run rather than the short run, which rules out the short-run and no-effect options."
     },
     {
       "id": "ch35-q23",
       "difficulty": "hard",
-      "question": "Congress passes a tax increase that, by itself, would shift the aggregate-demand curve to the LEFT by $90 billion. The Federal Reserve wishes to offset this fiscal action so that aggregate demand is left completely unchanged. According to Chapter 35's discussion of the case for active stabilization policy, which Fed action and channel correctly describe how this offset works?",
+      "question": "Congress passes a tax increase that, by itself, would shift the aggregate-demand curve LEFT by $90 billion. The Fed wishes to offset this fiscal action so that aggregate demand is left completely unchanged. Which Fed action and channel correctly accomplish the offset?",
       "options": [
         "Sell government bonds, which shifts the money-supply curve right, lowers the interest rate, and raises investment until AD returns to its original position",
         "Buy government bonds, which shifts the money-supply curve right, lowers the equilibrium interest rate, and stimulates investment spending enough to push AD back to its original position",
@@ -313,12 +313,12 @@
         "Leave the money supply unchanged, since automatic stabilizers will fully offset the tax increase without any deliberate Fed action"
       ],
       "answer": 1,
-      "explanation": "The chapter's case-for-stabilization example: a tax hike lowers AD, so the Fed increases the money supply, which lowers the equilibrium interest rate, stimulates investment, and expands AD; if set appropriately the combined policies leave AD unchanged. The Fed increases the money supply by BUYING bonds (shifting money supply right). Option 0 says 'sell' (that contracts). Option 2 says raising the funds-rate target increases the money supply, which is backwards. Option 3 mislabels buying bonds as shifting money demand and raising r. Option 4 contradicts the chapter, which says automatic stabilizers are not strong enough to fully offset/prevent recessions."
+      "explanation": "A tax hike lowers AD, so to offset it the Fed increases the money supply by buying bonds, which shifts the money-supply curve right, lowers the equilibrium interest rate, and stimulates investment; sized correctly, the combined policies leave AD unchanged. Selling bonds would contract rather than offset; raising the funds-rate target lowers the money supply, the opposite of what is needed; buying bonds shifts money supply, not money demand, and lowers the rate; and automatic stabilizers are not strong enough to fully offset such a shift on their own."
     },
     {
       "id": "ch35-q24",
       "difficulty": "hard",
-      "question": "A wave of negative 'animal spirits' causes consumption to fall by $30 billion. Assume the marginal propensity to consume (MPC) is 2/3 and ignore crowding-out and the investment accelerator. If the Federal Reserve wants to use monetary policy to exactly restore aggregate demand to its original level, by how much must the Fed's action shift aggregate demand, and in which direction should the Fed move its federal funds rate target?",
+      "question": "A wave of negative 'animal spirits' causes consumption to fall by $30 billion. The marginal propensity to consume is 2/3; ignore crowding-out and the investment accelerator. If the Fed wants to use monetary policy to restore aggregate demand exactly to its original level, by how much must its action shift aggregate demand, and which way should it move its federal funds rate target?",
       "options": [
         "A $30 billion rightward shift; the Fed should lower its federal funds rate target",
         "A $90 billion rightward shift; the Fed should raise its federal funds rate target",
@@ -327,35 +327,35 @@
         "A $20 billion rightward shift; the Fed should lower its federal funds rate target"
       ],
       "answer": 2,
-      "explanation": "The multiplier is 1/(1-MPC) = 1/(1-2/3) = 3. The initial $30 billion drop in consumption produces a total AD contraction of 3 x $30 billion = $90 billion. To restore AD, the Fed must shift AD rightward by $90 billion. Because the economy is too weak (excessively pessimistic), the Fed should LOWER its federal funds rate target, which increases the money supply and expands AD. Options with $30, $45, or $20 billion misapply or omit the multiplier; raising the target would be contractionary, the wrong direction."
+      "explanation": "With MPC = 2/3 the multiplier is 1/(1 - 2/3) = 3, so the $30 billion drop in consumption produces a $90 billion contraction in AD. Restoring AD requires shifting it rightward by $90 billion. Because demand is too weak, the Fed should lower its federal funds rate target, which raises the money supply and expands AD. The $30, $45, and $20 billion answers misapply or omit the multiplier, and raising the target would be contractionary."
     },
     {
       "id": "ch35-q25",
       "difficulty": "medium",
-      "question": "Economists who make the case AGAINST active stabilization policy point to the long lags with which policy operates. Which statement best reflects the chapter's account of these lags?",
+      "question": "Critics of active stabilization policy stress that policy operates with long lags. Which statement best characterizes those lags for monetary and fiscal policy?",
       "options": [
         "Monetary policy has essentially no lag, but fiscal policy is delayed for years by the political process",
-        "Monetary policy takes at least six months to much affect output and employment, while fiscal policy's lag stems largely from the congressional/political process",
+        "Monetary policy takes at least six months to much affect output and employment, while fiscal policy's lag stems largely from the congressional and political process",
         "Both monetary and fiscal policy take effect within a few weeks, so the real problem is that their effects are too short-lived",
         "Fiscal policy works almost instantly through automatic stabilizers, so only monetary policy suffers from a meaningful lag",
         "Monetary policy's lag comes from the slowness of FOMC meetings, while fiscal policy's lag comes from imprecise economic forecasting"
       ],
       "answer": 1,
-      "explanation": "The chapter states most economists believe it takes at least six months for monetary policy to much affect output and employment (and effects can last years), while fiscal policy's lag is largely caused by the political process (going through congressional committees, both chambers, and the president). Option 0 wrongly says monetary policy has no lag. Option 2 is backwards about duration. Option 3 confuses discretionary fiscal policy with automatic stabilizers. Option 4 mislabels the sources of the lags."
+      "explanation": "Monetary policy takes at least six months to much affect output and employment, and its effects can last for years, while fiscal policy's lag comes mainly from the political process of moving legislation through congressional committees, both chambers, and the president. Monetary policy is not lag-free, the policies do not act within a few weeks, automatic stabilizers are not the same as discretionary fiscal policy, and the lag sources are not the slowness of meetings or forecasting errors."
     },
     {
       "id": "ch35-q26",
       "difficulty": "hard",
-      "question": "Suppose the economy enters a recession. Holding deliberate (discretionary) policy aside, how do the U.S. economy's automatic stabilizers respond, and why does this make most economists oppose a strict balanced-budget amendment?",
+      "question": "The economy enters a recession. Setting deliberate policy aside, how do the U.S. economy's automatic stabilizers respond, and why does this lead most economists to oppose a strict balanced-budget amendment?",
       "options": [
         "Tax revenue rises and transfer spending falls, pushing the budget toward surplus; a balanced-budget rule would simply reinforce this helpful tendency",
         "Tax revenue falls and transfer spending falls, leaving the budget balanced automatically, so a balanced-budget amendment would have no real effect on stabilization",
-        "Tax revenue falls automatically and transfer spending (unemployment insurance, welfare) rises automatically, supporting AD; a balanced-budget rule would force tax hikes or spending cuts at the worst time, undercutting these stabilizers",
+        "Tax revenue falls automatically and transfer spending such as unemployment insurance and welfare rises automatically, supporting AD; a balanced-budget rule would force tax hikes or spending cuts at the worst time, undercutting these stabilizers",
         "The Fed automatically increases the money supply while taxes stay fixed; a balanced-budget rule is opposed because it would limit the Fed's independence",
         "Automatic stabilizers fully prevent the recession, so a balanced-budget rule is opposed only because it is politically unpopular"
       ],
       "answer": 2,
-      "explanation": "In a recession, taxes (income, payroll, corporate) fall automatically because they are tied to activity, acting as an automatic tax cut, while spending on unemployment insurance and welfare automatically rises as people are laid off, both supporting AD. This moves the budget toward deficit. A strict balanced-budget rule would force the government to raise taxes or cut spending at the worst possible time, undercutting the automatic stabilizers. The option saying tax revenue rises and transfers fall reverses the direction of both stabilizers. The option saying both fall and leave the budget balanced wrongly claims the budget stays balanced. The option about the Fed increasing the money supply confuses fiscal stabilizers with monetary policy. The option claiming stabilizers fully prevent the recession contradicts the chapter's statement that automatic stabilizers are not strong enough to prevent recessions."
+      "explanation": "In a recession, tax revenue falls automatically because taxes are tied to income and activity, acting like a tax cut, while spending on unemployment insurance and welfare rises automatically as people are laid off, both supporting aggregate demand and pushing the budget toward deficit. A strict balanced-budget rule would force tax hikes or spending cuts at the worst possible time, undercutting these stabilizers. The first option reverses the direction of both stabilizers, the second wrongly claims the budget stays balanced, the fourth confuses fiscal stabilizers with monetary policy, and the fifth overstates stabilizers, which cannot by themselves prevent recessions."
     }
   ]
 }

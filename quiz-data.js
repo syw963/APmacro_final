@@ -8,21 +8,21 @@ window.QUIZ_DATA = {
         {
           "id": "ch30-q01",
           "difficulty": "easy",
-          "question": "In economics, the term \"money\" is defined as which of the following?",
+          "question": "A friend insists that the wealthier you are, the more 'money' you have, counting his house, stock portfolio, and car as part of his money. From an economist's standpoint, why is this usage too broad?",
           "options": [
-            "The total of all stores of value a person owns, including stocks, bonds, and real estate",
-            "The set of assets in an economy that people regularly use to buy goods and services from each other",
-            "Any asset that has intrinsic value even when it is not used in exchange",
-            "Paper currency printed and declared legal tender by a national government",
-            "A measure of a person's overall wealth and ability to buy almost anything"
+            "Money should count only assets that earn interest, and a house and car do not",
+            "Money is just the assets people routinely use to make purchases from one another, whereas houses, stocks, and cars are wealth that must first be sold to be spent",
+            "Money includes only assets a national government has declared legal tender, which excludes private property",
+            "Money refers to any asset that keeps its value over time, so a car that depreciates cannot be money",
+            "Money and wealth are identical, so the friend's usage is actually correct"
           ],
           "answer": 1,
-          "explanation": "Mankiw defines money specifically as the set of assets in an economy that people regularly use to buy goods and services from each other. The other choices confuse money with wealth (the total of all stores of value), with commodity money (intrinsic value), with one particular kind of money (fiat currency declared legal tender), or with the everyday sense of money as overall wealth."
+          "explanation": "Economists reserve 'money' for the narrow set of assets people regularly use to buy goods and services from one another. A house, stocks, and a car are part of wealth but are not money, because you must first convert them into a spendable form. The friend is conflating money with total wealth. The legal-tender option describes only fiat currency, the store-of-value option describes one function rather than a definition, and equating money with wealth is exactly the error being corrected."
         },
         {
           "id": "ch30-q02",
           "difficulty": "medium",
-          "question": "A landlord and tenant sign a lease today stating that rent will be $1,500 per month for the next year, with the amount fixed in dollars rather than in any quantity of goods. Using money this way to post the price and record the future debt is an example of money serving primarily as a:",
+          "question": "A landlord and tenant sign a lease today fixing rent at $1,500 per month for the coming year, with the obligation written in dollars rather than in any quantity of goods. Which function of money does this use most directly illustrate?",
           "options": [
             "Medium of exchange",
             "Store of value",
@@ -30,149 +30,149 @@ window.QUIZ_DATA = {
             "Unit of account"
           ],
           "answer": 3,
-          "explanation": "Posting prices and recording debts in dollars is the unit-of-account function (the yardstick people use to post prices and record debts; e.g., future loan or rent payments set in dollars, not in a quantity of goods). It is not the medium of exchange (money handed from buyer to seller to complete a purchase) nor the store of value (transferring purchasing power to the future). 'Commodity with intrinsic value' describes commodity money, not a function of money."
+          "explanation": "Posting a price and recording a future debt in dollars is the unit-of-account function: money is the common yardstick for quoting prices and stating obligations. The medium-of-exchange function is the actual handing of money from buyer to seller; the store-of-value function is carrying purchasing power into the future. 'Commodity with intrinsic value' describes a type of money, not a function."
         },
         {
           "id": "ch30-q03",
           "difficulty": "medium",
-          "question": "Consider three monetary objects discussed in the chapter: gold coins, World War II prisoner-of-war camp cigarettes, and a U.S. paper dollar. Which single statement correctly classifies all three and identifies the key distinguishing feature?",
+          "question": "Gold coins, cigarettes traded among prisoners in a WWII POW camp, and a modern U.S. paper dollar have all served as money. Which statement correctly sorts them by type and gives the feature that does the sorting?",
           "options": [
-            "All three are commodity money because each has been used as a medium of exchange at some point",
-            "Gold is commodity money, but cigarettes and the paper dollar are both fiat money established by decree",
-            "All three are fiat money because their value rests on social convention and expectations",
-            "Gold is fiat money under the gold standard, while cigarettes and the dollar are commodity money",
-            "Gold and cigarettes are commodity money (they have intrinsic value), while the paper dollar is fiat money (it has no intrinsic value and is money by government decree)"
+            "All three are commodity money, since each has at some point changed hands as a medium of exchange",
+            "Gold is commodity money, while cigarettes and the paper dollar are fiat money established by decree",
+            "All three are fiat money, since each is accepted only because people expect others to accept it",
+            "Gold is fiat money under a gold standard, while cigarettes and the dollar are commodity money",
+            "Gold and cigarettes are commodity money because each has value apart from its use in trade, while the paper dollar is fiat money because it has no such value and is accepted by government decree"
           ],
           "answer": 4,
-          "explanation": "Commodity money is a commodity with intrinsic value (value even if not used as money). Gold has intrinsic value (industry, jewelry) and WWII POW-camp cigarettes have intrinsic value to smokers, so both are commodity money. The paper dollar has no intrinsic value and is money only because the U.S. government decreed it legal tender, making it fiat money. The chapter notes that expectations and social convention also matter for a currency's acceptance, but that does not reclassify gold and cigarettes as fiat money."
+          "explanation": "The sorting feature is intrinsic value. Gold (jewelry, industry) and cigarettes (smokers value them) have worth even apart from exchange, making them commodity money. A paper dollar has no use outside exchange and circulates because the government decreed it legal tender, making it fiat money. Social convention helps any currency circulate, but it does not turn commodities with intrinsic value into fiat money, so the 'all three fiat' option is wrong."
         },
         {
           "id": "ch30-q04",
           "difficulty": "medium",
-          "question": "Bitcoin is presented in the chapter as a cryptocurrency that is 'neither commodity money nor fiat money.' Which multi-part reasoning correctly explains BOTH why it is not commodity money AND why it is not fiat money, consistent with the text?",
+          "question": "Bitcoin is a cryptocurrency that fits neither standard category of money. Which pairing correctly explains why it is not commodity money AND why it is not fiat money?",
           "options": [
-            "It is not commodity money because it has no intrinsic value (you cannot use it for anything but exchange), and not fiat money because it is not created by government decree",
-            "It is not commodity money because its supply is capped at 21 million units, and not fiat money because it has intrinsic value in industrial uses",
-            "It is not commodity money because it exists only electronically, and not fiat money because no government tracks it on a blockchain",
-            "It is not commodity money because it is included in official money measures, and not fiat money because it is convertible into gold on demand",
-            "It is not commodity money because its price is volatile, and not fiat money because it is legal tender for all debts"
+            "Not commodity money because it has no use other than exchange, and not fiat money because no government created it or declared it legal tender",
+            "Not commodity money because its supply is capped at 21 million units, and not fiat money because it has intrinsic value in industry",
+            "Not commodity money because it exists only electronically, and not fiat money because no government records it on a blockchain",
+            "Not commodity money because it is part of official money measures, and not fiat money because it can be redeemed for gold",
+            "Not commodity money because its price swings sharply, and not fiat money because it is legal tender for all debts"
           ],
           "answer": 0,
-          "explanation": "The text states bitcoin is unlike commodity money because it has no intrinsic value (it can't be used for anything other than exchange), and unlike fiat money because it is not created by government decree. The distractors misattribute features: the 21-million cap and blockchain are real bitcoin facts but are not the reasons given for the classification; bitcoin is excluded from (not included in) standard money measures and is not convertible into gold or legal tender."
+          "explanation": "Bitcoin has no value outside of exchange, so it lacks the intrinsic value that defines commodity money; and it arose without any government decree, so it is not fiat money either. The other choices borrow real or false bitcoin facts (the 21-million cap, blockchain, price volatility) that are not the reasons for the classification, and they wrongly claim bitcoin is in official money measures, redeemable for gold, or legal tender."
         },
         {
           "id": "ch30-q05",
           "difficulty": "easy",
-          "question": "In the U.S. monetary statistics, the term \"currency\" refers specifically to which of the following?",
+          "question": "When monetary statistics list 'currency' as a component of the money stock, which assets are being counted?",
           "options": [
-            "The paper bills and coins held in the hands of the public",
-            "All balances held in checking and savings accounts",
-            "The total of M1 plus small time deposits and money market funds",
-            "Lines of credit that can be accessed using credit cards"
+            "Paper bills and coins held by the public",
+            "Balances in checking and savings accounts",
+            "Currency plus small time deposits and money market funds",
+            "Unused credit available on consumers' credit cards"
           ],
           "answer": 0,
-          "explanation": "The chapter defines currency as \"the paper bills and coins in the hands of the public.\" It is the most widely accepted medium of exchange and is unambiguously part of the money stock. Checking and savings balances are deposits (not currency), the M1-plus-time-deposits description is the M2 measure, and credit-card lines of credit are excluded from all measures of money."
+          "explanation": "Currency is the paper bills and coins in the hands of the public, the most widely accepted medium of exchange. Checking and savings balances are deposits, not currency; currency plus time deposits and money funds describes the broader M2 measure; and credit-card credit lines are excluded from every measure of money because they represent borrowing, not money held."
         },
         {
           "id": "ch30-q06",
           "difficulty": "medium",
-          "question": "A consumer pays for a restaurant meal in two different ways on two different nights: once with a credit card and once with a debit card. According to the chapter, how does each transaction relate to the economy's money stock?",
+          "question": "On one night a diner pays for a meal with a debit card and on another with a credit card. How do these two payment methods differ in their relationship to the money stock?",
           "options": [
-            "Both the credit card and the debit card draw on funds counted in the money stock",
-            "Neither the credit card nor the debit card relates to the money stock, since both are just plastic",
-            "The debit card draws on a bank account balance that is part of the money stock, while the credit card merely defers payment and is excluded",
-            "The credit card draws on funds counted in the money stock, while the debit card defers payment and is excluded",
-            "Both are excluded from the money stock because cards are never counted as money"
+            "Both draw on funds that are counted in the money stock",
+            "Neither relates to the money stock, since both are merely plastic cards",
+            "The debit card draws down a deposit balance that is part of the money stock, while the credit card only postpones payment and is not counted as money",
+            "The credit card draws on funds counted in the money stock, while the debit card postpones payment and is not counted",
+            "Both are excluded because payment cards are never treated as money"
           ],
           "answer": 2,
-          "explanation": "A debit card gives immediate access to deposits in a bank account, and the chapter states that \"the account balances that lie behind debit cards are included in measures of the quantity of money.\" A credit card is not a method of payment but a way of deferring payment - the issuing bank pays the merchant and you repay later - so credit cards are excluded from all measures of money. The option that puts the credit card in the money stock and excludes the debit card reverses the two cards."
+          "explanation": "A debit card immediately withdraws from a bank deposit, and those deposit balances are included in measures of money. A credit card is not a payment from your own money but a short-term loan: the bank pays the merchant and you repay later, so credit-card balances are not part of the money stock. The reversed option mistakenly counts credit and excludes debit."
         },
         {
           "id": "ch30-q07",
           "difficulty": "medium",
-          "question": "Consider these four assets: (1) coins in your pocket, (2) the balance in your checking (demand-deposit) account, (3) the balance in a money market mutual fund, and (4) the Empire State Building. Using the chapter's measures of the money stock, which statement is correct?",
+          "question": "Consider four assets: (1) coins in your pocket, (2) your checking-account balance, (3) a balance in a money market mutual fund, and (4) the Empire State Building. Which statement correctly places them within the standard measures of money?",
           "options": [
-            "All four items are part of M2",
+            "All four are part of M2",
             "Only item 1 is money; items 2, 3, and 4 are excluded",
             "Items 1, 2, and 3 are in M1, and item 4 is added in M2",
             "Items 1 and 2 are in M1; item 3 is added in M2; item 4 is not money",
-            "Item 4 is in M2 because it is a valuable asset, while items 1-3 are in M1"
+            "Item 4 is in M2 because it is valuable, while items 1-3 are in M1"
           ],
           "answer": 3,
-          "explanation": "Currency such as coins (item 1) and demand deposits in a checking account (item 2) are both part of M1. Money market mutual funds (item 3) are included in M2 but not in M1. The chapter explicitly uses the Empire State Building (item 4) as the example of a valuable asset that is clearly NOT money. So items 1 and 2 are in M1, item 3 is added in M2, and item 4 is not money at all."
+          "explanation": "Coins (currency) and a checking balance (demand deposits) are both highly liquid and belong to M1. A money market mutual fund balance is less liquid and is added in the broader M2. A skyscraper, however valuable, cannot be spent directly and is not money at all. So items 1 and 2 are M1, item 3 enters at M2, and item 4 is excluded entirely."
         },
         {
           "id": "ch30-q08",
           "difficulty": "hard",
-          "question": "In November 2021 there was about $2.1 trillion of U.S. currency outstanding, and the chapter divides this by 262 million adults to find more than $8,000 of currency per adult - far more than most people carry. The chapter notes that estimates suggest more than half of U.S. dollars circulate outside the United States and that currency does not earn interest while bank deposits do. Which conclusion is best supported by this reasoning?",
+          "question": "With roughly $2.1 trillion of U.S. currency outstanding spread over about 262 million adults, the arithmetic average is more than $8,000 of currency per adult, far more than people typically carry. Given that over half of U.S. dollars circulate abroad and that currency pays no interest while deposits do, which conclusion is best supported?",
           "options": [
-            "The $8,000-per-adult figure proves that the typical U.S. adult keeps over $8,000 of cash in their wallet at all times",
-            "Most currency is held by ordinary U.S. residents precisely because currency earns interest while deposits do not",
-            "Because more than half of dollars are abroad, the domestic money stock excludes that foreign-held currency from M1",
-            "Criminals avoid currency because a bank deposit gives police no paper trail to trace",
-            "Per-adult currency held domestically by ordinary law-abiding U.S. residents is well below $8,000, because much currency is held abroad and by criminals, and ordinary people avoid holding non-interest-bearing currency"
+            "The figure proves the typical U.S. adult keeps over $8,000 in cash in their wallet at all times",
+            "Ordinary U.S. residents hold most of the currency because cash earns interest while deposits do not",
+            "Because over half of dollars are abroad, official statistics leave that foreign-held currency out of M1",
+            "Criminals shun cash because a bank deposit leaves no record for investigators to follow",
+            "The amount of currency actually held by ordinary law-abiding U.S. residents is well below $8,000 per adult, because much of it is held overseas and by those evading detection, and ordinary people avoid holding cash that earns no interest"
           ],
           "answer": 4,
-          "explanation": "Multi-step reasoning: the $8,000-per-adult figure is an average over all outstanding currency, but two facts pull actual domestic ordinary holdings below it. (1) More than half of U.S. dollars circulate abroad, so a large share of the $2.1 trillion is not held by U.S. adults at all. (2) Currency earns no interest while deposits do, so most ordinary people hold only small amounts, with criminals (who avoid the paper trail of a bank deposit) holding much of the rest. Therefore ordinary domestic per-adult holdings are far below $8,000. The other options misstate the case study: the average is not each wallet's contents (the chapter says people carry far less); the interest comparison is reversed; the paper-trail logic is reversed (criminals prefer currency precisely because a bank deposit DOES create a paper trail); and the M1-exclusion claim is never stated by the chapter."
+          "explanation": "The $8,000 figure is an average over all outstanding dollars, but two facts pull ordinary domestic holdings far below it: more than half of U.S. currency circulates abroad, and cash earns no interest while deposits do, so ordinary people keep little of it while those avoiding a paper trail hold a disproportionate share. The wallet option misreads an average as a per-person holding; the interest claim is backwards; the paper-trail logic is backwards (cash is preferred precisely because deposits create records); and foreign-held dollars are not subtracted from M1."
         },
         {
           "id": "ch30-q09",
           "difficulty": "easy",
-          "question": "According to the chapter, in what year was the Federal Reserve created, and what event prompted Congress to establish it?",
+          "question": "Why do modern economies establish a central bank such as the Federal Reserve?",
           "options": [
-            "1913, after a series of bank failures in 1907",
-            "1789, as part of the U.S. Constitution",
-            "1929, in response to the stock market crash",
-            "1907, immediately during the banking panic itself",
-            "1933, following the Great Depression"
+            "To oversee the banking system and regulate the quantity of money in the economy",
+            "To collect federal taxes and set the government's annual budget",
+            "To issue corporate stock and manage the nation's stock exchanges",
+            "To guarantee that every citizen earns a minimum level of income",
+            "To set the prices of goods and services throughout the economy"
           ],
           "answer": 0,
-          "explanation": "The text states the Federal Reserve was created in 1913 after a series of bank failures in 1907 convinced Congress that the United States needed a central bank to ensure the health of the nation's banking system. The chapter's QuickQuiz also confirms it was NOT established by the U.S. Constitution."
+          "explanation": "A central bank exists to oversee and stabilize the banking system and to control the supply of money; the U.S. created the Fed after bank failures showed the need for an institution to safeguard the banking system. Taxation and budgeting belong to the fiscal authorities, stock issuance and exchanges are private-market functions, guaranteeing incomes is not a central-bank role, and central banks do not set individual prices."
         },
         {
           "id": "ch30-q10",
           "difficulty": "medium",
-          "question": "A student claims that the Federal Reserve was established by the U.S. Constitution and that its governors serve 4-year terms. Based on the chapter, what is the correct description of the Fed's structure?",
+          "question": "Members of the Fed's Board of Governors are given unusually long terms, and the institution is run by appointees rather than elected officials. What is the main purpose of designing the Fed this way?",
           "options": [
-            "The Fed was created by the Constitution, and all governors serve 4-year terms",
-            "The Fed was created in 1913, and all governors and the chair serve lifetime appointments",
-            "The Fed was created by an act of Congress in 1913, and its Board of Governors members serve 14-year terms while the chair serves a 4-year term",
-            "The Fed was created by the Constitution, and the chair serves a 14-year term while governors serve 4-year terms"
+            "To let the Board change the money supply slowly enough that no one notices",
+            "To insulate monetary policy from short-term political pressures so decisions can focus on the long-run health of the economy",
+            "To guarantee that the same political party always controls monetary policy",
+            "To ensure governors can be replaced quickly whenever the economy weakens"
           ],
-          "answer": 2,
-          "explanation": "The Fed was created in 1913 by Congress (after the bank failures of 1907), not by the Constitution. Its Board of Governors has up to seven members appointed by the president and confirmed by the Senate, who serve 14-year terms to insulate them from short-term political pressures. The chair is appointed by the president to a 4-year term. The student's claim is wrong on both the origin and the term lengths."
+          "answer": 1,
+          "explanation": "Long, staggered terms for appointed governors are meant to shield monetary policy from short-run electoral pressure, letting policymakers pursue long-run economic stability rather than immediate political gain. The design is not about disguising policy changes, entrenching one party, or making governors easy to remove; in fact long terms make them harder to remove, which is the point."
         },
         {
           "id": "ch30-q11",
           "difficulty": "hard",
-          "question": "The Federal Open Market Committee (FOMC) sets U.S. monetary policy. Suppose the FOMC decides at one of its meetings to increase the money supply using the Fed's historically primary tool. Which combination correctly describes (1) who is eligible to cast votes on this decision and (2) the open-market action the Fed would take to increase the money supply?",
+          "question": "The Federal Open Market Committee meets and decides to increase the money supply using the Fed's principal policy tool. Which choice correctly states both who casts votes on the decision and what action raises the money supply?",
           "options": [
             "All twelve regional bank presidents plus the Board of Governors vote, and the Fed sells government bonds to the public",
             "Only the seven-member Board of Governors votes, and the Fed buys government bonds from the public",
-            "The seven-member Board of Governors plus five of the twelve regional bank presidents vote, and the Fed buys government bonds from the public",
-            "The seven-member Board of Governors plus five of the twelve regional bank presidents vote, and the Fed sells government bonds to the public",
+            "The seven-member Board of Governors and five of the twelve regional bank presidents vote, and the Fed buys government bonds from the public",
+            "The seven-member Board of Governors and five of the twelve regional bank presidents vote, and the Fed sells government bonds to the public",
             "Only the twelve regional bank presidents vote, and the Fed buys government bonds from the public"
           ],
           "answer": 2,
-          "explanation": "Two linked facts must both be correct. Voting composition: the FOMC consists of the Board of Governors plus five of the twelve regional bank presidents; all twelve presidents attend each meeting, but only five vote (with the New York Fed president always voting). Action: the historically primary tool is the open-market operation; to increase the money supply the Fed creates dollars and buys government bonds from the public, putting dollars into public hands. Selling bonds would instead decrease the money supply. Only the option pairing the correct voting body with buying bonds is right."
+          "explanation": "Both parts must be right. The FOMC's voting members are the seven governors plus five of the twelve regional bank presidents (the New York president always votes); all twelve presidents attend, but only five vote. To raise the money supply through an open-market operation, the Fed creates dollars and buys bonds from the public, putting money into circulation. Selling bonds would withdraw money, so only the buy-bonds option with the correct voting body is correct."
         },
         {
           "id": "ch30-q12",
           "difficulty": "easy",
-          "question": "In Mankiw's discussion of the monetary system, what does the term \"reserves\" refer to?",
+          "question": "On a bank's balance sheet, what are 'reserves'?",
           "options": [
-            "The interest banks earn by charging borrowers for loans",
-            "The total value of loans a bank has made to households and firms",
-            "The portion of a bank's profits set aside for shareholders",
-            "Deposits that banks have received but have not loaned out"
+            "The interest the bank collects from borrowers",
+            "The total value of loans the bank has extended to households and firms",
+            "The share of profits the bank distributes to its shareholders",
+            "Deposits the bank has taken in but has not lent out"
           ],
           "answer": 3,
-          "explanation": "The chapter defines reserves precisely as \"deposits that banks have received but have not loaned out.\" Under 100-percent-reserve banking all deposits are held as reserves; under fractional-reserve banking only a fraction is. Loans are a separate asset category, explicitly distinguished from reserves in the bank's T-account."
+          "explanation": "Reserves are deposits a bank has received but not loaned out. Under 100-percent-reserve banking all deposits are held as reserves; under fractional-reserve banking only a portion is. Loan interest is income, total loans are a separate asset, and dividends to shareholders are a distribution of profit, none of which is what reserves means."
         },
         {
           "id": "ch30-q13",
           "difficulty": "hard",
-          "question": "Suppose $100 of currency is deposited into a bank that practices fractional-reserve banking with a reserve ratio of 10 percent, and the bank lends out the maximum it can. Immediately after this single bank makes its loan (before the loaned funds are redeposited in any other bank), what is the economy's money supply, defined as currency plus demand deposits?",
+          "question": "Someone deposits $100 of currency into a bank that keeps a reserve ratio of 10 percent and lends out everything it can. Immediately after this one bank makes its loan, but before the borrowed funds are redeposited anywhere, what is the money supply (currency plus demand deposits)?",
           "options": [
             "$90",
             "$190",
@@ -181,52 +181,52 @@ window.QUIZ_DATA = {
             "$1,000"
           ],
           "answer": 1,
-          "explanation": "The depositors still hold $100 in demand deposits. The bank keeps 10% ($10) as reserves and lends out $90, which the borrower now holds as currency. Money supply = currency + demand deposits = $90 + $100 = $190. The $1,000 figure is the eventual total after the full money-multiplier process across all banks (multiplier = 1/0.10 = 10), not the effect of this one bank's single loan."
+          "explanation": "The depositor still holds $100 in demand deposits. The bank keeps $10 as reserves and lends $90, which the borrower now holds as currency. Money supply = $100 deposits + $90 currency = $190. The original deposit created new money by being lent out. The $1,000 figure is the eventual total once the loan is redeposited and re-lent across the whole banking system (multiplier of 10), not the result of this single loan."
         },
         {
           "id": "ch30-q14",
           "difficulty": "hard",
-          "question": "Two economies receive identical injections of $200 in bank reserves and both fully lend out excess reserves. Economy A's banks maintain a reserve ratio of 1/20 (5 percent); Economy B's banks maintain a reserve ratio of 1/10 (10 percent). How much larger is the total money supply created in Economy A than in Economy B?",
+          "question": "Two banking systems each receive a $200 injection of reserves and lend out all excess reserves. System A keeps a reserve ratio of 5 percent; System B keeps 10 percent. How much more money does System A ultimately create than System B?",
           "options": [
-            "$1,000 larger in A",
-            "$2,000 larger in A",
-            "They create the same amount of money",
-            "$2,000 larger in B"
+            "$1,000 more in A",
+            "$2,000 more in A",
+            "They create the same amount",
+            "$2,000 more in B"
           ],
           "answer": 1,
-          "explanation": "The money multiplier equals 1/R. Economy A: multiplier = 1/(1/20) = 20, so $200 x 20 = $4,000. Economy B: multiplier = 1/(1/10) = 10, so $200 x 10 = $2,000. The difference is $4,000 - $2,000 = $2,000, so Economy A creates $2,000 more money. A lower reserve ratio produces a larger multiplier and thus more money creation."
+          "explanation": "The money multiplier is 1 divided by the reserve ratio. System A: 1/0.05 = 20, so $200 x 20 = $4,000. System B: 1/0.10 = 10, so $200 x 10 = $2,000. A creates $4,000 - $2,000 = $2,000 more. A lower reserve ratio means each dollar of reserves supports more deposits, producing a larger multiplier and more money."
         },
         {
           "id": "ch30-q15",
           "difficulty": "hard",
-          "question": "A banking system as a whole holds a total of $250 in reserves, and every bank maintains a uniform reserve ratio of R. If the system supports a total of $5,000 in deposits, what reserve ratio R are the banks using?",
+          "question": "A banking system holds $250 in total reserves, every bank keeps the same reserve ratio R, and the system supports $5,000 in deposits. What reserve ratio are the banks using?",
           "options": [
-            "1/20 (5 percent)",
-            "1/4 (25 percent)",
-            "1/10 (10 percent)",
-            "1/5 (20 percent)"
+            "5 percent",
+            "25 percent",
+            "10 percent",
+            "20 percent"
           ],
           "answer": 0,
-          "explanation": "The money multiplier equals the ratio of deposits to reserves: $5,000 / $250 = 20. Because the money multiplier equals 1/R, we have 1/R = 20, so R = 1/20 = 5 percent. The chapter notes that a reserve ratio of 1/20 yields a money multiplier of 20."
+          "explanation": "In a fractional-reserve system deposits equal reserves divided by the reserve ratio, so the deposit-to-reserve ratio is the money multiplier: $5,000 / $250 = 20. Since the multiplier is 1/R, R = 1/20 = 5 percent. Each dollar of reserves supports $20 of deposits."
         },
         {
           "id": "ch30-q16",
           "difficulty": "easy",
-          "question": "In the more realistic view of banking presented in this chapter, what is meant by \"bank capital\"?",
+          "question": "On a realistic bank balance sheet, what does 'bank capital' represent?",
           "options": [
-            "The total amount of currency a bank holds in its vault as reserves",
-            "The sum of all deposits that customers have placed with the bank",
-            "The interest a bank earns on the loans it makes to borrowers",
-            "The government-provided insurance that protects depositors",
-            "The financial resources that a bank's owners have put into the institution"
+            "The currency held in the bank's vault as reserves",
+            "The total of all deposits customers have placed with the bank",
+            "The interest the bank earns on its outstanding loans",
+            "The government insurance that protects the bank's depositors",
+            "The funds the bank's owners have invested in the institution"
           ],
           "answer": 4,
-          "explanation": "The chapter defines bank capital as the resources a bank's owners have put into the institution (the equity issued to its owners). In the more realistic balance sheet, capital is the $50 of owners' equity. The other options are distinct concepts: reserves ($200) and deposits ($800) appear elsewhere on the balance sheet, loan interest is a source of profit, and deposit insurance is a separate government program."
+          "explanation": "Bank capital is owners' equity, the resources the bank's owners have put into it. On the balance sheet it is what remains after liabilities are subtracted from assets. Reserves and deposits appear elsewhere on the balance sheet, loan interest is a source of income, and deposit insurance is a separate government program, none of which is capital."
         },
         {
           "id": "ch30-q17",
           "difficulty": "medium",
-          "question": "A bank's balance sheet lists, on the left side, Reserves $200, Loans $700, and Securities $100. On the right side it lists Deposits $800 and Debt $150. By the accounting identity used in the chapter, what must the bank's capital (owners' equity) equal?",
+          "question": "A bank reports assets of Reserves $200, Loans $700, and Securities $100, and liabilities of Deposits $800 and Debt $150. What must its capital (owners' equity) equal?",
           "options": [
             "$1,000",
             "$150",
@@ -234,26 +234,26 @@ window.QUIZ_DATA = {
             "$950"
           ],
           "answer": 2,
-          "explanation": "Owners' equity (capital) equals total assets minus total liabilities. Total assets = $200 + $700 + $100 = $1,000. Total liabilities = deposits + debt = $800 + $150 = $950. Capital = $1,000 - $950 = $50. The $1,000 is total assets, $950 is total liabilities, and $150 is the debt line item."
+          "explanation": "Capital equals total assets minus total liabilities. Assets = $200 + $700 + $100 = $1,000. Liabilities = $800 + $150 = $950. Capital = $1,000 - $950 = $50. The $1,000 is total assets, $950 is total liabilities, and $150 is just the debt line, not the residual equity."
         },
         {
           "id": "ch30-q18",
           "difficulty": "hard",
-          "question": "Two banks each have $1,000 in total assets. Bank A has a leverage ratio of 20, and Bank B has a leverage ratio of 10. Both banks suffer an identical 4 percent decline in the value of their assets. Which statement correctly describes the effect on each bank's capital?",
+          "question": "Two banks each hold $1,000 in assets. Bank A has a leverage ratio of 20; Bank B has a leverage ratio of 10. Both see the value of their assets fall by 4 percent. How is each bank's capital affected?",
           "options": [
-            "Bank A's capital falls 40% and Bank B's capital falls 80%, so the less leveraged bank loses a larger percentage of its capital",
-            "Both banks lose the same percentage of capital because the asset decline is identical",
-            "Bank A becomes insolvent while Bank B's capital is unaffected",
-            "Bank A's capital falls 80% and Bank B's capital falls 40%, so the more highly leveraged bank loses a larger percentage of its capital",
-            "Bank A's capital falls 4% and Bank B's capital falls 4%, matching the asset decline"
+            "Bank A's capital falls 40% and Bank B's falls 80%, so the less leveraged bank loses a larger share of capital",
+            "Both lose the same percentage of capital because the asset decline is identical",
+            "Bank A becomes insolvent while Bank B's capital is unchanged",
+            "Bank A's capital falls 80% and Bank B's falls 40%, so the more highly leveraged bank loses a larger share of capital",
+            "Both banks' capital falls 4%, matching the decline in assets"
           ],
           "answer": 3,
-          "explanation": "Percentage change in capital = leverage ratio x percentage change in assets. Bank A: 20 x 4% = 80% decline; Bank B: 10 x 4% = 40% decline. In dollars, each bank loses 4% of $1,000 = $40 of assets. Bank A's capital is $1,000/20 = $50, so it falls from $50 to $10 (an 80% drop); Bank B's capital is $1,000/10 = $100, so it falls from $100 to $60 (a 40% drop). Higher leverage amplifies the same asset move into a larger swing in capital, so Bank A loses a larger fraction of its capital. Neither bank is insolvent because each still has positive capital after the 4% decline."
+          "explanation": "The percentage change in capital equals the leverage ratio times the percentage change in assets. Bank A: 20 x 4% = 80%; Bank B: 10 x 4% = 40%. In dollars each loses $40, but Bank A's capital was only $1,000/20 = $50 (falling to $10) while Bank B's was $1,000/10 = $100 (falling to $60). Higher leverage magnifies the same asset move into a bigger swing in capital. Neither bank is insolvent because each retains positive capital."
         },
         {
           "id": "ch30-q19",
           "difficulty": "hard",
-          "question": "A bank holds $2,000 in total assets and has bank capital of $100. The chapter explains that a bank becomes insolvent when the value of its assets falls below the value of its liabilities. By what percentage must this bank's assets decline for it to just reach the point of insolvency?",
+          "question": "A bank holds $2,000 in assets and $100 in capital. By what percentage must its assets fall before the bank just reaches the point where it can no longer cover its liabilities?",
           "options": [
             "20 percent",
             "5 percent",
@@ -261,76 +261,76 @@ window.QUIZ_DATA = {
             "2 percent"
           ],
           "answer": 1,
-          "explanation": "The bank's liabilities equal assets minus capital = $2,000 - $100 = $1,900. Insolvency occurs once assets fall below liabilities, which happens once losses exceed the $100 of capital. A loss of $100 is $100/$2,000 = 5 percent of assets. Equivalently, the leverage ratio is $2,000/$100 = 20, so a 5% asset decline wipes out 100% of capital (20 x 5% = 100%); any larger fall pushes assets below liabilities and makes the bank insolvent."
+          "explanation": "Capital is the cushion between assets and liabilities, so liabilities are $2,000 - $100 = $1,900. Once losses exceed the $100 of capital, assets drop below liabilities and the bank is insolvent. A $100 loss is $100/$2,000 = 5 percent of assets. Equivalently, leverage is $2,000/$100 = 20, so a 5% asset decline wipes out all the capital (20 x 5% = 100%)."
         },
         {
           "id": "ch30-q20",
           "difficulty": "hard",
-          "question": "Suppose the Fed buys $1,000 of government bonds from the public in an open-market operation, paying with newly created dollars. The banking system holds a reserve ratio of 10 percent and lends out all reserves above that level. Considering the two extreme cases for what the public does with these new dollars, what are, respectively, the LARGEST and SMALLEST possible increases in the money supply that could result?",
+          "question": "The Fed buys $1,000 of government bonds from the public with newly created dollars. Banks keep a reserve ratio of 10 percent and lend out all excess reserves. Considering the two extremes of what the public might do with these dollars, what are the largest and smallest possible increases in the money supply?",
           "options": [
-            "Largest $10,000 (all deposited in banks); smallest $1,000 (all kept as currency)",
-            "Largest $1,000 (all kept as currency); smallest $10,000 (all deposited)",
-            "Largest $100 (all deposited); smallest $1,000 (all kept as currency)",
-            "Largest $10,000 (all kept as currency); smallest $100 (all deposited)",
-            "Largest $1,000 (all deposited); smallest $900 (all kept as currency)"
+            "Largest $10,000 if all is deposited; smallest $1,000 if all is held as currency",
+            "Largest $1,000 if all is held as currency; smallest $10,000 if all is deposited",
+            "Largest $100 if all is deposited; smallest $1,000 if all is held as currency",
+            "Largest $10,000 if all is held as currency; smallest $100 if all is deposited",
+            "Largest $1,000 if all is deposited; smallest $900 if all is held as currency"
           ],
           "answer": 0,
-          "explanation": "Each new dollar kept as currency raises the money supply by exactly $1, so if all $1,000 is held as currency the money supply rises by just $1,000 - the SMALLEST effect. Each new dollar deposited raises bank reserves and is multiplied by the money multiplier (1/reserve ratio = 1/0.10 = 10), so if all $1,000 is deposited the money supply rises by $1,000 x 10 = $10,000 - the LARGEST effect. The actual increase lies somewhere between $1,000 and $10,000 depending on how much the public deposits versus holds as currency."
+          "explanation": "A dollar held as currency raises the money supply by exactly $1, so if all $1,000 stays as cash the money supply rises only $1,000, the smallest effect. A dollar deposited becomes reserves and is multiplied by 1/reserve ratio = 1/0.10 = 10, so depositing all $1,000 raises money by $10,000, the largest effect. The actual outcome lies between these extremes depending on how much the public deposits versus holds."
         },
         {
           "id": "ch30-q21",
           "difficulty": "hard",
-          "question": "A bank currently holds reserves of $40 million against deposits of $400 million, exactly meeting a 10 percent reserve ratio, so the economy-wide money multiplier is 10. The Fed now RAISES the interest rate it pays on reserves, and in response banks choose to hold more reserves, pushing the system-wide reserve ratio up to 12.5 percent. Holding the monetary base fixed, how does this single change affect the money multiplier and the money supply?",
+          "question": "A banking system holds $40 million of reserves against $400 million of deposits, exactly a 10 percent reserve ratio, giving a money multiplier of 10. The Fed then raises the interest rate it pays on reserves, and banks respond by holding more reserves, pushing the system-wide reserve ratio to 12.5 percent. Holding the monetary base fixed, what happens to the multiplier and the money supply?",
           "options": [
-            "The multiplier rises from 10 to 12.5 and the money supply increases",
-            "The multiplier rises from 10 to 12.5 and the money supply decreases",
-            "The multiplier falls from 10 to 8 and the money supply decreases",
-            "The multiplier falls from 10 to 8 and the money supply increases",
-            "The multiplier is unchanged at 10 because interest on reserves does not affect the multiplier"
+            "The multiplier rises to 12.5 and the money supply increases",
+            "The multiplier rises to 12.5 and the money supply decreases",
+            "The multiplier falls to 8 and the money supply decreases",
+            "The multiplier falls to 8 and the money supply increases",
+            "The multiplier stays at 10 because interest on reserves cannot affect it"
           ],
           "answer": 2,
-          "explanation": "A higher interest rate on reserves makes banks want to hold more reserves, raising the reserve ratio. The money multiplier equals 1/reserve ratio, so it falls from 1/0.10 = 10 to 1/0.125 = 8. With the monetary base held fixed, money supply = multiplier x base, so a smaller multiplier means the banking system creates less money and the money supply decreases. The chain is: higher interest on reserves -> higher reserve ratio -> lower multiplier -> lower money supply. The 'unchanged' option is wrong because the text states interest on reserves does affect the reserve ratio and thus the multiplier."
+          "explanation": "Paying more interest on reserves makes holding reserves more attractive, so banks raise their reserve ratio. Since the multiplier is 1/reserve ratio, it falls from 1/0.10 = 10 to 1/0.125 = 8. With the monetary base fixed, money supply = multiplier x base, so a smaller multiplier shrinks the money supply. The chain is: higher interest on reserves, higher reserve ratio, lower multiplier, smaller money supply. It cannot be unchanged, because interest on reserves does influence how many reserves banks hold."
         },
         {
           "id": "ch30-q22",
           "difficulty": "easy",
-          "question": "In Mankiw's discussion of the monetary system, what is the federal funds rate?",
+          "question": "What is the federal funds rate?",
           "options": [
-            "The interest rate the Fed pays banks for holding reserves on deposit at the Fed",
-            "The interest rate the Fed charges banks when it acts as lender of last resort",
-            "The short-term interest rate that banks charge one another for overnight loans of reserves",
-            "The required reserve ratio that banks must hold against their deposits"
+            "The interest the Fed pays banks on reserves held at the Fed",
+            "The interest the Fed charges banks when it lends to them as lender of last resort",
+            "The interest rate banks charge one another for short-term, typically overnight, loans of reserves",
+            "The minimum reserve ratio banks must hold against their deposits"
           ],
           "answer": 2,
-          "explanation": "The federal funds rate is defined in the text as the short-term interest rate banks charge one another for overnight loans of reserves; a bank short of reserves can borrow them from another bank, and these loans are temporary, typically overnight. The other choices describe different rates: the interest rate the Fed PAYS banks on reserves held at the Fed, the discount rate the Fed charges when it lends to banks as lender of last resort, and the required reserve ratio - none of which is the federal funds rate."
+          "explanation": "The federal funds rate is the rate banks charge each other for short-term loans of reserves, usually overnight; a bank short on reserves borrows from one with a surplus. The other choices are different concepts: the rate the Fed pays banks on their reserves, the discount rate the Fed charges when lending to banks, and the required reserve ratio, none of which is the federal funds rate."
         },
         {
           "id": "ch30-q23",
           "difficulty": "hard",
-          "question": "In a fractional-reserve banking system, a wave of bank runs erupts. Frightened households withdraw deposits and hold the cash as currency, while surviving bankers, fearing future runs, deliberately raise their reserve ratios. Following the causal chain in the chapter, what happens to the money supply even if the central bank takes NO deliberate action?",
+          "question": "A wave of bank runs hits a fractional-reserve system. Frightened households pull deposits out and hold the cash, while surviving bankers, fearing more runs, deliberately raise their reserve ratios. With the central bank taking no offsetting action, what happens to the money supply?",
           "options": [
-            "It rises, because holding more currency directly increases the monetary base",
-            "It falls, because the currency drain pulls reserves out of banks and the higher reserve ratio lowers the money multiplier",
-            "It is unchanged, because withdrawals only convert deposits into currency one-for-one",
-            "It falls only if the central bank simultaneously sells bonds in an open-market operation",
-            "It rises, because banks make more loans to attract nervous depositors back"
+            "It rises, because holding more currency directly enlarges the monetary base",
+            "It falls, because the shift into currency drains reserves from banks while the higher reserve ratios shrink the money multiplier",
+            "It is unchanged, because withdrawals simply swap deposits for currency one-for-one",
+            "It falls only if the central bank also sells bonds in an open-market operation",
+            "It rises, because banks lend more aggressively to win nervous depositors back"
           ],
           "answer": 1,
-          "explanation": "This traces the 1929-1933 mechanism from the chapter's bank-run Case Study. When households hold more currency, reserves are pulled out of banks, so bankers cut loans, reversing money creation. Bankers also raise reserve ratios, and a higher reserve ratio reduces the money multiplier. Both forces shrink the money supply with no deliberate central-bank contraction (the money supply fell 28 percent from 1929 to 1933 without the Fed acting). Currency held outside banks does not multiply, so converting deposits to currency is NOT neutral and does not raise the monetary base; and no open-market sale is required."
+          "explanation": "Two forces shrink the money supply. As households convert deposits into currency, reserves leave the banks, forcing them to cut lending and reversing money creation. At the same time, higher reserve ratios lower the money multiplier (1/reserve ratio). Both effects contract the money supply with no deliberate central-bank action, as happened from 1929 to 1933. Currency held outside banks does not get multiplied, so the swap is not neutral and does not raise the monetary base, and no open-market sale is needed."
         },
         {
           "id": "ch30-q24",
           "difficulty": "hard",
-          "question": "A commercial bank is fully solvent: its assets clearly exceed its liabilities. On a single morning, every one of its depositors arrives demanding immediate withdrawal of all their funds in cash. Based on the chapter, why is the bank still unable to satisfy them, and what is its recourse?",
+          "question": "A bank is fully solvent, its assets clearly exceeding its liabilities. Yet one morning every depositor shows up demanding all their funds in cash at once, and the bank cannot pay them all. Why, and what is its recourse?",
           "options": [
-            "It can satisfy them instantly, because solvency guarantees enough cash is on hand",
-            "It cannot, because solvency means liabilities exceed assets, so it is actually bankrupt",
-            "It can satisfy them only by raising its reserve ratio above 100 percent that same day",
-            "It cannot, because under fractional-reserve banking it holds only a fraction of deposits in reserve; it must close until loans are repaid or a lender of last resort supplies currency",
-            "It cannot, but the FDIC is legally required to convert all of the bank's loans to cash within the hour"
+            "It actually can pay them instantly, since being solvent guarantees enough cash is on hand",
+            "It cannot, because solvency means liabilities exceed assets, so it is really bankrupt",
+            "It cannot, but it can fix the problem by lifting its reserve ratio above 100 percent that same day",
+            "It cannot, because under fractional-reserve banking only a fraction of deposits is kept as reserves; it must close until loans are repaid or a lender of last resort supplies currency",
+            "It cannot, but the FDIC is required to turn all of the bank's loans into cash within the hour"
           ],
           "answer": 3,
-          "explanation": "Under fractional-reserve banking a bank holds only a fraction of its deposits as reserves, so even a solvent bank (assets exceed liabilities) lacks the cash on hand to honor all withdrawals simultaneously. The chapter states the bank is forced to close its doors until some loans are repaid or a lender of last resort, such as the Fed, supplies the currency. The reversed-definition option inverts the chapter's definition of solvency (assets exceed liabilities), a 100 percent reserve ratio cannot be created the same day against already-lent funds, and the FDIC insures deposits rather than converting loans to cash."
+          "explanation": "Because a fractional-reserve bank keeps only a portion of deposits as reserves, even a solvent bank lacks the cash to honor every withdrawal at once, since most of its assets are tied up in loans. It must close until loans are repaid or until a lender of last resort, like the Fed, provides currency. The second option inverts the meaning of solvency, a 100-percent reserve ratio cannot be conjured the same day against already-lent funds, and the FDIC insures deposits rather than instantly liquidating loans."
         }
       ]
     },
@@ -341,34 +341,34 @@ window.QUIZ_DATA = {
         {
           "id": "ch31-q01",
           "difficulty": "easy",
-          "question": "In the value-of-money model of the money market, why is the money supply curve drawn as a vertical line?",
+          "question": "In the value-of-money model of the money market, the value of money falls from 1/2 to 1/4 while the central bank does nothing. What happens to the quantity of money supplied, and what does this imply about the shape of the money supply curve?",
           "options": [
-            "Because the quantity of money supplied is fixed by the Fed and does not depend on the value of money",
-            "Because people always demand exactly the amount of money the Fed creates",
-            "Because the value of money never changes in the long run",
-            "Because the quantity of money supplied rises as the value of money rises"
+            "It stays the same, so the supply curve is vertical because the quantity is set by the central bank and does not respond to the value of money",
+            "It rises, so the supply curve slopes upward because a lower value of money makes banks supply more",
+            "It falls, so the supply curve slopes downward because money is worth less",
+            "It adjusts until it equals the quantity demanded, so the supply curve overlaps the demand curve"
           ],
           "answer": 0,
-          "explanation": "The money supply curve is vertical because the Fed fixes the quantity of money as a policy variable; the amount supplied therefore does not respond to the value of money (or the price level), making option 0 correct. Option 1 confuses the supply curve with demand or equilibrium—a vertical supply does not mean quantity demanded always equals what the Fed creates at every value of money. Option 2 is false because the value of money is determined in equilibrium and does change (for example, a monetary injection lowers it). Option 3 describes an upward-sloping, price-sensitive supply, which is not how the Fed-controlled money supply is modeled."
+          "explanation": "The quantity of money is set by the central bank as a policy variable and does not respond to the value of money, so a change in the value of money leaves the quantity supplied unchanged, giving a vertical supply curve. An upward- or downward-sloping curve would require the quantity supplied to depend on the value of money, which it does not. The fourth option confuses the supply curve with equilibrium: supply is a single vertical line, and equilibrium is where it crosses demand, not where the two curves coincide."
         },
         {
           "id": "ch31-q02",
           "difficulty": "medium",
-          "question": "On the value-of-money money market diagram, the right vertical axis (the price level P) is drawn inverted, with a low price level near the top and a high price level near the bottom. What is the reason for inverting this axis?",
+          "question": "On the value-of-money diagram, the left vertical axis measures the value of money with high values at the top, and the right vertical axis measures the price level P. If a single equilibrium point is to read consistently off both axes, how must the price-level axis be arranged, and why?",
           "options": [
-            "To align a high value of money (near the top of the left axis) with a low price level (near the top of the right axis), since the two move in opposite directions",
-            "To show that the price level and the value of money always move in the same direction",
-            "To make the money demand curve slope upward instead of downward",
-            "To indicate that the Fed, rather than the market, sets the price level",
-            "To reflect that a higher price level increases the value of each dollar"
+            "Inverted, with low P at the top, because the value of money equals 1/P, so a high value of money corresponds to a low price level",
+            "Inverted, with low P at the top, because the value of money and the price level move in the same direction",
+            "Upright, with high P at the top, because a higher price level raises the value of each dollar",
+            "Upright, with high P at the top, because the central bank, not the market, sets P",
+            "Inverted, with low P at the top, because inverting the axis makes the money demand curve slope upward"
           ],
           "answer": 0,
-          "explanation": "Because the value of money equals 1/P, the value of money and the price level move in OPPOSITE directions. The left axis (value of money) has high values at the top, so inverting the right axis places a LOW price level at the top. This way a single equilibrium point reads consistently off both axes: high value of money corresponds to low P, and low value of money corresponds to high P. The correct option captures exactly this. 'Same direction' is wrong — value of money and P are inversely related, which is the whole reason the axis must be flipped. 'Makes money demand slope upward' is wrong: money demand still slopes downward (a lower value of money / higher P means a larger quantity of money demanded); the axis inversion is a labeling convention, not a change in the curve's economic behavior. 'The Fed sets the price level' is wrong: the price level is determined by the market equilibrium of money supply and demand, not assigned by the Fed. 'A higher price level increases the value of each dollar' reverses the 1/P relationship — a higher P means each dollar buys less, lowering its value."
+          "explanation": "Since the value of money equals 1/P, the value of money and the price level move in opposite directions. The left axis places a high value of money at the top, so the price-level axis must be inverted to place a low P at the top; then a single equilibrium point reads as high value of money / low P at the top and low value of money / high P at the bottom. 'Same direction' is wrong because the two are inversely related. The upright options are wrong: a higher P means each dollar buys less (lower value), and P is set by market equilibrium, not by the central bank. The last option is wrong because money demand still slopes downward regardless of the labeling convention; inverting the axis does not change the curve's economic behavior."
         },
         {
           "id": "ch31-q03",
           "difficulty": "hard",
-          "question": "Suppose the economy starts in equilibrium in the value-of-money money market. Picture this market with the quantity of money on the horizontal axis, the value of money (1/P) on the left vertical axis, and the price level P on the right vertical axis with the price-level scale inverted (low P at the top). The money supply curve is vertical and money demand slopes downward. The Fed then doubles the money supply by dropping new dollar bills from helicopters. What happens to the equilibrium value of money and the equilibrium price level?",
+          "question": "An economy starts in equilibrium in the value-of-money money market, drawn with the quantity of money on the horizontal axis, the value of money (1/P) on the left vertical axis, and the price level P on the inverted right axis (low P at the top). Money supply is vertical and money demand slopes downward. The central bank then doubles the money supply by dropping new dollar bills from helicopters. What happens to the equilibrium value of money and the equilibrium price level?",
           "options": [
             "The money supply curve shifts right; the value of money falls and the price level rises",
             "The money supply curve shifts left; the value of money rises and the price level falls",
@@ -377,12 +377,12 @@ window.QUIZ_DATA = {
             "Neither curve shifts; the value of money and the price level are unchanged because money is neutral"
           ],
           "answer": 0,
-          "explanation": "A monetary injection shifts the vertical money supply curve to the right. With unchanged downward-sloping money demand, the new intersection occurs at a lower value of money; because the right-hand price-level axis is the inverse of the value of money, this corresponds to a higher price level (the chapter's example: doubling money roughly halves the value of money, e.g., from 1/2 to 1/4, while the price level rises, e.g., from 2 to 4). The second option describes a monetary contraction, not an injection. The fourth option correctly shifts supply right but reverses the direction of the value of money. The third option wrongly shifts demand. The last option misapplies monetary neutrality, which says money does not affect REAL variables; the price level is a NOMINAL variable, so it does change."
+          "explanation": "A monetary injection shifts the vertical money supply curve to the right. With unchanged downward-sloping money demand, the new intersection occurs at a lower value of money; because the right-hand axis is the inverse of the value of money, this corresponds to a higher price level (doubling money roughly halves the value of money, e.g., from 1/2 to 1/4, while the price level rises from 2 to 4). The second option describes a monetary contraction. The fourth correctly shifts supply right but reverses the direction of the value of money. The third wrongly shifts demand. The last misapplies monetary neutrality, which says money does not affect real variables; the price level is nominal, so it changes."
         },
         {
           "id": "ch31-q04",
           "difficulty": "hard",
-          "question": "Suppose the Fed holds the money supply fixed, but the widespread adoption of credit cards and ATMs reduces how much money people want to hold for any given price level, shifting money demand to the left. On the value-of-money diagram (vertical money supply, value of money on the left axis, inverted price level on the right axis), what is the new long-run equilibrium relative to the original?",
+          "question": "The central bank holds the money supply fixed, but credit cards and ATMs become widespread, so people now want to hold less money at any given price level, shifting money demand left. On the value-of-money diagram (vertical money supply, value of money on the left axis, inverted price level on the right axis), what is the new long-run equilibrium relative to the original?",
           "options": [
             "The value of money rises and the price level falls",
             "The value of money falls and the price level rises",
@@ -390,12 +390,12 @@ window.QUIZ_DATA = {
             "The value of money and the price level are both unchanged because the money supply did not change"
           ],
           "answer": 1,
-          "explanation": "A decrease in money demand while the money supply is held fixed creates an excess supply of money: at the original price level people now hold more dollars than they wish to. They try to shed the extra money by spending and lending it, which bids up the prices of goods and services, so the price level RISES and the value of money (1/P) FALLS. On the diagram, the downward-sloping money-demand curve shifts left while the vertical supply curve stays put, so they intersect at a lower value of money (a higher price level). Equivalently, holding less money means a higher velocity V in the quantity equation M*V = P*Y; with M and Y unchanged, P must rise. The option that the value of money rises and the price level falls reverses the true effect, and the 'both unchanged' option wrongly assumes a money-demand shift has no effect when the supply is fixed."
+          "explanation": "A decrease in money demand while the money supply is held fixed creates an excess supply of money: at the original price level people hold more dollars than they wish to. They try to shed the extra money by spending and lending, which bids up prices, so the price level rises and the value of money (1/P) falls. On the diagram, money demand shifts left while the vertical supply stays put, so they intersect at a lower value of money. Equivalently, holding less money raises velocity V in M*V = P*Y; with M and Y unchanged, P must rise. The option that the value of money rises and the price level falls reverses the effect, and the 'both unchanged' option wrongly assumes a demand shift has no effect when supply is fixed."
         },
         {
           "id": "ch31-q05",
           "difficulty": "medium",
-          "question": "A student is sorting variables into nominal versus real according to the classical dichotomy. Using the chapter's reasoning, which of the following is a REAL variable?",
+          "question": "A student is sorting variables into nominal versus real according to the classical dichotomy. Which of the following is a REAL variable?",
           "options": [
             "The dollar price of a bushel of corn",
             "A corn farmer's income measured in dollars",
@@ -404,26 +404,26 @@ window.QUIZ_DATA = {
             "The dollar wage of a worker"
           ],
           "answer": 3,
-          "explanation": "Under the classical dichotomy, real variables are measured in physical units, while nominal variables are measured in monetary (dollar) units. The real wage is a real variable because, by adjusting the money wage for the price level, it measures the rate at which a worker exchanges a unit of labor for goods and services. By contrast, a dollar price, a dollar income, nominal GDP, and a worker's dollar wage are all expressed in monetary units and are therefore nominal variables. The chapter's clue is the word 'real,' which signals adjustment for the price level so the variable reflects purchasing power in goods rather than dollars."
+          "explanation": "Real variables are measured in physical units or purchasing power, while nominal variables are measured in monetary (dollar) units. The real wage is real because, by adjusting the money wage for the price level, it measures the rate at which a worker trades a unit of labor for goods and services. A dollar price, a dollar income, nominal GDP, and a dollar wage are all expressed in dollars and are therefore nominal. The word 'real' signals adjustment for the price level so the variable reflects purchasing power rather than dollars."
         },
         {
           "id": "ch31-q06",
           "difficulty": "easy",
-          "question": "The chapter says a relative price is a real variable. What is the BEST reason given for this classification?",
+          "question": "Corn sells for $2 a bushel and wheat for $1 a bushel, so a bushel of corn is worth 2 bushels of wheat. Why is this relative price classified as a real variable?",
           "options": [
-            "Relative prices are set by the government rather than by the money supply",
-            "When comparing the prices of any two goods, the dollar signs cancel, and the resulting number is expressed in physical units",
-            "Relative prices are always quoted directly in units of money like other prices",
-            "Relative prices adjust only in the short run when money is non-neutral",
-            "Relative prices are part of nominal GDP and therefore double when money doubles"
+            "Because relative prices are set by the government rather than by the money supply",
+            "Because when comparing the prices of two goods the dollar signs cancel, leaving a number expressed in physical units",
+            "Because relative prices are quoted directly in units of money like other prices",
+            "Because relative prices adjust only in the short run when money is non-neutral",
+            "Because relative prices are part of nominal GDP and double when money doubles"
           ],
           "answer": 1,
-          "explanation": "The text explains that although the dollar price of corn ($2 a bushel) and of wheat ($1 a bushel) are nominal, the relative price 'a bushel of corn is worth 2 bushels of wheat' is not measured in money: 'When comparing the prices of any two goods, the dollar signs cancel, and the resulting number is expressed in physical units.' Because the result is in physical units rather than dollars, relative prices are real variables. The distractors contradict the text: relative prices are NOT quoted in money (the dollar signs cancel), and the chapter does not attribute this classification to government control, short-run non-neutrality, or membership in nominal GDP (which would instead make them nominal and double when money doubles)."
+          "explanation": "Although the dollar price of corn ($2) and wheat ($1) are nominal, the relative price 'a bushel of corn is worth 2 bushels of wheat' is found by dividing the two dollar prices, so the dollar signs cancel and the result is a pure number expressed in physical units. A variable in physical units is real. Relative prices are not quoted in money (the dollar signs cancel), and the classification has nothing to do with government control, short-run non-neutrality, or membership in nominal GDP, which would instead make them nominal and double when money doubles."
         },
         {
           "id": "ch31-q07",
           "difficulty": "hard",
-          "question": "Suppose the central bank doubles the money supply. Applying the chapter's account of monetary neutrality in the LONG RUN, which statement correctly traces what happens to the variables involved?",
+          "question": "The central bank doubles the money supply, and the economy adjusts fully in the long run. Applying monetary neutrality, which statement correctly traces what happens to the variables involved?",
           "options": [
             "The price level and the dollar wage both double, while real wages, real GDP, and the real interest rate are unchanged",
             "The price level doubles, but the dollar wage and all other dollar values stay constant, so real wages fall by half",
@@ -432,12 +432,12 @@ window.QUIZ_DATA = {
             "The real interest rate doubles while the price level and dollar wage are unchanged, since money works only through interest rates"
           ],
           "answer": 0,
-          "explanation": "The text states that when the central bank doubles the money supply, 'the price level doubles, the dollar wage doubles, and all other dollar values double,' while real variables such as production, employment, real wages, and real interest rates are unchanged. This is monetary neutrality. The 'dollar wage stays constant' option is wrong because the text explicitly says the dollar wage doubles (so the real wage is preserved, not halved). The 'real wage also doubles' option is wrong because the real wage is a real variable and is unchanged. The 'real GDP and employment double' option contradicts the chapter's point that a money injection alters none of the economy's real productive factors. The 'real interest rate doubles' option is exactly backwards: the real interest rate is a real variable that money leaves unchanged, and money works through the price level, not by altering the real rate."
+          "explanation": "Monetary neutrality means a money injection changes nominal variables proportionately while leaving real variables unchanged. Doubling money doubles the price level, the dollar wage, and all other dollar values, while real wages, real GDP, and the real interest rate are unaffected. The 'dollar wage stays constant' option is wrong because the dollar wage doubles, which preserves the real wage rather than halving it. The 'real wage also doubles' option is wrong because the real wage is a real variable and is unchanged. The 'real GDP and employment double' option contradicts neutrality, which says money does not alter the economy's real productive factors. The 'real interest rate doubles' option is backwards: the real rate is real and unchanged, and money works through the price level, not by altering the real rate."
         },
         {
           "id": "ch31-q08",
           "difficulty": "easy",
-          "question": "According to the chapter, the velocity of money refers to which of the following?",
+          "question": "Which of the following best describes the velocity of money?",
           "options": [
             "The speed at which the typical dollar travels around the economy from person to person",
             "The rate at which the central bank prints new currency each year",
@@ -445,12 +445,12 @@ window.QUIZ_DATA = {
             "The total dollar value of all goods and services an economy produces in a year"
           ],
           "answer": 0,
-          "explanation": "The text defines the velocity of money as the rate at which money changes hands, that is, the speed at which the typical dollar travels around the economy from person to person. The other options describe money growth (the central bank printing currency), inflation (the percentage rise in the price level), and nominal GDP (the total dollar value of output), respectively, which are distinct concepts. In the quantity equation M*V = P*Y, velocity V is the factor linking the money stock M to nominal spending P*Y, confirming it is a turnover rate, not a growth rate or a level of output."
+          "explanation": "The velocity of money is the rate at which money changes hands, that is, the speed at which the typical dollar travels around the economy from person to person. The other options describe money growth (the central bank printing currency), inflation (the percentage rise in the price level), and nominal GDP (the total dollar value of output). In M*V = P*Y, velocity V is the factor linking the money stock M to nominal spending P*Y, confirming it is a turnover rate, not a growth rate or a level of output."
         },
         {
           "id": "ch31-q09",
           "difficulty": "medium",
-          "question": "The quantity equation is written M × V = P × Y. According to the chapter, an increase in the quantity of money M must be reflected in one (or more) of the other three variables. Which statement correctly lists those directional possibilities?",
+          "question": "The quantity equation is M × V = P × Y. If the central bank increases the quantity of money M, that change must be reflected in one or more of the other three variables. Which statement correctly lists those directional possibilities?",
           "options": [
             "The price level must rise, the quantity of output must rise, or the velocity of money must fall",
             "The price level must fall, the quantity of output must fall, or the velocity of money must rise",
@@ -459,12 +459,12 @@ window.QUIZ_DATA = {
             "The price level must fall, output must rise, or velocity must rise"
           ],
           "answer": 0,
-          "explanation": "Because M is on the left side of M × V = P × Y, raising M increases the left side, so the right side (P × Y) must rise or the offsetting variable V must fall. Thus an increase in M must show up as a higher price level, higher output, or lower velocity — option 0. The other options reverse one or more directions: option 1 flips all three; option 4 mixes a falling P with a rising V; option 3 wrongly has nominal GDP (P × Y) FALLING, when it must rise to match a larger M × V; and option 2 introduces the real interest rate, which is not part of the quantity equation at all."
+          "explanation": "Because M is on the left side of M × V = P × Y, raising M increases the left side, so the right side (P × Y) must rise or the offsetting variable V must fall. An increase in M must therefore show up as a higher price level, higher output, or lower velocity. The other options reverse one or more directions: option 1 flips all three; option 4 pairs a falling P with a rising V and has nominal GDP falling when it must rise; option 2 reverses the directions; and option 3 introduces the real interest rate, which is not part of the quantity equation."
         },
         {
           "id": "ch31-q10",
           "difficulty": "medium",
-          "question": "An economy produces only pizza. It makes 200 pizzas in a year, each pizza sells for $8, and the quantity of money is $40. Using the chapter's formula V = (P x Y)/M, what is the velocity of money?",
+          "question": "An economy produces only pizza. It makes 200 pizzas in a year, each pizza sells for $8, and the quantity of money is $40. What is the velocity of money?",
           "options": [
             "40",
             "20",
@@ -473,12 +473,12 @@ window.QUIZ_DATA = {
             "0.025"
           ],
           "answer": 0,
-          "explanation": "Velocity equals nominal output divided by the money stock: V = (P x Y)/M = ($8 x 200)/$40 = $1,600/$40 = 40. Each dollar is used in transactions 40 times per year. The distractor 1,600 is just nominal GDP (P x Y) without dividing by M; 0.025 inverts the ratio (M divided by nominal GDP); 8 is the price per pizza (the price level), not velocity; and 20 results from a calculation error (e.g., dividing nominal GDP by twice the money stock)."
+          "explanation": "Velocity equals nominal output divided by the money stock: V = (P x Y)/M = ($8 x 200)/$40 = $1,600/$40 = 40, so each dollar is used in transactions 40 times per year. The distractor 1,600 is nominal GDP without dividing by M; 0.025 inverts the ratio (M divided by nominal GDP); 8 is the price per pizza, not velocity; and 20 results from dividing nominal GDP by twice the money stock."
         },
         {
           "id": "ch31-q11",
           "difficulty": "hard",
-          "question": "Use the growth-rate form of the quantity equation: %change in M + %change in V = %change in P + %change in Y. Suppose the money supply grows at 9% per year and, consistent with the chapter's five-step logic, velocity is stable (0% growth) while real output Y is fixed by factor supplies and technology (0% growth because money is neutral). What is the resulting rate of inflation (%change in P)?",
+          "question": "Use the growth-rate form of the quantity equation: %change in M + %change in V = %change in P + %change in Y. The money supply grows at 9% per year, velocity is stable (0% growth), and real output Y is fixed by factor supplies and technology (0% growth). What is the resulting rate of inflation (%change in P)?",
           "options": [
             "9%",
             "0%",
@@ -487,12 +487,12 @@ window.QUIZ_DATA = {
             "-9%"
           ],
           "answer": 0,
-          "explanation": "In growth-rate form, 9% + 0% = %change in P + 0%, so inflation equals 9%. This is the chapter's conclusion that, with stable velocity and output fixed by factor supplies and technology, a rapid increase in the money supply is reflected one-for-one in the price level (\"inflation is always and everywhere a monetary phenomenon\"). 0% wrongly assumes money has no effect on P (contradicts the quantity theory); 18% double-counts money growth; 4.5% halves it for no valid reason; and -9% reverses the sign."
+          "explanation": "In growth-rate form, 9% + 0% = %change in P + 0%, so inflation equals 9%. With stable velocity and output fixed by factor supplies and technology, a rapid increase in the money supply is reflected one-for-one in the price level, illustrating that sustained inflation is fundamentally a monetary phenomenon. 0% wrongly assumes money has no effect on P; 18% double-counts money growth; 4.5% halves it for no valid reason; and -9% reverses the sign."
         },
         {
           "id": "ch31-q12",
           "difficulty": "easy",
-          "question": "The chapter says the inflation tax is 'subtler' than other taxes and falls on a particular group. On whom does the inflation tax ultimately fall?",
+          "question": "When a government finances spending by printing money and the price level rises, this acts like a hidden tax. On whom does this 'inflation tax' ultimately fall?",
           "options": [
             "Only on people who owe money, since their debts grow in nominal terms",
             "On foreign governments that hold the country's bonds",
@@ -500,26 +500,26 @@ window.QUIZ_DATA = {
             "Only on wage earners, who must be sent a bill for the tax each year"
           ],
           "answer": 2,
-          "explanation": "The text states that when the government prints money the price level rises, 'the dollars in your wallet become less valuable,' and 'the inflation tax is like a tax on everyone who holds money.' Unlike ordinary taxes, no bill is sent. The chapter does not say it falls only on debtors (debtors can actually benefit from unexpected inflation), nor only on wage earners, nor on foreign bondholders."
+          "explanation": "When the government prints money, the price level rises and the dollars people hold become less valuable, so the inflation tax falls on everyone who holds money. Unlike ordinary taxes, no bill is sent. It does not fall only on debtors (debtors can benefit from unexpected inflation because the real value of their fixed debt falls), nor only on wage earners, nor on foreign bondholders."
         },
         {
           "id": "ch31-q13",
           "difficulty": "hard",
-          "question": "A government has high spending, weak tax revenue, and little ability to borrow, and it begins financing its deficit by running the printing press; the result is hyperinflation. Based on the chapter's reasoning about the cause and cure of hyperinflation, which statement is correct?",
+          "question": "A government has high spending, weak tax revenue, and little ability to borrow, and it begins financing its deficit by running the printing press; the result is hyperinflation. Which statement correctly identifies the cause and the cure of this hyperinflation?",
           "options": [
-            "The hyperinflation is best ended by printing money even faster so that the government can quickly pay off its existing debts",
+            "The hyperinflation is best ended by printing money even faster so the government can quickly pay off its existing debts",
             "The hyperinflation arises because money growth is unrelated to prices, and it ends only when consumers voluntarily stop spending",
             "The hyperinflation arises because the deficit is financed by money creation, and it ends when fiscal reforms such as spending cuts eliminate the need for the inflation tax",
             "The hyperinflation reflects too few goods being produced, so it ends automatically once output recovers without any change in government policy",
             "The hyperinflation is caused by lenders demanding higher real interest rates, and it ends when the central bank lowers the nominal interest rate to zero"
           ],
           "answer": 2,
-          "explanation": "The chapter explains that almost all hyperinflations follow the same pattern: a government with high spending, inadequate tax revenue, and limited capacity to borrow turns to the printing press, and the massive increase in the quantity of money produces massive inflation (consistent with the quantity theory). It states the hyperinflation ends 'when the government institutes fiscal reforms—such as cuts in government spending—that eliminate the need for the inflation tax.' Printing even faster (option 0) would worsen inflation; the link between money growth and prices is strong, not absent (option 1); the cause is money creation, not a spontaneous output shortfall that self-corrects (option 3); and it is not driven by lenders' real-rate demands or cured by a central bank cutting the nominal rate to zero (option 4)—real rates are set in the market for loanable funds, and the cure is fiscal-monetary, not interest-rate policy."
+          "explanation": "Almost all hyperinflations follow the same pattern: a government with high spending, inadequate tax revenue, and limited capacity to borrow turns to the printing press, and the massive increase in the money supply produces massive inflation, consistent with the quantity theory. The hyperinflation ends when fiscal reforms, such as cuts in government spending, eliminate the need for the inflation tax. Printing even faster would worsen inflation; the link between money growth and prices is strong, not absent; the cause is money creation, not a spontaneous output shortfall that self-corrects; and it is not driven by lenders' real-rate demands or cured by cutting the nominal rate to zero, since real rates are set in the market for loanable funds and the cure is fiscal."
         },
         {
           "id": "ch31-q14",
           "difficulty": "easy",
-          "question": "According to the Fisher effect as defined in the chapter, the nominal interest rate is equal to which of the following?",
+          "question": "A saver wants a real return on a loan and also wants to be compensated for expected inflation. By the Fisher effect, the nominal interest rate the saver charges equals which of the following?",
           "options": [
             "The real interest rate minus the inflation rate",
             "The real interest rate plus the inflation rate",
@@ -527,26 +527,26 @@ window.QUIZ_DATA = {
             "The real interest rate multiplied by the inflation rate"
           ],
           "answer": 1,
-          "explanation": "The chapter defines the real interest rate as Real interest rate = Nominal interest rate - Inflation rate, which rearranges to Nominal interest rate = Real interest rate + Inflation rate. So the nominal rate is the real rate PLUS inflation (the correct option). The choice 'real rate minus inflation rate' actually defines the REAL rate, not the nominal rate, so it reverses the relationship. The choice 'inflation rate minus real interest rate' has the terms backwards and the wrong sign. The choice that multiplies the two rates uses the wrong operation entirely; the Fisher relationship is additive."
+          "explanation": "Since the real interest rate equals the nominal interest rate minus the inflation rate, rearranging gives nominal = real + inflation; the lender adds expected inflation to the desired real return. 'Real rate minus inflation' actually defines the real rate, reversing the relationship. 'Inflation minus real rate' has the terms backwards with the wrong sign. Multiplying the two uses the wrong operation; the Fisher relationship is additive."
         },
         {
           "id": "ch31-q15",
           "difficulty": "medium",
-          "question": "The chapter says it is useful to view the nominal interest rate as the sum of the real interest rate and the inflation rate because \"different forces determine each of the two terms.\" Which pairing correctly matches each term to the force that determines it?",
+          "question": "It is useful to view the nominal interest rate as the sum of the real interest rate and the inflation rate because different forces determine each of the two terms. Which pairing correctly matches each term to the force that determines it?",
           "options": [
             "The real interest rate is determined by money growth; the inflation rate is determined by the supply and demand for loanable funds",
             "The real interest rate is determined by the supply and demand for loanable funds; the inflation rate is determined by growth in the money supply",
             "Both the real interest rate and the inflation rate are determined by growth in the money supply",
-            "The real interest rate is determined by the Fed's choice of the nominal rate; the inflation rate is determined by the supply and demand for loanable funds",
+            "The real interest rate is determined by the central bank's choice of the nominal rate; the inflation rate is determined by the supply and demand for loanable funds",
             "Both the real interest rate and the inflation rate are determined by the supply and demand for loanable funds"
           ],
           "answer": 1,
-          "explanation": "The text states that the supply and demand for loanable funds determine the real interest rate, while the quantity theory of money says growth in the money supply determines the inflation rate (ch31: \"the supply and demand for loanable funds determine the real interest rate. And according to the quantity theory of money, growth in the money supply determines the inflation rate.\"). Option (a) reverses the two forces. Options (c) and (e) wrongly assign a single force to both terms. Option (d) invents a Fed-sets-the-nominal-rate mechanism that is not part of this long-run/classical analysis."
+          "explanation": "The supply and demand for loanable funds determine the real interest rate, while the quantity theory of money implies that growth in the money supply determines the inflation rate. Option (a) reverses the two forces. Options (c) and (e) wrongly assign a single force to both terms. Option (d) invents a central-bank-sets-the-nominal-rate mechanism that is not part of this long-run classical analysis."
         },
         {
           "id": "ch31-q16",
           "difficulty": "hard",
-          "question": "Suppose an economy is in the long run, money is neutral, and the supply and demand for loanable funds keep the real interest rate fixed at 2 percent. Initially money growth produces 3 percent inflation. The central bank then permanently raises the rate of money growth so that the inflation rate rises to 8 percent. According to the Fisher effect, what happens to the nominal interest rate and the real interest rate?",
+          "question": "In the long run money is neutral, and the supply and demand for loanable funds keep the real interest rate fixed at 2 percent. Initially money growth produces 3 percent inflation. The central bank then permanently raises money growth so that inflation rises to 8 percent. By the Fisher effect, what happens to the nominal interest rate and the real interest rate?",
           "options": [
             "The nominal interest rate rises from 5 percent to 10 percent, and the real interest rate stays at 2 percent",
             "The nominal interest rate rises from 5 percent to 13 percent, and the real interest rate stays at 2 percent",
@@ -555,12 +555,12 @@ window.QUIZ_DATA = {
             "The nominal interest rate rises from 5 percent to 10 percent, and the real interest rate rises from 2 percent to 5 percent"
           ],
           "answer": 0,
-          "explanation": "Initially nominal = real + inflation = 2 + 3 = 5 percent. Inflation rises by 5 percentage points (from 3 to 8). Because money is neutral in the long run, the real interest rate is unchanged at 2 percent, so the nominal rate must change one-for-one with inflation: 2 + 8 = 10 percent. Option (b) double-counts by adding the new inflation on top of the old nominal rate (5 + 8 = 13). Option (c) holds the nominal rate fixed and lets the real rate absorb the change, contradicting monetary neutrality. Option (d) forgets the real-rate component. Option (e) wrongly lets the real rate move with inflation."
+          "explanation": "Initially nominal = real + inflation = 2 + 3 = 5 percent. Inflation rises by 5 points (3 to 8). Because money is neutral in the long run, the real rate stays at 2 percent, so the nominal rate moves one-for-one with inflation: 2 + 8 = 10 percent. Option (b) double-counts by adding new inflation on top of the old nominal rate (5 + 8 = 13). Option (c) holds the nominal rate fixed and lets the real rate absorb the change, contradicting neutrality. Option (d) forgets the real-rate component. Option (e) wrongly lets the real rate move with inflation."
         },
         {
           "id": "ch31-q17",
           "difficulty": "hard",
-          "question": "A bank and a borrower sign a one-year fixed-rate loan based on an expected inflation of 2 percent and a desired real return of 3 percent, so the nominal rate is set at 5 percent. During the year, an unexpected surge sends actual inflation to 9 percent, and the rate cannot be renegotiated. Which statement BEST describes what this episode illustrates about the Fisher effect?",
+          "question": "A bank and a borrower sign a one-year fixed-rate loan based on expected inflation of 2 percent and a desired real return of 3 percent, so the nominal rate is set at 5 percent. During the year, an unexpected surge sends actual inflation to 9 percent, and the rate cannot be renegotiated. Which statement BEST describes what this episode illustrates about the Fisher effect?",
           "options": [
             "The Fisher effect held perfectly: the realized real interest rate stayed at 3 percent because the nominal rate already embedded the inflation",
             "The Fisher effect failed in the short run because inflation was unanticipated; the realized real rate fell to -4 percent even though the nominal rate stayed at 5 percent",
@@ -569,12 +569,12 @@ window.QUIZ_DATA = {
             "The Fisher effect failed because the central bank set the nominal interest rate too low relative to the loanable-funds equilibrium"
           ],
           "answer": 1,
-          "explanation": "The chapter stresses that the Fisher effect need not hold in the short run because inflation may be unanticipated: a nominal rate set when the loan is made cannot reflect a surprise jump in inflation. Here the realized real rate = nominal - actual inflation = 5 - 9 = -4 percent, hurting the lender. The Fisher effect concerns adjustment to EXPECTED inflation, which moves with actual inflation in the long run but not necessarily the short run. Option (a) is wrong because the surprise inflation eroded the real return below 3 percent. Option (c) reverses which variable adjusts (it is the nominal rate that adjusts one-for-one to expected inflation). Option (d) overstates a temporary, short-run deviation as a permanent breakdown of neutrality. Option (e) invokes a Fed-sets-the-nominal-rate / liquidity-preference mechanism, which is not this chapter's explanation."
+          "explanation": "The Fisher effect concerns adjustment to EXPECTED inflation and need not hold in the short run when inflation is unanticipated: a nominal rate set when the loan is made cannot reflect a surprise jump. Here the realized real rate = nominal - actual inflation = 5 - 9 = -4 percent, hurting the lender. Option (a) is wrong because the surprise eroded the real return below 3 percent. Option (c) reverses which variable adjusts (the nominal rate adjusts to expected inflation). Option (d) overstates a temporary short-run deviation as a permanent breakdown of neutrality. Option (e) invokes a central-bank-sets-the-rate mechanism that does not apply here."
         },
         {
           "id": "ch31-q18",
           "difficulty": "easy",
-          "question": "The chapter calls the 'shoeleather cost' of inflation a metaphor. What does it actually refer to?",
+          "question": "The 'shoeleather cost' of inflation is a metaphor and should not be taken literally. What does it actually refer to?",
           "options": [
             "The literal wear and tear on shoes from walking to stores during hyperinflation",
             "The time and convenience sacrificed in order to keep less money on hand than one would without inflation",
@@ -583,12 +583,12 @@ window.QUIZ_DATA = {
             "The higher income taxes paid on nominal capital gains"
           ],
           "answer": 1,
-          "explanation": "The chapter explicitly states the term is not to be taken literally: the actual cost of reducing your money holdings 'is not the wear and tear on your shoes but the time and convenience you must sacrifice to keep less money on hand than you would if there were no inflation.' Reducing money holdings (e.g., more frequent trips to the bank) is how people try to escape the inflation tax, and the wasted time and convenience is the real deadweight cost. Option 0 takes the metaphor literally, which the text warns against; option 2 is the definition of menu costs; option 3 is the unexpected-inflation redistribution of wealth; option 4 is the inflation-induced tax distortion on nominal capital gains. Each is a distinct, separately named cost of inflation, so none competes with the correct answer."
+          "explanation": "The real cost of reducing money holdings is not literal wear on shoes but the time and convenience sacrificed to keep less money on hand than one would if there were no inflation. Reducing money holdings, for example by making more frequent trips to the bank, is how people try to escape the inflation tax, and the wasted time and convenience is the deadweight cost. Taking the metaphor literally is the trap in option 0; option 2 is the definition of menu costs; option 3 is the unexpected-inflation redistribution of wealth; option 4 is the inflation-induced tax distortion on nominal capital gains. Each is a distinct, separately named cost, so none competes with the correct answer."
         },
         {
           "id": "ch31-q19",
           "difficulty": "medium",
-          "question": "Eatabit Eatery prints a new menu each January and leaves prices unchanged all year. With 12 percent annual inflation, the chapter says this illustrates which cost of inflation, and why does it matter?",
+          "question": "Eatabit Eatery prints a new menu each January and leaves prices unchanged all year while annual inflation runs at 12 percent. Which cost of inflation does this primarily illustrate, and why does it matter?",
           "options": [
             "Menu costs, because the restaurant must reprint its menu more than once a year",
             "Relative-price variability, because Eatabit's relative prices fall about 1 percent each month, distorting the price signals markets use to allocate resources",
@@ -597,12 +597,12 @@ window.QUIZ_DATA = {
             "Inflation-induced tax distortions, because the restaurant's nominal profits are overtaxed"
           ],
           "answer": 1,
-          "explanation": "The Eatabit example is the textbook's own illustration of relative-price variability and the misallocation of resources (section 31-2d). With 12 percent annual inflation and a menu reprinted only each January, Eatabit's relative prices automatically fall about 1 percent each month, highest just after reprinting and lowest later in the year. This matters because market economies rely on relative prices to allocate scarce resources; when inflation distorts those relative prices, consumer decisions are distorted and markets allocate resources less efficiently. Option 0 (menu costs) names the separate cost of the reprinting act itself, and the firm reprints only once a year, so it is not what the example highlights. Option 2 (shoeleather costs) concerns economizing on money holdings and extra bank trips, not restaurant visits. Option 3 (inflation fallacy) is the mistaken belief that inflation cuts real purchasing power even though nominal incomes also rise. Option 4 (tax distortions) concerns nominal capital gains and nominal interest being taxed, unrelated to fixed menu pricing."
+          "explanation": "With 12 percent annual inflation and a menu reprinted only each January, Eatabit's relative prices automatically fall about 1 percent each month, highest just after reprinting and lowest later in the year. This matters because market economies rely on relative prices to allocate scarce resources; when inflation distorts those relative prices, consumer decisions and resource allocation become less efficient. Menu costs name the separate cost of the reprinting act itself, but the firm reprints only once a year, so that is not what the example highlights. Shoeleather costs concern economizing on money holdings and extra bank trips, not restaurant visits. The inflation fallacy is the mistaken belief that inflation cuts real purchasing power even though nominal incomes also rise. Tax distortions concern nominal capital gains and nominal interest being taxed, unrelated to fixed menu pricing."
         },
         {
           "id": "ch31-q20",
           "difficulty": "medium",
-          "question": "Using the chapter's IBM stock example, an investor buys a share in 1975 for $10 and sells it in 2020 for $110; the price level rose fivefold over that period. Why does the chapter use this to illustrate an inflation-induced tax distortion?",
+          "question": "An investor buys an IBM share in 1975 for $10 and sells it in 2020 for $110, while the price level rose fivefold over that period. Why does this episode illustrate an inflation-induced tax distortion?",
           "options": [
             "The tax code taxes only the $60 real gain and ignores the larger nominal gain, so inflation actually lowers the investor's tax burden",
             "The tax code taxes the full $100 nominal gain, even though the real gain in purchasing power is only $60, so inflation raises the effective tax burden",
@@ -611,12 +611,12 @@ window.QUIZ_DATA = {
             "Inflation lowers the investor's nominal gain, reducing the amount of tax owed"
           ],
           "answer": 1,
-          "explanation": "Because the price level rose fivefold, the original $10 is equivalent to $50 in 2020 purchasing power, so the real gain is $110 - $50 = $60. The tax code ignores inflation and taxes the full $100 nominal gain, exaggerating the gain and increasing the tax burden on saving. Option 0 reverses reality (the code taxes the $100 nominal gain, not the $60 real gain, and inflation raises rather than lowers the burden). Option 2 is false because the chapter explicitly states capital gains are NOT indexed. Option 3 wrongly concludes no tax is owed. Option 4 misstates the direction of the effect on the nominal gain."
+          "explanation": "Because the price level rose fivefold, the original $10 equals $50 in 2020 purchasing power, so the real gain is $110 - $50 = $60. The tax code ignores inflation and taxes the full $100 nominal gain, exaggerating the gain and increasing the tax burden on saving. Option 0 reverses reality (the code taxes the $100 nominal gain, and inflation raises rather than lowers the burden). Option 2 is false because capital gains are not indexed for inflation. Option 3 wrongly concludes no tax is owed. Option 4 misstates the direction of the effect on the nominal gain."
         },
         {
           "id": "ch31-q21",
           "difficulty": "hard",
-          "question": "Consider an economy where the real interest rate is 4 percent and the government taxes ALL nominal interest income at a rate of 25 percent. Inflation is 8 percent, so by the Fisher effect the nominal interest rate is 12 percent. Applying the chapter's method for inflation-induced tax distortions (the tax is levied on the full nominal interest income, and the real return is then found by subtracting inflation), what is the saver's after-tax REAL interest rate?",
+          "question": "The real interest rate is 4 percent and the government taxes ALL nominal interest income at a rate of 25 percent. Inflation is 8 percent, so by the Fisher effect the nominal interest rate is 12 percent. If the tax is levied on the full nominal interest income and the real return is then found by subtracting inflation, what is the saver's after-tax REAL interest rate?",
           "options": [
             "3 percent",
             "1 percent",
@@ -625,7 +625,7 @@ window.QUIZ_DATA = {
             "-1 percent"
           ],
           "answer": 1,
-          "explanation": "Step 1: By the Fisher effect, the nominal interest rate = real rate + inflation = 4% + 8% = 12%. Step 2: The 25% tax is levied on the full nominal interest income, so tax = 0.25 x 12% = 3%, leaving an after-tax nominal rate of 12% - 3% = 9%. Step 3: The after-tax REAL rate = after-tax nominal rate - inflation = 9% - 8% = 1%. This illustrates the inflation-induced tax distortion: even though the pre-tax real return is 4%, taxing nominal interest in the presence of 8% inflation cuts the saver's real return to just 1%. Distractor 3% is the result with zero inflation (nominal = real = 4%, tax = 1%, after-tax real = 3%), which does not apply here. Distractor 9% is the after-tax NOMINAL rate and forgets to subtract inflation (nominal/real confusion). The 0% and -1% options come from miscomputing the tax or applying it to the wrong base."
+          "explanation": "By the Fisher effect the nominal rate = real + inflation = 4% + 8% = 12%. The 25% tax is levied on the full nominal interest income, so tax = 0.25 x 12% = 3%, leaving an after-tax nominal rate of 12% - 3% = 9%. The after-tax real rate = 9% - 8% = 1%. Even though the pre-tax real return is 4%, taxing nominal interest amid 8% inflation cuts the saver's real return to just 1%. The 3% distractor is the result with zero inflation (nominal = real = 4%, tax = 1%, after-tax real = 3%), which does not apply here. The 9% distractor is the after-tax nominal rate and forgets to subtract inflation. The 0% and -1% options come from miscomputing the tax or its base."
         },
         {
           "id": "ch31-q22",
@@ -639,7 +639,7 @@ window.QUIZ_DATA = {
             "Sophie loses and Bigbank gains, because hyperinflation raises the nominal interest rate she must pay on the loan"
           ],
           "answer": 0,
-          "explanation": "Because the debt is fixed in dollar terms ($100,000), surprise inflation erodes its real value: Sophie repays in dollars worth far less than expected, so the debtor gains and the creditor (Bigbank) loses. This is the chapter's cost of inflation called the arbitrary redistribution of wealth from UNEXPECTED inflation. Option 1 reverses the direction (that outcome describes surprise deflation). Option 2 misapplies the Fisher effect: nominal rates adjust only to EXPECTED inflation, and here the inflation was unexpected, so it could not have been built into the 7 percent rate. Option 3's menu and shoeleather costs are real costs of hyperinflation but are separate from, and do not describe, the asymmetric debtor/creditor redistribution; the loss is not shared equally. Option 4 is wrong because the nominal rate was locked at 7 percent when the loan was made and does not rise afterward."
+          "explanation": "Because the debt is fixed in dollar terms ($100,000), surprise inflation erodes its real value: Sophie repays in dollars worth far less than expected, so the debtor gains and the creditor loses. This is the arbitrary redistribution of wealth caused by unexpected inflation. Option 1 reverses the direction (that outcome describes surprise deflation). Option 2 misapplies the Fisher effect: nominal rates adjust only to expected inflation, and here it was unexpected, so it could not be built into the 7 percent rate. Option 3's menu and shoeleather costs are real but separate from the asymmetric debtor/creditor redistribution; the loss is not shared equally. Option 4 is wrong because the nominal rate was locked at 7 percent and does not rise afterward."
         },
         {
           "id": "ch31-q23",
@@ -653,12 +653,12 @@ window.QUIZ_DATA = {
             "Free silver would index farmers' loans to the price level, neutralizing the effect of deflation"
           ],
           "answer": 0,
-          "explanation": "The chapter explains that under the gold standard the quantity of gold fixed the money supply and price level; adding silver as money would have increased the money supply sharply, pushing up the price level and reducing the real burden of farmers' debts. The unanticipated deflation had raised the real value of the farmers' nominal debts, hurting farmer-debtors and enriching banker-creditors. The distractors fail: lowering the money supply (option 2) would worsen deflation, which hurts debtors, not helps them; the channel is monetary, not the real interest rate (option 3), which is set by loanable funds and would hurt debtors if it rose; the price level does not stay unchanged and no gold-reserve transfer occurs (option 4); and free silver does not index loans (option 5) even though indexation is a real Ch31 concept used elsewhere as a tax-distortion remedy."
+          "explanation": "Under the gold standard the quantity of gold fixed the money supply and price level; adding silver as money would have increased the money supply sharply, pushing up the price level and reducing the real burden of the farmers' debts. The unanticipated deflation had raised the real value of their nominal debts, hurting farmer-debtors and enriching banker-creditors. Lowering the money supply would worsen deflation, which hurts debtors; the channel is monetary, not a higher real interest rate, which is set by loanable funds and would also hurt debtors if it rose; the price level does not stay unchanged and no gold-reserve transfer occurs; and free silver does not index loans, even though indexation is used elsewhere as a tax-distortion remedy."
         },
         {
           "id": "ch31-q24",
           "difficulty": "hard",
-          "question": "Milton Friedman argued that a small, predictable amount of deflation could be desirable (the Friedman rule). Which sequence of reasoning correctly captures his argument as presented in the chapter?",
+          "question": "Milton Friedman argued that a small, predictable amount of deflation could be desirable (the Friedman rule). Which sequence of reasoning correctly captures his argument?",
           "options": [
             "Deflation lowers the nominal interest rate via the Fisher effect; a near-zero nominal rate reduces the cost of holding money; this minimizes shoeleather costs, which requires deflation equal to the real interest rate",
             "Deflation raises the real interest rate, which lowers the nominal interest rate and reduces menu costs to nearly zero",
@@ -667,7 +667,7 @@ window.QUIZ_DATA = {
             "Mild deflation transfers wealth from creditors to debtors, which Friedman favored because debtors are poorer"
           ],
           "answer": 0,
-          "explanation": "The chapter states the Friedman rule chain exactly: deflation lowers the nominal interest rate via the Fisher effect, a lower nominal rate reduces the cost of holding money, shoeleather costs are minimized by a nominal interest rate close to zero, and achieving that requires deflation equal to the real interest rate. The correct cost addressed is the shoeleather cost (not menu cost). The distractors fail because: (1) the real interest rate is set by loanable funds and is not 'raised' by deflation, and the relevant cost is shoeleather not menu; (2) a near-zero nominal rate requires deflation, not inflation, and the rationale is reduced shoeleather cost, not elimination of the inflation tax; (3) velocity is not the mechanism and the cost is shoeleather, not menu; (4) deflation actually enriches creditors at debtors' expense (the reverse of the claim), and this redistribution is a COST of unexpected deflation, the opposite of Friedman's case for mild, predictable deflation."
+          "explanation": "The Friedman rule chain runs: deflation lowers the nominal interest rate via the Fisher effect; a lower nominal rate reduces the cost of holding money; shoeleather costs are minimized when the nominal rate is close to zero; and achieving a near-zero nominal rate requires deflation equal to the real interest rate. The cost addressed is shoeleather, not menu, cost. The distractors fail because the real rate is set by loanable funds and is not raised by deflation; a near-zero nominal rate requires deflation, not inflation, and the rationale is reduced shoeleather cost rather than eliminating the inflation tax; velocity is not the mechanism; and deflation enriches creditors at debtors' expense, a cost of unexpected deflation rather than a reason to favor mild predictable deflation."
         }
       ]
     },
@@ -678,41 +678,41 @@ window.QUIZ_DATA = {
         {
           "id": "ch32-q01",
           "difficulty": "easy",
-          "question": "In open-economy macroeconomics, a country's net exports (also called the trade balance) are defined as:",
+          "question": "A country sells $700 billion of goods and services abroad and buys $900 billion of goods and services from abroad in the same year. What is its trade balance, and is it in surplus or deficit?",
           "options": [
-            "The value of its exports plus the value of its imports",
-            "The value of its exports minus the value of its imports",
-            "The value of its imports minus the value of its exports",
-            "The purchase of foreign assets by domestic residents minus the purchase of domestic assets by foreigners"
+            "+$1,600 billion, a surplus",
+            "-$200 billion, a deficit",
+            "+$200 billion, a surplus",
+            "-$1,600 billion, a deficit"
           ],
           "answer": 1,
-          "explanation": "The chapter defines net exports as the value of a country's exports minus the value of its imports, and notes this quantity is also called the trade balance. Adding exports and imports (option 0) and reversing the subtraction (option 2) both misstate the formula. Option 3 is the definition of net capital outflow, a separate variable that measures imbalance in financial markets rather than in markets for goods and services."
+          "explanation": "The trade balance (net exports) is the value of exports minus the value of imports: $700B - $900B = -$200B. Because imports exceed exports the balance is negative, a trade deficit. Adding exports and imports ($1,600B) confuses the balance with total trade volume, and reversing the subtraction flips the sign so a deficit looks like a surplus."
         },
         {
           "id": "ch32-q02",
           "difficulty": "easy",
-          "question": "According to the chapter, the accounting identity NCO = NX holds because:",
+          "question": "A U.S. firm exports $1 million of wheat and is paid in foreign currency, which it then uses to buy a foreign bond. Why does the resulting rise in net exports get matched, dollar for dollar, by a rise in net capital outflow?",
           "options": [
-            "It is a behavioral assumption that economists test against data each year",
-            "Every transaction that affects one side of the equation affects the other side by the same amount",
-            "Governments set trade policy so that net exports always match net capital outflow",
-            "Central banks intervene in currency markets to force the two values to be equal"
+            "Because economists assume the two move together and test that assumption against data each year",
+            "Because every international transaction involves a trade of a good or service for an asset of equal value, so the same dollars show up on both sides",
+            "Because governments set trade policy so that net exports are forced to match net capital outflow",
+            "Because central banks intervene in currency markets to keep the two values equal"
           ],
           "answer": 1,
-          "explanation": "The chapter states that NCO = NX is an identity, an equation that must hold because of how the variables are defined and measured, since every transaction that affects one side affects the other side by the same amount. It is not a behavioral assumption, a policy outcome, or a result of central bank intervention."
+          "explanation": "NCO = NX is an accounting identity: the foreign currency earned by an export must ultimately be used to buy a foreign good (an import) or a foreign asset (capital outflow), so any imbalance in trade is exactly mirrored by an imbalance in asset flows. It holds by definition, not as a behavioral assumption, a policy goal, or a product of central bank action."
         },
         {
           "id": "ch32-q03",
           "difficulty": "easy",
-          "question": "According to the chapter, the nominal exchange rate is best defined as:",
+          "question": "A traveler converts dollars into euros at a bank kiosk and is quoted '0.90 euros per dollar.' This quoted figure is an example of which concept?",
           "options": [
-            "The rate at which a person can trade the currency of one country for the currency of another",
-            "The rate at which a person can trade the goods and services of one country for those of another",
-            "The ratio of the foreign price level to the domestic price level in the long run",
-            "The average annual rate of inflation difference between two countries"
+            "The nominal exchange rate",
+            "The real exchange rate",
+            "Purchasing-power parity",
+            "The inflation differential between the two countries"
           ],
           "answer": 0,
-          "explanation": "The chapter defines the nominal exchange rate as the rate at which a person can trade the currency of one country for the currency of another (e.g., 80 yen per dollar). Option 1 describes the REAL exchange rate (trading goods and services). Option 2 describes the long-run PPP relationship (e = P*/P), and option 3 describes an inflation differential rather than the definition of the nominal rate."
+          "explanation": "A price at which one country's currency trades for another's (euros per dollar) is the nominal exchange rate. The real exchange rate instead compares the prices of goods and services across countries. Purchasing-power parity is a theory predicting where the nominal rate settles, and an inflation differential is a difference in inflation rates, not a currency price."
         },
         {
           "id": "ch32-q04",
@@ -726,12 +726,12 @@ window.QUIZ_DATA = {
             "The dollar is unchanged because the yen absorbed the move"
           ],
           "answer": 0,
-          "explanation": "With the book's convention of foreign currency per dollar, a rise from 80 to 90 yen per dollar means a dollar now buys MORE yen, so the dollar appreciates. At the same time a yen now buys less of the U.S. currency, so the yen depreciates. Because an exchange rate is a single relative price, the two currencies always move in opposite directions; any answer claiming both appreciate or both depreciate is therefore wrong."
+          "explanation": "With foreign currency quoted per dollar, a rise from 80 to 90 yen per dollar means a dollar now buys MORE yen, so the dollar appreciates. At the same time a yen now buys less U.S. currency, so the yen depreciates. Because an exchange rate is a single relative price, the two currencies always move in opposite directions; any answer claiming both appreciate or both depreciate is therefore wrong."
         },
         {
           "id": "ch32-q05",
           "difficulty": "easy",
-          "question": "A pound of coffee costs $5 in the United States and 500 yen in Japan. According to purchasing-power parity, what nominal exchange rate (yen per dollar) should this imply?",
+          "question": "A pound of coffee costs $5 in the United States and 500 yen in Japan. If a dollar is to buy the same amount of coffee in both countries, what must the nominal exchange rate (yen per dollar) be?",
           "options": [
             "0.01 yen per dollar",
             "5 yen per dollar",
@@ -740,7 +740,7 @@ window.QUIZ_DATA = {
             "2,500 yen per dollar"
           ],
           "answer": 2,
-          "explanation": "Purchasing-power parity sets the nominal exchange rate equal to the ratio of the foreign price level to the domestic price level: e = P*/P, with the foreign (yen) price in the numerator. Here e = 500 yen / $5 = 100 yen per dollar, which makes one dollar buy the same amount of coffee in both countries. Inverting the ratio gives the wrong 0.01 yen per dollar, the bare local prices give 5 or 500, and multiplying the two prices gives 2,500."
+          "explanation": "For a dollar to have equal purchasing power in both countries, the exchange rate must equal the ratio of the foreign price to the domestic price: 500 yen / $5 = 100 yen per dollar. At that rate, $5 converts to 500 yen, exactly the price of coffee in Japan. Inverting the ratio gives 0.01, the bare local prices give 5 or 500, and multiplying the two prices gives 2,500."
         },
         {
           "id": "ch32-q06",
@@ -754,7 +754,7 @@ window.QUIZ_DATA = {
             "A is an export and B is foreign direct investment"
           ],
           "answer": 1,
-          "explanation": "Buying a foreign-made car is a purchase of a good produced abroad and sold domestically, an import (a flow of goods). Buying stock in a foreign corporation is a purchase of a foreign asset, a flow of capital that raises U.S. net capital outflow. The chapter uses exactly this $30,000 Toyota example to separate the goods flow from the capital flow. Option 4 is a trap: the car is an import (not an export), and buying stock passively is foreign PORTFOLIO investment, not direct investment."
+          "explanation": "Buying a foreign-made car is a purchase of a good produced abroad, an import (a flow of goods). Buying stock in a foreign corporation is a purchase of a foreign asset, a flow of capital that raises U.S. net capital outflow. Option 4 is a trap: the car is an import, not an export, and buying shares passively is foreign PORTFOLIO investment, not direct investment, which requires actively managing the foreign operation."
         },
         {
           "id": "ch32-q07",
@@ -768,12 +768,12 @@ window.QUIZ_DATA = {
             "4 bushels of Japanese rice per bushel of American rice"
           ],
           "answer": 0,
-          "explanation": "Convert U.S. rice to yen: $100 x 80 yen/$ = 8,000 yen per bushel. Real rate = (e x P)/P* = 8,000/16,000 = 1/2 bushel of Japanese rice per bushel of American rice. American rice is half as expensive, so one bushel of it trades for only half a bushel of Japanese rice. Inverting the ratio (2) is the tempting distractor."
+          "explanation": "Convert U.S. rice to yen: $100 x 80 yen/$ = 8,000 yen per bushel. The real rate = (e x P)/P* = 8,000/16,000 = 1/2 bushel of Japanese rice per bushel of American rice. American rice is half as expensive, so one bushel of it trades for only half a bushel of Japanese rice. Inverting the ratio (2) is the tempting distractor; the other options skip the conversion or misplace the price levels."
         },
         {
           "id": "ch32-q08",
           "difficulty": "medium",
-          "question": "Suppose coffee beans sell for $4 a pound in Seattle and $5 a pound in Dallas. As traders exploit this arbitrage opportunity, what does the chapter say happens to the two prices?",
+          "question": "Coffee beans (a freely traded, identical commodity) sell for $4 a pound in Seattle and $5 a pound in Dallas. As traders act on this price gap, what happens to the two prices?",
           "options": [
             "Both prices fall as total supply increases",
             "The Seattle price falls and the Dallas price rises until they diverge further",
@@ -782,12 +782,12 @@ window.QUIZ_DATA = {
             "The prices stay fixed because arbitrage is illegal across state lines"
           ],
           "answer": 2,
-          "explanation": "Arbitrageurs buy where coffee is cheap (Seattle) and sell where it is dear (Dallas). This raises demand in Seattle, pushing its price up, and raises supply in Dallas, pushing its price down. The process continues until the prices are equal in the two markets. The law of one price drives prices together, not apart, and not both in the same direction."
+          "explanation": "Traders buy where coffee is cheap (Seattle) and resell where it is dear (Dallas). The added demand in Seattle pushes its price up, and the added supply in Dallas pushes its price down, until the two prices converge. This is the law of one price: arbitrage drives prices together, not apart, and not both in the same direction. There is nothing illegal about reselling a commodity across state lines."
         },
         {
           "id": "ch32-q09",
           "difficulty": "medium",
-          "question": "Under purchasing-power parity, the nominal exchange rate e (foreign currency per dollar) equals which ratio?",
+          "question": "If purchasing-power parity holds, the nominal exchange rate e (foreign currency per dollar) equals which ratio?",
           "options": [
             "The domestic price level divided by the foreign price level (P/P*)",
             "The foreign price level divided by the domestic price level (P*/P)",
@@ -795,12 +795,12 @@ window.QUIZ_DATA = {
             "The real exchange rate divided by the foreign price level"
           ],
           "answer": 1,
-          "explanation": "PPP starts from equal purchasing power at home and abroad, 1/P = e/P*, which rearranges to 1 = eP/P* and then solves for e = P*/P. So the nominal exchange rate equals the ratio of the FOREIGN price level (numerator) to the DOMESTIC price level (denominator). The inverted version P/P* is the common trap; multiplying the price levels and dividing the real exchange rate by P* are not part of the derivation."
+          "explanation": "PPP requires a dollar to have equal purchasing power at home and abroad: 1/P = e/P*, which rearranges to e = P*/P. So the nominal exchange rate equals the foreign price level (numerator) over the domestic price level (denominator). Inverting to P/P* is the common trap; multiplying the price levels or dividing the real rate by P* are not part of the derivation."
         },
         {
           "id": "ch32-q10",
           "difficulty": "medium",
-          "question": "From 1970 to 1998, annual inflation averaged 5.3% in the United States, 3.5% in Germany, and 9.6% in Italy. Using purchasing-power-parity reasoning, which conclusion follows about the U.S. dollar over this period?",
+          "question": "Over a long period, prices in the United States rose faster than prices in Germany but more slowly than prices in Italy. Using purchasing-power-parity reasoning, what should have happened to the U.S. dollar against the German mark and the Italian lira?",
           "options": [
             "The dollar appreciated against the mark and depreciated against the lira",
             "The dollar depreciated against the mark and appreciated against the lira",
@@ -809,40 +809,40 @@ window.QUIZ_DATA = {
             "The dollar's value was unaffected because all three countries had positive inflation"
           ],
           "answer": 1,
-          "explanation": "Under PPP, the currency of the country with higher inflation depreciates. U.S. prices rose faster than German prices (5.3% > 3.5%), so the dollar fell against the mark. U.S. prices rose more slowly than Italian prices (5.3% < 9.6%), so the dollar rose against the lira. The chapter states exactly this outcome: the dollar's value fell relative to the mark and rose relative to the lira."
+          "explanation": "Under PPP, the currency of the country with faster-rising prices loses value, because each unit of it buys progressively less. U.S. prices rose faster than German prices, so the dollar depreciated against the mark. U.S. prices rose more slowly than Italian prices, so the dollar appreciated against the lira. The direction of the move depends on the inflation difference, not merely on whether inflation is positive."
         },
         {
           "id": "ch32-q11",
           "difficulty": "medium",
-          "question": "The chapter gives two reasons purchasing-power parity does not always hold in practice. Which pair of examples correctly illustrates BOTH reasons?",
+          "question": "Purchasing-power parity often fails to hold exactly in practice. Which pair of examples best illustrates the two main reasons for this failure?",
           "options": [
-            "Coffee beans drive prices together, and Big Macs are sold worldwide",
-            "Haircuts are hard to trade, and German vs. American cars are not perfect substitutes",
-            "Hyperinflation distorts prices, and central banks fix exchange rates",
-            "Tariffs block trade, and interest rates differ across countries",
-            "Transportation is costly, and currencies are pegged to gold"
+            "Coffee beans, whose price is equalized by traders, and Big Macs, sold worldwide",
+            "Haircuts, which cannot be shipped between cities, and German versus American cars, which buyers do not view as identical",
+            "Hyperinflations that distort prices, and central banks that fix exchange rates",
+            "Tariffs that block trade, and interest rates that differ across countries",
+            "Costly transportation, and currencies pegged to gold"
           ],
           "answer": 1,
-          "explanation": "The chapter's two stated limitations are (1) many goods are not easily traded (its example is haircuts, where arbitrage is too limited to equalize prices across cities), and (2) even tradable goods are not perfect substitutes across countries (its example is German vs. American cars, kept apart by differing consumer tastes). Coffee and Big Macs illustrate cases where PPP/arbitrage tends to work; tariffs, interest rates, hyperinflation, and gold pegs are not the two limitations the chapter cites."
+          "explanation": "PPP breaks down because (1) many goods cannot be easily traded, so arbitrage cannot equalize their prices across locations (a haircut in one city cannot be shipped to another), and (2) even tradable goods are imperfect substitutes when consumers in different countries prefer different versions (German versus American cars). Coffee and Big Macs are cases where arbitrage tends to work; tariffs, interest rates, hyperinflation, and gold pegs are not the two core reasons PPP fails."
         },
         {
           "id": "ch32-q12",
           "difficulty": "hard",
-          "question": "An American manufacturing firm builds and actively operates a new factory in another country, financing it entirely on its own. Separately, an American mutual fund buys a passive minority stake in the shares of a foreign company. Which statement correctly describes both transactions according to the chapter?",
+          "question": "An American manufacturing firm builds and actively manages a new factory abroad, financing it itself. Separately, an American mutual fund buys a passive minority stake in a foreign company's shares. How should both transactions be classified?",
           "options": [
             "Both decrease U.S. net capital outflow because money leaves the United States",
             "Both increase U.S. net capital outflow; the factory is foreign direct investment and the share purchase is foreign portfolio investment",
-            "Both increase U.S. net capital outflow, and both are examples of foreign portfolio investment",
+            "Both increase U.S. net capital outflow, and both are foreign portfolio investment",
             "The factory increases U.S. net capital outflow, but the passive share purchase decreases it",
             "Neither affects net capital outflow, because both are flows of goods rather than capital"
           ],
           "answer": 1,
-          "explanation": "In both cases U.S. residents acquire assets located abroad, so both transactions increase U.S. net capital outflow (buying foreign assets raises NCO rather than lowering it, ruling out option 0). The chapter classifies an actively managed/operated investment as foreign direct investment (like McDonald's opening an outlet abroad) and a passive ownership stake as foreign portfolio investment (like buying stock in a foreign corporation). The factory is therefore direct investment and the fund's stake is portfolio investment. Option 2 mis-labels the factory, option 3 wrongly reverses one direction, and option 4 confuses capital flows with flows of goods."
+          "explanation": "In both cases U.S. residents acquire assets located abroad, so both raise U.S. net capital outflow (buying foreign assets raises NCO, ruling out option 0). When the investor actively runs the foreign operation, it is foreign direct investment (the factory); when the investor holds a passive stake without management control, it is foreign portfolio investment (the fund's shares). Option 2 mislabels the factory, option 3 wrongly reverses one direction, and option 4 confuses capital flows with goods flows."
         },
         {
           "id": "ch32-q13",
           "difficulty": "hard",
-          "question": "During one year, U.S. residents purchase $200 billion of foreign assets, while foreigners purchase $260 billion of U.S. assets. Based on the chapter's definition and sign conventions, U.S. net capital outflow is:",
+          "question": "During one year, U.S. residents purchase $200 billion of foreign assets, while foreigners purchase $260 billion of U.S. assets. What is U.S. net capital outflow, and what does its sign indicate?",
           "options": [
             "+$60 billion, indicating capital is flowing out of the country",
             "-$60 billion, indicating the country is experiencing a capital inflow",
@@ -851,25 +851,25 @@ window.QUIZ_DATA = {
             "Zero, because asset purchases always cancel out"
           ],
           "answer": 1,
-          "explanation": "Net capital outflow equals purchases of foreign assets by domestic residents ($200B) minus purchases of domestic assets by foreigners ($260B), which is -$60B. The chapter states that when net capital outflow is negative, foreigners are buying more domestic assets than domestic residents buy abroad, so the country is experiencing a capital inflow. Reversing the subtraction (+$60B), adding the figures (plus or minus $460B), or claiming they cancel (zero) all misapply the definition."
+          "explanation": "Net capital outflow equals purchases of foreign assets by domestic residents ($200B) minus purchases of domestic assets by foreigners ($260B) = -$60B. A negative value means foreigners bought more U.S. assets than U.S. residents bought abroad, so on net capital is flowing INTO the country. Reversing the subtraction (+$60B), adding the figures (plus or minus $460B), or claiming they cancel (zero) all misapply the definition."
         },
         {
           "id": "ch32-q14",
           "difficulty": "hard",
-          "question": "A U.S. programmer sells software to a Japanese buyer for 10,000 yen (a U.S. export). For the identity NX = NCO to hold, which use of the 10,000 yen would leave BOTH U.S. net exports and U.S. net capital outflow unchanged compared to before the software was written?",
+          "question": "A U.S. programmer sells software to a Japanese buyer for 10,000 yen (a U.S. export). For the identity NX = NCO to hold, which use of the 10,000 yen would leave BOTH U.S. net exports and U.S. net capital outflow unchanged compared with before the software was sold?",
           "options": [
-            "Holding the 10,000 yen as cash in a mattress",
+            "Holding the 10,000 yen as cash in a safe",
             "Buying stock in a Japanese corporation with the yen",
             "Using the yen to buy a Sony TV made in Japan",
             "Buying a Japanese government bond with the yen"
           ],
           "answer": 2,
-          "explanation": "Holding the yen, buying Japanese stock, or buying a Japanese bond each means a domestic resident acquires a foreign asset, so net capital outflow rises to match the rise in net exports from the software sale; relative to before the export, both NX and NCO are higher. But if the yen is spent on a Japanese-made Sony TV, U.S. imports rise by the same amount as the export, so net exports return to their original level. Because no American acquires a foreign asset (and no foreigner acquires a U.S. asset), net capital outflow is also unchanged. The export and import together represent balanced trade, leaving both sides of NX = NCO unchanged."
+          "explanation": "Holding yen, buying Japanese stock, or buying a Japanese bond each means a U.S. resident acquires a foreign asset, so net capital outflow rises to match the rise in net exports from the export; both NX and NCO end up higher. But spending the yen on a Japanese-made Sony TV is a U.S. import that exactly offsets the export, returning net exports to their original level. No one on either side acquires a foreign asset, so net capital outflow is also unchanged. The balanced export-and-import leaves both sides of NX = NCO where they started."
         },
         {
           "id": "ch32-q15",
           "difficulty": "hard",
-          "question": "A country's national saving rises while its domestic investment is unchanged. Using the open-economy identities S = I + NCO and NX = NCO, what must happen?",
+          "question": "A country's national saving rises while its domestic investment stays the same. Using S = I + NCO and NX = NCO, what must happen?",
           "options": [
             "NCO falls, so net exports fall and the country moves toward a trade deficit",
             "NCO rises, so net exports rise and capital flows out of the country",
@@ -877,12 +877,12 @@ window.QUIZ_DATA = {
             "Investment must rise by exactly the increase in saving, leaving NCO unchanged"
           ],
           "answer": 1,
-          "explanation": "From S = I + NCO with I held constant, an increase in S requires NCO to rise by the same amount. Since NX = NCO, net exports also rise (toward surplus), which means the nation buys more foreign assets and capital flows out of the country. The identity does not force investment to absorb the extra saving, so the other options are wrong."
+          "explanation": "From S = I + NCO with I held fixed, any increase in S must show up as an equal increase in NCO. Since NX = NCO, net exports also rise (toward surplus), meaning the nation uses its extra saving to buy foreign assets, so capital flows out. The identity does not force investment to absorb the extra saving, so the other options are inconsistent with the equations."
         },
         {
           "id": "ch32-q16",
           "difficulty": "hard",
-          "question": "Suppose a country's exports are less than its imports. Tracing through the identities Y = C + I + G + NX and S = Y - C - G (with NX = NCO), which sequence of conclusions is correct?",
+          "question": "A country's exports are less than its imports. Tracing through Y = C + I + G + NX and S = Y - C - G (with NX = NCO), which chain of conclusions is correct?",
           "options": [
             "NX > 0, so Y > C + I + G, so S > I, so NCO > 0",
             "NX < 0, so Y < C + I + G, so S < I, so NCO < 0",
@@ -890,38 +890,38 @@ window.QUIZ_DATA = {
             "NX < 0, so Y < C + I + G, so S > I, so NCO > 0"
           ],
           "answer": 1,
-          "explanation": "Exports < imports means NX = exports - imports < 0. In Y = C + I + G + NX, adding a negative NX makes income Y less than domestic spending C + I + G. Since S = Y - C - G = I + NX, a negative NX makes saving less than investment (S < I). Because NX = NCO, net capital outflow is also negative (NCO < 0): the country invests more than it saves and finances the gap by selling assets abroad, so capital flows in. This matches the trade-deficit column of Table 1."
+          "explanation": "Exports < imports means NX < 0. In Y = C + I + G + NX, a negative NX makes income Y smaller than domestic spending C + I + G. Since S = Y - C - G = I + NX, a negative NX makes saving fall short of investment (S < I). Because NX = NCO, net capital outflow is also negative: the country invests more than it saves and covers the gap by selling assets abroad, drawing capital in."
         },
         {
           "id": "ch32-q17",
           "difficulty": "hard",
-          "question": "The chapter explains the early-1980s U.S. trade deficit (capital inflow rising from 0.5% to 2.9% of GDP) as largely driven by a fall in national saving stemming from the Reagan tax cuts and higher defense spending. Through what mechanism does a larger government budget deficit produce this trade-deficit outcome?",
+          "question": "A government enacts large tax cuts and raises spending, turning its budget toward a deficit. Through what mechanism does this push the country's trade balance toward deficit?",
           "options": [
-            "A budget deficit raises public saving, which raises national saving and reduces net capital outflow",
-            "A budget deficit reduces public saving, lowering national saving; with investment roughly steady, net capital outflow falls (becomes more negative) and the trade balance moves toward deficit",
-            "A budget deficit directly raises imports through tariffs, with no effect on national saving",
-            "A budget deficit raises investment so much that national saving rises and net capital outflow becomes positive"
+            "The budget deficit raises public saving, which raises national saving and reduces net capital outflow",
+            "The budget deficit reduces public saving, lowering national saving; with investment roughly steady, net capital outflow becomes more negative and the trade balance moves toward deficit",
+            "The budget deficit directly raises imports through tariffs, with no effect on national saving",
+            "The budget deficit raises investment so much that national saving rises and net capital outflow becomes positive"
           ],
           "answer": 1,
-          "explanation": "A larger government budget deficit reduces public saving and therefore national saving. In the identity S = I + NCO, with S falling and investment not rising to offset it, NCO becomes more negative; capital flows in and the trade balance moves toward deficit. This is exactly the mechanism the chapter attributes to the 1980-1987 episode (a 2.7 percentage point fall in national saving driving a 2.4 point rise in capital inflow). A budget deficit lowers, not raises, public saving (ruling out option 0); tariffs are not the channel (ruling out option 2); and the investment-boom story with positive NCO describes the 1990s, not this episode (ruling out option 3)."
+          "explanation": "A larger government budget deficit reduces public saving and therefore national saving. In S = I + NCO, with S falling and investment not rising to offset it, NCO becomes more negative: capital flows in and the trade balance moves toward deficit. A budget deficit lowers, not raises, public saving (ruling out option 0); tariffs are not the channel (option 2); and a saving-raising investment boom describes a different scenario entirely (option 3)."
         },
         {
           "id": "ch32-q18",
           "difficulty": "hard",
-          "question": "The chapter contrasts the U.S. trade deficit of the 1990s with the one of the 1980s. During the 1990s the capital inflow into the United States grew from 0.5% to 3.7% of GDP. According to the chapter, what made the 1990s episode different, and how does the chapter judge it?",
+          "question": "Two countries each run a large trade deficit. In one, the deficit arises because national saving collapsed; in the other, national saving held up but domestic investment surged. Why might the second deficit be judged far less worrying than the first?",
           "options": [
-            "Saving fell sharply, just as in the 1980s, so the deficit was equally worrying because the nation was providing less for its future",
-            "Saving actually rose (the budget went from deficit to surplus) while investment surged from 15.3% to 19.9% of GDP; the deficit financed new capital and is judged manageable if that capital yields a good return",
-            "Investment fell while saving stayed flat, so the deficit reflected a collapse in domestic capital accumulation",
-            "Net exports turned positive, so there was no trade deficit in the 1990s to evaluate"
+            "It is equally worrying, because any trade deficit means the nation is providing less for its future",
+            "The borrowed foreign funds are financing new productive capital, which can yield a return that more than repays the borrowing, rather than merely covering a shortfall in saving",
+            "A deficit driven by investment reflects a collapse in domestic capital accumulation, which is always harmless",
+            "A deficit driven by investment is not really a trade deficit, since net exports turn positive"
           ],
           "answer": 1,
-          "explanation": "The chapter states that none of the 1990s change came from declining saving; saving actually rose as the federal budget switched from deficit to surplus, while investment jumped from 15.3% to 19.9% of GDP amid the information-technology boom. The economy borrowed from abroad to finance new capital goods, which the chapter judges acceptable if that capital provides a good return, unlike a deficit caused by falling saving (as in the 1980s), where the nation provides less for its future."
+          "explanation": "A trade deficit means a nation borrows from abroad. When the borrowing finances a surge in productive investment, the new capital can generate returns that more than repay foreign lenders, so the country need not be worse off. A deficit caused by falling saving, by contrast, leaves less capital for the future. Both cases are genuine trade deficits with negative net exports, so options 3 and 4 are wrong, and the investment story is not a collapse in capital accumulation."
         },
         {
           "id": "ch32-q19",
           "difficulty": "hard",
-          "question": "The dollar-yen nominal exchange rate falls from 100 to 80 yen per dollar. At the same time, the U.S. price index rises from 180 to 200 while Japan's price index is unchanged. Using the real exchange rate formula (e x P)/P*, how does the U.S. real exchange rate change, and what does this imply for U.S. net exports?",
+          "question": "The dollar-yen nominal exchange rate falls from 100 to 80 yen per dollar. Meanwhile the U.S. price index rises from 180 to 200 while Japan's price index is unchanged. Using (e x P)/P*, how does the U.S. real exchange rate change, and what does that imply for U.S. net exports?",
           "options": [
             "The real exchange rate falls, so U.S. goods become relatively cheaper and net exports rise",
             "The real exchange rate rises, so U.S. goods become relatively more expensive and net exports fall",
@@ -930,12 +930,12 @@ window.QUIZ_DATA = {
             "The change cannot be determined without knowing the U.S. interest rate"
           ],
           "answer": 0,
-          "explanation": "Because Japan's price index (P*) is unchanged, compare the numerator e x P. Before: 100 x 180 = 18,000. After: 80 x 200 = 16,000. The numerator falls, so the real exchange rate falls. A real depreciation makes U.S. goods relatively cheaper, encouraging more purchases of U.S. goods, so exports rise and imports fall, raising net exports. The nominal depreciation outweighs the relative rise in U.S. prices, so the effects do not offset."
+          "explanation": "Since P* is unchanged, compare the numerator e x P. Before: 100 x 180 = 18,000. After: 80 x 200 = 16,000. The numerator falls, so the real exchange rate falls. A real depreciation makes U.S. goods relatively cheaper, raising exports and reducing imports, so net exports rise. The nominal depreciation outweighs the relative rise in U.S. prices, so the two effects do not cancel."
         },
         {
           "id": "ch32-q20",
           "difficulty": "hard",
-          "question": "Suppose the U.S. nominal exchange rate (yen per dollar) stays exactly the same, but over the year U.S. prices rise sharply while Japanese prices are unchanged. Using Real exchange rate = (e x P)/P*, what happens to the U.S. real exchange rate and to U.S. net exports?",
+          "question": "The U.S. nominal exchange rate (yen per dollar) stays exactly the same over a year, but U.S. prices rise sharply while Japanese prices are unchanged. Using Real exchange rate = (e x P)/P*, what happens to the U.S. real exchange rate and to U.S. net exports?",
           "options": [
             "The real exchange rate rises (real appreciation), making U.S. goods relatively more expensive, so net exports fall",
             "The real exchange rate falls (real depreciation), making U.S. goods relatively cheaper, so net exports rise",
@@ -944,35 +944,35 @@ window.QUIZ_DATA = {
             "Net exports must rise because higher U.S. prices mean higher export revenue"
           ],
           "answer": 0,
-          "explanation": "In Real exchange rate = (e x P)/P*, the nominal rate e is fixed and the foreign price level P* is fixed, while the domestic price level P rises. A larger P raises the numerator (e x P), so the real exchange rate rises even though the nominal rate never changed. A rise in the U.S. real exchange rate is a real appreciation, which makes U.S. goods more expensive relative to foreign goods; the chapter states this causes U.S. net exports to decline. The key point is that the real rate depends on the nominal rate AND on both countries' price levels, so a constant nominal rate (option 2) does not imply a constant real rate."
+          "explanation": "In (e x P)/P*, the nominal rate e and the foreign price level P* are both fixed while the domestic price level P rises. A larger P raises the numerator, so the real exchange rate rises even though the nominal rate never moved. A higher real rate is a real appreciation, which makes U.S. goods more expensive relative to foreign goods and reduces net exports. The real rate depends on the nominal rate AND both price levels, so a constant nominal rate does not imply a constant real rate."
         },
         {
           "id": "ch32-q21",
           "difficulty": "hard",
-          "question": "The chapter explains a hyperinflation by linking two theories. In the correct causal chain, a central bank that rapidly prints money causes:",
+          "question": "A central bank prints money very rapidly during a hyperinflation. Combining the quantity theory of money with purchasing-power parity, what is the correct causal chain to the nominal exchange rate?",
           "options": [
-            "The price level to rise (quantity theory), which causes the currency to depreciate (PPP)",
-            "The currency to appreciate (PPP), which then causes the price level to fall (quantity theory)",
-            "The price level to fall (quantity theory), which causes the currency to appreciate (PPP)",
-            "The exchange rate to change first, which then drives the money supply via PPP",
-            "No change in the exchange rate, because hyperinflation affects only domestic prices"
+            "Money growth raises the price level (quantity theory), and the higher price level causes the currency to depreciate (PPP)",
+            "Money growth causes the currency to appreciate (PPP), which then causes the price level to fall (quantity theory)",
+            "Money growth lowers the price level (quantity theory), which causes the currency to appreciate (PPP)",
+            "The exchange rate changes first, which then drives the money supply via PPP",
+            "The exchange rate does not change, because hyperinflation affects only domestic prices"
           ],
           "answer": 0,
-          "explanation": "The chapter's hyperinflation case study says the quantity theory of money explains how the money supply affects the price level, and purchasing-power parity (PPP) explains how the price level affects the nominal exchange rate. So the chain runs money up -> price level up -> currency depreciates. Printing money makes the currency lose value both in goods and against other currencies (the opposite of appreciation), and the causation flows money -> prices -> exchange rate, not the reverse."
+          "explanation": "The quantity theory links money growth to a rising price level; purchasing-power parity then links a rising price level to a falling currency value abroad. So the chain runs: money up -> price level up -> currency depreciates. Rapid money printing makes a currency lose value both in goods and against other currencies (not appreciate), and the causation flows from money to prices to the exchange rate, not the reverse."
         },
         {
           "id": "ch32-q22",
           "difficulty": "hard",
-          "question": "In the Big Mac index, the PPP-predicted exchange rate is the one that makes a Big Mac cost the same in both countries. Suppose a Big Mac is $5.65 in the United States and 34,000 rupiah in Indonesia, so the predicted rate is about 6,018 rupiah/$, while the actual rate is 14,517 rupiah/$. What does this imply about the rupiah relative to the PPP prediction?",
+          "question": "Comparing a Big Mac's local price across countries, a dollar buys far MORE units of a country's currency at the actual exchange rate than the rate that would equalize Big Mac prices. Converted at the actual rate, a Big Mac there costs only about $2.34 versus $5.65 in the United States. What does this imply about that currency?",
           "options": [
-            "The rupiah is overvalued: at the actual rate a Big Mac costs more dollars in Indonesia than in the U.S.",
-            "The rupiah is undervalued: at the actual rate a Big Mac is cheaper in dollar terms in Indonesia than in the U.S.",
+            "It is overvalued: at the actual rate a Big Mac costs more dollars there than in the U.S.",
+            "It is undervalued: at the actual rate a Big Mac is cheaper in dollar terms there than in the U.S.",
             "The two currencies are exactly at purchasing-power parity for Big Macs",
-            "The dollar is undervalued because it buys fewer rupiah than predicted",
-            "Arbitrage in Big Macs will instantly force the actual rate down to 6,018 rupiah/$"
+            "The dollar is undervalued because it buys fewer units of the foreign currency than predicted",
+            "Arbitrage in Big Macs will instantly force the actual rate to the PPP-predicted level"
           ],
           "answer": 1,
-          "explanation": "The predicted (PPP) rate is 34,000/5.65 = about 6,018 rupiah/$. The actual rate, 14,517 rupiah/$, is much higher, so a dollar buys far more rupiah than PPP predicts. Converting the Indonesian price at the actual rate gives 34,000/14,517 = about $2.34, far below the U.S. price of $5.65, so the Indonesian Big Mac is cheaper in dollar terms and the rupiah is undervalued relative to the PPP prediction. Option 0 reverses the direction; the rates clearly differ, ruling out option 2; the dollar buys MORE (not fewer) rupiah than predicted, so option 3 is false; and the chapter states international arbitrage in Big Macs is not easy, so it does not instantly equalize the rates, ruling out option 4."
+          "explanation": "If a dollar buys more foreign currency than the PPP-predicted rate, then converting the local Big Mac price into dollars yields a figure below the U.S. price ($2.34 versus $5.65). The good is cheaper in dollar terms abroad, which means the currency is undervalued relative to the PPP benchmark. Option 0 reverses the direction; the rates clearly differ, so option 2 is false; the dollar buys MORE, not fewer, units, so option 3 is wrong; and Big Macs cannot be shipped and arbitraged, so the rates do not snap to PPP instantly."
         }
       ]
     },
@@ -983,7 +983,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch33-q01",
           "difficulty": "easy",
-          "question": "In the market for loanable funds for an open economy, the chapter says the DEMAND for loanable funds comes from two distinct sources. What are they?",
+          "question": "In an open economy, national saving must equal domestic investment plus net capital outflow. When this identity is read as a supply-and-demand statement about loanable funds, which two quantities together make up the DEMAND for those funds?",
           "options": [
             "National saving and net exports",
             "Domestic investment and net capital outflow",
@@ -992,12 +992,12 @@ window.QUIZ_DATA = {
             "Government borrowing and household borrowing only"
           ],
           "answer": 1,
-          "explanation": "From the identity S = I + NCO, national saving (S) is the SUPPLY of loanable funds, while domestic investment (I) plus net capital outflow (NCO) together make up the DEMAND for loanable funds. Buying a capital asset adds to demand whether the asset is at home (I) or abroad (NCO). 'National saving and net exports' is wrong because saving is the supply side and NX is the forex-market concept. 'Public plus private saving' is just a decomposition of S (the supply side). The real interest rate and real exchange rate are the prices the two markets determine, not sources of demand."
+          "explanation": "From S = I + NCO, national saving (S) is the SUPPLY of loanable funds, while domestic investment (I) plus net capital outflow (NCO) together make up the DEMAND. Buying a capital asset draws on loanable funds whether the asset is at home (I) or abroad (NCO). 'National saving and net exports' is wrong because saving is the supply side and NX belongs to the forex market. 'Public plus private saving' is just a decomposition of S (the supply side). The real interest rate and real exchange rate are the prices the markets determine, not sources of demand."
         },
         {
           "id": "ch33-q02",
           "difficulty": "easy",
-          "question": "In the model's market for foreign-currency exchange, what is the source of the SUPPLY of dollars and what is the source of the DEMAND for dollars?",
+          "question": "In the market where dollars are traded for foreign currency, one side of the market is generated by Americans converting dollars to buy foreign assets, and the other by foreigners converting their currency to buy U.S. goods and services. Which side is which?",
           "options": [
             "Supply of dollars comes from net exports; demand for dollars comes from net capital outflow.",
             "Supply of dollars comes from net capital outflow; demand for dollars comes from net exports.",
@@ -1006,39 +1006,39 @@ window.QUIZ_DATA = {
             "Supply of dollars comes from net capital outflow; demand for dollars comes from domestic investment."
           ],
           "answer": 1,
-          "explanation": "In this model the supply of dollars in the foreign-currency market equals net capital outflow (NCO): Americans buying foreign assets must convert dollars into foreign currency, supplying dollars. The demand for dollars equals net exports (NX): foreigners buying U.S. goods and services must convert their currency into dollars. Option 0 reverses these, and the others substitute unrelated quantities like saving, investment, or the budget deficit."
+          "explanation": "The supply of dollars equals net capital outflow (NCO): Americans buying foreign assets must convert dollars into foreign currency, supplying dollars. The demand for dollars equals net exports (NX): foreigners buying U.S. goods and services must convert their currency into dollars. Option 0 reverses these; the others substitute unrelated quantities like saving, investment, or the budget deficit."
         },
         {
           "id": "ch33-q03",
           "difficulty": "medium",
-          "question": "Why does the supply curve in the open-economy market for loanable funds slope UPWARD, while the demand curve slopes DOWNWARD?",
+          "question": "Consider how lenders and borrowers in an open-economy loanable-funds market each respond to a change in the real interest rate. Which response correctly explains the slope of BOTH the supply and the demand curve?",
           "options": [
-            "Supply slopes up because a higher real interest rate increases the reward for saving; demand slopes down because a higher real interest rate raises the cost of borrowing, reducing both investment and net capital outflow",
-            "Supply slopes up because a higher price level raises saving; demand slopes down because a higher exchange rate reduces investment",
-            "Supply slopes up because a higher real interest rate reduces saving; demand slopes down because a higher rate raises net capital outflow",
-            "Supply slopes up because the Fed fixes the quantity supplied; demand slopes down because foreigners always buy fewer bonds"
+            "A higher real interest rate increases the reward for saving, so quantity supplied rises (upward-sloping supply); a higher real interest rate raises the cost of borrowing, reducing both investment and net capital outflow, so quantity demanded falls (downward-sloping demand)",
+            "A higher price level raises saving (upward supply); a higher exchange rate reduces investment (downward demand)",
+            "A higher real interest rate reduces saving (upward supply); a higher rate raises net capital outflow (downward demand)",
+            "The Fed fixes the quantity supplied (vertical supply); foreigners always buy fewer bonds (downward demand)"
           ],
           "answer": 0,
-          "explanation": "A higher real interest rate raises the return to saving, so the quantity of loanable funds supplied (national saving) rises, giving an upward-sloping supply curve. A higher real interest rate raises the cost of borrowing, which discourages domestic investment AND reduces net capital outflow (home bonds become more attractive), so quantity demanded falls, giving a downward-sloping demand curve. The other options confuse the real interest rate with the price level or exchange rate, reverse saving's response, or wrongly make the supply curve vertical."
+          "explanation": "A higher real interest rate raises the return to saving, so the quantity of loanable funds supplied (national saving) rises: upward-sloping supply. A higher real interest rate raises the cost of borrowing, discouraging domestic investment AND reducing net capital outflow (home bonds become more attractive than foreign ones), so quantity demanded falls: downward-sloping demand. The other options confuse the real interest rate with the price level or exchange rate, reverse saving's response, or wrongly make supply vertical."
         },
         {
           "id": "ch33-q04",
           "difficulty": "easy",
-          "question": "In Mankiw's analysis, \"capital flight\" is defined as:",
+          "question": "Following an assassination and other political turmoil in 1994, investors worldwide abruptly slashed their holdings of Mexican assets. The economic term for this kind of large, sudden drop in the demand for a country's assets is:",
           "options": [
             "A government deliberately selling its foreign-currency reserves to defend a fixed exchange rate",
-            "A large and sudden reduction in the demand for assets located in a country",
+            "Capital flight",
             "A permanent ban on residents purchasing any foreign assets",
             "The gradual movement of factories and physical capital across a border in search of cheaper labor",
             "A central bank raising interest rates to attract foreign savings"
           ],
           "answer": 1,
-          "explanation": "Mankiw defines capital flight as a large and sudden reduction in the demand for assets located in a country, typically triggered by political instability (e.g., Mexico in 1994). The other options describe defending a peg with reserves, capital controls, the physical relocation of factories, and monetary policy, none of which is the chapter's definition of capital flight."
+          "explanation": "Capital flight is a large and sudden reduction in the demand for assets located in a country, typically triggered by political instability, as in Mexico in 1994. The other options describe defending a peg with reserves, capital controls, the physical relocation of factories, and monetary policy, none of which is capital flight."
         },
         {
           "id": "ch33-q05",
           "difficulty": "medium",
-          "question": "Net capital outflow is described as the variable that LINKS the market for loanable funds and the market for foreign-currency exchange. Which statement most accurately describes this linking role?",
+          "question": "Net capital outflow is the single variable that ties the loanable-funds market to the foreign-currency-exchange market. Which statement correctly identifies the role NCO plays in EACH market?",
           "options": [
             "NCO is part of the SUPPLY of loanable funds and is the DEMAND for dollars in the forex market",
             "NCO is part of the DEMAND for loanable funds and is the SUPPLY of dollars in the forex market",
@@ -1046,21 +1046,21 @@ window.QUIZ_DATA = {
             "NCO determines the price level in both markets, leaving the real interest rate and real exchange rate fixed"
           ],
           "answer": 1,
-          "explanation": "NCO appears as part of the DEMAND for loanable funds (demand = I + NCO) and as the SUPPLY of dollars in the foreign-currency-exchange market (supply of dollars = NCO). That dual role is exactly how the two markets are connected. NCO is a quantity, not a price (the prices are the real interest rate and the real exchange rate), so the price/price-level options are wrong; demand for dollars is NX, not NCO, so the first option is also wrong."
+          "explanation": "NCO appears as part of the DEMAND for loanable funds (demand = I + NCO) and as the SUPPLY of dollars in the foreign-currency-exchange market (supply of dollars = NCO). That dual role is how the two markets are connected. NCO is a quantity, not a price (the prices are the real interest rate and the real exchange rate), so the price/price-level options are wrong; demand for dollars is NX, not NCO, so the first option is also wrong."
         },
         {
           "id": "ch33-q06",
           "difficulty": "medium",
-          "question": "The supply-of-dollars curve in the market for foreign-currency exchange is drawn VERTICAL. Which statement BEST explains why?",
+          "question": "In the foreign-currency-exchange market, the quantity of dollars supplied does not respond to the real exchange rate at all. Which reasoning correctly accounts for this, and what shape does it give the supply-of-dollars curve?",
           "options": [
-            "The quantity of dollars supplied (net capital outflow) depends on the real interest rate, not on the real exchange rate, so it does not vary as the exchange rate changes.",
-            "Net capital outflow is fixed by law and cannot respond to any market price.",
+            "The quantity supplied (net capital outflow) is determined by the real interest rate, not the real exchange rate, so it does not vary as the exchange rate changes; the curve is vertical.",
+            "Net capital outflow is fixed by law and cannot respond to any market price, so the curve is vertical.",
             "A stronger dollar always increases net capital outflow by exactly the amount needed to keep the curve vertical.",
-            "The supply of dollars depends only on net exports, which are assumed constant.",
-            "The real exchange rate has no effect on any quantity in the open-economy model."
+            "The supply of dollars depends only on net exports, which are assumed constant, so the curve is vertical.",
+            "The real exchange rate has no effect on any quantity in the open-economy model, so every curve is vertical."
           ],
           "answer": 0,
-          "explanation": "The supply of dollars equals net capital outflow, and NCO is determined by the real interest rate (set in the loanable-funds market), not by the real exchange rate. Since the quantity supplied does not respond to the price clearing this market (the real exchange rate), the curve is vertical. The chapter also notes the cost and benefit of buying foreign assets offset. NCO is not fixed by law, does not depend on NX (which is the demand for dollars), and the exchange rate certainly affects net exports (the downward-sloping demand curve)."
+          "explanation": "The supply of dollars equals net capital outflow, and NCO is determined by the real interest rate (set in the loanable-funds market), not by the real exchange rate. Since the quantity supplied does not respond to the price clearing this market (the real exchange rate), the curve is vertical. NCO is not fixed by law, does not depend on NX (which is the demand for dollars), and the exchange rate certainly affects net exports (the downward-sloping demand curve), so the other options fail."
         },
         {
           "id": "ch33-q07",
@@ -1074,7 +1074,7 @@ window.QUIZ_DATA = {
             "Country Y's negative NCO is added to supply rather than affecting demand at all"
           ],
           "answer": 1,
-          "explanation": "Demand for loanable funds = I + NCO. When NCO is positive (Country X), residents are buying foreign assets, which adds to the demand for domestically generated loanable funds. When NCO is negative (Country Y), foreign capital is flowing in, so the demand for DOMESTICALLY generated funds is I plus a negative number, i.e., below the level of domestic investment alone. The reversed option has the sign logic backwards. NCO does enter demand, so 'same demand' and 'equals I exactly' are wrong; the convention S = I + NCO treats NCO as part of demand, so the supply-side option is wrong."
+          "explanation": "Demand for loanable funds = I + NCO. When NCO is positive (Country X), residents are buying foreign assets, which adds to the demand for domestically generated loanable funds. When NCO is negative (Country Y), foreign capital is flowing in, so demand for DOMESTICALLY generated funds is I plus a negative number, i.e., below the level of domestic investment alone. The reversed option has the sign logic backwards. NCO does enter demand, so 'same demand' and 'equals I exactly' are wrong; the S = I + NCO convention treats NCO as part of demand, so the supply-side option is wrong."
         },
         {
           "id": "ch33-q08",
@@ -1088,7 +1088,7 @@ window.QUIZ_DATA = {
             "Both curves become vertical, so neither the exchange rate nor net exports can be determined; this is the special case of a closed economy."
           ],
           "answer": 2,
-          "explanation": "The demand for dollars in the forex market comes from net exports. If net exports respond without limit to the real exchange rate, the quantity of dollars demanded becomes infinitely sensitive to price, so the demand-for-dollars curve becomes horizontal and the real exchange rate is fixed regardless of supply. The chapter identifies this as the special case of purchasing-power parity (PPP). The chapter instead assumes a downward-sloping demand curve because PPP often fails due to transport costs and imperfect substitutability of goods, which lets the real exchange rate vary over time."
+          "explanation": "The demand for dollars comes from net exports. If net exports respond without limit to the real exchange rate, the quantity of dollars demanded becomes infinitely sensitive to price, so the demand-for-dollars curve becomes horizontal and the real exchange rate is fixed regardless of supply. This is the special case of purchasing-power parity (PPP). The standard model instead assumes a downward-sloping demand curve because PPP often fails (transport costs, imperfect substitutability of goods), which lets the real exchange rate vary over time."
         },
         {
           "id": "ch33-q09",
@@ -1102,7 +1102,7 @@ window.QUIZ_DATA = {
             "NCO is unchanged because foreign purchases of domestic assets affect only the exchange rate, not loanable funds"
           ],
           "answer": 1,
-          "explanation": "A capital inflow (foreigners buying domestic assets) lowers this country's NET capital outflow, so NCO falls (becomes more negative). Because demand for loanable funds = I + NCO, a lower NCO shifts the DEMAND curve left, which lowers the real interest rate. Consistent with the chapter's logic that a higher real interest rate reduces NCO, the resulting lower real interest rate would, on its own, tend to push NCO back up. The options with NCO rising misread an inflow as an outflow; the supply-shift option misclassifies which curve NCO belongs to; and 'unchanged' ignores that a capital inflow directly changes NCO."
+          "explanation": "A capital inflow (foreigners buying domestic assets) lowers this country's net capital outflow, so NCO falls (becomes more negative). Because demand for loanable funds = I + NCO, a lower NCO shifts the DEMAND curve left, which lowers the real interest rate. Since a higher real interest rate reduces NCO, the resulting lower real interest rate would, on its own, tend to push NCO back up. The options with NCO rising misread an inflow as an outflow; the supply-shift option misclassifies which curve NCO belongs to; and 'unchanged' ignores that a capital inflow directly changes NCO."
         },
         {
           "id": "ch33-q10",
@@ -1130,12 +1130,12 @@ window.QUIZ_DATA = {
             "The tariff lowers national saving, shifting the supply of loanable funds left and pushing the trade balance toward surplus."
           ],
           "answer": 1,
-          "explanation": "A tariff reduces imports, which raises net exports at the initial exchange rate and therefore increases the demand for the domestic currency, causing the real exchange rate to appreciate. Trade policy does NOT touch the loanable-funds market, so national saving, investment, the real interest rate, and NCO are all unchanged. Because the supply of currency (NCO) is unchanged, the appreciation reduces exports and raises other imports by just enough to leave overall NX unchanged. Option 0 invents a loanable-funds shift; option 2 describes capital flight; option 3 gets the curve and direction wrong; option 4 wrongly assumes a tariff lowers saving."
+          "explanation": "A tariff reduces imports, which raises net exports at the initial exchange rate and therefore increases the demand for the domestic currency, causing the real exchange rate to appreciate. Trade policy does not touch the loanable-funds market, so national saving, investment, the real interest rate, and NCO are all unchanged. Because the supply of currency (NCO) is unchanged, the appreciation reduces exports and raises other imports by just enough to leave overall NX unchanged. Option 0 invents a loanable-funds shift; option 2 describes capital flight; option 3 gets the curve and direction wrong; option 4 wrongly assumes a tariff lowers saving."
         },
         {
           "id": "ch33-q12",
           "difficulty": "medium",
-          "question": "Consider the chapter's definitional conventions for recording transactions in the market for foreign-currency exchange. An American mutual fund decides to buy newly issued German government bonds, while at the same time a German citizen buys a U.S. corporate bond. How are these two transactions treated?",
+          "question": "An American mutual fund buys newly issued German government bonds, while at the same time a German citizen buys a U.S. corporate bond. Using the standard accounting for the foreign-currency-exchange market, how are these two transactions recorded?",
           "options": [
             "The American buying German bonds is an increase in the demand for dollars; the German buying U.S. bonds is an increase in the supply of dollars.",
             "Both transactions increase the demand for dollars.",
@@ -1144,26 +1144,26 @@ window.QUIZ_DATA = {
             "The American buying German bonds is treated as a decrease in the quantity of dollars demanded; the German buying the U.S. bond is treated as an increase in the quantity of dollars demanded."
           ],
           "answer": 2,
-          "explanation": "By convention, capital flows are recorded on the SUPPLY (NCO) side of the dollar market, while demand for dollars is reserved for net exports of goods and services. An American buying a foreign asset is a capital outflow that raises NCO and adds to the quantity of dollars supplied. A foreigner buying a U.S. asset is a capital inflow that lowers NCO and is treated as a DECREASE in the quantity of dollars supplied (not an increase in demand). Hence the two transactions both act on the supply side in opposite directions."
+          "explanation": "Capital flows are recorded on the SUPPLY (NCO) side of the dollar market, while demand for dollars is reserved for net exports of goods and services. An American buying a foreign asset is a capital outflow that raises NCO and adds to the quantity of dollars supplied. A foreigner buying a U.S. asset is a capital inflow that lowers NCO and is treated as a DECREASE in the quantity of dollars supplied (not an increase in demand). So both transactions act on the supply side, in opposite directions."
         },
         {
           "id": "ch33-q13",
           "difficulty": "hard",
-          "question": "An economist writes the open-economy loanable-funds identity in TWO algebraically equivalent ways: (1) S = I + NCO, treating NCO as part of the DEMAND for loanable funds, and (2) S - NCO = I, treating a capital outflow as a reduction in the SUPPLY of loanable funds. Suppose net capital outflow now INCREASES, with all else held the same. Which statement correctly describes how this single event is represented under each convention, and what the two conventions share?",
+          "question": "The open-economy loanable-funds identity can be written two algebraically equivalent ways: (1) S = I + NCO, treating NCO as part of the DEMAND for loanable funds, and (2) S - NCO = I, treating a capital outflow as a reduction in the SUPPLY of loanable funds. Suppose net capital outflow now INCREASES, all else held the same. How is this single event represented under each convention, and what do the two conventions share?",
           "options": [
-            "Under convention (1) demand shifts right; under convention (2) supply shifts left; both conventions describe the same underlying change and yield the same equilibrium (the real interest rate rises in either framing)",
+            "Under convention (1) demand shifts right; under convention (2) supply shifts left; both describe the same underlying change and yield the same equilibrium (the real interest rate rises in either framing)",
             "Under convention (1) demand shifts left; under convention (2) supply shifts right; the two conventions give opposite predictions for the real interest rate",
             "Both conventions shift the supply curve, because NCO is always a supply-side variable",
             "Convention (1) is correct and convention (2) is invalid, because NCO can only ever be part of demand",
             "Under both conventions the real interest rate is unaffected, because the change is purely definitional"
           ],
           "answer": 0,
-          "explanation": "The chapter notes the split between supply and demand is somewhat arbitrary. Writing S = I + NCO puts NCO in demand, so a rise in NCO shifts DEMAND right. Writing S - NCO = I treats a capital outflow as a reduction in funds available domestically, so a rise in NCO shifts SUPPLY left. Both are valid bookkeeping for the SAME real event and produce the SAME equilibrium: each raises the real interest rate. The conventions agree rather than give opposite predictions, NCO is not 'always supply,' convention (2) is not invalid, and the rate does change."
+          "explanation": "The split between supply and demand here is somewhat arbitrary. Writing S = I + NCO puts NCO in demand, so a rise in NCO shifts DEMAND right. Writing S - NCO = I treats a capital outflow as a reduction in funds available domestically, so a rise in NCO shifts SUPPLY left. Both are valid bookkeeping for the SAME real event and produce the SAME equilibrium: each raises the real interest rate. The conventions agree rather than give opposite predictions; NCO is not 'always supply'; convention (2) is not invalid; and the rate does change."
         },
         {
           "id": "ch33-q14",
           "difficulty": "hard",
-          "question": "After the budget deficit shifts the supply of loanable funds leftward and the interest rate rises, the economy moves from point A to point B ALONG the unchanged demand curve for loanable funds. The chapter stresses that this single movement reflects TWO distinct reductions in the quantity of loanable funds demanded. What are those two components?",
+          "question": "After a budget deficit shifts the supply of loanable funds leftward and the interest rate rises, the economy moves from point A to point B ALONG the unchanged demand curve for loanable funds. This single movement reflects TWO distinct reductions in the quantity of loanable funds demanded. What are those two components?",
           "options": [
             "A fall in domestic investment and a fall in net capital outflow.",
             "A fall in domestic investment and a fall in national saving.",
@@ -1172,7 +1172,7 @@ window.QUIZ_DATA = {
             "A fall in domestic investment and a rise in foreign capital inflow."
           ],
           "answer": 0,
-          "explanation": "In the open-economy model, the demand for loanable funds equals domestic investment (I) plus net capital outflow (NCO). When the higher interest rate moves borrowers from A to B along that demand curve, both components fall: higher borrowing costs crowd out domestic investment, and the higher domestic return reduces NCO. National saving and private/public saving are SUPPLY-side variables, and net exports is a forex-market variable, not a component of loanable-funds demand. Option 5 mislabels the NCO effect as a 'rise' in inflow."
+          "explanation": "The demand for loanable funds equals domestic investment (I) plus net capital outflow (NCO). When the higher interest rate moves borrowers from A to B along that demand curve, both components fall: higher borrowing costs crowd out domestic investment, and the higher domestic return reduces NCO. National saving and private/public saving are SUPPLY-side variables, and net exports is a forex-market variable, not a component of loanable-funds demand. Option 5 mislabels the NCO effect as a 'rise' in inflow."
         },
         {
           "id": "ch33-q15",
@@ -1186,12 +1186,12 @@ window.QUIZ_DATA = {
             "The real exchange rate is unchanged, and net exports rise one-for-one with the increase in demand."
           ],
           "answer": 1,
-          "explanation": "Greater foreign demand for U.S. goods shifts the demand-for-dollars curve rightward. Because the supply of dollars (NCO) is vertical and unchanged, the real exchange rate appreciates. The appreciation makes U.S. goods more expensive abroad, choking off exports and encouraging imports until NX returns to its original level (NX must still equal the unchanged NCO). So the currency appreciates but the equilibrium quantity of net exports is unchanged. Option 4 describes the PPP/horizontal-demand special case, which this chapter rejects."
+          "explanation": "Greater foreign demand for U.S. goods shifts the demand-for-dollars curve rightward. Because the supply of dollars (NCO) is vertical and unchanged, the real exchange rate appreciates. The appreciation makes U.S. goods more expensive abroad, choking off exports and encouraging imports until NX returns to its original level (NX must still equal the unchanged NCO). So the currency appreciates but the equilibrium quantity of net exports is unchanged. Option 4 describes the PPP/horizontal-demand special case, which the standard model rejects."
         },
         {
           "id": "ch33-q16",
           "difficulty": "medium",
-          "question": "During the 1980s in the United States, large tax cuts enacted shortly after Ronald Reagan was elected were not matched by spending cuts, producing a large budget deficit alongside a large trade deficit, nicknamed the 'twin deficits.' Why does the chapter caution against treating the two deficits as IDENTICAL twins?",
+          "question": "In the 1980s the United States ran a large budget deficit alongside a large trade deficit, the so-called 'twin deficits.' The open-economy model does predict that a budget deficit pushes the trade balance toward deficit. Why is it nonetheless a mistake to treat the two deficits as moving together one-for-one?",
           "options": [
             "Because a budget deficit always reduces the trade deficit one-for-one.",
             "Because many factors beyond fiscal policy can influence the trade deficit.",
@@ -1200,7 +1200,7 @@ window.QUIZ_DATA = {
             "Because trade policy, not saving, is the true cause of any trade deficit."
           ],
           "answer": 1,
-          "explanation": "The model predicts a budget deficit reduces national saving, raises the real interest rate, lowers NCO, appreciates the currency, and pushes the trade balance toward deficit, so the two deficits tend to move together. But the chapter warns they are not identical twins because many factors beyond fiscal policy (investment demand, business confidence, foreign conditions, capital flows) also affect the trade balance. The other options reverse the deficit's direction, deny the exchange-rate effect, reverse causation, or wrongly blame trade policy."
+          "explanation": "A budget deficit reduces national saving, raises the real interest rate, lowers NCO, appreciates the currency, and pushes the trade balance toward deficit, so the two deficits tend to move together. But they are not identical twins because many other factors (investment demand, business confidence, foreign conditions, capital flows) also affect the trade balance. The other options reverse the deficit's direction, deny the exchange-rate effect, reverse causation, or wrongly blame trade policy."
         },
         {
           "id": "ch33-q17",
@@ -1214,7 +1214,7 @@ window.QUIZ_DATA = {
             "Nothing changes in the loanable-funds market, so the interest rate and the exchange rate are both unchanged"
           ],
           "answer": 2,
-          "explanation": "Capital flight raises the home country's net capital outflow (NCO). Because higher NCO adds to the demand for loanable funds, the loanable-funds demand curve shifts right, pushing the real interest rate up; the NCO curve also shifts right. In the market for foreign-currency exchange, the larger NCO increases the supply of the home currency, so the currency depreciates. Thus the home country sees both a higher interest rate and a weaker currency. The distractors reverse the demand shift, mislabel it as supply, or wrongly claim the loanable-funds market is untouched."
+          "explanation": "Capital flight raises the home country's net capital outflow. Because higher NCO adds to the demand for loanable funds, the loanable-funds demand curve shifts right, pushing the real interest rate up; the NCO curve also shifts right. In the foreign-currency market, the larger NCO increases the supply of the home currency, so the currency depreciates. Thus the home country sees both a higher interest rate and a weaker currency. The distractors reverse the demand shift, mislabel it as supply, or wrongly claim the loanable-funds market is untouched."
         },
         {
           "id": "ch33-q18",
@@ -1242,7 +1242,7 @@ window.QUIZ_DATA = {
             "Foreign governments retaliated with identical quotas, exactly cancelling the policy."
           ],
           "answer": 1,
-          "explanation": "Because NX = NCO = S - I, the overall trade balance is pinned down by national saving and domestic investment. A quota leaves the loanable-funds market untouched, so the real interest rate and NCO are unchanged; therefore overall NX cannot change. The currency appreciation the quota triggers reduces exports and raises other imports by exactly enough to offset the directly blocked imports. The other options invoke mechanisms outside the chapter's model."
+          "explanation": "Because NX = NCO = S - I, the overall trade balance is pinned down by national saving and domestic investment. A quota leaves the loanable-funds market untouched, so the real interest rate and NCO are unchanged; therefore overall NX cannot change. The currency appreciation the quota triggers reduces exports and raises other imports by exactly enough to offset the directly blocked imports. The other options invoke mechanisms outside the model."
         },
         {
           "id": "ch33-q20",
@@ -1274,7 +1274,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch33-q22",
           "difficulty": "medium",
-          "question": "A politician argues: 'If we slap a 25% tariff on all imports, our chronic trade deficit will finally disappear.' Based on the chapter's open-economy model, what is the most accurate economist's response?",
+          "question": "A politician argues: 'If we slap a 25% tariff on all imports, our chronic trade deficit will finally disappear.' Based on the open-economy model, what is the most accurate economist's response?",
           "options": [
             "Correct: tariffs directly reduce imports, so the trade deficit must shrink.",
             "Incorrect: the trade deficit is determined by national saving and investment, so a tariff will appreciate the currency and leave the overall trade balance unchanged.",
@@ -1315,7 +1315,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch33-q25",
           "difficulty": "medium",
-          "question": "China for years deliberately bought large quantities of foreign assets, especially U.S. government bonds, to hold down the renminbi and promote its exports, building reserves that rose from roughly $160 billion in 2000 to about $4 trillion in 2014. According to the chapter, what were the likely effects on China and on the United States as the recipient?",
+          "question": "For years China's central bank deliberately bought enormous quantities of foreign assets, especially U.S. government bonds, to hold down the value of the renminbi and promote Chinese exports. What does the open-economy model predict this sustained policy did to China's currency and trade balance, and to the dollar, U.S. interest rates, and the U.S. trade balance?",
           "options": [
             "China got a stronger renminbi and a trade deficit, while the U.S. got a weaker dollar and a trade surplus",
             "China got a weaker renminbi and a trade surplus, while the U.S. got a stronger dollar, lower interest rates, and a trade deficit",
@@ -1324,7 +1324,7 @@ window.QUIZ_DATA = {
             "China's deliberate purchases had no effect on either currency because net capital outflow is independent of the exchange rate"
           ],
           "answer": 1,
-          "explanation": "China's deliberate capital outflow raised its NCO, increasing the supply of renminbi and weakening it, which promoted a Chinese trade surplus. For the U.S. recipient the capital inflow strengthened the dollar and pushed the U.S. toward a trade deficit; it also lowered U.S. interest rates (financing U.S. investment and growth). The distractors reverse the outcomes, claim both currencies rose, get the U.S. interest-rate direction backward, or misapply the rule that NCO is independent of the exchange rate."
+          "explanation": "China's deliberate capital outflow raised its NCO, increasing the supply of renminbi and weakening it, which promoted a Chinese trade surplus. For the U.S. recipient the capital inflow strengthened the dollar and pushed the U.S. toward a trade deficit; it also lowered U.S. interest rates (financing U.S. investment and growth). The distractors reverse the outcomes, claim both currencies rose, get the U.S. interest-rate direction backward, or misapply the idea that NCO is independent of the exchange rate."
         }
       ]
     },
@@ -1335,7 +1335,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch34-q01",
           "difficulty": "easy",
-          "question": "According to the chapter, what is the term for a period of falling real incomes and rising unemployment?",
+          "question": "An economy experiences several quarters in which real incomes fall and the unemployment rate climbs. Which term best describes this period?",
           "options": [
             "A depression",
             "A recession",
@@ -1343,12 +1343,12 @@ window.QUIZ_DATA = {
             "The natural rate of unemployment"
           ],
           "answer": 1,
-          "explanation": "The chapter defines a recession as a period of falling incomes and rising unemployment. A depression is not the general term: it is specifically a severe recession. An expansion is the opposite (rapidly growing real GDP), and the natural rate of unemployment is a rate, not a period."
+          "explanation": "A recession is a period of falling incomes and rising unemployment. A depression is not the general term; it is specifically a severe recession. An expansion is the opposite, a period of growing real GDP and falling unemployment, and the natural rate of unemployment is a rate, not a period."
         },
         {
           "id": "ch34-q02",
           "difficulty": "easy",
-          "question": "Which statement best captures the chapter's first key fact about economic fluctuations (the 'business cycle')?",
+          "question": "The phrase 'business cycle' suggests to many people that downturns and recoveries arrive on a predictable rhythm. Why is this an inaccurate way to think about economic fluctuations?",
           "options": [
             "They follow a regular, predictable cycle like a sine wave or heartbeat.",
             "They are irregular and almost impossible to predict with much accuracy.",
@@ -1357,12 +1357,12 @@ window.QUIZ_DATA = {
             "They affect only a few isolated industries at a time."
           ],
           "answer": 1,
-          "explanation": "Fact 1 states that economic fluctuations are 'not at all regular, and they are almost impossible to predict with much accuracy.' The term 'business cycle' is misleading because it falsely suggests a regular, predictable pattern 'like a sine wave or a heartbeat' (option 0, the rejected misconception). A fixed seven-year schedule, the claim that fluctuations have been eliminated, and the claim that they hit only a few isolated industries are all contradicted by the chapter."
+          "explanation": "Economic fluctuations are irregular and almost impossible to predict with much accuracy, which is why 'business cycle' is misleading: it falsely implies a regular pattern like a sine wave or a heartbeat (option 0). A fixed seven-year schedule, the claim that fluctuations have been eliminated, and the claim that they hit only a few isolated industries are all false."
         },
         {
           "id": "ch34-q03",
           "difficulty": "medium",
-          "question": "Suppose real GDP enters a recession and contracts. Based on the chapter's three key facts about economic fluctuations, which set of outcomes is MOST consistent with what typically happens?",
+          "question": "Real GDP contracts as an economy slides into a recession. Which set of outcomes is MOST consistent with how the major macroeconomic quantities typically behave during such a downturn?",
           "options": [
             "Personal income, corporate profits, and consumer spending all rise while unemployment falls.",
             "Personal income, corporate profits, and consumer spending all fall while unemployment rises substantially above its natural rate of about 5%.",
@@ -1371,12 +1371,12 @@ window.QUIZ_DATA = {
             "Investment spending rises sharply even as output falls, offsetting the recession."
           ],
           "answer": 1,
-          "explanation": "Fact 2 states that most macroeconomic quantities (personal income, corporate profits, consumer spending, investment spending, etc.) fluctuate together, so they all fall in a recession, and that recessions are economy-wide rather than confined to GDP. Fact 3 states that as real GDP declines the unemployment rate rises substantially, fluctuating around a natural rate of about 5% and never reaching zero. This rules out the other options: comovement falls (not rises), recessions affect many variables, unemployment can never be negative, and investment actually falls (it accounts for about two-thirds of the decline in GDP)."
+          "explanation": "Most macroeconomic quantities move together: personal income, corporate profits, consumer spending, and investment all fall in a recession, which is therefore economy-wide rather than confined to GDP. As real GDP declines, unemployment rises substantially, fluctuating around a natural rate of about 5% and never reaching zero. This rules out the other options: comovement falls rather than rises, recessions affect many variables, unemployment can never be negative, and investment actually falls (it accounts for about two-thirds of the decline in GDP)."
         },
         {
           "id": "ch34-q04",
           "difficulty": "easy",
-          "question": "In classical macroeconomic theory, the term 'classical dichotomy' refers to the separation of economic variables into which two categories?",
+          "question": "Classical economists argued that money affects prices and wages but not output or employment in the long run. The conceptual split this argument relies on divides economic variables into which two categories?",
           "options": [
             "Short-run variables and long-run variables",
             "Real variables and nominal variables",
@@ -1384,12 +1384,12 @@ window.QUIZ_DATA = {
             "Domestic variables and international variables"
           ],
           "answer": 1,
-          "explanation": "The chapter defines the classical dichotomy as the separation of variables into real variables (those that measure quantities or relative prices) and nominal variables (those measured in terms of money). The other pairings describe real distinctions in macroeconomics but are not what the classical dichotomy refers to."
+          "explanation": "The classical dichotomy separates variables into real variables (those that measure quantities or relative prices) and nominal variables (those measured in terms of money), which lets classical theory argue money changes nominal but not real variables in the long run. The other pairings describe genuine distinctions in macroeconomics but are not the split underlying that argument."
         },
         {
           "id": "ch34-q05",
           "difficulty": "medium",
-          "question": "David Hume's 18th-century observation that an expansion of the money supply following gold discoveries temporarily raised employment and production BEFORE prices rose is used in the chapter primarily to illustrate that:",
+          "question": "David Hume observed that after gold discoveries expanded the money supply, employment and production temporarily rose before prices fully adjusted upward. This observation is significant mainly because it shows that:",
           "options": [
             "Monetary neutrality holds at every time horizon",
             "The classical dichotomy applies more strongly in the short run than the long run",
@@ -1398,12 +1398,12 @@ window.QUIZ_DATA = {
             "Gold discoveries are the main cause of long-run economic growth"
           ],
           "answer": 2,
-          "explanation": "The chapter states that 'even classical economists, such as David Hume, realized that monetary neutrality did not hold in the short run,' citing his observation that after gold discoveries it took time for prices to rise while employment and production temporarily increased. This shows neutrality fails in the short run by a classical economist's own account. Option A and D overstate neutrality and contradict the temporary output rise; B reverses the actual conclusion (classical theory fits the long run, not the short run); E is not the chapter's point."
+          "explanation": "Hume, himself a classical economist, recognized that monetary neutrality does not hold in the short run: after gold discoveries it took time for prices to rise while employment and production temporarily increased. This shows neutrality fails in the short run by a classical economist's own account. Options A and D overstate neutrality and contradict the temporary output rise; B reverses the actual conclusion, since classical theory fits the long run, not the short run; E is unrelated to the point."
         },
         {
           "id": "ch34-q06",
           "difficulty": "hard",
-          "question": "A student claims the aggregate-demand and aggregate-supply model is just a scaled-up version of the supply and demand for a single good like ice cream, where a price rise reduces quantity demanded as buyers switch to other products. Why does the chapter reject this reasoning for the economy as a whole?",
+          "question": "A student claims the aggregate-demand and aggregate-supply model is just a scaled-up version of the supply and demand for a single good like ice cream, where a price rise reduces quantity demanded as buyers switch to other products. Why does this reasoning fail for the economy as a whole?",
           "options": [
             "Because the AD-AS axes plot the interest rate against the money supply rather than price against output",
             "Because economy-wide substitution from one market to another is impossible, since real GDP measures total output across all markets at once",
@@ -1412,25 +1412,25 @@ window.QUIZ_DATA = {
             "Because the aggregate-demand curve actually slopes upward, unlike a single market's demand curve"
           ],
           "answer": 1,
-          "explanation": "In a single market, a price change works through resources moving between markets (buyers and firms substituting toward or away from that good). The chapter states this microeconomic substitution from one market to another is impossible for the economy as a whole, because real GDP measures the total quantity of goods and services produced by all firms in all markets at once. So a separate macroeconomic theory is needed to explain why AD slopes downward and AS slopes upward. Option A misstates the axes (output is on the horizontal axis, the price level on the vertical axis); C and E misstate the slopes (AD slopes down, AS slopes up); D is not the chapter's reasoning and mislabels the variables."
+          "explanation": "In a single market, a price change works by shifting resources between markets as buyers and firms substitute toward or away from that good. That microeconomic substitution from one market to another is impossible for the economy as a whole, because real GDP measures the total quantity of goods and services produced by all firms in all markets at once. A separate macroeconomic theory is therefore needed to explain why AD slopes downward and AS slopes upward. Option A misstates the axes (output is horizontal, the price level vertical); C and E misstate the slopes (AD slopes down, AS slopes up); D mislabels the variables and is not the reason."
         },
         {
           "id": "ch34-q07",
           "difficulty": "easy",
-          "question": "According to the chapter, the aggregate-demand curve shows the relationship between the overall price level and the quantity of all goods and services demanded. What is the shape of this curve?",
+          "question": "Holding all else constant, the overall price level in an economy falls. What happens to the total quantity of goods and services demanded, and what slope does this imply for the aggregate-demand curve?",
           "options": [
-            "Downward-sloping",
-            "Upward-sloping",
-            "Vertical",
-            "Horizontal"
+            "The quantity demanded rises, implying a downward-sloping curve",
+            "The quantity demanded falls, implying an upward-sloping curve",
+            "The quantity demanded is unchanged, implying a vertical curve",
+            "The quantity demanded rises without limit at one price, implying a horizontal curve"
           ],
           "answer": 0,
-          "explanation": "The chapter states the aggregate-demand curve slopes downward: a decrease in the overall price level raises the quantity of goods and services demanded, and an increase in the price level reduces it."
+          "explanation": "A lower overall price level raises the total quantity of goods and services demanded, and a higher price level reduces it, so the aggregate-demand curve slopes downward. The other options pair the wrong quantity response with the wrong slope."
         },
         {
           "id": "ch34-q08",
           "difficulty": "medium",
-          "question": "A student claims, 'When the U.S. price level falls, the wealth effect works by making people hold more money so that interest rates rise.' Which correction best matches the chapter's account of the WEALTH effect on consumption?",
+          "question": "A student claims, 'When the U.S. price level falls, the wealth effect works by making people hold more money so that interest rates rise.' Which correction best describes how the WEALTH effect actually influences consumption?",
           "options": [
             "A lower price level raises the real value of the money people hold, making consumers wealthier and encouraging them to spend more on consumption.",
             "A lower price level lowers the real value of money, so consumers cut back on consumption.",
@@ -1439,12 +1439,12 @@ window.QUIZ_DATA = {
             "A lower price level leaves real wealth unchanged because the nominal value of a dollar is fixed."
           ],
           "answer": 0,
-          "explanation": "The wealth effect: because the nominal value of money is fixed (one dollar is always worth one dollar), a fall in the price level raises money's real value, making consumers wealthier and stimulating consumption. The option about depreciation and net exports describes the exchange-rate effect, and the option about money demand and interest rates describes the interest-rate effect; both are different AD channels. The option claiming real wealth is unchanged confuses the fixed nominal value of a dollar with its real value, which does change as the price level changes."
+          "explanation": "Because the nominal value of money is fixed (one dollar is always worth one dollar), a fall in the price level raises money's real value, making consumers wealthier and stimulating consumption. The option about depreciation and net exports describes the exchange-rate effect, and the option about money demand and interest rates describes the interest-rate effect; both are different AD channels. The option claiming real wealth is unchanged confuses the fixed nominal value of a dollar with its real value, which does change as the price level changes."
         },
         {
           "id": "ch34-q09",
           "difficulty": "medium",
-          "question": "In the chapter's interest-rate effect, why does a FALL in the U.S. price level lead to a lower interest rate?",
+          "question": "With the money supply held fixed, a fall in the U.S. price level leads to a lower interest rate. What is the mechanism that produces this result?",
           "options": [
             "People need to hold less money, so they lend out the excess (e.g., buying bonds), which drives interest rates down.",
             "The central bank deliberately cuts interest rates whenever prices fall.",
@@ -1453,12 +1453,12 @@ window.QUIZ_DATA = {
             "Lower prices raise money demand, increasing the supply of loanable funds."
           ],
           "answer": 0,
-          "explanation": "A lower price level means people need less money for transactions, so they try to reduce their holdings by lending the excess out (buying interest-bearing bonds or depositing it, which the bank then lends). This added supply of funds bids interest rates down. The money supply is held fixed, so it is not a deliberate central-bank cut (option 1); capital actually flows OUT, not in, when U.S. rates fall, and that is the separate exchange-rate effect (option 2); the wealth effect says lower prices RAISE real wealth (option 3); and lower prices REDUCE money demand, not raise it (option 4)."
+          "explanation": "A lower price level means people need less money for transactions, so they try to reduce their holdings by lending the excess out (buying interest-bearing bonds or making deposits that banks then lend). This added supply of funds bids interest rates down. The money supply is fixed, so it is not a deliberate central-bank cut (option 1); capital actually flows OUT, not in, when U.S. rates fall, and that is the separate exchange-rate effect (option 2); a lower price level RAISES real wealth, not lowers it (option 3); and a lower price level REDUCES money demand, not raises it (option 4)."
         },
         {
           "id": "ch34-q10",
           "difficulty": "hard",
-          "question": "An economist examines a movement ALONG a fixed aggregate-demand curve caused by a rising price level, with the money supply held constant. Which combination of effects on the three relevant spending components is consistent with the chapter's three reasons?",
+          "question": "With the money supply held constant, a rising price level produces a movement ALONG a fixed aggregate-demand curve. Which combination of effects on the three relevant spending components is consistent with the reasons the curve slopes downward?",
           "options": [
             "Consumption falls (wealth), investment falls (higher interest rate), and net exports fall (dollar appreciation)",
             "Consumption rises (wealth), investment rises (lower interest rate), and net exports rise (dollar depreciation)",
@@ -1472,7 +1472,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch34-q11",
           "difficulty": "easy",
-          "question": "According to the chapter, which of the following events would shift the aggregate-demand curve to the RIGHT?",
+          "question": "Which of the following events would shift the aggregate-demand curve to the RIGHT?",
           "options": [
             "Americans become more concerned about saving for retirement and cut current consumption.",
             "A stock market boom makes people wealthier and less concerned about saving.",
@@ -1486,7 +1486,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch34-q12",
           "difficulty": "hard",
-          "question": "International speculators lose confidence in foreign economies and shift wealth into the United States. Tracing the chapter's net-exports channel, what happens to the U.S. aggregate-demand curve, and why?",
+          "question": "International speculators lose confidence in foreign economies and shift wealth into the United States. Following this through the net-exports channel, what happens to the U.S. aggregate-demand curve, and why?",
           "options": [
             "The dollar depreciates, U.S. goods become cheaper abroad, net exports rise, and AD shifts right.",
             "The dollar appreciates, U.S. goods become more expensive abroad, net exports fall, and AD shifts left.",
@@ -1500,7 +1500,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch34-q13",
           "difficulty": "hard",
-          "question": "In the same year, Congress enacts an investment tax credit while simultaneously a deep recession overseas sharply cuts foreign purchases of U.S. goods. Considering only these two shocks and their effects on aggregate demand, which statement is MOST accurate?",
+          "question": "In the same year, Congress enacts an investment tax credit while a deep recession overseas sharply cuts foreign purchases of U.S. goods. Considering only these two shocks and their effects on aggregate demand, which statement is MOST accurate?",
           "options": [
             "Both shocks shift AD to the right, so AD unambiguously increases.",
             "Both shocks shift AD to the left, so AD unambiguously decreases.",
@@ -1509,26 +1509,26 @@ window.QUIZ_DATA = {
             "The investment tax credit shifts AD left while the overseas recession shifts AD right."
           ],
           "answer": 2,
-          "explanation": "An investment tax credit increases the investment goods firms want to buy, shifting AD to the right. A foreign recession means foreigners buy fewer U.S. goods, so U.S. net exports decline at every price level, shifting AD to the left. Because the two shocks push AD in opposite directions, the net effect depends on which shift is larger and is therefore ambiguous. Neither shock is a mere movement along a fixed AD curve (only a change in the price level causes that)."
+          "explanation": "An investment tax credit increases the investment goods firms want to buy, shifting AD to the right. A foreign recession means foreigners buy fewer U.S. goods, so U.S. net exports decline at every price level, shifting AD to the left. Because the two shocks push AD in opposite directions, the net effect depends on which shift is larger and is therefore ambiguous. Neither shock is a mere movement along a fixed AD curve; only a change in the price level causes that."
         },
         {
           "id": "ch34-q14",
           "difficulty": "easy",
-          "question": "The chapter states that the long-run aggregate-supply curve is vertical at the natural level of output. Which of the following is the BEST definition of the \"natural level of output\"?",
+          "question": "An economy is producing the amount of output it tends to settle at in the long run, when unemployment equals its normal rate. Which phrase best describes this level of output?",
           "options": [
             "The maximum output an economy could ever physically produce by using every resource at full capacity with no idle workers at all",
-            "The production of goods and services an economy achieves in the long run when unemployment is at its natural, or normal, rate",
+            "The natural level of output, also called potential or full-employment output",
             "The output level at which the price level stops changing and inflation reaches zero",
-            "The level of output that occurs when the money supply is held perfectly constant",
+            "The level of output that occurs only when the money supply is held perfectly constant",
             "The level of output produced during a recession, when unemployment is high"
           ],
           "answer": 1,
-          "explanation": "The chapter defines the natural level of output as the production of goods and services an economy achieves in the long run when unemployment is at its natural, or normal, rate; it is also called potential output or full-employment output. Because the natural rate of unemployment is positive, it is not a physical maximum with zero idle workers, and the definition does not require zero inflation (option 2) or a constant money supply (option 3). It is the output toward which the economy gravitates in the long run, not recession output (option 4)."
+          "explanation": "The natural level of output is the production an economy achieves in the long run when unemployment is at its natural, or normal, rate; it is also called potential output or full-employment output, and the long-run aggregate-supply curve is vertical at this level. Because the natural rate of unemployment is positive, it is not a physical maximum with zero idle workers, and the definition does not require zero inflation (option 2) or a constant money supply (option 3). It is the output toward which the economy gravitates in the long run, not recession output (option 4)."
         },
         {
           "id": "ch34-q15",
           "difficulty": "medium",
-          "question": "Which of the following events would shift the long-run aggregate-supply curve to the LEFT, according to the chapter's list of LRAS determinants?",
+          "question": "Which of the following events would shift the long-run aggregate-supply curve to the LEFT?",
           "options": [
             "A wave of immigration that increases the number of workers",
             "The discovery of a new mineral deposit",
@@ -1537,12 +1537,12 @@ window.QUIZ_DATA = {
             "The spread of industrial robots in manufacturing"
           ],
           "answer": 3,
-          "explanation": "The chapter states that new government regulations preventing firms from using some production methods (e.g., for worker safety or environmental concerns) produce a leftward shift in the long-run aggregate-supply curve, because they act like an adverse change in technology and reduce the economy's ability to produce. Each of the other options is listed in the chapter as a RIGHTWARD shifter: more workers from immigration (labor), a new mineral deposit (natural resources), a lower natural rate of unemployment, and the spread of industrial robots (technology) all raise the natural level of output."
+          "explanation": "New regulations preventing firms from using some production methods (for example, for worker safety or environmental concerns) act like an adverse change in technology, reducing the economy's ability to produce, so the long-run aggregate-supply curve shifts left. Each of the other options is a rightward shifter: more workers from immigration (labor), a new mineral deposit (natural resources), a lower natural rate of unemployment, and the spread of industrial robots (technology) all raise the natural level of output."
         },
         {
           "id": "ch34-q16",
           "difficulty": "hard",
-          "question": "The chapter uses the aggregate-demand curve together with the long-run aggregate-supply (LRAS) curve to depict the economy's evolution from decade to decade, identifying the two most important practical forces as technology and monetary policy. If technological progress continually shifts LRAS rightward while the Fed's ongoing money-supply growth continually shifts AD rightward, what long-run pattern results for output (Y) and the price level (P)?",
+          "question": "Over the decades, technological progress continually shifts an economy's long-run aggregate-supply curve rightward while ongoing growth in the money supply continually shifts aggregate demand rightward. What long-run pattern results for output (Y) and the price level (P)?",
           "options": [
             "Output rises while the price level falls, producing long-run deflation",
             "Both output and the price level continually rise, producing growth with ongoing inflation",
@@ -1551,12 +1551,12 @@ window.QUIZ_DATA = {
             "Output rises while the price level stays exactly constant"
           ],
           "answer": 1,
-          "explanation": "The chapter states that technological progress shifts LRAS rightward (raising output, so Y increases) while the Fed's money-supply growth shifts AD rightward (pushing the price level up), so the long-run equilibrium moves up and to the right over time. The text concludes the result is 'continuing growth in output (as shown by increasing Y) and continuing inflation (as shown by increasing P),' a new way of representing the classical analysis of growth and inflation. Deflation or a falling/constant price level is ruled out because AD is also shifting right; output is not fixed because LRAS is shifting right."
+          "explanation": "Technological progress shifts LRAS rightward, raising output (Y increases), while money-supply growth shifts AD rightward, pushing the price level up (P increases), so the long-run equilibrium moves up and to the right over time. The result is continuing growth in output and continuing inflation, a way of representing the classical analysis of growth and inflation. Deflation or a falling/constant price level is ruled out because AD is also shifting right; output is not fixed because LRAS is shifting right."
         },
         {
           "id": "ch34-q17",
           "difficulty": "hard",
-          "question": "Consider two hypothetical economies that are identical in their supplies of labor, capital, and natural resources and in their available technology, but one economy has twice as much money in circulation as the other. Reasoning with the long-run aggregate-supply framework from the chapter, which statement is correct?",
+          "question": "Two economies are identical in their supplies of labor, capital, and natural resources and in their technology, but one has twice as much money in circulation as the other. Comparing their long-run outcomes, which statement is correct?",
           "options": [
             "The economy with more money produces twice as much output but has the same price level",
             "The economy with more money produces the same long-run output, while its price level is twice as high",
@@ -1570,7 +1570,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch34-q18",
           "difficulty": "easy",
-          "question": "According to the text, what common theme unites all three theories of the upward-sloping short-run aggregate-supply curve?",
+          "question": "Three different theories explain why the short-run aggregate-supply curve slopes upward. What single idea do all three theories share?",
           "options": [
             "Output deviates from its natural level when the actual price level differs from the expected price level (surprise).",
             "Higher government spending always raises output.",
@@ -1578,12 +1578,12 @@ window.QUIZ_DATA = {
             "The money supply has no effect on output in the short run."
           ],
           "answer": 0,
-          "explanation": "The chapter states the three theories differ in their details but 'share a common theme: in a word, surprise'—the quantity of output supplied deviates from its natural level when the actual price level deviates from the level people expected. Option 1 concerns aggregate demand, not the SRAS theme; option 2 contradicts the sticky-wage/sticky-price imperfections that drive the theories; option 3 contradicts the chapter's short-run analysis."
+          "explanation": "The three theories differ in their details but share the theme of surprise: the quantity of output supplied deviates from its natural level when the actual price level deviates from the level people expected. Option 1 concerns aggregate demand, not the SRAS theme; option 2 contradicts the sticky-wage/sticky-price imperfections that drive the theories; option 3 contradicts the short-run stickiness on which all three rely."
         },
         {
           "id": "ch34-q19",
           "difficulty": "hard",
-          "question": "Three suppliers respond to an unexpectedly LOW overall price level. Supplier A's long-term union contract keeps its $30 nominal wage fixed. Supplier B keeps its catalog prices high to avoid the cost of reprinting catalogs. A wheat farmer C sees the price of wheat drop and assumes the reward for producing wheat has fallen relative to other goods. Which theory of short-run aggregate supply does each illustrate, in order A, B, C?",
+          "question": "Three suppliers respond to an unexpectedly LOW overall price level. Supplier A's long-term union contract keeps its $30 nominal wage fixed. Supplier B keeps its catalog prices high to avoid the cost of reprinting catalogs. Wheat farmer C sees the price of wheat drop and assumes the reward for producing wheat has fallen relative to other goods. Which theory of short-run aggregate supply does each illustrate, in order A, B, C?",
           "options": [
             "Sticky-price, misperceptions, sticky-wage.",
             "Misperceptions, sticky-wage, sticky-price.",
@@ -1592,12 +1592,12 @@ window.QUIZ_DATA = {
             "Sticky-price, sticky-wage, misperceptions."
           ],
           "answer": 2,
-          "explanation": "A's nominal wage fixed by a long-term contract is the sticky-wage theory: wages are slow to adjust, so a lower-than-expected price level squeezes profits and cuts output. B's failure to cut prices because of menu costs (printing and distributing catalogs) is the sticky-price theory: firms with higher-than-desired prices see sales fall and reduce production. C mistaking a falling absolute wheat price for a falling relative reward is the misperceptions theory. The order is therefore sticky-wage, sticky-price, misperceptions (index 2). The other options merely reshuffle the same three names and do not match the scenarios."
+          "explanation": "A's nominal wage fixed by a long-term contract illustrates the sticky-wage theory: wages are slow to adjust, so a lower-than-expected price level squeezes profits and cuts output. B's failure to cut prices because of menu costs (printing and distributing catalogs) is the sticky-price theory: firms stuck with higher-than-desired prices see sales fall and reduce production. C mistaking a falling absolute wheat price for a falling relative reward is the misperceptions theory. The order is therefore sticky-wage, sticky-price, misperceptions (index 2). The other options merely reshuffle the same three names."
         },
         {
           "id": "ch34-q20",
           "difficulty": "medium",
-          "question": "The short-run aggregate-supply relationship is written Y = Yn + a(P - Pexpected), where a > 0. A central bank engineers an increase in the money supply that pushes the ACTUAL price level above what people had expected, while the expected price level (and a and Yn) stay fixed in the short run. What happens to output?",
+          "question": "The short-run aggregate-supply relationship is Y = Yn + a(P - Pexpected), with a > 0. A central bank increases the money supply, pushing the ACTUAL price level above what people had expected, while the expected price level (and a and Yn) stay fixed in the short run. What happens to output?",
           "options": [
             "Output falls below its natural level Yn.",
             "Output stays exactly at Yn because expectations did not change.",
@@ -1606,7 +1606,7 @@ window.QUIZ_DATA = {
             "The natural level of output Yn itself rises."
           ],
           "answer": 2,
-          "explanation": "With Pexpected, a, and Yn fixed and a > 0, an actual price level above the expected level makes a(P - Pexpected) positive, so Y > Yn. This matches the chapter's statement that when the actual price level rises above the expected level, output rises above its natural level. Only the actual price level moved (not the expected level), so they did not rise equally; and the equation leaves Yn unchanged because the natural level depends on labor, capital, and technology, not on the price level."
+          "explanation": "With Pexpected, a, and Yn fixed and a > 0, an actual price level above the expected level makes a(P - Pexpected) positive, so Y > Yn: output rises above its natural level. Only the actual price level moved, not the expected level, so they did not rise equally; and Yn is unchanged because the natural level depends on labor, capital, and technology, not on the price level."
         },
         {
           "id": "ch34-q21",
@@ -1620,7 +1620,7 @@ window.QUIZ_DATA = {
             "SRAS shifts right, because firms anticipate higher revenue and expand output."
           ],
           "answer": 1,
-          "explanation": "Per the sticky-wage theory, workers and firms set nominal wages based on the expected price level. When the expected price level rises, wages are set higher, costs increase, and firms supply a smaller quantity at any actual price level, so SRAS shifts left. The expected price level shifts SRAS, not LRAS: LRAS depends only on labor, capital, natural resources, and technology. So option 2 (no shift) and option 3 (LRAS shift) are wrong, option 0 reverses the wage effect, and option 4 names a non-textual mechanism and the wrong direction."
+          "explanation": "Under the sticky-wage theory, workers and firms set nominal wages based on the expected price level. When the expected price level rises, wages are set higher, costs increase, and firms supply a smaller quantity at any actual price level, so SRAS shifts left. The expected price level shifts SRAS, not LRAS, because LRAS depends only on labor, capital, natural resources, and technology. So option 2 (no shift) and option 3 (LRAS shift) are wrong, option 0 reverses the wage effect, and option 4 names a mechanism that does not drive the curve and gives the wrong direction."
         },
         {
           "id": "ch34-q22",
@@ -1634,7 +1634,7 @@ window.QUIZ_DATA = {
             "The long-run aggregate-supply curve shifts left, lowering the natural level of output."
           ],
           "answer": 0,
-          "explanation": "Pessimism reduces spending, so aggregate demand shifts left (AD1 to AD2). In the short run the economy moves ALONG the unchanged short-run aggregate-supply curve (AS1) from A to B, lowering both output (Y1 to Y2) and the price level (P1 to P2) -- a recession. Option 1 (output down, price up) describes a supply shock, not an AD shift. Option 2 is wrong because pessimism affects AD, not SRAS. Option 3 (no change in output / purely nominal) describes the LONG-run outcome after expectations adjust, not the short run. Option 4 is wrong because nothing here changes the determinants of long-run aggregate supply, so LRAS does not move."
+          "explanation": "Pessimism reduces spending, so aggregate demand shifts left (AD1 to AD2). In the short run the economy moves ALONG the unchanged short-run aggregate-supply curve (AS1) from A to B, lowering both output (Y1 to Y2) and the price level (P1 to P2), a recession. Option 1 (output down, price up) describes a supply shock, not an AD shift. Option 2 is wrong because pessimism affects AD, not SRAS. Option 3 (no change in output, purely nominal) is the LONG-run outcome after expectations adjust, not the short run. Option 4 is wrong because nothing here changes the determinants of long-run aggregate supply, so LRAS does not move."
         },
         {
           "id": "ch34-q23",
@@ -1648,7 +1648,7 @@ window.QUIZ_DATA = {
             "Output stays permanently below its natural level because there is no self-correcting force."
           ],
           "answer": 1,
-          "explanation": "At B the price level (P2) is below what people expected (P1). Over time their expectations catch up: under the sticky-wage theory, once workers and firms expect lower prices they agree to lower nominal wages, cutting firms' costs and prompting more production at any price level. This shifts short-run aggregate supply rightward (AS1 to AS2) until the economy reaches point C, where AD2 crosses long-run aggregate supply, restoring output to its natural level (Y1) at an even lower price level (P3, below P2). Aggregate demand does not rebound on its own, and the long-run aggregate-supply curve (the natural level of output) is unaffected by an AD shift, so the long-run effect is purely nominal."
+          "explanation": "At B the price level (P2) is below what people expected (P1). Over time their expectations catch up: under the sticky-wage theory, once workers and firms expect lower prices they agree to lower nominal wages, cutting firms' costs and prompting more production at any price level. This shifts short-run aggregate supply rightward (AS1 to AS2) until the economy reaches point C, where AD2 crosses long-run aggregate supply, restoring output to its natural level (Y1) at an even lower price level (P3, below P2). Aggregate demand does not rebound on its own, and an AD shift does not move the natural level of output, so the long-run effect is purely nominal."
         },
         {
           "id": "ch34-q24",
@@ -1662,7 +1662,7 @@ window.QUIZ_DATA = {
             "The economy moves down and to the left along SRAS as aggregate demand shifts left, called a deflationary spiral."
           ],
           "answer": 0,
-          "explanation": "Higher production costs make supplying output less profitable at every price level, so SRAS shifts left while AD and LRAS are held fixed. The economy slides up the existing AD curve from A to B: output falls (from Y1 to Y2) and the price level rises (from P1 to P2) simultaneously. This combination of falling output and rising prices is stagflation. Option 3 is wrong because the text assumes LRAS does not shift and output is not unchanged; the other distractors misidentify the curve or the term."
+          "explanation": "Higher production costs make supplying output less profitable at every price level, so SRAS shifts left while AD and LRAS are held fixed. The economy slides up the existing AD curve from A to B: output falls (from Y1 to Y2) and the price level rises (from P1 to P2) simultaneously. This combination of falling output and rising prices is stagflation. Option 3 is wrong because LRAS does not shift here and output is not unchanged; the other distractors misidentify the curve or the term."
         },
         {
           "id": "ch34-q25",
@@ -1676,12 +1676,12 @@ window.QUIZ_DATA = {
             "It eliminates both the recession and the inflation with no cost."
           ],
           "answer": 0,
-          "explanation": "Accommodation shifts AD right (AD1 to AD2) to hold output at its natural level, moving directly from A to C, but the price level rises from P1 to P3 and stays permanently higher. The chapter's lesson: policymakers can mitigate the output loss only at the cost of exacerbating inflation."
+          "explanation": "Accommodation shifts AD right (AD1 to AD2) to hold output at its natural level, moving directly from A to C, but the price level rises from P1 to P3 and stays permanently higher. Policymakers can mitigate the output loss only at the cost of exacerbating inflation, which is why the other options, claiming no inflation cost or a return to the original price level, are wrong; accommodation works through AD and does not shift the natural level of output."
         },
         {
           "id": "ch34-q26",
           "difficulty": "easy",
-          "question": "According to the chapter, what was the central message of John Maynard Keynes's 1936 book The General Theory of Employment, Interest, and Money?",
+          "question": "John Maynard Keynes's 1936 book The General Theory of Employment, Interest, and Money broke with classical economics by arguing that downturns have a particular cause. What was his central message?",
           "options": [
             "Money is neutral in both the short run and the long run.",
             "Recessions and depressions can occur because of inadequate aggregate demand for goods and services.",
@@ -1690,12 +1690,12 @@ window.QUIZ_DATA = {
             "Inflation is always and everywhere a monetary phenomenon."
           ],
           "answer": 1,
-          "explanation": "The chapter states Keynes's main message was that recessions and depressions can occur because of inadequate aggregate demand for goods and services. He criticized classical theory's exclusive focus on the long run ('in the long run we are all dead') and advocated policies to boost aggregate demand, including government spending on public works."
+          "explanation": "Keynes's main message was that recessions and depressions can occur because of inadequate aggregate demand for goods and services. He criticized classical theory's exclusive focus on the long run ('in the long run we are all dead') and advocated policies to boost aggregate demand, such as government spending on public works. The other options either contradict his emphasis on demand-side causes or restate doctrines he opposed."
         },
         {
           "id": "ch34-q27",
           "difficulty": "medium",
-          "question": "Many economists place primary blame for the Great Depression on a 28 percent decline in the money supply from 1929 to 1933. According to the chapter, what was the Federal Reserve's role in this decline?",
+          "question": "Many economists place primary blame for the severity of the Great Depression on a 28 percent decline in the money supply from 1929 to 1933. What was the Federal Reserve's role in allowing this decline?",
           "options": [
             "The Fed deliberately contracted the money supply to fight inflation.",
             "The Fed raised reserve requirements to force banks to lend more.",
@@ -1704,12 +1704,12 @@ window.QUIZ_DATA = {
             "The Fed accommodated the contraction by buying mortgage-backed securities."
           ],
           "answer": 2,
-          "explanation": "As households withdrew deposits from shaky banks and cautious bankers held more reserves, money creation under fractional-reserve banking went into reverse and the money multiplier fell. The Fed failed to offset this with expansionary open-market operations, so the money supply declined by 28 percent. Many economists blame the Fed's inaction for the Depression's severity."
+          "explanation": "As households withdrew deposits from shaky banks and cautious bankers held more reserves, money creation under fractional-reserve banking went into reverse and the money multiplier fell. The Fed failed to offset this with expansionary open-market operations, so the money supply declined by 28 percent, and many economists blame the Fed's inaction for the Depression's severity. The other options describe actions the Fed did not take."
         },
         {
           "id": "ch34-q28",
           "difficulty": "hard",
-          "question": "The chapter argues the 2020 Covid recession was unusual because BOTH aggregate demand and aggregate supply shifted left simultaneously: closures and infection fears cut spending while shutdowns slashed production. Compared with a recession driven by a leftward AD shift alone, what does the AD-AS model predict about the effect of adding the simultaneous leftward short-run aggregate supply (SRAS) shift on output and the price level?",
+          "question": "The 2020 Covid recession was unusual because BOTH aggregate demand and aggregate supply shifted left at once: closures and infection fears cut spending while shutdowns slashed production. Compared with a recession driven by a leftward AD shift alone, what does the AD-AS model predict about adding the simultaneous leftward short-run aggregate-supply (SRAS) shift, for output and the price level?",
           "options": [
             "Output falls by even more, while the effect on the price level is ambiguous because the two leftward shifts push the price level in opposite directions.",
             "Output falls by less, and the price level unambiguously falls.",
@@ -1718,7 +1718,7 @@ window.QUIZ_DATA = {
             "Both output and the price level unambiguously rise."
           ],
           "answer": 0,
-          "explanation": "The chapter teaches that a leftward AD shift lowers output and lowers the price level, while an adverse (leftward) SRAS shift lowers output but raises the price level (stagflation). Adding the simultaneous leftward SRAS shift therefore reinforces the output decline (output falls by more), which matches the chapter's statement that the simultaneous shifts 'led to a sharp reduction in production and employment.' For the price level, the leftward AD shift pushes it down while the leftward SRAS shift pushes it up, so the net direction is ambiguous."
+          "explanation": "A leftward AD shift lowers output and lowers the price level, while an adverse (leftward) SRAS shift lowers output but raises the price level (stagflation). Adding the simultaneous leftward SRAS shift therefore reinforces the output decline, so output falls by more, consistent with the sharp drop in production and employment in 2020. For the price level, the leftward AD shift pushes it down while the leftward SRAS shift pushes it up, so the net direction is ambiguous."
         }
       ]
     },
@@ -1729,20 +1729,20 @@ window.QUIZ_DATA = {
         {
           "id": "ch35-q01",
           "difficulty": "easy",
-          "question": "According to Keynes's theory of liquidity preference, why does the money demand curve slope downward?",
+          "question": "Holding wealth as money rather than as an interest-bearing asset means forgoing the interest that asset would have paid. Suppose the interest rate rises. What happens to the quantity of money people choose to hold, and what slope does this imply for the money-demand curve?",
           "options": [
-            "Because the Federal Reserve directly controls the quantity of money households choose to hold",
-            "Because a higher interest rate increases people's wealth, leading them to hold more money",
-            "Because money is the least liquid of all assets, so people economize on it as rates rise",
-            "Because the interest rate is the opportunity cost of holding money, so a higher interest rate reduces the quantity of money demanded"
+            "The quantity demanded rises, because a higher interest rate makes households wealthier, so the curve slopes upward",
+            "The quantity demanded is unaffected, because the Fed fixes how much money households hold, so the curve is vertical",
+            "The quantity demanded falls, because money is the least liquid asset and people economize on it, so the curve slopes downward",
+            "The quantity demanded falls, because a higher interest rate raises the opportunity cost of holding money, so the curve slopes downward"
           ],
           "answer": 3,
-          "explanation": "The theory of liquidity preference emphasizes that the interest rate is the opportunity cost of holding money: holding wealth as money means giving up the interest that interest-bearing assets would pay. A higher interest rate raises that cost and reduces the quantity of money demanded, giving the curve its downward slope. The option saying the Fed controls the quantity demanded is wrong because the Fed controls the money supply (vertical curve), not the quantity demanded. The option calling money the least liquid asset is wrong because money is the most liquid asset."
+          "explanation": "The interest rate is the opportunity cost of holding money: wealth held as money gives up the interest an interest-bearing asset would pay. A higher interest rate raises that cost, so people hold less money, giving the money-demand curve a downward slope. The Fed controls the money supply (a vertical supply curve), not the quantity households demand, so the vertical-curve option is wrong. Money is the most liquid asset, not the least, so that option misstates the reason even though it reaches the right slope. Higher rates do not make holding money more attractive, so the upward-sloping option is wrong."
         },
         {
           "id": "ch35-q02",
           "difficulty": "medium",
-          "question": "In the money market, suppose the current interest rate is ABOVE the equilibrium level. According to the theory of liquidity preference, what happens and why?",
+          "question": "In the money market, the current interest rate is ABOVE the level that clears it. With the money supply fixed by the Fed, what imbalance exists and how does the adjustment back to equilibrium occur?",
           "options": [
             "The quantity of money demanded exceeds the fixed supply, creating a shortage, and people sell bonds, pushing the interest rate up",
             "The Fed must shift the vertical money-supply curve rightward to restore equilibrium",
@@ -1750,39 +1750,39 @@ window.QUIZ_DATA = {
             "The quantity of money demanded is less than the fixed supply, creating a surplus, and people sell bonds, pushing the interest rate up"
           ],
           "answer": 2,
-          "explanation": "When the interest rate is above equilibrium, the quantity of money people want to hold is less than the fixed quantity the Fed has supplied, so there is a surplus of money. People holding that surplus try to get rid of it by buying interest-bearing bonds (or depositing in banks). Because issuers can then offer lower rates, the interest rate falls back toward equilibrium. A shortage (with people selling bonds) occurs when the rate is below equilibrium, not above."
+          "explanation": "Above the equilibrium rate, the quantity of money people want to hold is less than the fixed quantity supplied, so there is a surplus of money. People holding that surplus use it to buy interest-bearing bonds or deposit it in banks; issuers can then offer lower rates, so the interest rate falls back to equilibrium. A shortage with people selling bonds occurs when the rate is below equilibrium, not above. Equilibrium is restored by the rate adjusting, not by the Fed shifting the fixed money supply."
         },
         {
           "id": "ch35-q03",
           "difficulty": "medium",
-          "question": "In Mankiw's reconciliation of the two interest-rate theories, which statement correctly pairs each theory with the time horizon it is best suited to explain?",
+          "question": "Two theories explain how the interest rate is determined: one built on saving and investment, the other on money supply and money demand. Which statement correctly pairs each theory with the time horizon over which it is most useful?",
           "options": [
-            "The liquidity-preference theory explains the long-run interest rate, while the loanable-funds theory explains the short-run interest rate.",
-            "The loanable-funds theory explains the long-run interest rate (emphasizing saving and investment), while the liquidity-preference theory explains the short-run interest rate (emphasizing monetary policy).",
-            "The loanable-funds theory explains the short-run interest rate (emphasizing money demand), while the liquidity-preference theory explains the long-run interest rate (emphasizing technology).",
-            "Neither theory determines the interest rate; in both the long run and short run the price level adjusts to clear the money market."
+            "The liquidity-preference theory best explains the long-run interest rate, while the loanable-funds theory best explains the short-run interest rate.",
+            "The loanable-funds theory best explains the long-run interest rate, emphasizing saving and investment, while the liquidity-preference theory best explains the short-run interest rate, emphasizing monetary policy.",
+            "The loanable-funds theory best explains the short-run interest rate, emphasizing money demand, while the liquidity-preference theory best explains the long-run interest rate, emphasizing technology.",
+            "Neither theory determines the interest rate; in both the long run and the short run the price level adjusts to clear the money market."
           ],
           "answer": 1,
-          "explanation": "The chapter states that the loanable-funds theory highlights an economy's saving propensities and investment opportunities and is best for thinking about the LONG-run determinants of the interest rate, while the liquidity-preference theory highlights monetary policy and is best for the SHORT-run determinants. The option pairing loanable funds with the long run and liquidity preference with the short run matches exactly; the others swap the pairing or misstate what clears the market."
+          "explanation": "The loanable-funds theory centers on an economy's saving propensities and investment opportunities, which are the long-run determinants of the interest rate, while the liquidity-preference theory centers on monetary policy and money demand, which dominate in the short run. The pairing of loanable funds with the long run and liquidity preference with the short run is therefore correct. The other options swap the pairing, attach the wrong variables, or wrongly claim the price level clears the market in both horizons."
         },
         {
           "id": "ch35-q04",
           "difficulty": "hard",
-          "question": "Consider the classical (long-run) sequence Mankiw uses: (1) output is set at the natural level by capital, labor, and technology; (2) given output, the interest rate balances the supply and demand for loanable funds; (3) given output and the interest rate, the price level balances money supply and demand. The text says this order is REVERSED in the short run. Which single feature of the short run is the reason the order must reverse?",
+          "question": "In the classical long-run analysis, output is set by capital, labor, and technology; then the interest rate balances loanable funds; then the price level balances money supply and demand. In the short run this order of determination reverses. Which feature of the short run forces the reversal?",
           "options": [
             "The natural level of output is no longer determined by capital, labor, and technology, so output must be solved for last.",
             "The Fed loses the ability to control the money supply in the short run, so money demand alone sets the interest rate.",
             "Changes in the money supply produce exactly proportionate changes in the price level only in the short run, forcing output to adjust first.",
             "Saving and investment become irrelevant in the short run, so the loanable-funds market disappears entirely.",
-            "Prices are sticky (the short-run aggregate-supply curve is upward-sloping), so the price level cannot move to clear the money market, and the interest rate moves instead."
+            "Many prices are sticky, so the short-run aggregate-supply curve slopes upward; with the price level slow to move, it cannot clear the money market, and the interest rate adjusts instead."
           ],
           "answer": 4,
-          "explanation": "In the long run the price level (step 3) does the adjusting because long-run supply is vertical. The chapter explains that in the short run many prices are slow to adjust, making the short-run aggregate-supply curve upward-sloping; because the price level is stuck, it cannot move to clear the money market, so the INTEREST RATE adjusts instead. This is precisely why the order of analysis reverses. The option denying the natural level's determinants is wrong, the option about exactly proportionate price-level changes misstates proportionality (a long-run result), and the options claiming the Fed loses control of the money supply and that saving and investment become irrelevant invent claims not made by the text."
+          "explanation": "In the long run the price level does the adjusting because long-run aggregate supply is vertical. In the short run many prices are slow to change, making short-run aggregate supply upward-sloping; with the price level stuck, it cannot move to clear the money market, so the interest rate adjusts instead, reversing the order of analysis. The natural level of output retains its determinants, the Fed keeps control of the money supply, exact proportionality is a long-run result, and saving and investment do not vanish, so the other options are wrong."
         },
         {
           "id": "ch35-q05",
           "difficulty": "easy",
-          "question": "According to Chapter 35, which of the following are the three reasons economists give for the downward slope of the aggregate-demand curve?",
+          "question": "A fall in the overall price level raises the real value of money holdings, lowers the interest rate, and depreciates the currency. Which set of effects names the three channels through which a lower price level raises the quantity of output demanded, giving the aggregate-demand curve its downward slope?",
           "options": [
             "The multiplier effect, the crowding-out effect, and the accelerator effect",
             "The substitution effect, the income effect, and the wealth effect",
@@ -1791,12 +1791,12 @@ window.QUIZ_DATA = {
             "The wealth effect, the multiplier effect, and the exchange-rate effect"
           ],
           "answer": 3,
-          "explanation": "The chapter lists exactly three reasons for the downward slope of the AD curve: the wealth effect (a lower price level raises the real value of money holdings, boosting consumption), the interest-rate effect (a lower price level reduces money demand, lowering the interest rate and raising investment), and the exchange-rate effect (a lower interest rate sends funds overseas, depreciating the currency and raising net exports). The multiplier, crowding-out, accelerator, and supply-side effects are concepts from the policy sections, not reasons the AD curve slopes downward."
+          "explanation": "A lower price level raises the real value of money holdings and boosts consumption (wealth effect), reduces money demand so the interest rate falls and investment rises (interest-rate effect), and that lower rate sends funds abroad, depreciating the currency and raising net exports (exchange-rate effect). These three channels make the AD curve slope downward. The multiplier, crowding-out, accelerator, and supply-side effects belong to the policy analysis, not to the slope of AD; the substitution and income effects describe individual demand curves, not aggregate demand."
         },
         {
           "id": "ch35-q06",
           "difficulty": "medium",
-          "question": "For the U.S. economy, the textbook ranks the three effects behind the downward slope of the AD curve by importance. Which statement matches the chapter's ranking and reasoning?",
+          "question": "For the U.S. economy, the three channels behind the downward-sloping AD curve are not equally strong. Which statement correctly ranks them and gives the right reason?",
           "options": [
             "The interest-rate effect is most important; the wealth effect is least important because money is a small part of household wealth.",
             "The exchange-rate effect is most important for the U.S. because exports and imports dominate U.S. GDP.",
@@ -1804,12 +1804,12 @@ window.QUIZ_DATA = {
             "The wealth effect is most important, and the interest-rate effect is least important for any economy."
           ],
           "answer": 0,
-          "explanation": "The chapter states the three effects are not of equal importance. The interest-rate effect is the MOST important reason for the U.S. The wealth effect is the LEAST important because money holdings are a small part of household wealth. The exchange-rate effect is small for the U.S. (because exports and imports are a small fraction of U.S. GDP) but larger for smaller open economies that trade a larger fraction of their GDP. This rules out the other options, which scramble the ranking or the justification."
+          "explanation": "For the U.S., the interest-rate effect is the most important channel. The wealth effect is the weakest because money holdings are only a small part of total household wealth. The exchange-rate effect is small for the U.S. because exports and imports are a small fraction of GDP, though it is larger for small open economies. This rules out the options that crown the wealth or exchange-rate effect for the U.S. or that misstate why money matters."
         },
         {
           "id": "ch35-q07",
           "difficulty": "hard",
-          "question": "Two economies are identical except that Economy A is a large, relatively closed economy (like the U.S.) while Economy B is a small open economy where exports and imports are a large share of GDP. A given drop in the price level lowers the interest rate by the same amount in both. Holding the wealth and interest-rate channels equal, which conclusion about the resulting increase in quantity of output demanded is best supported by Chapter 35, and through which channel does the difference operate?",
+          "question": "Economy A is large and relatively closed (like the U.S.); Economy B is small and open, with exports and imports a large share of GDP. A given drop in the price level lowers the interest rate by the same amount in both, and the wealth and interest-rate channels are equal across them. Which economy gets the larger increase in quantity of output demanded, and through which channel?",
           "options": [
             "The increase is larger in Economy B, working through a stronger exchange-rate effect, because net exports are a larger share of its GDP.",
             "The increase is larger in Economy A, working through a stronger wealth effect, because closed economies hold more money.",
@@ -1818,12 +1818,12 @@ window.QUIZ_DATA = {
             "The increase is larger in Economy B, working through a stronger wealth effect, because small economies hold money as a larger share of wealth."
           ],
           "answer": 0,
-          "explanation": "The chapter says the exchange-rate effect is not large for the U.S. because exports and imports are a small fraction of GDP, but it is more important for smaller countries that export and import a larger fraction of their GDP. With the wealth and interest-rate channels held equal, the difference must come through the exchange-rate channel: a lower interest rate sends funds overseas, depreciates the currency, and raises net exports more in the small open economy where net exports are a larger share of GDP. So Economy B gets the larger increase via a stronger exchange-rate effect. The wealth effect (options B and E) is the least important channel and is not driven by openness, and the interest-rate effect is assumed equal here (option D)."
+          "explanation": "With the wealth and interest-rate channels held equal, the only remaining difference operates through the exchange-rate channel. A lower interest rate sends funds overseas, depreciates the currency, and raises net exports, and net exports are a larger share of GDP in the small open economy, so Economy B gets the larger increase. The wealth effect is the weakest channel and is not driven by openness, and the interest-rate effect is assumed equal here, so the other options fail."
         },
         {
           "id": "ch35-q08",
           "difficulty": "hard",
-          "question": "Suppose the Federal Open Market Committee announces it has lowered its target for the federal funds rate. Using the theory of liquidity preference (with a fixed-position money-demand curve at a given price level), which sequence correctly traces what the Fed must do and what results in the short run?",
+          "question": "The Federal Open Market Committee announces a lower target for the federal funds rate. With the money-demand curve fixed at a given price level, which sequence correctly traces the Fed's open-market action and its short-run consequences?",
           "options": [
             "The Fed sells government bonds, shifting the money-supply curve left; the equilibrium interest rate rises, investment falls, and aggregate demand shifts left.",
             "The Fed buys government bonds, shifting the money-demand curve right; the equilibrium interest rate rises, investment falls, and aggregate demand shifts left.",
@@ -1832,12 +1832,12 @@ window.QUIZ_DATA = {
             "The Fed buys government bonds, but because the money-supply curve is vertical the interest rate cannot change and aggregate demand is unaffected."
           ],
           "answer": 2,
-          "explanation": "Lowering the federal funds target commits the Fed to adjust the money supply to hit that target. To reach a lower rate, the Fed buys government bonds, shifting the vertical money-supply curve rightward. With money demand fixed at the given price level, the equilibrium interest rate falls, which lowers borrowing costs, raises residential and business investment, and shifts aggregate demand to the right. The option in which the Fed sells bonds describes a contraction; the option that has the Fed buying bonds but shifting the money-demand curve right wrongly shifts money demand and reverses the rate move; the option shifting the money-demand curve left and the option claiming the vertical money-supply curve prevents any rate change both deny that a money-supply change moves the rate or AD, contradicting the chapter."
+          "explanation": "Hitting a lower funds-rate target requires raising the money supply, which the Fed does by buying government bonds, shifting the vertical money-supply curve rightward. With money demand fixed, the equilibrium interest rate falls, lowering borrowing costs, raising investment, and shifting aggregate demand right. Selling bonds describes a contraction; shifting money demand rather than supply misidentifies the curve that moves; and a vertical supply curve still shifts position, so it does not prevent the rate from changing."
         },
         {
           "id": "ch35-q09",
           "difficulty": "hard",
-          "question": "Consider a money market drawn with a vertical money-supply curve and a downward-sloping money-demand curve at a fixed price level. The Fed wants to CONTRACT aggregate demand. Which description of the diagram and its consequences is consistent with the chapter?",
+          "question": "The Fed wants to CONTRACT aggregate demand. In a money market with a vertical money-supply curve and a downward-sloping money-demand curve at a fixed price level, which description of the open-market action and its consequences is correct?",
           "options": [
             "The money-supply curve shifts right; the equilibrium interest rate falls; investment rises; AD shifts right.",
             "The money-supply curve shifts left; the equilibrium interest rate rises; residential and business investment fall; AD shifts left.",
@@ -1845,26 +1845,26 @@ window.QUIZ_DATA = {
             "The money-supply curve stays fixed while the interest rate is raised directly; investment rises; AD shifts right."
           ],
           "answer": 1,
-          "explanation": "A contraction is the mirror image of a monetary injection. The Fed sells bonds, shifting the vertical money-supply curve left. Along the unchanged downward-sloping money-demand curve, the equilibrium interest rate rises, which raises the cost of borrowing, reduces residential and business investment, and shifts AD left. The option shifting the money-supply curve right describes an expansion; the option shifting the money-demand curve left incorrectly moves money demand rather than supply; the option leaving supply fixed while raising the rate directly incorrectly pairs a higher rate with higher investment and a rightward AD shift."
+          "explanation": "To contract demand, the Fed sells bonds, shifting the vertical money-supply curve left. Along the unchanged downward-sloping money-demand curve, the equilibrium interest rate rises, raising borrowing costs, cutting residential and business investment, and shifting AD left. Shifting the supply curve right describes an expansion; shifting money demand misidentifies the curve that moves; and a higher rate cannot raise investment or shift AD right."
         },
         {
           "id": "ch35-q10",
           "difficulty": "hard",
-          "question": "A news report states: 'The Fed has reduced the target for the federal funds rate from 4 percent to 3 percent.' Drawing on the equivalence principle and the post-2008 interest-on-reserves mechanism, which interpretation is correct?",
+          "question": "A news report says the Fed has reduced its federal funds rate target from 4 percent to 3 percent. Given that monetary policy can be described equivalently as a money-supply change or a rate change, and given the post-2008 interest-on-reserves mechanism, which interpretation is correct?",
           "options": [
             "Because the change is described as a rate cut rather than a money-supply change, it has no effect on aggregate demand.",
             "The Fed must be selling bonds to push the rate down, which decreases the money supply and contracts aggregate demand.",
             "The federal funds rate is the rate the Fed pays households on deposits, so the cut reduces household income and contracts aggregate demand.",
             "Lowering the target raises interest on reserves, causing banks to hold more reserves and lend less, which contracts aggregate demand.",
-            "The money supply is being adjusted upward to hit the lower target; the Fed also lowers interest on reserves, so banks lend more, the money supply rises, and aggregate demand expands."
+            "The money supply is adjusted upward to hit the lower target; the Fed also lowers interest on reserves, so banks lend more, the money supply rises, and aggregate demand expands."
           ],
           "answer": 4,
-          "explanation": "Monetary policy can be described either as a money-supply change or an interest-rate change: a reduction in the funds target means the money supply is adjusted upward to hit it, lowering the equilibrium rate. Since 2008, the link is nearly automatic through interest on reserves: a lower funds target means the Fed lowers interest on reserves, so banks lend more, raising the money supply and expanding AD. The option saying a rate cut has no effect on AD denies the equivalence; the option that has the Fed selling bonds reverses the open-market action; the option calling the funds rate the rate the Fed pays households misdefines the funds rate; the option claiming the cut raises interest on reserves reverses the interest-on-reserves direction."
+          "explanation": "A reduction in the funds target means the money supply is adjusted upward to reach it, lowering the equilibrium rate. Since 2008 this works largely through interest on reserves: a lower target means the Fed lowers the rate it pays on reserves, so banks lend more, the money supply rises, and AD expands. Describing the move as a rate cut does not erase its effect on AD; pushing the rate down requires buying bonds, not selling; the funds rate is the rate banks charge one another for reserves, not a rate paid to households; and lowering the target lowers interest on reserves rather than raising it."
         },
         {
           "id": "ch35-q11",
           "difficulty": "medium",
-          "question": "In Chapter 35's case study, the Fed kept real interest rates high by historical standards during the stock-market boom of the late 1990s. Which chain of reasoning best explains why the Fed would tighten in response to a booming stock market?",
+          "question": "During the stock-market boom of the late 1990s, the Fed kept real interest rates high by historical standards. Which chain of reasoning explains why a booming stock market would lead the Fed to tighten?",
           "options": [
             "A boom lowers household wealth, so the Fed must raise rates to restore consumption",
             "Higher share prices raise the cost of borrowing, so the Fed offsets this by adding to the money supply",
@@ -1872,12 +1872,12 @@ window.QUIZ_DATA = {
             "Rising stock prices raise consumption and make share issuance attractive for investment, pushing AD up, so the Fed tightens to offset the AD increase and stabilize the economy"
           ],
           "answer": 3,
-          "explanation": "The chapter says a stock boom makes households wealthier (consumption up) and makes issuing new shares attractive (investment up), so AD rises. To promote stability the Fed may keep the money supply lower and interest rates higher to offset this AD increase, which it did in the late 1990s. The other choices reverse the wealth/AD logic or invent automatic mechanisms not in the chapter."
+          "explanation": "A stock boom makes households wealthier, raising consumption, and makes issuing new shares cheaper, encouraging investment, so aggregate demand rises. To keep the economy stable the Fed can hold the money supply lower and rates higher to offset that AD increase, as it did in the late 1990s. The other choices reverse the wealth-to-AD logic or invent an automatic link between stock prices and the money supply."
         },
         {
           "id": "ch35-q12",
           "difficulty": "easy",
-          "question": "According to Chapter 35, when an economy is in a \"liquidity trap,\" why may conventional expansionary monetary policy fail to stimulate aggregate demand?",
+          "question": "When an economy is in a liquidity trap, expansionary monetary policy may fail to stimulate aggregate demand. What feature of such a situation undermines the usual mechanism?",
           "options": [
             "The Fed loses the legal authority to conduct open-market operations during recessions",
             "Nominal interest rates are already near zero and cannot fall much further, so the extra liquidity may have no effect",
@@ -1886,12 +1886,12 @@ window.QUIZ_DATA = {
             "Money demand becomes perfectly vertical, fixing the interest rate above zero"
           ],
           "answer": 1,
-          "explanation": "The chapter explains that expansionary monetary policy works by reducing interest rates to stimulate investment. In a liquidity trap nominal rates have already fallen to about zero and cannot fall much below zero (people would just hold cash instead of lending at a negative rate), so the added liquidity may have no effect and AD, production, and employment can stay 'trapped' at low levels. The other options describe mechanisms the chapter does not invoke."
+          "explanation": "Expansionary monetary policy works by lowering interest rates to stimulate investment. In a liquidity trap nominal rates are already near zero and cannot fall much below it, because lenders would simply hold cash rather than lend at a negative rate, so additional liquidity has little effect and output and employment stay depressed. The Fed retains its open-market authority, banks are not forced to hold all new reserves, and money demand does not turn vertical, so the other options are wrong."
         },
         {
           "id": "ch35-q13",
           "difficulty": "hard",
-          "question": "A central bank's policy rate is stuck at the zero lower bound. The bank wants to give itself more room to push the REAL interest rate below zero in future downturns and announces it will raise its long-run inflation target from 0 to 4 percent. Using only Chapter 35's reasoning, which statement is correct?",
+          "question": "A central bank stuck at the zero lower bound wants more room to push the REAL interest rate below zero in future downturns, so it raises its long-run inflation target from 0 to 4 percent. Which statement correctly describes the effect?",
           "options": [
             "Raising the inflation target has no effect on the real rate because the Fisher relationship does not hold at the zero lower bound",
             "With a 4 percent inflation target, setting the nominal rate to zero yields a real rate of about positive 4 percent, which contracts the economy",
@@ -1900,12 +1900,12 @@ window.QUIZ_DATA = {
             "With a 4 percent inflation target, setting the nominal rate to zero yields a real rate of about negative 4 percent, giving more room to stimulate; under a zero inflation target the real rate, like the nominal rate, cannot fall below zero"
           ],
           "answer": 4,
-          "explanation": "The chapter states that under zero inflation the real interest rate, like the nominal rate, can never fall below zero, but if normal inflation is 4 percent the central bank can push the real rate to about negative 4 percent by setting the nominal rate to zero. A higher inflation target therefore gives policymakers more room to stimulate and reduces the risk of a liquidity trap. The distractor with positive 4 percent reverses the sign (real = nominal minus inflation = 0 - 4 = -4)."
+          "explanation": "The real rate equals the nominal rate minus inflation. With zero inflation, the real rate cannot fall below zero because the nominal rate cannot. With 4 percent inflation, setting the nominal rate to zero gives a real rate of about negative 4 percent (0 minus 4), so a higher inflation target gives policymakers more room to stimulate and reduces the risk of a liquidity trap. The positive-4-percent option reverses the sign; the nominal-rate floor itself is not pushed below zero; and the Fisher relationship still holds, so the other options fail."
         },
         {
           "id": "ch35-q14",
           "difficulty": "hard",
-          "question": "At the zero lower bound the conventional easing channel is blocked, yet Chapter 35 notes skeptics argue the central bank still has tools. Consider two tools: (I) forward guidance and (II) quantitative easing. Which option correctly pairs each tool with the mechanism the chapter attributes to it?",
+          "question": "At the zero lower bound the conventional easing channel is blocked, but a central bank may still use unconventional tools. Consider (I) forward guidance and (II) quantitative easing. Which option correctly pairs each tool with its mechanism?",
           "options": [
             "I: committing to keep rates low for an extended period, so the promise of low future rates stimulates investment now; II: buying mortgage-backed and longer-term bonds to lower those rates, increasing the quantity of bank reserves",
             "I: buying mortgage-backed and longer-term bonds to lower those rates; II: committing to keep rates low for an extended period",
@@ -1914,25 +1914,25 @@ window.QUIZ_DATA = {
             "Both I and II work solely by raising the present value of stocks, which boosts consumption through the wealth effect"
           ],
           "answer": 0,
-          "explanation": "The chapter defines forward guidance as the central bank committing to keep interest rates low for an extended period, so the promise of low future rates stimulates investment spending now. Quantitative easing is conducting open-market operations with a larger variety of instruments (mortgage-backed securities and longer-term government bonds) to lower those rates; it is called QE because it increases the quantity of bank reserves. The option that pairs forward guidance with bond-buying and QE with the low-rate commitment swaps the two definitions, and the remaining choices invent mechanisms not in the chapter."
+          "explanation": "Forward guidance is a commitment to keep interest rates low for an extended period, so the expectation of low future rates stimulates investment spending now. Quantitative easing conducts open-market operations across a wider range of instruments, such as mortgage-backed securities and longer-term government bonds, to push down those rates; it increases the quantity of bank reserves, which gives it its name. The second option swaps the two definitions, and the remaining choices invent mechanisms that do not apply."
         },
         {
           "id": "ch35-q15",
           "difficulty": "medium",
-          "question": "According to Chapter 35, why can the rightward shift in aggregate demand from a $20 billion government purchase end up being LARGER than $20 billion?",
+          "question": "A $20 billion increase in government purchases can shift aggregate demand to the right by MORE than $20 billion. What accounts for this larger-than-initial shift?",
           "options": [
-            "Because the multiplier effect creates a positive feedback loop in which higher income raises consumer spending, which raises income again",
-            "Because government purchases work indirectly by first changing the interest rate before affecting spending",
-            "Because the crowding-out effect adds to private investment spending",
-            "Because taxes automatically fall, providing an additional stimulus to consumption"
+            "The multiplier effect creates a positive feedback loop in which higher income raises consumer spending, which raises income again",
+            "Government purchases work indirectly by first changing the interest rate before affecting spending",
+            "The crowding-out effect adds to private investment spending",
+            "Taxes automatically fall, providing an additional stimulus to consumption"
           ],
           "answer": 0,
-          "explanation": "The multiplier effect is defined as the additional shifts in AD that occur when the initial purchase raises income, prompting more consumer spending, which raises income further (a positive feedback loop), possibly strengthened by the investment accelerator. Government purchases shift AD directly, not indirectly through interest rates. Crowding-out makes the shift SMALLER, not larger, so it is the opposite of the multiplier."
+          "explanation": "The multiplier effect is the chain of additional AD shifts set off when the initial purchase raises income, which prompts more consumer spending, which raises income again, possibly reinforced by the investment accelerator. Government purchases shift AD directly rather than first working through interest rates. Crowding out makes the shift smaller, not larger, and the purchase itself does not automatically cut taxes."
         },
         {
           "id": "ch35-q16",
           "difficulty": "hard",
-          "question": "The government places a $30 billion order with domestic firms. Economists estimate that for every extra dollar of income households receive, they spend $0.80 and save the rest. Ignoring crowding-out and the investment accelerator, by how much does the spending multiplier ultimately shift the aggregate-demand curve?",
+          "question": "The government places a $30 billion order with domestic firms. For every extra dollar of income households receive, they spend $0.80 and save the rest. Ignoring crowding-out and the investment accelerator, by how much does the spending multiplier ultimately shift the aggregate-demand curve?",
           "options": [
             "$37.5 billion",
             "$150 billion",
@@ -1941,12 +1941,12 @@ window.QUIZ_DATA = {
             "$90 billion"
           ],
           "answer": 1,
-          "explanation": "MPC = 0.80, so the multiplier = 1/(1 - MPC) = 1/(1 - 0.80) = 1/0.20 = 5. The total AD shift = multiplier x change in government purchases = 5 x $30 billion = $150 billion. The trap answer $120 billion forgets to count the initial $30 billion of government spending itself (it computes only the induced consumption, MPC/(1-MPC) x 30 = 4 x 30), and $37.5 billion misapplies the saving fraction."
+          "explanation": "With MPC = 0.80, the multiplier is 1/(1 - 0.80) = 1/0.20 = 5, so the total AD shift is 5 x $30 billion = $150 billion. The $120 billion answer counts only the induced consumption and forgets the initial $30 billion of government spending; $37.5 billion misapplies the saving fraction; $90 billion and $24 billion use the wrong multiplier."
         },
         {
           "id": "ch35-q17",
           "difficulty": "hard",
-          "question": "A recession overseas reduces foreign demand for U.S. net exports by $10 billion. The marginal propensity to consume is 3/4. Which statement BEST describes the resulting effect through the income-consumption feedback loop, according to the chapter?",
+          "question": "A recession overseas reduces foreign demand for U.S. net exports by $10 billion. The marginal propensity to consume is 3/4. Through the income-consumption feedback loop, what is the resulting effect on aggregate demand?",
           "options": [
             "Aggregate demand is unaffected, because the multiplier applies only to government purchases, not to net exports",
             "Aggregate demand contracts by $10 billion, since the multiplier raises an effect only when spending rises",
@@ -1954,12 +1954,12 @@ window.QUIZ_DATA = {
             "Aggregate demand contracts by $7.5 billion, because households save 1/4 of the lost income"
           ],
           "answer": 2,
-          "explanation": "The chapter states the multiplier applies to any GDP component (C, I, G, or NX), in either direction. With MPC = 3/4 the multiplier is 1/(1 - 3/4) = 4, so a $10 billion fall in net exports leads to a $40 billion contraction in aggregate demand. The multiplier amplifies decreases as well as increases, ruling out the unchanged and $10 billion options."
+          "explanation": "The multiplier applies to any component of GDP, including net exports, and works in both directions. With MPC = 3/4 the multiplier is 1/(1 - 3/4) = 4, so a $10 billion fall in net exports produces a $40 billion contraction in aggregate demand. The multiplier amplifies decreases just as it does increases, ruling out the unchanged and $10 billion options, and it applies to net exports, not only to government purchases."
         },
         {
           "id": "ch35-q18",
           "difficulty": "hard",
-          "question": "Economists observe that an increase in government purchases of $10 billion raises the total quantity of goods and services demanded by $30 billion. If they IGNORE crowding out and attribute the entire effect to the spending multiplier, what marginal propensity to consume (MPC) does this imply, and how would also allowing for crowding out change that implied MPC estimate?",
+          "question": "A $10 billion increase in government purchases raises the total quantity of goods and services demanded by $30 billion. If the entire effect is attributed to the spending multiplier and crowding out is ignored, what marginal propensity to consume does this imply, and how would also allowing for crowding out change that implied MPC estimate?",
           "options": [
             "MPC = 1/3; allowing for crowding out, the implied MPC would be larger",
             "MPC = 1/2; allowing for crowding out, the implied MPC would be unchanged",
@@ -1968,12 +1968,12 @@ window.QUIZ_DATA = {
             "MPC = 3/4; allowing for crowding out, the implied MPC would be smaller"
           ],
           "answer": 3,
-          "explanation": "Ignoring crowding out, the entire $30B is credited to the multiplier, so multiplier = $30B / $10B = 3. Since multiplier = 1/(1 - MPC), we get 3 = 1/(1 - MPC), so 1 - MPC = 1/3 and MPC = 2/3. This rules out the options with MPC = 1/3, 1/2, or 3/4. Now allow for crowding out: the higher income raises money demand, which raises the interest rate and reduces investment, partially OFFSETTING the expansion. The observed $30B is therefore the NET effect = (gross multiplier effect) minus (crowding-out offset). So the pure multiplier effect must be GREATER than $30B to still net out to $30B after crowding out. A larger multiplier requires a larger MPC. Hence the implied MPC estimate would be LARGER, making the 'MPC = 2/3; larger' option correct. The other 'MPC = 2/3' option has the right MPC but the wrong direction (smaller)."
+          "explanation": "Crediting the whole $30 billion to the multiplier gives a multiplier of $30B / $10B = 3, and since the multiplier is 1/(1 - MPC), we have 3 = 1/(1 - MPC), so 1 - MPC = 1/3 and MPC = 2/3. Allowing for crowding out, the higher income raises money demand, pushing up the interest rate and cutting investment, which partly offsets the expansion. The observed $30 billion is then the net of a larger gross multiplier effect minus the crowding-out offset, so the pure multiplier effect must exceed $30 billion, which requires a larger multiplier and therefore a larger MPC. The other MPC = 2/3 option has the right MPC but the wrong direction."
         },
         {
           "id": "ch35-q19",
           "difficulty": "hard",
-          "question": "A government increases its purchases of goods and services by $20 billion. Trace the mechanism the textbook describes by which this fiscal expansion partially offsets its own impact on aggregate demand. Which sequence correctly describes the crowding-out effect, assuming the Fed holds the money supply fixed?",
+          "question": "The government increases its purchases of goods and services by $20 billion while the Fed holds the money supply fixed. Which sequence correctly describes the crowding-out effect that partly offsets the fiscal expansion's own impact on aggregate demand?",
           "options": [
             "Higher government purchases raise income, which raises saving and the supply of loanable funds; the interest rate falls and investment rises, amplifying the rightward shift in aggregate demand",
             "Higher government purchases raise the price level, which shifts the money supply curve left; the interest rate falls and investment rises, fully reversing the shift in aggregate demand",
@@ -1982,12 +1982,12 @@ window.QUIZ_DATA = {
             "Higher government purchases force the Fed to raise the money supply, lowering the interest rate and raising investment so that aggregate demand shifts by exactly $20 billion"
           ],
           "answer": 2,
-          "explanation": "Per Figure 5 and the text: the fiscal expansion raises income, which raises money demand (shifts MD right). With a fixed money-supply curve, the equilibrium interest rate must rise. A higher rate makes borrowing more expensive, reducing residential and business investment, which partially offsets the initial rightward AD shift (AD1 to AD2 pulled back to AD3). The other options reverse the direction of money demand, interest rate, or investment, or invoke loanable funds (the long-run framework), which is not the crowding-out mechanism described here."
+          "explanation": "The fiscal expansion raises income, which raises money demand. With the money supply fixed, the equilibrium interest rate must rise, making borrowing more expensive and reducing residential and business investment, which partly offsets the initial rightward AD shift. The options that raise the supply of loanable funds or reduce money demand reverse the direction of the mechanism, the loanable-funds story is the long-run framework rather than crowding out, and the Fed is assumed to hold the money supply fixed."
         },
         {
           "id": "ch35-q20",
           "difficulty": "hard",
-          "question": "The government announces a $1,000-per-person tax cut. Holding the multiplier and crowding-out effects the same in both cases, why does the textbook argue that whether the tax cut is perceived as PERMANENT versus TEMPORARY changes the size of the aggregate-demand shift, and what does the 1992 episode illustrate?",
+          "question": "The government announces a $1,000-per-person tax cut. Holding the multiplier and crowding-out effects equal, why would whether the cut is perceived as PERMANENT versus TEMPORARY change the size of the aggregate-demand shift, and what does the 1992 withholding episode illustrate?",
           "options": [
             "A permanent cut is saved while a temporary cut is spent, so temporary cuts shift AD more; the 1992 episode shows a temporary cut with a large effect",
             "Permanent and temporary cuts produce identical AD shifts because both raise take-home pay equally; the 1992 episode confirms tax timing is irrelevant",
@@ -1996,26 +1996,26 @@ window.QUIZ_DATA = {
             "A permanent cut shifts AD left because households expect future tax increases; the 1992 episode shows AD falling after the cut"
           ],
           "answer": 3,
-          "explanation": "The text states that if people expect a tax cut to be permanent they view it as adding substantially to their financial resources and increase spending by a large amount (large AD impact); if they expect it to be temporary they increase spending only slightly (small AD impact). The 1992 reduction in tax WITHHOLDING did not change legislated rates, so every dollar withheld less in 1992 was an extra dollar of taxes due in April 1993 - effectively a short-term loan - and its effect on consumer spending and AD was relatively small. The distractors invert the permanent/temporary spending logic or misattribute the effect to aggregate supply."
+          "explanation": "A cut perceived as permanent adds substantially to a household's lifetime resources, so spending and the AD shift are large; a cut perceived as temporary adds little, so spending and the AD shift are small. The 1992 reduction in tax withholding did not change legislated rates, so each dollar withheld less in 1992 was an extra dollar of tax due in April 1993, effectively a short-term loan, and its effect on consumer spending and AD was relatively small. The other options invert the permanent/temporary logic or wrongly attribute the effect to aggregate supply."
         },
         {
           "id": "ch35-q21",
           "difficulty": "hard",
-          "question": "A supply-side economist and a demand-side economist debate a cut in personal income tax rates. According to Chapter 35, which statement most accurately captures the chapter's treatment of the supply-side channel?",
+          "question": "A supply-side economist and a demand-side economist debate a cut in personal income tax rates. Which statement most accurately captures the supply-side channel of such a cut?",
           "options": [
-            "Cutting tax rates raises the after-tax reward to working, increasing the incentive to work and shifting aggregate supply right; the Laffer claim that a rate cut raises revenue is a theoretical possibility but not, according to most economists, the normal case",
+            "Cutting tax rates raises the after-tax reward to working, increasing the incentive to work and shifting aggregate supply right; the claim that a rate cut raises tax revenue is a theoretical possibility but, in the view of most economists, not the normal case",
             "Cutting tax rates always raises tax revenue because supply-side effects on aggregate supply are large enough to dominate, which most economists accept",
             "Cutting tax rates shifts aggregate supply left because workers, now richer, choose more leisure, so output falls",
-            "Tax-rate cuts have no effect on aggregate supply; the chapter says fiscal policy works only through aggregate demand in both the short run and the long run",
+            "Tax-rate cuts have no effect on aggregate supply; fiscal policy works only through aggregate demand in both the short run and the long run",
             "Cutting tax rates raises aggregate supply mainly in the short run, while infrastructure spending raises aggregate demand mainly in the long run"
           ],
           "answer": 0,
-          "explanation": "The FYI box explains that because people respond to incentives, cutting tax rates lets workers keep more of each dollar earned, raising the incentive to work and shifting AS right (the 'supply siders' view). The Laffer-type argument - that a rate cut could so stimulate production that revenue rises - is called a theoretical possibility that most economists do NOT consider the normal case. Option D contradicts the chapter (most economists believe short-run effects work primarily through AD, not that there is never any AS effect), and E inverts the timing (infrastructure's AS effect is more important in the long run, and it shifts AS, not AD)."
+          "explanation": "Because people respond to incentives, cutting tax rates lets workers keep more of each dollar earned, raising the incentive to work and shifting aggregate supply right. The argument that a rate cut could stimulate production enough to raise revenue is a theoretical possibility that most economists do not consider the normal case. Tax cuts do affect aggregate supply through incentives, so the no-effect option is wrong, and the final option inverts the timing, since infrastructure's aggregate-supply effect matters most in the long run and shifts supply rather than demand."
         },
         {
           "id": "ch35-q22",
           "difficulty": "medium",
-          "question": "According to Chapter 35, how can an increase in government spending on infrastructure such as roads and railroads affect aggregate supply, and over what time horizon is this effect more important?",
+          "question": "An increase in government spending on infrastructure such as roads and railroads can affect aggregate supply as well as aggregate demand. How does this aggregate-supply effect arise, and over what time horizon is it more important?",
           "options": [
             "It has no effect on aggregate supply because government purchases work only through aggregate demand",
             "It raises aggregate supply, but only in the short run, because infrastructure can be built and used almost immediately",
@@ -2023,12 +2023,12 @@ window.QUIZ_DATA = {
             "It raises business productivity by improving the capital firms use for deliveries, shifting aggregate supply right, and this matters mainly in the long run because building takes time"
           ],
           "answer": 3,
-          "explanation": "The text explains that roads and railroads are government-provided capital used by private businesses to make deliveries; better infrastructure raises those businesses' productivity, increasing the quantity of goods and services supplied at any price level and shifting AS right. It adds that this AS effect is probably more important in the long run than the short run because it takes time to build infrastructure and put it into use - which rules out the 'short run' and 'no effect' options."
+          "explanation": "Roads and railroads are government-provided capital that private firms use to make deliveries; better infrastructure raises those firms' productivity, increasing the quantity of goods and services supplied at any price level and shifting aggregate supply right. Because building and bringing infrastructure into use takes time, this effect matters mainly in the long run rather than the short run, which rules out the short-run and no-effect options."
         },
         {
           "id": "ch35-q23",
           "difficulty": "hard",
-          "question": "Congress passes a tax increase that, by itself, would shift the aggregate-demand curve to the LEFT by $90 billion. The Federal Reserve wishes to offset this fiscal action so that aggregate demand is left completely unchanged. According to Chapter 35's discussion of the case for active stabilization policy, which Fed action and channel correctly describe how this offset works?",
+          "question": "Congress passes a tax increase that, by itself, would shift the aggregate-demand curve LEFT by $90 billion. The Fed wishes to offset this fiscal action so that aggregate demand is left completely unchanged. Which Fed action and channel correctly accomplish the offset?",
           "options": [
             "Sell government bonds, which shifts the money-supply curve right, lowers the interest rate, and raises investment until AD returns to its original position",
             "Buy government bonds, which shifts the money-supply curve right, lowers the equilibrium interest rate, and stimulates investment spending enough to push AD back to its original position",
@@ -2037,12 +2037,12 @@ window.QUIZ_DATA = {
             "Leave the money supply unchanged, since automatic stabilizers will fully offset the tax increase without any deliberate Fed action"
           ],
           "answer": 1,
-          "explanation": "The chapter's case-for-stabilization example: a tax hike lowers AD, so the Fed increases the money supply, which lowers the equilibrium interest rate, stimulates investment, and expands AD; if set appropriately the combined policies leave AD unchanged. The Fed increases the money supply by BUYING bonds (shifting money supply right). Option 0 says 'sell' (that contracts). Option 2 says raising the funds-rate target increases the money supply, which is backwards. Option 3 mislabels buying bonds as shifting money demand and raising r. Option 4 contradicts the chapter, which says automatic stabilizers are not strong enough to fully offset/prevent recessions."
+          "explanation": "A tax hike lowers AD, so to offset it the Fed increases the money supply by buying bonds, which shifts the money-supply curve right, lowers the equilibrium interest rate, and stimulates investment; sized correctly, the combined policies leave AD unchanged. Selling bonds would contract rather than offset; raising the funds-rate target lowers the money supply, the opposite of what is needed; buying bonds shifts money supply, not money demand, and lowers the rate; and automatic stabilizers are not strong enough to fully offset such a shift on their own."
         },
         {
           "id": "ch35-q24",
           "difficulty": "hard",
-          "question": "A wave of negative 'animal spirits' causes consumption to fall by $30 billion. Assume the marginal propensity to consume (MPC) is 2/3 and ignore crowding-out and the investment accelerator. If the Federal Reserve wants to use monetary policy to exactly restore aggregate demand to its original level, by how much must the Fed's action shift aggregate demand, and in which direction should the Fed move its federal funds rate target?",
+          "question": "A wave of negative 'animal spirits' causes consumption to fall by $30 billion. The marginal propensity to consume is 2/3; ignore crowding-out and the investment accelerator. If the Fed wants to use monetary policy to restore aggregate demand exactly to its original level, by how much must its action shift aggregate demand, and which way should it move its federal funds rate target?",
           "options": [
             "A $30 billion rightward shift; the Fed should lower its federal funds rate target",
             "A $90 billion rightward shift; the Fed should raise its federal funds rate target",
@@ -2051,35 +2051,35 @@ window.QUIZ_DATA = {
             "A $20 billion rightward shift; the Fed should lower its federal funds rate target"
           ],
           "answer": 2,
-          "explanation": "The multiplier is 1/(1-MPC) = 1/(1-2/3) = 3. The initial $30 billion drop in consumption produces a total AD contraction of 3 x $30 billion = $90 billion. To restore AD, the Fed must shift AD rightward by $90 billion. Because the economy is too weak (excessively pessimistic), the Fed should LOWER its federal funds rate target, which increases the money supply and expands AD. Options with $30, $45, or $20 billion misapply or omit the multiplier; raising the target would be contractionary, the wrong direction."
+          "explanation": "With MPC = 2/3 the multiplier is 1/(1 - 2/3) = 3, so the $30 billion drop in consumption produces a $90 billion contraction in AD. Restoring AD requires shifting it rightward by $90 billion. Because demand is too weak, the Fed should lower its federal funds rate target, which raises the money supply and expands AD. The $30, $45, and $20 billion answers misapply or omit the multiplier, and raising the target would be contractionary."
         },
         {
           "id": "ch35-q25",
           "difficulty": "medium",
-          "question": "Economists who make the case AGAINST active stabilization policy point to the long lags with which policy operates. Which statement best reflects the chapter's account of these lags?",
+          "question": "Critics of active stabilization policy stress that policy operates with long lags. Which statement best characterizes those lags for monetary and fiscal policy?",
           "options": [
             "Monetary policy has essentially no lag, but fiscal policy is delayed for years by the political process",
-            "Monetary policy takes at least six months to much affect output and employment, while fiscal policy's lag stems largely from the congressional/political process",
+            "Monetary policy takes at least six months to much affect output and employment, while fiscal policy's lag stems largely from the congressional and political process",
             "Both monetary and fiscal policy take effect within a few weeks, so the real problem is that their effects are too short-lived",
             "Fiscal policy works almost instantly through automatic stabilizers, so only monetary policy suffers from a meaningful lag",
             "Monetary policy's lag comes from the slowness of FOMC meetings, while fiscal policy's lag comes from imprecise economic forecasting"
           ],
           "answer": 1,
-          "explanation": "The chapter states most economists believe it takes at least six months for monetary policy to much affect output and employment (and effects can last years), while fiscal policy's lag is largely caused by the political process (going through congressional committees, both chambers, and the president). Option 0 wrongly says monetary policy has no lag. Option 2 is backwards about duration. Option 3 confuses discretionary fiscal policy with automatic stabilizers. Option 4 mislabels the sources of the lags."
+          "explanation": "Monetary policy takes at least six months to much affect output and employment, and its effects can last for years, while fiscal policy's lag comes mainly from the political process of moving legislation through congressional committees, both chambers, and the president. Monetary policy is not lag-free, the policies do not act within a few weeks, automatic stabilizers are not the same as discretionary fiscal policy, and the lag sources are not the slowness of meetings or forecasting errors."
         },
         {
           "id": "ch35-q26",
           "difficulty": "hard",
-          "question": "Suppose the economy enters a recession. Holding deliberate (discretionary) policy aside, how do the U.S. economy's automatic stabilizers respond, and why does this make most economists oppose a strict balanced-budget amendment?",
+          "question": "The economy enters a recession. Setting deliberate policy aside, how do the U.S. economy's automatic stabilizers respond, and why does this lead most economists to oppose a strict balanced-budget amendment?",
           "options": [
             "Tax revenue rises and transfer spending falls, pushing the budget toward surplus; a balanced-budget rule would simply reinforce this helpful tendency",
             "Tax revenue falls and transfer spending falls, leaving the budget balanced automatically, so a balanced-budget amendment would have no real effect on stabilization",
-            "Tax revenue falls automatically and transfer spending (unemployment insurance, welfare) rises automatically, supporting AD; a balanced-budget rule would force tax hikes or spending cuts at the worst time, undercutting these stabilizers",
+            "Tax revenue falls automatically and transfer spending such as unemployment insurance and welfare rises automatically, supporting AD; a balanced-budget rule would force tax hikes or spending cuts at the worst time, undercutting these stabilizers",
             "The Fed automatically increases the money supply while taxes stay fixed; a balanced-budget rule is opposed because it would limit the Fed's independence",
             "Automatic stabilizers fully prevent the recession, so a balanced-budget rule is opposed only because it is politically unpopular"
           ],
           "answer": 2,
-          "explanation": "In a recession, taxes (income, payroll, corporate) fall automatically because they are tied to activity, acting as an automatic tax cut, while spending on unemployment insurance and welfare automatically rises as people are laid off, both supporting AD. This moves the budget toward deficit. A strict balanced-budget rule would force the government to raise taxes or cut spending at the worst possible time, undercutting the automatic stabilizers. The option saying tax revenue rises and transfers fall reverses the direction of both stabilizers. The option saying both fall and leave the budget balanced wrongly claims the budget stays balanced. The option about the Fed increasing the money supply confuses fiscal stabilizers with monetary policy. The option claiming stabilizers fully prevent the recession contradicts the chapter's statement that automatic stabilizers are not strong enough to prevent recessions."
+          "explanation": "In a recession, tax revenue falls automatically because taxes are tied to income and activity, acting like a tax cut, while spending on unemployment insurance and welfare rises automatically as people are laid off, both supporting aggregate demand and pushing the budget toward deficit. A strict balanced-budget rule would force tax hikes or spending cuts at the worst possible time, undercutting these stabilizers. The first option reverses the direction of both stabilizers, the second wrongly claims the budget stays balanced, the fourth confuses fiscal stabilizers with monetary policy, and the fifth overstates stabilizers, which cannot by themselves prevent recessions."
         }
       ]
     },
@@ -2090,7 +2090,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch36-q01",
           "difficulty": "easy",
-          "question": "As originally documented, the Phillips curve describes a relationship between which two variables, and what is the sign of that relationship?",
+          "question": "Looking across many years of data for a single economy, an analyst notices that years of unusually low unemployment tend to be years of unusually high inflation, and years of high unemployment tend to be years of low inflation. Which two variables does this pattern link, and what is the sign of the relationship between them?",
           "options": [
             "Inflation and output, positive",
             "Inflation and unemployment, negative",
@@ -2098,49 +2098,49 @@ window.QUIZ_DATA = {
             "Money growth and unemployment, negative"
           ],
           "answer": 1,
-          "explanation": "The Phillips curve is the short-run relationship between the inflation rate and the unemployment rate, and it is a NEGATIVE (downward-sloping) relationship: years with low unemployment tend to have high inflation, and years with high unemployment tend to have low inflation. Inflation versus output is positive (an AD expansion raises both), but that is not how the Phillips curve is defined."
+          "explanation": "The pattern the analyst sees is the short-run relationship between the inflation rate and the unemployment rate, and it is NEGATIVE: low unemployment coincides with high inflation and vice versa. Inflation versus output is positive (an AD expansion raises both), but that is a different pairing. A positive inflation-unemployment relationship contradicts the observed data, and money growth versus unemployment is not what the described pattern measures."
         },
         {
           "id": "ch36-q02",
           "difficulty": "easy",
-          "question": "Which sequence of economists and dates correctly traces the discovery and naming of the Phillips curve?",
+          "question": "In the late 1950s and early 1960s, economists examining decades of data first noticed a stable negative correlation between unemployment and inflation, and this finding quickly became influential because it seemed to offer policymakers a usable relationship. What made this empirical discovery so consequential for policy at the time?",
           "options": [
-            "Paul Samuelson and Robert Solow first documented it in UK data in 1958; A. W. Phillips named it for U.S. data in 1960.",
-            "A. W. Phillips documented a negative correlation in UK data in 1958; Samuelson and Solow found it in U.S. data and named it the 'Phillips curve' in 1960.",
-            "Milton Friedman documented it in 1968; Edmund Phelps named it the 'Phillips curve' the same year.",
-            "A. W. Phillips documented it in U.S. data in 1958; Robert Lucas named it in 1981.",
-            "Samuelson and Solow documented it in 1958; Friedman and Phelps named it in 1968."
+            "It suggested that inflation and unemployment always rise and fall together, so fighting one fights the other",
+            "It suggested policymakers could trade a bit more inflation for a bit less unemployment by managing aggregate demand, turning the correlation into an apparent policy choice",
+            "It proved that money is neutral, so monetary policy cannot affect unemployment at all",
+            "It showed the relationship held only in the long run, so short-run policy was irrelevant",
+            "It implied that lower inflation and lower unemployment could be achieved together just by holding the money supply steady"
           ],
           "answer": 1,
-          "explanation": "A. W. Phillips (1958) found a negative correlation between unemployment and (wage) inflation in UK data from 1861-1957. Two years later, Samuelson and Solow (1960) found the same negative correlation in U.S. data and gave it the name 'Phillips curve.' Friedman and Phelps (1968) and Lucas/Sargent later analyzed the curve but did not discover or name it."
+          "explanation": "The discovery mattered because the negative correlation appeared to give policymakers a lever: by expanding or contracting aggregate demand they could apparently pick a point with lower unemployment and higher inflation, or the reverse. Treating it as a positive (move-together) relationship misreads the data; the neutrality claim is a long-run property that denies any short-run trade-off; the relationship was understood as a SHORT-run phenomenon, which is precisely why it seemed policy-relevant; and achieving both low inflation and low unemployment at once describes a point OFF the curve, not the trade-off the data revealed."
         },
         {
           "id": "ch36-q03",
           "difficulty": "medium",
-          "question": "A textbook defines a key concept as 'an event that directly alters firms' costs of production and the prices they charge, shifting the economy's aggregate-supply curve and, as a result, the Phillips curve.' Which term does this define, and which real-world event does the chapter give as a classic example?",
+          "question": "In 1974, OPEC restricted oil output and nearly doubled the world price of oil, sharply raising production costs for firms across the economy. This kind of event works through a different channel than a change in spending. Which channel does it operate through, and how is such an event categorized?",
           "options": [
-            "A demand shock; the 2008 collapse in house prices",
-            "A supply shock; OPEC's restriction of oil output in 1974",
-            "Disinflation; the Volcker policy of 1979-1983",
-            "The natural rate of unemployment; the formation of a new labor union",
-            "Monetary neutrality; the long-run vertical Phillips curve"
+            "It works through aggregate demand, making it a demand shock",
+            "It works directly through firms' production costs, shifting aggregate supply, making it a supply shock",
+            "It works by lowering the inflation rate while prices keep rising, making it disinflation",
+            "It works by changing labor-market fundamentals, making it a change in the natural rate of unemployment",
+            "It works only on nominal variables in the long run, making it an instance of monetary neutrality"
           ],
           "answer": 1,
-          "explanation": "The quoted definition is the chapter's definition of a supply shock, and its leading example is OPEC's restriction of oil output in 1974, which nearly doubled the world price of oil (repeated in 1979). A demand shock works through aggregate demand, not directly through firms' costs (the 2008 housing collapse was an AD event); disinflation is a reduction in the inflation rate; the natural rate of unemployment is the economy's normal long-run unemployment level; and monetary neutrality is the long-run irrelevance of money for real variables."
+          "explanation": "An oil-price spike directly raises firms' costs of production and the prices they charge, shifting the aggregate-supply curve and, with it, the short-run Phillips curve; this is a supply shock. It does not operate through spending (a demand shock does). Disinflation is a fall in the inflation rate; the natural rate reflects lasting labor-market features, not a temporary cost spike; and monetary neutrality is the long-run irrelevance of money for real variables, unrelated to an oil shock."
         },
         {
           "id": "ch36-q04",
           "difficulty": "medium",
-          "question": "Samuelson and Solow described the Phillips curve as a 'menu' of possible economic outcomes. What did they mean by this?",
+          "question": "Early advocates of the inflation-unemployment trade-off described it as a 'menu' of outcomes available to policymakers. What did calling it a menu imply they could do?",
           "options": [
-            "Each point on the curve is equally socially desirable, so the choice does not matter.",
-            "Policymakers could choose among different inflation-unemployment combinations by adjusting monetary and fiscal policy.",
-            "The curve lists outcomes the economy reaches only in the long run, after expectations adjust.",
-            "The curve shows combinations that become available only after a supply shock.",
-            "Policymakers could simultaneously achieve both low inflation and low unemployment by choosing the right point."
+            "Treat every point on the curve as equally desirable, so the choice among them does not matter",
+            "Choose among different inflation-unemployment combinations by adjusting monetary and fiscal policy",
+            "Reach the listed outcomes only in the long run, after expectations fully adjust",
+            "Reach the listed combinations only after a supply shock occurred",
+            "Achieve both low inflation and low unemployment at once by selecting the right point"
           ],
           "answer": 1,
-          "explanation": "Samuelson and Solow argued that the Phillips curve offered a menu: by altering monetary and fiscal policy to shift aggregate demand, policymakers could pick a point with lower unemployment and higher inflation, or higher unemployment and lower inflation. It was not a claim that all points are equally desirable, nor that both-low is attainable (that combination lies off the curve), nor a long-run or supply-shock relationship."
+          "explanation": "Calling it a menu meant that by shifting aggregate demand through monetary and fiscal policy, policymakers could select a point with lower unemployment and higher inflation, or higher unemployment and lower inflation. It was not a claim that all points are equally desirable, nor that both-low is attainable (that lies off the curve), nor that the relationship is long-run or supply-shock driven."
         },
         {
           "id": "ch36-q05",
@@ -2185,7 +2185,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch36-q08",
           "difficulty": "hard",
-          "question": "In 2025 the price level is 100. The chapter's numerical example gives two possible 2026 outcomes driven only by the level of aggregate demand: a LOW-AD outcome (output 15,000; price level 102; unemployment 7%) and a HIGH-AD outcome (output 16,000; price level 106; unemployment 4%). Using inflation = percent change in the price level from the prior year, what are the inflation rates at the two outcomes, and which one corresponds to LOWER unemployment?",
+          "question": "In 2025 the price level is 100. Two possible 2026 outcomes are driven only by the level of aggregate demand: a LOW-AD outcome (output 15,000; price level 102; unemployment 7%) and a HIGH-AD outcome (output 16,000; price level 106; unemployment 4%). Using inflation = percent change in the price level from the prior year, what are the inflation rates at the two outcomes, and which one corresponds to LOWER unemployment?",
           "options": [
             "2% at the low-AD outcome and 6% at the high-AD outcome; the 6% (high-AD) outcome has lower unemployment",
             "2% at the low-AD outcome and 6% at the high-AD outcome; the 2% (low-AD) outcome has lower unemployment",
@@ -2226,7 +2226,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch36-q11",
           "difficulty": "medium",
-          "question": "A newly empowered nationwide union pushes real wages well above the market-clearing level across many industries, creating a persistent excess supply of workers. In Mankiw's framework, this outcome raises the 'natural' rate of unemployment. In what sense is this higher unemployment 'natural'?",
+          "question": "A newly empowered nationwide union pushes real wages well above the market-clearing level across many industries, creating a persistent excess supply of workers. This raises the economy's 'natural' rate of unemployment. In what sense is this higher unemployment 'natural'?",
           "options": [
             "It is the socially optimal level of unemployment for the economy.",
             "It is a purely short-run phenomenon that will disappear once prices adjust.",
@@ -2254,7 +2254,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch36-q13",
           "difficulty": "medium",
-          "question": "Which of the following best states the natural-rate hypothesis as advanced by Friedman and Phelps in 1968?",
+          "question": "Friedman and Phelps argued that no matter what rate of inflation a central bank engineers, unemployment will eventually settle back at the same particular level. Which statement captures this 'natural-rate hypothesis'?",
           "options": [
             "Inflation and unemployment are negatively related in both the short run and the long run.",
             "Unemployment eventually returns to its natural rate regardless of the rate of inflation.",
@@ -2263,7 +2263,7 @@ window.QUIZ_DATA = {
             "Reducing inflation can always be achieved with zero loss of output."
           ],
           "answer": 1,
-          "explanation": "The natural-rate hypothesis is the claim that unemployment eventually returns to its normal (natural) level no matter what the inflation rate is, which is why the long-run Phillips curve is vertical. It does NOT say the trade-off holds in the long run (only the short run), that the natural rate is constant or uniform across countries, that high steady inflation permanently lowers unemployment, or that disinflation is costless (the separate rational-expectations argument)."
+          "explanation": "The natural-rate hypothesis is the claim that unemployment eventually returns to its normal (natural) level no matter what the inflation rate is, which is why the long-run Phillips curve is vertical. It does NOT say the trade-off holds in the long run (only the short run), that the natural rate is constant or uniform across countries, that high steady inflation permanently lowers unemployment, or that disinflation is costless (a separate rational-expectations argument)."
         },
         {
           "id": "ch36-q14",
@@ -2310,16 +2310,16 @@ window.QUIZ_DATA = {
         {
           "id": "ch36-q17",
           "difficulty": "hard",
-          "question": "From the late 1960s into the early 1970s, U.S. policymakers expanded aggregate demand (Vietnam-era government spending plus the Fed holding down interest rates, with M2 growing about 13% per year in 1970-72 versus about 7% in the early 1960s). Inflation stayed high at roughly 5-6%, yet by 1973 unemployment did NOT remain low and the simple downward-sloping Phillips curve had broken down. According to the chapter, what does this 'natural experiment' best demonstrate?",
+          "question": "From the late 1960s into the early 1970s, U.S. policymakers expanded aggregate demand sharply (Vietnam-era spending plus the Fed holding interest rates down). Inflation stayed high, yet by 1973 unemployment did NOT remain low and the simple downward-sloping Phillips curve had broken down. What does this episode best demonstrate?",
           "options": [
-            "The Friedman-Phelps prediction that the inflation-unemployment trade-off is only short-run: once expected inflation rose to match the high actual inflation, the short-run Phillips curve shifted and unemployment returned toward its natural rate",
+            "That the inflation-unemployment trade-off is only short-run: once expected inflation rose to match the persistently high actual inflation, the short-run Phillips curve shifted out and unemployment returned toward its natural rate",
             "That the long-run Phillips curve is actually downward sloping, so sustained high money growth permanently buys lower unemployment",
             "That a favorable supply shock had shifted the short-run Phillips curve left, lowering both inflation and unemployment",
             "That inflation and unemployment are unrelated even in the short run, so the Phillips curve never existed",
             "That higher money growth reduced the natural rate of unemployment, shifting the long-run Phillips curve left"
           ],
           "answer": 0,
-          "explanation": "The 1961-1973 episode confirmed Friedman and Phelps: sustained high money growth raised expected inflation, which shifted the short-run Phillips curve to the right, so high inflation no longer came with low unemployment. The 'permanent menu' option is the discredited belief; the favorable-supply-shock option is the opposite of this episode; 'no relationship even in the short run' overstates the result; and monetary policy cannot move the natural rate."
+          "explanation": "The episode confirmed Friedman and Phelps: sustained high money growth raised expected inflation, which shifted the short-run Phillips curve to the right, so high inflation no longer came with low unemployment. The 'permanent menu' option is the discredited belief; the favorable-supply-shock option is the opposite of this episode; 'no relationship even in the short run' overstates the result; and monetary policy cannot move the natural rate."
         },
         {
           "id": "ch36-q18",
@@ -2338,7 +2338,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch36-q19",
           "difficulty": "hard",
-          "question": "OPEC sharply cuts oil output and the price level jumps. The central bank responds by increasing the money supply enough to push aggregate demand to the right, deliberately keeping real output from falling. In the chapter's terminology, what is this response called, and what is its consequence relative to doing nothing?",
+          "question": "OPEC sharply cuts oil output and the price level jumps. The central bank responds by increasing the money supply enough to push aggregate demand to the right, deliberately keeping real output from falling. What is this response called, and what is its consequence relative to doing nothing?",
           "options": [
             "Disinflation; output is protected and inflation is lower than if nothing were done",
             "Accommodation; output is protected (the recession is smaller) but the inflation rate ends up even higher than if nothing were done",
@@ -2352,13 +2352,13 @@ window.QUIZ_DATA = {
         {
           "id": "ch36-q20",
           "difficulty": "medium",
-          "question": "After an adverse oil shock raises the price level, two economists disagree about how long the short-run Phillips curve will stay in its worse (rightward) position. The chapter says the answer depends mainly on one factor. Which statement correctly identifies that factor and its effect?",
+          "question": "After an adverse oil shock raises the price level, two economists disagree about how long the short-run Phillips curve will stay in its worse (rightward) position. Which single factor most determines the answer, and what is its effect?",
           "options": [
-            "It depends on the size of the sacrifice ratio; a larger ratio makes the shift permanent",
-            "It depends on the slope of the long-run Phillips curve, which flattens after a shock",
-            "It depends on expectations: if people see the higher inflation as temporary, expected inflation does not change and the curve reverts; if they believe a new era of higher inflation has begun, expected inflation rises and the worse curve persists",
-            "It depends on whether the shock causes deflation; deflation always makes the shift permanent",
-            "It depends solely on whether the central bank raises the money supply, regardless of expectations"
+            "The size of the sacrifice ratio; a larger ratio makes the shift permanent",
+            "The slope of the long-run Phillips curve, which flattens after a shock",
+            "Expectations: if people see the higher inflation as temporary, expected inflation does not change and the curve reverts; if they believe a new era of higher inflation has begun, expected inflation rises and the worse curve persists",
+            "Whether the shock causes deflation; deflation always makes the shift permanent",
+            "Solely whether the central bank raises the money supply, regardless of expectations"
           ],
           "answer": 2,
           "explanation": "Whether a supply-shock-driven shift of the short-run Phillips curve is temporary or lasting hinges on EXPECTED inflation. If people treat the price spike as a temporary aberration, expected inflation is unchanged and the curve drifts back; if they conclude a new era of higher inflation has begun, expected inflation rises and the curve stays worse. The sacrifice ratio concerns the cost of disinflation; the long-run curve is vertical; deflation is not what an oil shock produces; and accommodation feeds into expectations rather than acting independently."
@@ -2408,7 +2408,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch36-q24",
           "difficulty": "hard",
-          "question": "Suppose two economies, X and Y, each announce a credible-sounding plan to lower inflation by the same amount. In economy X, the public fully believes the announcement and immediately revises expected inflation downward. In economy Y, the public is skeptical and only lowers expected inflation slowly as actual inflation falls. According to the rational-expectations view (Lucas, Sargent, Barro) and the chapter's reading of the Volcker episode, which statement is MOST accurate?",
+          "question": "Two economies, X and Y, each announce a credible-sounding plan to lower inflation by the same amount. In economy X, the public fully believes the announcement and immediately revises expected inflation downward. In economy Y, the public is skeptical and only lowers expected inflation slowly as actual inflation falls. Drawing on the rational-expectations view and the actual experience of the early-1980s Volcker disinflation, which statement is MOST accurate?",
           "options": [
             "Economy X will have a much larger sacrifice ratio than economy Y because credibility forces faster output losses.",
             "Both economies will have identical sacrifice ratios because the sacrifice ratio is a fixed structural constant near 5.",
@@ -2422,7 +2422,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch36-q25",
           "difficulty": "hard",
-          "question": "During the Volcker disinflation, inflation fell from roughly 10% (1980-81) to about 4% (1983-84), but unemployment climbed to roughly 10% in 1982-83, producing the deepest recession since the Great Depression. At the same time, Reagan-era fiscal policy ran large budget deficits. Why does the chapter argue this episode neither cleanly confirms NOR cleanly refutes the rational-expectations claim of low-cost disinflation?",
+          "question": "During the Volcker disinflation, inflation fell from roughly 10% to about 4%, but unemployment climbed to roughly 10% in 1982-83, producing the deepest recession since the Great Depression. At the same time, Reagan-era fiscal policy ran large budget deficits. Why does this episode neither cleanly confirm NOR cleanly refute the rational-expectations claim of low-cost disinflation?",
           "options": [
             "Because the deficits were contractionary, which proves disinflation is always costless.",
             "Because the large deficits expanded AD and worked against the disinflation, so monetary policy alone deserves credit; and although unemployment rose, the cost was smaller than many had predicted while expected inflation fell only slowly because the public initially doubted Volcker.",
@@ -2436,7 +2436,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch36-q26",
           "difficulty": "hard",
-          "question": "From 2007 to 2010, a housing-driven financial crisis caused a large fall in aggregate demand. U.S. unemployment rose from under 5 percent to about 10 percent while inflation fell from about 3 percent (2006) to under 1 percent (2009). The chapter says the economy 'rode down the short-run Phillips curve,' and notes that the short-run Phillips curve itself barely moved over these years. Which single explanation is MOST consistent with BOTH of those statements?",
+          "question": "From 2007 to 2010, a housing-driven financial crisis caused a large fall in aggregate demand. U.S. unemployment rose from under 5 percent to about 10 percent while inflation fell from about 3 percent to under 1 percent, yet over these years the short-run Phillips curve itself barely moved. Which single explanation is MOST consistent with the economy moving to higher unemployment and lower inflation while the curve stayed roughly fixed?",
           "options": [
             "The fall in aggregate demand SHIFTED the short-run Phillips curve to the right, but expected inflation rose to offset it",
             "The fall in aggregate demand was a MOVEMENT ALONG a roughly stable short-run Phillips curve, and the curve stayed put because expected inflation remained well anchored near 2 percent",
@@ -2450,7 +2450,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch36-q27",
           "difficulty": "hard",
-          "question": "By the end of 2021 the U.S. unemployment rate had fallen back below 5 percent, yet inflation climbed to 7.5 percent by January 2022 (the highest in 40 years). The chapter attributes this to BOTH a recovery in aggregate demand (expansionary policy, near-zero rates) AND a persistent adverse aggregate-supply development (early retirements, a drop in 55-and-older labor-force participation, and disrupted global supply chains). Using the Phillips-curve framework, why does this COMBINATION explain how inflation could be so high while unemployment was already low again?",
+          "question": "By the end of 2021 the U.S. unemployment rate had fallen back below 5 percent, yet inflation climbed to 7.5 percent (the highest in 40 years). Two forces were at work: a recovery in aggregate demand (expansionary policy, near-zero rates) AND a persistent adverse supply development (early retirements, a drop in 55-and-older labor-force participation, and disrupted supply chains). Using the Phillips-curve framework, why does this COMBINATION explain high inflation alongside already-low unemployment?",
           "options": [
             "The AD recovery moved the economy along a fixed short-run Phillips curve, and that alone fully accounts for both low unemployment and 7.5 percent inflation",
             "The adverse supply shock shifted the short-run Phillips curve LEFT, improving the trade-off, while the AD recovery lowered unemployment",
@@ -2464,7 +2464,7 @@ window.QUIZ_DATA = {
         {
           "id": "ch36-q28",
           "difficulty": "medium",
-          "question": "Milton Friedman (1968) wrote: 'There is always a temporary tradeoff between inflation and unemployment; there is no permanent tradeoff. The temporary tradeoff comes not from inflation per se, but from unanticipated inflation, which generally means, from a rising rate of inflation.' A commentator concludes that an economy can permanently hold down unemployment simply by keeping the inflation rate HIGH (say, a steady 8 percent forever). According to Friedman's reasoning, what is the flaw?",
+          "question": "Milton Friedman argued that the temporary inflation-unemployment trade-off comes not from inflation itself but from UNANTICIPATED inflation, which in practice means a RISING rate of inflation. A commentator concludes that an economy can permanently hold down unemployment simply by keeping the inflation rate HIGH (say, a steady 8 percent forever). What is the flaw in that conclusion?",
           "options": [
             "There is no flaw; a permanently high inflation rate does permanently lower unemployment",
             "It confuses HIGH inflation with RISING inflation; only unanticipated (rising) inflation lowers unemployment temporarily, and a steady, anticipated 8 percent rate leaves unemployment at its natural rate",

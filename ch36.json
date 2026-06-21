@@ -5,7 +5,7 @@
     {
       "id": "ch36-q01",
       "difficulty": "easy",
-      "question": "As originally documented, the Phillips curve describes a relationship between which two variables, and what is the sign of that relationship?",
+      "question": "Looking across many years of data for a single economy, an analyst notices that years of unusually low unemployment tend to be years of unusually high inflation, and years of high unemployment tend to be years of low inflation. Which two variables does this pattern link, and what is the sign of the relationship between them?",
       "options": [
         "Inflation and output, positive",
         "Inflation and unemployment, negative",
@@ -13,49 +13,49 @@
         "Money growth and unemployment, negative"
       ],
       "answer": 1,
-      "explanation": "The Phillips curve is the short-run relationship between the inflation rate and the unemployment rate, and it is a NEGATIVE (downward-sloping) relationship: years with low unemployment tend to have high inflation, and years with high unemployment tend to have low inflation. Inflation versus output is positive (an AD expansion raises both), but that is not how the Phillips curve is defined."
+      "explanation": "The pattern the analyst sees is the short-run relationship between the inflation rate and the unemployment rate, and it is NEGATIVE: low unemployment coincides with high inflation and vice versa. Inflation versus output is positive (an AD expansion raises both), but that is a different pairing. A positive inflation-unemployment relationship contradicts the observed data, and money growth versus unemployment is not what the described pattern measures."
     },
     {
       "id": "ch36-q02",
       "difficulty": "easy",
-      "question": "Which sequence of economists and dates correctly traces the discovery and naming of the Phillips curve?",
+      "question": "In the late 1950s and early 1960s, economists examining decades of data first noticed a stable negative correlation between unemployment and inflation, and this finding quickly became influential because it seemed to offer policymakers a usable relationship. What made this empirical discovery so consequential for policy at the time?",
       "options": [
-        "Paul Samuelson and Robert Solow first documented it in UK data in 1958; A. W. Phillips named it for U.S. data in 1960.",
-        "A. W. Phillips documented a negative correlation in UK data in 1958; Samuelson and Solow found it in U.S. data and named it the 'Phillips curve' in 1960.",
-        "Milton Friedman documented it in 1968; Edmund Phelps named it the 'Phillips curve' the same year.",
-        "A. W. Phillips documented it in U.S. data in 1958; Robert Lucas named it in 1981.",
-        "Samuelson and Solow documented it in 1958; Friedman and Phelps named it in 1968."
+        "It suggested that inflation and unemployment always rise and fall together, so fighting one fights the other",
+        "It suggested policymakers could trade a bit more inflation for a bit less unemployment by managing aggregate demand, turning the correlation into an apparent policy choice",
+        "It proved that money is neutral, so monetary policy cannot affect unemployment at all",
+        "It showed the relationship held only in the long run, so short-run policy was irrelevant",
+        "It implied that lower inflation and lower unemployment could be achieved together just by holding the money supply steady"
       ],
       "answer": 1,
-      "explanation": "A. W. Phillips (1958) found a negative correlation between unemployment and (wage) inflation in UK data from 1861-1957. Two years later, Samuelson and Solow (1960) found the same negative correlation in U.S. data and gave it the name 'Phillips curve.' Friedman and Phelps (1968) and Lucas/Sargent later analyzed the curve but did not discover or name it."
+      "explanation": "The discovery mattered because the negative correlation appeared to give policymakers a lever: by expanding or contracting aggregate demand they could apparently pick a point with lower unemployment and higher inflation, or the reverse. Treating it as a positive (move-together) relationship misreads the data; the neutrality claim is a long-run property that denies any short-run trade-off; the relationship was understood as a SHORT-run phenomenon, which is precisely why it seemed policy-relevant; and achieving both low inflation and low unemployment at once describes a point OFF the curve, not the trade-off the data revealed."
     },
     {
       "id": "ch36-q03",
       "difficulty": "medium",
-      "question": "A textbook defines a key concept as 'an event that directly alters firms' costs of production and the prices they charge, shifting the economy's aggregate-supply curve and, as a result, the Phillips curve.' Which term does this define, and which real-world event does the chapter give as a classic example?",
+      "question": "In 1974, OPEC restricted oil output and nearly doubled the world price of oil, sharply raising production costs for firms across the economy. This kind of event works through a different channel than a change in spending. Which channel does it operate through, and how is such an event categorized?",
       "options": [
-        "A demand shock; the 2008 collapse in house prices",
-        "A supply shock; OPEC's restriction of oil output in 1974",
-        "Disinflation; the Volcker policy of 1979-1983",
-        "The natural rate of unemployment; the formation of a new labor union",
-        "Monetary neutrality; the long-run vertical Phillips curve"
+        "It works through aggregate demand, making it a demand shock",
+        "It works directly through firms' production costs, shifting aggregate supply, making it a supply shock",
+        "It works by lowering the inflation rate while prices keep rising, making it disinflation",
+        "It works by changing labor-market fundamentals, making it a change in the natural rate of unemployment",
+        "It works only on nominal variables in the long run, making it an instance of monetary neutrality"
       ],
       "answer": 1,
-      "explanation": "The quoted definition is the chapter's definition of a supply shock, and its leading example is OPEC's restriction of oil output in 1974, which nearly doubled the world price of oil (repeated in 1979). A demand shock works through aggregate demand, not directly through firms' costs (the 2008 housing collapse was an AD event); disinflation is a reduction in the inflation rate; the natural rate of unemployment is the economy's normal long-run unemployment level; and monetary neutrality is the long-run irrelevance of money for real variables."
+      "explanation": "An oil-price spike directly raises firms' costs of production and the prices they charge, shifting the aggregate-supply curve and, with it, the short-run Phillips curve; this is a supply shock. It does not operate through spending (a demand shock does). Disinflation is a fall in the inflation rate; the natural rate reflects lasting labor-market features, not a temporary cost spike; and monetary neutrality is the long-run irrelevance of money for real variables, unrelated to an oil shock."
     },
     {
       "id": "ch36-q04",
       "difficulty": "medium",
-      "question": "Samuelson and Solow described the Phillips curve as a 'menu' of possible economic outcomes. What did they mean by this?",
+      "question": "Early advocates of the inflation-unemployment trade-off described it as a 'menu' of outcomes available to policymakers. What did calling it a menu imply they could do?",
       "options": [
-        "Each point on the curve is equally socially desirable, so the choice does not matter.",
-        "Policymakers could choose among different inflation-unemployment combinations by adjusting monetary and fiscal policy.",
-        "The curve lists outcomes the economy reaches only in the long run, after expectations adjust.",
-        "The curve shows combinations that become available only after a supply shock.",
-        "Policymakers could simultaneously achieve both low inflation and low unemployment by choosing the right point."
+        "Treat every point on the curve as equally desirable, so the choice among them does not matter",
+        "Choose among different inflation-unemployment combinations by adjusting monetary and fiscal policy",
+        "Reach the listed outcomes only in the long run, after expectations fully adjust",
+        "Reach the listed combinations only after a supply shock occurred",
+        "Achieve both low inflation and low unemployment at once by selecting the right point"
       ],
       "answer": 1,
-      "explanation": "Samuelson and Solow argued that the Phillips curve offered a menu: by altering monetary and fiscal policy to shift aggregate demand, policymakers could pick a point with lower unemployment and higher inflation, or higher unemployment and lower inflation. It was not a claim that all points are equally desirable, nor that both-low is attainable (that combination lies off the curve), nor a long-run or supply-shock relationship."
+      "explanation": "Calling it a menu meant that by shifting aggregate demand through monetary and fiscal policy, policymakers could select a point with lower unemployment and higher inflation, or higher unemployment and lower inflation. It was not a claim that all points are equally desirable, nor that both-low is attainable (that lies off the curve), nor that the relationship is long-run or supply-shock driven."
     },
     {
       "id": "ch36-q05",
@@ -100,7 +100,7 @@
     {
       "id": "ch36-q08",
       "difficulty": "hard",
-      "question": "In 2025 the price level is 100. The chapter's numerical example gives two possible 2026 outcomes driven only by the level of aggregate demand: a LOW-AD outcome (output 15,000; price level 102; unemployment 7%) and a HIGH-AD outcome (output 16,000; price level 106; unemployment 4%). Using inflation = percent change in the price level from the prior year, what are the inflation rates at the two outcomes, and which one corresponds to LOWER unemployment?",
+      "question": "In 2025 the price level is 100. Two possible 2026 outcomes are driven only by the level of aggregate demand: a LOW-AD outcome (output 15,000; price level 102; unemployment 7%) and a HIGH-AD outcome (output 16,000; price level 106; unemployment 4%). Using inflation = percent change in the price level from the prior year, what are the inflation rates at the two outcomes, and which one corresponds to LOWER unemployment?",
       "options": [
         "2% at the low-AD outcome and 6% at the high-AD outcome; the 6% (high-AD) outcome has lower unemployment",
         "2% at the low-AD outcome and 6% at the high-AD outcome; the 2% (low-AD) outcome has lower unemployment",
@@ -141,7 +141,7 @@
     {
       "id": "ch36-q11",
       "difficulty": "medium",
-      "question": "A newly empowered nationwide union pushes real wages well above the market-clearing level across many industries, creating a persistent excess supply of workers. In Mankiw's framework, this outcome raises the 'natural' rate of unemployment. In what sense is this higher unemployment 'natural'?",
+      "question": "A newly empowered nationwide union pushes real wages well above the market-clearing level across many industries, creating a persistent excess supply of workers. This raises the economy's 'natural' rate of unemployment. In what sense is this higher unemployment 'natural'?",
       "options": [
         "It is the socially optimal level of unemployment for the economy.",
         "It is a purely short-run phenomenon that will disappear once prices adjust.",
@@ -169,7 +169,7 @@
     {
       "id": "ch36-q13",
       "difficulty": "medium",
-      "question": "Which of the following best states the natural-rate hypothesis as advanced by Friedman and Phelps in 1968?",
+      "question": "Friedman and Phelps argued that no matter what rate of inflation a central bank engineers, unemployment will eventually settle back at the same particular level. Which statement captures this 'natural-rate hypothesis'?",
       "options": [
         "Inflation and unemployment are negatively related in both the short run and the long run.",
         "Unemployment eventually returns to its natural rate regardless of the rate of inflation.",
@@ -178,7 +178,7 @@
         "Reducing inflation can always be achieved with zero loss of output."
       ],
       "answer": 1,
-      "explanation": "The natural-rate hypothesis is the claim that unemployment eventually returns to its normal (natural) level no matter what the inflation rate is, which is why the long-run Phillips curve is vertical. It does NOT say the trade-off holds in the long run (only the short run), that the natural rate is constant or uniform across countries, that high steady inflation permanently lowers unemployment, or that disinflation is costless (the separate rational-expectations argument)."
+      "explanation": "The natural-rate hypothesis is the claim that unemployment eventually returns to its normal (natural) level no matter what the inflation rate is, which is why the long-run Phillips curve is vertical. It does NOT say the trade-off holds in the long run (only the short run), that the natural rate is constant or uniform across countries, that high steady inflation permanently lowers unemployment, or that disinflation is costless (a separate rational-expectations argument)."
     },
     {
       "id": "ch36-q14",
@@ -225,16 +225,16 @@
     {
       "id": "ch36-q17",
       "difficulty": "hard",
-      "question": "From the late 1960s into the early 1970s, U.S. policymakers expanded aggregate demand (Vietnam-era government spending plus the Fed holding down interest rates, with M2 growing about 13% per year in 1970-72 versus about 7% in the early 1960s). Inflation stayed high at roughly 5-6%, yet by 1973 unemployment did NOT remain low and the simple downward-sloping Phillips curve had broken down. According to the chapter, what does this 'natural experiment' best demonstrate?",
+      "question": "From the late 1960s into the early 1970s, U.S. policymakers expanded aggregate demand sharply (Vietnam-era spending plus the Fed holding interest rates down). Inflation stayed high, yet by 1973 unemployment did NOT remain low and the simple downward-sloping Phillips curve had broken down. What does this episode best demonstrate?",
       "options": [
-        "The Friedman-Phelps prediction that the inflation-unemployment trade-off is only short-run: once expected inflation rose to match the high actual inflation, the short-run Phillips curve shifted and unemployment returned toward its natural rate",
+        "That the inflation-unemployment trade-off is only short-run: once expected inflation rose to match the persistently high actual inflation, the short-run Phillips curve shifted out and unemployment returned toward its natural rate",
         "That the long-run Phillips curve is actually downward sloping, so sustained high money growth permanently buys lower unemployment",
         "That a favorable supply shock had shifted the short-run Phillips curve left, lowering both inflation and unemployment",
         "That inflation and unemployment are unrelated even in the short run, so the Phillips curve never existed",
         "That higher money growth reduced the natural rate of unemployment, shifting the long-run Phillips curve left"
       ],
       "answer": 0,
-      "explanation": "The 1961-1973 episode confirmed Friedman and Phelps: sustained high money growth raised expected inflation, which shifted the short-run Phillips curve to the right, so high inflation no longer came with low unemployment. The 'permanent menu' option is the discredited belief; the favorable-supply-shock option is the opposite of this episode; 'no relationship even in the short run' overstates the result; and monetary policy cannot move the natural rate."
+      "explanation": "The episode confirmed Friedman and Phelps: sustained high money growth raised expected inflation, which shifted the short-run Phillips curve to the right, so high inflation no longer came with low unemployment. The 'permanent menu' option is the discredited belief; the favorable-supply-shock option is the opposite of this episode; 'no relationship even in the short run' overstates the result; and monetary policy cannot move the natural rate."
     },
     {
       "id": "ch36-q18",
@@ -253,7 +253,7 @@
     {
       "id": "ch36-q19",
       "difficulty": "hard",
-      "question": "OPEC sharply cuts oil output and the price level jumps. The central bank responds by increasing the money supply enough to push aggregate demand to the right, deliberately keeping real output from falling. In the chapter's terminology, what is this response called, and what is its consequence relative to doing nothing?",
+      "question": "OPEC sharply cuts oil output and the price level jumps. The central bank responds by increasing the money supply enough to push aggregate demand to the right, deliberately keeping real output from falling. What is this response called, and what is its consequence relative to doing nothing?",
       "options": [
         "Disinflation; output is protected and inflation is lower than if nothing were done",
         "Accommodation; output is protected (the recession is smaller) but the inflation rate ends up even higher than if nothing were done",
@@ -267,13 +267,13 @@
     {
       "id": "ch36-q20",
       "difficulty": "medium",
-      "question": "After an adverse oil shock raises the price level, two economists disagree about how long the short-run Phillips curve will stay in its worse (rightward) position. The chapter says the answer depends mainly on one factor. Which statement correctly identifies that factor and its effect?",
+      "question": "After an adverse oil shock raises the price level, two economists disagree about how long the short-run Phillips curve will stay in its worse (rightward) position. Which single factor most determines the answer, and what is its effect?",
       "options": [
-        "It depends on the size of the sacrifice ratio; a larger ratio makes the shift permanent",
-        "It depends on the slope of the long-run Phillips curve, which flattens after a shock",
-        "It depends on expectations: if people see the higher inflation as temporary, expected inflation does not change and the curve reverts; if they believe a new era of higher inflation has begun, expected inflation rises and the worse curve persists",
-        "It depends on whether the shock causes deflation; deflation always makes the shift permanent",
-        "It depends solely on whether the central bank raises the money supply, regardless of expectations"
+        "The size of the sacrifice ratio; a larger ratio makes the shift permanent",
+        "The slope of the long-run Phillips curve, which flattens after a shock",
+        "Expectations: if people see the higher inflation as temporary, expected inflation does not change and the curve reverts; if they believe a new era of higher inflation has begun, expected inflation rises and the worse curve persists",
+        "Whether the shock causes deflation; deflation always makes the shift permanent",
+        "Solely whether the central bank raises the money supply, regardless of expectations"
       ],
       "answer": 2,
       "explanation": "Whether a supply-shock-driven shift of the short-run Phillips curve is temporary or lasting hinges on EXPECTED inflation. If people treat the price spike as a temporary aberration, expected inflation is unchanged and the curve drifts back; if they conclude a new era of higher inflation has begun, expected inflation rises and the curve stays worse. The sacrifice ratio concerns the cost of disinflation; the long-run curve is vertical; deflation is not what an oil shock produces; and accommodation feeds into expectations rather than acting independently."
@@ -323,7 +323,7 @@
     {
       "id": "ch36-q24",
       "difficulty": "hard",
-      "question": "Suppose two economies, X and Y, each announce a credible-sounding plan to lower inflation by the same amount. In economy X, the public fully believes the announcement and immediately revises expected inflation downward. In economy Y, the public is skeptical and only lowers expected inflation slowly as actual inflation falls. According to the rational-expectations view (Lucas, Sargent, Barro) and the chapter's reading of the Volcker episode, which statement is MOST accurate?",
+      "question": "Two economies, X and Y, each announce a credible-sounding plan to lower inflation by the same amount. In economy X, the public fully believes the announcement and immediately revises expected inflation downward. In economy Y, the public is skeptical and only lowers expected inflation slowly as actual inflation falls. Drawing on the rational-expectations view and the actual experience of the early-1980s Volcker disinflation, which statement is MOST accurate?",
       "options": [
         "Economy X will have a much larger sacrifice ratio than economy Y because credibility forces faster output losses.",
         "Both economies will have identical sacrifice ratios because the sacrifice ratio is a fixed structural constant near 5.",
@@ -337,7 +337,7 @@
     {
       "id": "ch36-q25",
       "difficulty": "hard",
-      "question": "During the Volcker disinflation, inflation fell from roughly 10% (1980-81) to about 4% (1983-84), but unemployment climbed to roughly 10% in 1982-83, producing the deepest recession since the Great Depression. At the same time, Reagan-era fiscal policy ran large budget deficits. Why does the chapter argue this episode neither cleanly confirms NOR cleanly refutes the rational-expectations claim of low-cost disinflation?",
+      "question": "During the Volcker disinflation, inflation fell from roughly 10% to about 4%, but unemployment climbed to roughly 10% in 1982-83, producing the deepest recession since the Great Depression. At the same time, Reagan-era fiscal policy ran large budget deficits. Why does this episode neither cleanly confirm NOR cleanly refute the rational-expectations claim of low-cost disinflation?",
       "options": [
         "Because the deficits were contractionary, which proves disinflation is always costless.",
         "Because the large deficits expanded AD and worked against the disinflation, so monetary policy alone deserves credit; and although unemployment rose, the cost was smaller than many had predicted while expected inflation fell only slowly because the public initially doubted Volcker.",
@@ -351,7 +351,7 @@
     {
       "id": "ch36-q26",
       "difficulty": "hard",
-      "question": "From 2007 to 2010, a housing-driven financial crisis caused a large fall in aggregate demand. U.S. unemployment rose from under 5 percent to about 10 percent while inflation fell from about 3 percent (2006) to under 1 percent (2009). The chapter says the economy 'rode down the short-run Phillips curve,' and notes that the short-run Phillips curve itself barely moved over these years. Which single explanation is MOST consistent with BOTH of those statements?",
+      "question": "From 2007 to 2010, a housing-driven financial crisis caused a large fall in aggregate demand. U.S. unemployment rose from under 5 percent to about 10 percent while inflation fell from about 3 percent to under 1 percent, yet over these years the short-run Phillips curve itself barely moved. Which single explanation is MOST consistent with the economy moving to higher unemployment and lower inflation while the curve stayed roughly fixed?",
       "options": [
         "The fall in aggregate demand SHIFTED the short-run Phillips curve to the right, but expected inflation rose to offset it",
         "The fall in aggregate demand was a MOVEMENT ALONG a roughly stable short-run Phillips curve, and the curve stayed put because expected inflation remained well anchored near 2 percent",
@@ -365,7 +365,7 @@
     {
       "id": "ch36-q27",
       "difficulty": "hard",
-      "question": "By the end of 2021 the U.S. unemployment rate had fallen back below 5 percent, yet inflation climbed to 7.5 percent by January 2022 (the highest in 40 years). The chapter attributes this to BOTH a recovery in aggregate demand (expansionary policy, near-zero rates) AND a persistent adverse aggregate-supply development (early retirements, a drop in 55-and-older labor-force participation, and disrupted global supply chains). Using the Phillips-curve framework, why does this COMBINATION explain how inflation could be so high while unemployment was already low again?",
+      "question": "By the end of 2021 the U.S. unemployment rate had fallen back below 5 percent, yet inflation climbed to 7.5 percent (the highest in 40 years). Two forces were at work: a recovery in aggregate demand (expansionary policy, near-zero rates) AND a persistent adverse supply development (early retirements, a drop in 55-and-older labor-force participation, and disrupted supply chains). Using the Phillips-curve framework, why does this COMBINATION explain high inflation alongside already-low unemployment?",
       "options": [
         "The AD recovery moved the economy along a fixed short-run Phillips curve, and that alone fully accounts for both low unemployment and 7.5 percent inflation",
         "The adverse supply shock shifted the short-run Phillips curve LEFT, improving the trade-off, while the AD recovery lowered unemployment",
@@ -379,7 +379,7 @@
     {
       "id": "ch36-q28",
       "difficulty": "medium",
-      "question": "Milton Friedman (1968) wrote: 'There is always a temporary tradeoff between inflation and unemployment; there is no permanent tradeoff. The temporary tradeoff comes not from inflation per se, but from unanticipated inflation, which generally means, from a rising rate of inflation.' A commentator concludes that an economy can permanently hold down unemployment simply by keeping the inflation rate HIGH (say, a steady 8 percent forever). According to Friedman's reasoning, what is the flaw?",
+      "question": "Milton Friedman argued that the temporary inflation-unemployment trade-off comes not from inflation itself but from UNANTICIPATED inflation, which in practice means a RISING rate of inflation. A commentator concludes that an economy can permanently hold down unemployment simply by keeping the inflation rate HIGH (say, a steady 8 percent forever). What is the flaw in that conclusion?",
       "options": [
         "There is no flaw; a permanently high inflation rate does permanently lower unemployment",
         "It confuses HIGH inflation with RISING inflation; only unanticipated (rising) inflation lowers unemployment temporarily, and a steady, anticipated 8 percent rate leaves unemployment at its natural rate",

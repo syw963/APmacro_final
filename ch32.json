@@ -5,41 +5,41 @@
     {
       "id": "ch32-q01",
       "difficulty": "easy",
-      "question": "In open-economy macroeconomics, a country's net exports (also called the trade balance) are defined as:",
+      "question": "A country sells $700 billion of goods and services abroad and buys $900 billion of goods and services from abroad in the same year. What is its trade balance, and is it in surplus or deficit?",
       "options": [
-        "The value of its exports plus the value of its imports",
-        "The value of its exports minus the value of its imports",
-        "The value of its imports minus the value of its exports",
-        "The purchase of foreign assets by domestic residents minus the purchase of domestic assets by foreigners"
+        "+$1,600 billion, a surplus",
+        "-$200 billion, a deficit",
+        "+$200 billion, a surplus",
+        "-$1,600 billion, a deficit"
       ],
       "answer": 1,
-      "explanation": "The chapter defines net exports as the value of a country's exports minus the value of its imports, and notes this quantity is also called the trade balance. Adding exports and imports (option 0) and reversing the subtraction (option 2) both misstate the formula. Option 3 is the definition of net capital outflow, a separate variable that measures imbalance in financial markets rather than in markets for goods and services."
+      "explanation": "The trade balance (net exports) is the value of exports minus the value of imports: $700B - $900B = -$200B. Because imports exceed exports the balance is negative, a trade deficit. Adding exports and imports ($1,600B) confuses the balance with total trade volume, and reversing the subtraction flips the sign so a deficit looks like a surplus."
     },
     {
       "id": "ch32-q02",
       "difficulty": "easy",
-      "question": "According to the chapter, the accounting identity NCO = NX holds because:",
+      "question": "A U.S. firm exports $1 million of wheat and is paid in foreign currency, which it then uses to buy a foreign bond. Why does the resulting rise in net exports get matched, dollar for dollar, by a rise in net capital outflow?",
       "options": [
-        "It is a behavioral assumption that economists test against data each year",
-        "Every transaction that affects one side of the equation affects the other side by the same amount",
-        "Governments set trade policy so that net exports always match net capital outflow",
-        "Central banks intervene in currency markets to force the two values to be equal"
+        "Because economists assume the two move together and test that assumption against data each year",
+        "Because every international transaction involves a trade of a good or service for an asset of equal value, so the same dollars show up on both sides",
+        "Because governments set trade policy so that net exports are forced to match net capital outflow",
+        "Because central banks intervene in currency markets to keep the two values equal"
       ],
       "answer": 1,
-      "explanation": "The chapter states that NCO = NX is an identity, an equation that must hold because of how the variables are defined and measured, since every transaction that affects one side affects the other side by the same amount. It is not a behavioral assumption, a policy outcome, or a result of central bank intervention."
+      "explanation": "NCO = NX is an accounting identity: the foreign currency earned by an export must ultimately be used to buy a foreign good (an import) or a foreign asset (capital outflow), so any imbalance in trade is exactly mirrored by an imbalance in asset flows. It holds by definition, not as a behavioral assumption, a policy goal, or a product of central bank action."
     },
     {
       "id": "ch32-q03",
       "difficulty": "easy",
-      "question": "According to the chapter, the nominal exchange rate is best defined as:",
+      "question": "A traveler converts dollars into euros at a bank kiosk and is quoted '0.90 euros per dollar.' This quoted figure is an example of which concept?",
       "options": [
-        "The rate at which a person can trade the currency of one country for the currency of another",
-        "The rate at which a person can trade the goods and services of one country for those of another",
-        "The ratio of the foreign price level to the domestic price level in the long run",
-        "The average annual rate of inflation difference between two countries"
+        "The nominal exchange rate",
+        "The real exchange rate",
+        "Purchasing-power parity",
+        "The inflation differential between the two countries"
       ],
       "answer": 0,
-      "explanation": "The chapter defines the nominal exchange rate as the rate at which a person can trade the currency of one country for the currency of another (e.g., 80 yen per dollar). Option 1 describes the REAL exchange rate (trading goods and services). Option 2 describes the long-run PPP relationship (e = P*/P), and option 3 describes an inflation differential rather than the definition of the nominal rate."
+      "explanation": "A price at which one country's currency trades for another's (euros per dollar) is the nominal exchange rate. The real exchange rate instead compares the prices of goods and services across countries. Purchasing-power parity is a theory predicting where the nominal rate settles, and an inflation differential is a difference in inflation rates, not a currency price."
     },
     {
       "id": "ch32-q04",
@@ -53,12 +53,12 @@
         "The dollar is unchanged because the yen absorbed the move"
       ],
       "answer": 0,
-      "explanation": "With the book's convention of foreign currency per dollar, a rise from 80 to 90 yen per dollar means a dollar now buys MORE yen, so the dollar appreciates. At the same time a yen now buys less of the U.S. currency, so the yen depreciates. Because an exchange rate is a single relative price, the two currencies always move in opposite directions; any answer claiming both appreciate or both depreciate is therefore wrong."
+      "explanation": "With foreign currency quoted per dollar, a rise from 80 to 90 yen per dollar means a dollar now buys MORE yen, so the dollar appreciates. At the same time a yen now buys less U.S. currency, so the yen depreciates. Because an exchange rate is a single relative price, the two currencies always move in opposite directions; any answer claiming both appreciate or both depreciate is therefore wrong."
     },
     {
       "id": "ch32-q05",
       "difficulty": "easy",
-      "question": "A pound of coffee costs $5 in the United States and 500 yen in Japan. According to purchasing-power parity, what nominal exchange rate (yen per dollar) should this imply?",
+      "question": "A pound of coffee costs $5 in the United States and 500 yen in Japan. If a dollar is to buy the same amount of coffee in both countries, what must the nominal exchange rate (yen per dollar) be?",
       "options": [
         "0.01 yen per dollar",
         "5 yen per dollar",
@@ -67,7 +67,7 @@
         "2,500 yen per dollar"
       ],
       "answer": 2,
-      "explanation": "Purchasing-power parity sets the nominal exchange rate equal to the ratio of the foreign price level to the domestic price level: e = P*/P, with the foreign (yen) price in the numerator. Here e = 500 yen / $5 = 100 yen per dollar, which makes one dollar buy the same amount of coffee in both countries. Inverting the ratio gives the wrong 0.01 yen per dollar, the bare local prices give 5 or 500, and multiplying the two prices gives 2,500."
+      "explanation": "For a dollar to have equal purchasing power in both countries, the exchange rate must equal the ratio of the foreign price to the domestic price: 500 yen / $5 = 100 yen per dollar. At that rate, $5 converts to 500 yen, exactly the price of coffee in Japan. Inverting the ratio gives 0.01, the bare local prices give 5 or 500, and multiplying the two prices gives 2,500."
     },
     {
       "id": "ch32-q06",
@@ -81,7 +81,7 @@
         "A is an export and B is foreign direct investment"
       ],
       "answer": 1,
-      "explanation": "Buying a foreign-made car is a purchase of a good produced abroad and sold domestically, an import (a flow of goods). Buying stock in a foreign corporation is a purchase of a foreign asset, a flow of capital that raises U.S. net capital outflow. The chapter uses exactly this $30,000 Toyota example to separate the goods flow from the capital flow. Option 4 is a trap: the car is an import (not an export), and buying stock passively is foreign PORTFOLIO investment, not direct investment."
+      "explanation": "Buying a foreign-made car is a purchase of a good produced abroad, an import (a flow of goods). Buying stock in a foreign corporation is a purchase of a foreign asset, a flow of capital that raises U.S. net capital outflow. Option 4 is a trap: the car is an import, not an export, and buying shares passively is foreign PORTFOLIO investment, not direct investment, which requires actively managing the foreign operation."
     },
     {
       "id": "ch32-q07",
@@ -95,12 +95,12 @@
         "4 bushels of Japanese rice per bushel of American rice"
       ],
       "answer": 0,
-      "explanation": "Convert U.S. rice to yen: $100 x 80 yen/$ = 8,000 yen per bushel. Real rate = (e x P)/P* = 8,000/16,000 = 1/2 bushel of Japanese rice per bushel of American rice. American rice is half as expensive, so one bushel of it trades for only half a bushel of Japanese rice. Inverting the ratio (2) is the tempting distractor."
+      "explanation": "Convert U.S. rice to yen: $100 x 80 yen/$ = 8,000 yen per bushel. The real rate = (e x P)/P* = 8,000/16,000 = 1/2 bushel of Japanese rice per bushel of American rice. American rice is half as expensive, so one bushel of it trades for only half a bushel of Japanese rice. Inverting the ratio (2) is the tempting distractor; the other options skip the conversion or misplace the price levels."
     },
     {
       "id": "ch32-q08",
       "difficulty": "medium",
-      "question": "Suppose coffee beans sell for $4 a pound in Seattle and $5 a pound in Dallas. As traders exploit this arbitrage opportunity, what does the chapter say happens to the two prices?",
+      "question": "Coffee beans (a freely traded, identical commodity) sell for $4 a pound in Seattle and $5 a pound in Dallas. As traders act on this price gap, what happens to the two prices?",
       "options": [
         "Both prices fall as total supply increases",
         "The Seattle price falls and the Dallas price rises until they diverge further",
@@ -109,12 +109,12 @@
         "The prices stay fixed because arbitrage is illegal across state lines"
       ],
       "answer": 2,
-      "explanation": "Arbitrageurs buy where coffee is cheap (Seattle) and sell where it is dear (Dallas). This raises demand in Seattle, pushing its price up, and raises supply in Dallas, pushing its price down. The process continues until the prices are equal in the two markets. The law of one price drives prices together, not apart, and not both in the same direction."
+      "explanation": "Traders buy where coffee is cheap (Seattle) and resell where it is dear (Dallas). The added demand in Seattle pushes its price up, and the added supply in Dallas pushes its price down, until the two prices converge. This is the law of one price: arbitrage drives prices together, not apart, and not both in the same direction. There is nothing illegal about reselling a commodity across state lines."
     },
     {
       "id": "ch32-q09",
       "difficulty": "medium",
-      "question": "Under purchasing-power parity, the nominal exchange rate e (foreign currency per dollar) equals which ratio?",
+      "question": "If purchasing-power parity holds, the nominal exchange rate e (foreign currency per dollar) equals which ratio?",
       "options": [
         "The domestic price level divided by the foreign price level (P/P*)",
         "The foreign price level divided by the domestic price level (P*/P)",
@@ -122,12 +122,12 @@
         "The real exchange rate divided by the foreign price level"
       ],
       "answer": 1,
-      "explanation": "PPP starts from equal purchasing power at home and abroad, 1/P = e/P*, which rearranges to 1 = eP/P* and then solves for e = P*/P. So the nominal exchange rate equals the ratio of the FOREIGN price level (numerator) to the DOMESTIC price level (denominator). The inverted version P/P* is the common trap; multiplying the price levels and dividing the real exchange rate by P* are not part of the derivation."
+      "explanation": "PPP requires a dollar to have equal purchasing power at home and abroad: 1/P = e/P*, which rearranges to e = P*/P. So the nominal exchange rate equals the foreign price level (numerator) over the domestic price level (denominator). Inverting to P/P* is the common trap; multiplying the price levels or dividing the real rate by P* are not part of the derivation."
     },
     {
       "id": "ch32-q10",
       "difficulty": "medium",
-      "question": "From 1970 to 1998, annual inflation averaged 5.3% in the United States, 3.5% in Germany, and 9.6% in Italy. Using purchasing-power-parity reasoning, which conclusion follows about the U.S. dollar over this period?",
+      "question": "Over a long period, prices in the United States rose faster than prices in Germany but more slowly than prices in Italy. Using purchasing-power-parity reasoning, what should have happened to the U.S. dollar against the German mark and the Italian lira?",
       "options": [
         "The dollar appreciated against the mark and depreciated against the lira",
         "The dollar depreciated against the mark and appreciated against the lira",
@@ -136,40 +136,40 @@
         "The dollar's value was unaffected because all three countries had positive inflation"
       ],
       "answer": 1,
-      "explanation": "Under PPP, the currency of the country with higher inflation depreciates. U.S. prices rose faster than German prices (5.3% > 3.5%), so the dollar fell against the mark. U.S. prices rose more slowly than Italian prices (5.3% < 9.6%), so the dollar rose against the lira. The chapter states exactly this outcome: the dollar's value fell relative to the mark and rose relative to the lira."
+      "explanation": "Under PPP, the currency of the country with faster-rising prices loses value, because each unit of it buys progressively less. U.S. prices rose faster than German prices, so the dollar depreciated against the mark. U.S. prices rose more slowly than Italian prices, so the dollar appreciated against the lira. The direction of the move depends on the inflation difference, not merely on whether inflation is positive."
     },
     {
       "id": "ch32-q11",
       "difficulty": "medium",
-      "question": "The chapter gives two reasons purchasing-power parity does not always hold in practice. Which pair of examples correctly illustrates BOTH reasons?",
+      "question": "Purchasing-power parity often fails to hold exactly in practice. Which pair of examples best illustrates the two main reasons for this failure?",
       "options": [
-        "Coffee beans drive prices together, and Big Macs are sold worldwide",
-        "Haircuts are hard to trade, and German vs. American cars are not perfect substitutes",
-        "Hyperinflation distorts prices, and central banks fix exchange rates",
-        "Tariffs block trade, and interest rates differ across countries",
-        "Transportation is costly, and currencies are pegged to gold"
+        "Coffee beans, whose price is equalized by traders, and Big Macs, sold worldwide",
+        "Haircuts, which cannot be shipped between cities, and German versus American cars, which buyers do not view as identical",
+        "Hyperinflations that distort prices, and central banks that fix exchange rates",
+        "Tariffs that block trade, and interest rates that differ across countries",
+        "Costly transportation, and currencies pegged to gold"
       ],
       "answer": 1,
-      "explanation": "The chapter's two stated limitations are (1) many goods are not easily traded (its example is haircuts, where arbitrage is too limited to equalize prices across cities), and (2) even tradable goods are not perfect substitutes across countries (its example is German vs. American cars, kept apart by differing consumer tastes). Coffee and Big Macs illustrate cases where PPP/arbitrage tends to work; tariffs, interest rates, hyperinflation, and gold pegs are not the two limitations the chapter cites."
+      "explanation": "PPP breaks down because (1) many goods cannot be easily traded, so arbitrage cannot equalize their prices across locations (a haircut in one city cannot be shipped to another), and (2) even tradable goods are imperfect substitutes when consumers in different countries prefer different versions (German versus American cars). Coffee and Big Macs are cases where arbitrage tends to work; tariffs, interest rates, hyperinflation, and gold pegs are not the two core reasons PPP fails."
     },
     {
       "id": "ch32-q12",
       "difficulty": "hard",
-      "question": "An American manufacturing firm builds and actively operates a new factory in another country, financing it entirely on its own. Separately, an American mutual fund buys a passive minority stake in the shares of a foreign company. Which statement correctly describes both transactions according to the chapter?",
+      "question": "An American manufacturing firm builds and actively manages a new factory abroad, financing it itself. Separately, an American mutual fund buys a passive minority stake in a foreign company's shares. How should both transactions be classified?",
       "options": [
         "Both decrease U.S. net capital outflow because money leaves the United States",
         "Both increase U.S. net capital outflow; the factory is foreign direct investment and the share purchase is foreign portfolio investment",
-        "Both increase U.S. net capital outflow, and both are examples of foreign portfolio investment",
+        "Both increase U.S. net capital outflow, and both are foreign portfolio investment",
         "The factory increases U.S. net capital outflow, but the passive share purchase decreases it",
         "Neither affects net capital outflow, because both are flows of goods rather than capital"
       ],
       "answer": 1,
-      "explanation": "In both cases U.S. residents acquire assets located abroad, so both transactions increase U.S. net capital outflow (buying foreign assets raises NCO rather than lowering it, ruling out option 0). The chapter classifies an actively managed/operated investment as foreign direct investment (like McDonald's opening an outlet abroad) and a passive ownership stake as foreign portfolio investment (like buying stock in a foreign corporation). The factory is therefore direct investment and the fund's stake is portfolio investment. Option 2 mis-labels the factory, option 3 wrongly reverses one direction, and option 4 confuses capital flows with flows of goods."
+      "explanation": "In both cases U.S. residents acquire assets located abroad, so both raise U.S. net capital outflow (buying foreign assets raises NCO, ruling out option 0). When the investor actively runs the foreign operation, it is foreign direct investment (the factory); when the investor holds a passive stake without management control, it is foreign portfolio investment (the fund's shares). Option 2 mislabels the factory, option 3 wrongly reverses one direction, and option 4 confuses capital flows with goods flows."
     },
     {
       "id": "ch32-q13",
       "difficulty": "hard",
-      "question": "During one year, U.S. residents purchase $200 billion of foreign assets, while foreigners purchase $260 billion of U.S. assets. Based on the chapter's definition and sign conventions, U.S. net capital outflow is:",
+      "question": "During one year, U.S. residents purchase $200 billion of foreign assets, while foreigners purchase $260 billion of U.S. assets. What is U.S. net capital outflow, and what does its sign indicate?",
       "options": [
         "+$60 billion, indicating capital is flowing out of the country",
         "-$60 billion, indicating the country is experiencing a capital inflow",
@@ -178,25 +178,25 @@
         "Zero, because asset purchases always cancel out"
       ],
       "answer": 1,
-      "explanation": "Net capital outflow equals purchases of foreign assets by domestic residents ($200B) minus purchases of domestic assets by foreigners ($260B), which is -$60B. The chapter states that when net capital outflow is negative, foreigners are buying more domestic assets than domestic residents buy abroad, so the country is experiencing a capital inflow. Reversing the subtraction (+$60B), adding the figures (plus or minus $460B), or claiming they cancel (zero) all misapply the definition."
+      "explanation": "Net capital outflow equals purchases of foreign assets by domestic residents ($200B) minus purchases of domestic assets by foreigners ($260B) = -$60B. A negative value means foreigners bought more U.S. assets than U.S. residents bought abroad, so on net capital is flowing INTO the country. Reversing the subtraction (+$60B), adding the figures (plus or minus $460B), or claiming they cancel (zero) all misapply the definition."
     },
     {
       "id": "ch32-q14",
       "difficulty": "hard",
-      "question": "A U.S. programmer sells software to a Japanese buyer for 10,000 yen (a U.S. export). For the identity NX = NCO to hold, which use of the 10,000 yen would leave BOTH U.S. net exports and U.S. net capital outflow unchanged compared to before the software was written?",
+      "question": "A U.S. programmer sells software to a Japanese buyer for 10,000 yen (a U.S. export). For the identity NX = NCO to hold, which use of the 10,000 yen would leave BOTH U.S. net exports and U.S. net capital outflow unchanged compared with before the software was sold?",
       "options": [
-        "Holding the 10,000 yen as cash in a mattress",
+        "Holding the 10,000 yen as cash in a safe",
         "Buying stock in a Japanese corporation with the yen",
         "Using the yen to buy a Sony TV made in Japan",
         "Buying a Japanese government bond with the yen"
       ],
       "answer": 2,
-      "explanation": "Holding the yen, buying Japanese stock, or buying a Japanese bond each means a domestic resident acquires a foreign asset, so net capital outflow rises to match the rise in net exports from the software sale; relative to before the export, both NX and NCO are higher. But if the yen is spent on a Japanese-made Sony TV, U.S. imports rise by the same amount as the export, so net exports return to their original level. Because no American acquires a foreign asset (and no foreigner acquires a U.S. asset), net capital outflow is also unchanged. The export and import together represent balanced trade, leaving both sides of NX = NCO unchanged."
+      "explanation": "Holding yen, buying Japanese stock, or buying a Japanese bond each means a U.S. resident acquires a foreign asset, so net capital outflow rises to match the rise in net exports from the export; both NX and NCO end up higher. But spending the yen on a Japanese-made Sony TV is a U.S. import that exactly offsets the export, returning net exports to their original level. No one on either side acquires a foreign asset, so net capital outflow is also unchanged. The balanced export-and-import leaves both sides of NX = NCO where they started."
     },
     {
       "id": "ch32-q15",
       "difficulty": "hard",
-      "question": "A country's national saving rises while its domestic investment is unchanged. Using the open-economy identities S = I + NCO and NX = NCO, what must happen?",
+      "question": "A country's national saving rises while its domestic investment stays the same. Using S = I + NCO and NX = NCO, what must happen?",
       "options": [
         "NCO falls, so net exports fall and the country moves toward a trade deficit",
         "NCO rises, so net exports rise and capital flows out of the country",
@@ -204,12 +204,12 @@
         "Investment must rise by exactly the increase in saving, leaving NCO unchanged"
       ],
       "answer": 1,
-      "explanation": "From S = I + NCO with I held constant, an increase in S requires NCO to rise by the same amount. Since NX = NCO, net exports also rise (toward surplus), which means the nation buys more foreign assets and capital flows out of the country. The identity does not force investment to absorb the extra saving, so the other options are wrong."
+      "explanation": "From S = I + NCO with I held fixed, any increase in S must show up as an equal increase in NCO. Since NX = NCO, net exports also rise (toward surplus), meaning the nation uses its extra saving to buy foreign assets, so capital flows out. The identity does not force investment to absorb the extra saving, so the other options are inconsistent with the equations."
     },
     {
       "id": "ch32-q16",
       "difficulty": "hard",
-      "question": "Suppose a country's exports are less than its imports. Tracing through the identities Y = C + I + G + NX and S = Y - C - G (with NX = NCO), which sequence of conclusions is correct?",
+      "question": "A country's exports are less than its imports. Tracing through Y = C + I + G + NX and S = Y - C - G (with NX = NCO), which chain of conclusions is correct?",
       "options": [
         "NX > 0, so Y > C + I + G, so S > I, so NCO > 0",
         "NX < 0, so Y < C + I + G, so S < I, so NCO < 0",
@@ -217,38 +217,38 @@
         "NX < 0, so Y < C + I + G, so S > I, so NCO > 0"
       ],
       "answer": 1,
-      "explanation": "Exports < imports means NX = exports - imports < 0. In Y = C + I + G + NX, adding a negative NX makes income Y less than domestic spending C + I + G. Since S = Y - C - G = I + NX, a negative NX makes saving less than investment (S < I). Because NX = NCO, net capital outflow is also negative (NCO < 0): the country invests more than it saves and finances the gap by selling assets abroad, so capital flows in. This matches the trade-deficit column of Table 1."
+      "explanation": "Exports < imports means NX < 0. In Y = C + I + G + NX, a negative NX makes income Y smaller than domestic spending C + I + G. Since S = Y - C - G = I + NX, a negative NX makes saving fall short of investment (S < I). Because NX = NCO, net capital outflow is also negative: the country invests more than it saves and covers the gap by selling assets abroad, drawing capital in."
     },
     {
       "id": "ch32-q17",
       "difficulty": "hard",
-      "question": "The chapter explains the early-1980s U.S. trade deficit (capital inflow rising from 0.5% to 2.9% of GDP) as largely driven by a fall in national saving stemming from the Reagan tax cuts and higher defense spending. Through what mechanism does a larger government budget deficit produce this trade-deficit outcome?",
+      "question": "A government enacts large tax cuts and raises spending, turning its budget toward a deficit. Through what mechanism does this push the country's trade balance toward deficit?",
       "options": [
-        "A budget deficit raises public saving, which raises national saving and reduces net capital outflow",
-        "A budget deficit reduces public saving, lowering national saving; with investment roughly steady, net capital outflow falls (becomes more negative) and the trade balance moves toward deficit",
-        "A budget deficit directly raises imports through tariffs, with no effect on national saving",
-        "A budget deficit raises investment so much that national saving rises and net capital outflow becomes positive"
+        "The budget deficit raises public saving, which raises national saving and reduces net capital outflow",
+        "The budget deficit reduces public saving, lowering national saving; with investment roughly steady, net capital outflow becomes more negative and the trade balance moves toward deficit",
+        "The budget deficit directly raises imports through tariffs, with no effect on national saving",
+        "The budget deficit raises investment so much that national saving rises and net capital outflow becomes positive"
       ],
       "answer": 1,
-      "explanation": "A larger government budget deficit reduces public saving and therefore national saving. In the identity S = I + NCO, with S falling and investment not rising to offset it, NCO becomes more negative; capital flows in and the trade balance moves toward deficit. This is exactly the mechanism the chapter attributes to the 1980-1987 episode (a 2.7 percentage point fall in national saving driving a 2.4 point rise in capital inflow). A budget deficit lowers, not raises, public saving (ruling out option 0); tariffs are not the channel (ruling out option 2); and the investment-boom story with positive NCO describes the 1990s, not this episode (ruling out option 3)."
+      "explanation": "A larger government budget deficit reduces public saving and therefore national saving. In S = I + NCO, with S falling and investment not rising to offset it, NCO becomes more negative: capital flows in and the trade balance moves toward deficit. A budget deficit lowers, not raises, public saving (ruling out option 0); tariffs are not the channel (option 2); and a saving-raising investment boom describes a different scenario entirely (option 3)."
     },
     {
       "id": "ch32-q18",
       "difficulty": "hard",
-      "question": "The chapter contrasts the U.S. trade deficit of the 1990s with the one of the 1980s. During the 1990s the capital inflow into the United States grew from 0.5% to 3.7% of GDP. According to the chapter, what made the 1990s episode different, and how does the chapter judge it?",
+      "question": "Two countries each run a large trade deficit. In one, the deficit arises because national saving collapsed; in the other, national saving held up but domestic investment surged. Why might the second deficit be judged far less worrying than the first?",
       "options": [
-        "Saving fell sharply, just as in the 1980s, so the deficit was equally worrying because the nation was providing less for its future",
-        "Saving actually rose (the budget went from deficit to surplus) while investment surged from 15.3% to 19.9% of GDP; the deficit financed new capital and is judged manageable if that capital yields a good return",
-        "Investment fell while saving stayed flat, so the deficit reflected a collapse in domestic capital accumulation",
-        "Net exports turned positive, so there was no trade deficit in the 1990s to evaluate"
+        "It is equally worrying, because any trade deficit means the nation is providing less for its future",
+        "The borrowed foreign funds are financing new productive capital, which can yield a return that more than repays the borrowing, rather than merely covering a shortfall in saving",
+        "A deficit driven by investment reflects a collapse in domestic capital accumulation, which is always harmless",
+        "A deficit driven by investment is not really a trade deficit, since net exports turn positive"
       ],
       "answer": 1,
-      "explanation": "The chapter states that none of the 1990s change came from declining saving; saving actually rose as the federal budget switched from deficit to surplus, while investment jumped from 15.3% to 19.9% of GDP amid the information-technology boom. The economy borrowed from abroad to finance new capital goods, which the chapter judges acceptable if that capital provides a good return, unlike a deficit caused by falling saving (as in the 1980s), where the nation provides less for its future."
+      "explanation": "A trade deficit means a nation borrows from abroad. When the borrowing finances a surge in productive investment, the new capital can generate returns that more than repay foreign lenders, so the country need not be worse off. A deficit caused by falling saving, by contrast, leaves less capital for the future. Both cases are genuine trade deficits with negative net exports, so options 3 and 4 are wrong, and the investment story is not a collapse in capital accumulation."
     },
     {
       "id": "ch32-q19",
       "difficulty": "hard",
-      "question": "The dollar-yen nominal exchange rate falls from 100 to 80 yen per dollar. At the same time, the U.S. price index rises from 180 to 200 while Japan's price index is unchanged. Using the real exchange rate formula (e x P)/P*, how does the U.S. real exchange rate change, and what does this imply for U.S. net exports?",
+      "question": "The dollar-yen nominal exchange rate falls from 100 to 80 yen per dollar. Meanwhile the U.S. price index rises from 180 to 200 while Japan's price index is unchanged. Using (e x P)/P*, how does the U.S. real exchange rate change, and what does that imply for U.S. net exports?",
       "options": [
         "The real exchange rate falls, so U.S. goods become relatively cheaper and net exports rise",
         "The real exchange rate rises, so U.S. goods become relatively more expensive and net exports fall",
@@ -257,12 +257,12 @@
         "The change cannot be determined without knowing the U.S. interest rate"
       ],
       "answer": 0,
-      "explanation": "Because Japan's price index (P*) is unchanged, compare the numerator e x P. Before: 100 x 180 = 18,000. After: 80 x 200 = 16,000. The numerator falls, so the real exchange rate falls. A real depreciation makes U.S. goods relatively cheaper, encouraging more purchases of U.S. goods, so exports rise and imports fall, raising net exports. The nominal depreciation outweighs the relative rise in U.S. prices, so the effects do not offset."
+      "explanation": "Since P* is unchanged, compare the numerator e x P. Before: 100 x 180 = 18,000. After: 80 x 200 = 16,000. The numerator falls, so the real exchange rate falls. A real depreciation makes U.S. goods relatively cheaper, raising exports and reducing imports, so net exports rise. The nominal depreciation outweighs the relative rise in U.S. prices, so the two effects do not cancel."
     },
     {
       "id": "ch32-q20",
       "difficulty": "hard",
-      "question": "Suppose the U.S. nominal exchange rate (yen per dollar) stays exactly the same, but over the year U.S. prices rise sharply while Japanese prices are unchanged. Using Real exchange rate = (e x P)/P*, what happens to the U.S. real exchange rate and to U.S. net exports?",
+      "question": "The U.S. nominal exchange rate (yen per dollar) stays exactly the same over a year, but U.S. prices rise sharply while Japanese prices are unchanged. Using Real exchange rate = (e x P)/P*, what happens to the U.S. real exchange rate and to U.S. net exports?",
       "options": [
         "The real exchange rate rises (real appreciation), making U.S. goods relatively more expensive, so net exports fall",
         "The real exchange rate falls (real depreciation), making U.S. goods relatively cheaper, so net exports rise",
@@ -271,35 +271,35 @@
         "Net exports must rise because higher U.S. prices mean higher export revenue"
       ],
       "answer": 0,
-      "explanation": "In Real exchange rate = (e x P)/P*, the nominal rate e is fixed and the foreign price level P* is fixed, while the domestic price level P rises. A larger P raises the numerator (e x P), so the real exchange rate rises even though the nominal rate never changed. A rise in the U.S. real exchange rate is a real appreciation, which makes U.S. goods more expensive relative to foreign goods; the chapter states this causes U.S. net exports to decline. The key point is that the real rate depends on the nominal rate AND on both countries' price levels, so a constant nominal rate (option 2) does not imply a constant real rate."
+      "explanation": "In (e x P)/P*, the nominal rate e and the foreign price level P* are both fixed while the domestic price level P rises. A larger P raises the numerator, so the real exchange rate rises even though the nominal rate never moved. A higher real rate is a real appreciation, which makes U.S. goods more expensive relative to foreign goods and reduces net exports. The real rate depends on the nominal rate AND both price levels, so a constant nominal rate does not imply a constant real rate."
     },
     {
       "id": "ch32-q21",
       "difficulty": "hard",
-      "question": "The chapter explains a hyperinflation by linking two theories. In the correct causal chain, a central bank that rapidly prints money causes:",
+      "question": "A central bank prints money very rapidly during a hyperinflation. Combining the quantity theory of money with purchasing-power parity, what is the correct causal chain to the nominal exchange rate?",
       "options": [
-        "The price level to rise (quantity theory), which causes the currency to depreciate (PPP)",
-        "The currency to appreciate (PPP), which then causes the price level to fall (quantity theory)",
-        "The price level to fall (quantity theory), which causes the currency to appreciate (PPP)",
-        "The exchange rate to change first, which then drives the money supply via PPP",
-        "No change in the exchange rate, because hyperinflation affects only domestic prices"
+        "Money growth raises the price level (quantity theory), and the higher price level causes the currency to depreciate (PPP)",
+        "Money growth causes the currency to appreciate (PPP), which then causes the price level to fall (quantity theory)",
+        "Money growth lowers the price level (quantity theory), which causes the currency to appreciate (PPP)",
+        "The exchange rate changes first, which then drives the money supply via PPP",
+        "The exchange rate does not change, because hyperinflation affects only domestic prices"
       ],
       "answer": 0,
-      "explanation": "The chapter's hyperinflation case study says the quantity theory of money explains how the money supply affects the price level, and purchasing-power parity (PPP) explains how the price level affects the nominal exchange rate. So the chain runs money up -> price level up -> currency depreciates. Printing money makes the currency lose value both in goods and against other currencies (the opposite of appreciation), and the causation flows money -> prices -> exchange rate, not the reverse."
+      "explanation": "The quantity theory links money growth to a rising price level; purchasing-power parity then links a rising price level to a falling currency value abroad. So the chain runs: money up -> price level up -> currency depreciates. Rapid money printing makes a currency lose value both in goods and against other currencies (not appreciate), and the causation flows from money to prices to the exchange rate, not the reverse."
     },
     {
       "id": "ch32-q22",
       "difficulty": "hard",
-      "question": "In the Big Mac index, the PPP-predicted exchange rate is the one that makes a Big Mac cost the same in both countries. Suppose a Big Mac is $5.65 in the United States and 34,000 rupiah in Indonesia, so the predicted rate is about 6,018 rupiah/$, while the actual rate is 14,517 rupiah/$. What does this imply about the rupiah relative to the PPP prediction?",
+      "question": "Comparing a Big Mac's local price across countries, a dollar buys far MORE units of a country's currency at the actual exchange rate than the rate that would equalize Big Mac prices. Converted at the actual rate, a Big Mac there costs only about $2.34 versus $5.65 in the United States. What does this imply about that currency?",
       "options": [
-        "The rupiah is overvalued: at the actual rate a Big Mac costs more dollars in Indonesia than in the U.S.",
-        "The rupiah is undervalued: at the actual rate a Big Mac is cheaper in dollar terms in Indonesia than in the U.S.",
+        "It is overvalued: at the actual rate a Big Mac costs more dollars there than in the U.S.",
+        "It is undervalued: at the actual rate a Big Mac is cheaper in dollar terms there than in the U.S.",
         "The two currencies are exactly at purchasing-power parity for Big Macs",
-        "The dollar is undervalued because it buys fewer rupiah than predicted",
-        "Arbitrage in Big Macs will instantly force the actual rate down to 6,018 rupiah/$"
+        "The dollar is undervalued because it buys fewer units of the foreign currency than predicted",
+        "Arbitrage in Big Macs will instantly force the actual rate to the PPP-predicted level"
       ],
       "answer": 1,
-      "explanation": "The predicted (PPP) rate is 34,000/5.65 = about 6,018 rupiah/$. The actual rate, 14,517 rupiah/$, is much higher, so a dollar buys far more rupiah than PPP predicts. Converting the Indonesian price at the actual rate gives 34,000/14,517 = about $2.34, far below the U.S. price of $5.65, so the Indonesian Big Mac is cheaper in dollar terms and the rupiah is undervalued relative to the PPP prediction. Option 0 reverses the direction; the rates clearly differ, ruling out option 2; the dollar buys MORE (not fewer) rupiah than predicted, so option 3 is false; and the chapter states international arbitrage in Big Macs is not easy, so it does not instantly equalize the rates, ruling out option 4."
+      "explanation": "If a dollar buys more foreign currency than the PPP-predicted rate, then converting the local Big Mac price into dollars yields a figure below the U.S. price ($2.34 versus $5.65). The good is cheaper in dollar terms abroad, which means the currency is undervalued relative to the PPP benchmark. Option 0 reverses the direction; the rates clearly differ, so option 2 is false; the dollar buys MORE, not fewer, units, so option 3 is wrong; and Big Macs cannot be shipped and arbitraged, so the rates do not snap to PPP instantly."
     }
   ]
 }
