@@ -1,0 +1,394 @@
+{
+  "chapter": 34,
+  "chapterTitle": "Aggregate Demand and Aggregate Supply",
+  "questions": [
+    {
+      "id": "ch34-q01",
+      "difficulty": "easy",
+      "question": "According to the chapter, what is the term for a period of falling real incomes and rising unemployment?",
+      "options": [
+        "A depression",
+        "A recession",
+        "An expansion",
+        "The natural rate of unemployment"
+      ],
+      "answer": 1,
+      "explanation": "The chapter defines a recession as a period of falling incomes and rising unemployment. A depression is not the general term: it is specifically a severe recession. An expansion is the opposite (rapidly growing real GDP), and the natural rate of unemployment is a rate, not a period."
+    },
+    {
+      "id": "ch34-q02",
+      "difficulty": "easy",
+      "question": "Which statement best captures the chapter's first key fact about economic fluctuations (the 'business cycle')?",
+      "options": [
+        "They follow a regular, predictable cycle like a sine wave or heartbeat.",
+        "They are irregular and almost impossible to predict with much accuracy.",
+        "They occur on a fixed schedule of roughly every seven years.",
+        "They have been eliminated in modern economies by good policy.",
+        "They affect only a few isolated industries at a time."
+      ],
+      "answer": 1,
+      "explanation": "Fact 1 states that economic fluctuations are 'not at all regular, and they are almost impossible to predict with much accuracy.' The term 'business cycle' is misleading because it falsely suggests a regular, predictable pattern 'like a sine wave or a heartbeat' (option 0, the rejected misconception). A fixed seven-year schedule, the claim that fluctuations have been eliminated, and the claim that they hit only a few isolated industries are all contradicted by the chapter."
+    },
+    {
+      "id": "ch34-q03",
+      "difficulty": "medium",
+      "question": "Suppose real GDP enters a recession and contracts. Based on the chapter's three key facts about economic fluctuations, which set of outcomes is MOST consistent with what typically happens?",
+      "options": [
+        "Personal income, corporate profits, and consumer spending all rise while unemployment falls.",
+        "Personal income, corporate profits, and consumer spending all fall while unemployment rises substantially above its natural rate of about 5%.",
+        "Most macroeconomic quantities are unaffected because only real GDP changes during a recession.",
+        "Unemployment falls below zero as firms cut production.",
+        "Investment spending rises sharply even as output falls, offsetting the recession."
+      ],
+      "answer": 1,
+      "explanation": "Fact 2 states that most macroeconomic quantities (personal income, corporate profits, consumer spending, investment spending, etc.) fluctuate together, so they all fall in a recession, and that recessions are economy-wide rather than confined to GDP. Fact 3 states that as real GDP declines the unemployment rate rises substantially, fluctuating around a natural rate of about 5% and never reaching zero. This rules out the other options: comovement falls (not rises), recessions affect many variables, unemployment can never be negative, and investment actually falls (it accounts for about two-thirds of the decline in GDP)."
+    },
+    {
+      "id": "ch34-q04",
+      "difficulty": "easy",
+      "question": "In classical macroeconomic theory, the term 'classical dichotomy' refers to the separation of economic variables into which two categories?",
+      "options": [
+        "Short-run variables and long-run variables",
+        "Real variables and nominal variables",
+        "Demand-side variables and supply-side variables",
+        "Domestic variables and international variables"
+      ],
+      "answer": 1,
+      "explanation": "The chapter defines the classical dichotomy as the separation of variables into real variables (those that measure quantities or relative prices) and nominal variables (those measured in terms of money). The other pairings describe real distinctions in macroeconomics but are not what the classical dichotomy refers to."
+    },
+    {
+      "id": "ch34-q05",
+      "difficulty": "medium",
+      "question": "David Hume's 18th-century observation that an expansion of the money supply following gold discoveries temporarily raised employment and production BEFORE prices rose is used in the chapter primarily to illustrate that:",
+      "options": [
+        "Monetary neutrality holds at every time horizon",
+        "The classical dichotomy applies more strongly in the short run than the long run",
+        "Even classical economists recognized that monetary neutrality does not hold in the short run",
+        "Changes in the money supply never affect real GDP",
+        "Gold discoveries are the main cause of long-run economic growth"
+      ],
+      "answer": 2,
+      "explanation": "The chapter states that 'even classical economists, such as David Hume, realized that monetary neutrality did not hold in the short run,' citing his observation that after gold discoveries it took time for prices to rise while employment and production temporarily increased. This shows neutrality fails in the short run by a classical economist's own account. Option A and D overstate neutrality and contradict the temporary output rise; B reverses the actual conclusion (classical theory fits the long run, not the short run); E is not the chapter's point."
+    },
+    {
+      "id": "ch34-q06",
+      "difficulty": "hard",
+      "question": "A student claims the aggregate-demand and aggregate-supply model is just a scaled-up version of the supply and demand for a single good like ice cream, where a price rise reduces quantity demanded as buyers switch to other products. Why does the chapter reject this reasoning for the economy as a whole?",
+      "options": [
+        "Because the AD-AS axes plot the interest rate against the money supply rather than price against output",
+        "Because economy-wide substitution from one market to another is impossible, since real GDP measures total output across all markets at once",
+        "Because in the aggregate model both curves slope the same direction, unlike a single market",
+        "Because the price level is a real variable while a single good's price is a nominal variable",
+        "Because the aggregate-demand curve actually slopes upward, unlike a single market's demand curve"
+      ],
+      "answer": 1,
+      "explanation": "In a single market, a price change works through resources moving between markets (buyers and firms substituting toward or away from that good). The chapter states this microeconomic substitution from one market to another is impossible for the economy as a whole, because real GDP measures the total quantity of goods and services produced by all firms in all markets at once. So a separate macroeconomic theory is needed to explain why AD slopes downward and AS slopes upward. Option A misstates the axes (output is on the horizontal axis, the price level on the vertical axis); C and E misstate the slopes (AD slopes down, AS slopes up); D is not the chapter's reasoning and mislabels the variables."
+    },
+    {
+      "id": "ch34-q07",
+      "difficulty": "easy",
+      "question": "According to the chapter, the aggregate-demand curve shows the relationship between the overall price level and the quantity of all goods and services demanded. What is the shape of this curve?",
+      "options": [
+        "Downward-sloping",
+        "Upward-sloping",
+        "Vertical",
+        "Horizontal"
+      ],
+      "answer": 0,
+      "explanation": "The chapter states the aggregate-demand curve slopes downward: a decrease in the overall price level raises the quantity of goods and services demanded, and an increase in the price level reduces it."
+    },
+    {
+      "id": "ch34-q08",
+      "difficulty": "medium",
+      "question": "A student claims, 'When the U.S. price level falls, the wealth effect works by making people hold more money so that interest rates rise.' Which correction best matches the chapter's account of the WEALTH effect on consumption?",
+      "options": [
+        "A lower price level raises the real value of the money people hold, making consumers wealthier and encouraging them to spend more on consumption.",
+        "A lower price level lowers the real value of money, so consumers cut back on consumption.",
+        "A lower price level depreciates the dollar, raising net exports rather than consumption.",
+        "A lower price level reduces money demand, lowering interest rates and raising investment.",
+        "A lower price level leaves real wealth unchanged because the nominal value of a dollar is fixed."
+      ],
+      "answer": 0,
+      "explanation": "The wealth effect: because the nominal value of money is fixed (one dollar is always worth one dollar), a fall in the price level raises money's real value, making consumers wealthier and stimulating consumption. The option about depreciation and net exports describes the exchange-rate effect, and the option about money demand and interest rates describes the interest-rate effect; both are different AD channels. The option claiming real wealth is unchanged confuses the fixed nominal value of a dollar with its real value, which does change as the price level changes."
+    },
+    {
+      "id": "ch34-q09",
+      "difficulty": "medium",
+      "question": "In the chapter's interest-rate effect, why does a FALL in the U.S. price level lead to a lower interest rate?",
+      "options": [
+        "People need to hold less money, so they lend out the excess (e.g., buying bonds), which drives interest rates down.",
+        "The central bank deliberately cuts interest rates whenever prices fall.",
+        "Lower prices make foreign bonds cheaper, so capital flows in and rates fall.",
+        "Lower prices reduce real wealth, so people save less and rates fall.",
+        "Lower prices raise money demand, increasing the supply of loanable funds."
+      ],
+      "answer": 0,
+      "explanation": "A lower price level means people need less money for transactions, so they try to reduce their holdings by lending the excess out (buying interest-bearing bonds or depositing it, which the bank then lends). This added supply of funds bids interest rates down. The money supply is held fixed, so it is not a deliberate central-bank cut (option 1); capital actually flows OUT, not in, when U.S. rates fall, and that is the separate exchange-rate effect (option 2); the wealth effect says lower prices RAISE real wealth (option 3); and lower prices REDUCE money demand, not raise it (option 4)."
+    },
+    {
+      "id": "ch34-q10",
+      "difficulty": "hard",
+      "question": "An economist examines a movement ALONG a fixed aggregate-demand curve caused by a rising price level, with the money supply held constant. Which combination of effects on the three relevant spending components is consistent with the chapter's three reasons?",
+      "options": [
+        "Consumption falls (wealth), investment falls (higher interest rate), and net exports fall (dollar appreciation)",
+        "Consumption rises (wealth), investment rises (lower interest rate), and net exports rise (dollar depreciation)",
+        "Consumption falls (wealth), investment rises (lower interest rate), and net exports fall (dollar appreciation)",
+        "Consumption falls (wealth), investment falls (higher interest rate), and net exports rise (dollar depreciation)",
+        "All four components, including government purchases, fall"
+      ],
+      "answer": 0,
+      "explanation": "A higher price level reverses all three reasons for the downward slope of the AD curve: real wealth falls (consumption down); the quantity of money demanded and thus the interest rate rise (investment down); and the higher interest rate causes the dollar to appreciate, reducing net exports. Government purchases are not among the three effects, so option 5 is wrong. Option 2 describes a falling price level, and options 3 and 4 reverse the investment or net-exports directions."
+    },
+    {
+      "id": "ch34-q11",
+      "difficulty": "easy",
+      "question": "According to the chapter, which of the following events would shift the aggregate-demand curve to the RIGHT?",
+      "options": [
+        "Americans become more concerned about saving for retirement and cut current consumption.",
+        "A stock market boom makes people wealthier and less concerned about saving.",
+        "The government raises income taxes.",
+        "Firms become pessimistic about future business conditions.",
+        "A recession in Europe reduces purchases of U.S. goods."
+      ],
+      "answer": 1,
+      "explanation": "A stock market boom raises wealth, increasing consumer spending at every price level, so AD shifts right. Saving more for retirement, raising income taxes, investment pessimism, and a foreign recession that lowers U.S. net exports all reduce the quantity of goods demanded at every price level and shift AD left."
+    },
+    {
+      "id": "ch34-q12",
+      "difficulty": "hard",
+      "question": "International speculators lose confidence in foreign economies and shift wealth into the United States. Tracing the chapter's net-exports channel, what happens to the U.S. aggregate-demand curve, and why?",
+      "options": [
+        "The dollar depreciates, U.S. goods become cheaper abroad, net exports rise, and AD shifts right.",
+        "The dollar appreciates, U.S. goods become more expensive abroad, net exports fall, and AD shifts left.",
+        "The dollar appreciates, U.S. goods become cheaper abroad, net exports rise, and AD shifts right.",
+        "The dollar depreciates, U.S. goods become more expensive abroad, net exports fall, and AD shifts left.",
+        "The exchange rate is unchanged, so AD does not shift."
+      ],
+      "answer": 1,
+      "explanation": "Wealth flowing into the U.S. bids up the value of the dollar (appreciation), making U.S. goods more expensive relative to foreign goods. This depresses net exports at every price level, shifting the aggregate-demand curve to the left. Option 0 reverses the direction (depreciation); options 2 and 3 pair the wrong relative-price and net-exports effect with the exchange-rate move; option 4 wrongly assumes no exchange-rate change."
+    },
+    {
+      "id": "ch34-q13",
+      "difficulty": "hard",
+      "question": "In the same year, Congress enacts an investment tax credit while simultaneously a deep recession overseas sharply cuts foreign purchases of U.S. goods. Considering only these two shocks and their effects on aggregate demand, which statement is MOST accurate?",
+      "options": [
+        "Both shocks shift AD to the right, so AD unambiguously increases.",
+        "Both shocks shift AD to the left, so AD unambiguously decreases.",
+        "The investment tax credit shifts AD right while the overseas recession shifts AD left, so the net direction is ambiguous without knowing their relative sizes.",
+        "Both shocks cause movement along a fixed AD curve rather than shifting it.",
+        "The investment tax credit shifts AD left while the overseas recession shifts AD right."
+      ],
+      "answer": 2,
+      "explanation": "An investment tax credit increases the investment goods firms want to buy, shifting AD to the right. A foreign recession means foreigners buy fewer U.S. goods, so U.S. net exports decline at every price level, shifting AD to the left. Because the two shocks push AD in opposite directions, the net effect depends on which shift is larger and is therefore ambiguous. Neither shock is a mere movement along a fixed AD curve (only a change in the price level causes that)."
+    },
+    {
+      "id": "ch34-q14",
+      "difficulty": "easy",
+      "question": "The chapter states that the long-run aggregate-supply curve is vertical at the natural level of output. Which of the following is the BEST definition of the \"natural level of output\"?",
+      "options": [
+        "The maximum output an economy could ever physically produce by using every resource at full capacity with no idle workers at all",
+        "The production of goods and services an economy achieves in the long run when unemployment is at its natural, or normal, rate",
+        "The output level at which the price level stops changing and inflation reaches zero",
+        "The level of output that occurs when the money supply is held perfectly constant",
+        "The level of output produced during a recession, when unemployment is high"
+      ],
+      "answer": 1,
+      "explanation": "The chapter defines the natural level of output as the production of goods and services an economy achieves in the long run when unemployment is at its natural, or normal, rate; it is also called potential output or full-employment output. Because the natural rate of unemployment is positive, it is not a physical maximum with zero idle workers, and the definition does not require zero inflation (option 2) or a constant money supply (option 3). It is the output toward which the economy gravitates in the long run, not recession output (option 4)."
+    },
+    {
+      "id": "ch34-q15",
+      "difficulty": "medium",
+      "question": "Which of the following events would shift the long-run aggregate-supply curve to the LEFT, according to the chapter's list of LRAS determinants?",
+      "options": [
+        "A wave of immigration that increases the number of workers",
+        "The discovery of a new mineral deposit",
+        "A successful government job-training program that lowers the natural rate of unemployment",
+        "New government regulations that prevent firms from using certain production methods",
+        "The spread of industrial robots in manufacturing"
+      ],
+      "answer": 3,
+      "explanation": "The chapter states that new government regulations preventing firms from using some production methods (e.g., for worker safety or environmental concerns) produce a leftward shift in the long-run aggregate-supply curve, because they act like an adverse change in technology and reduce the economy's ability to produce. Each of the other options is listed in the chapter as a RIGHTWARD shifter: more workers from immigration (labor), a new mineral deposit (natural resources), a lower natural rate of unemployment, and the spread of industrial robots (technology) all raise the natural level of output."
+    },
+    {
+      "id": "ch34-q16",
+      "difficulty": "hard",
+      "question": "The chapter uses the aggregate-demand curve together with the long-run aggregate-supply (LRAS) curve to depict the economy's evolution from decade to decade, identifying the two most important practical forces as technology and monetary policy. If technological progress continually shifts LRAS rightward while the Fed's ongoing money-supply growth continually shifts AD rightward, what long-run pattern results for output (Y) and the price level (P)?",
+      "options": [
+        "Output rises while the price level falls, producing long-run deflation",
+        "Both output and the price level continually rise, producing growth with ongoing inflation",
+        "Output stays fixed at the natural level while only the price level rises",
+        "Both output and the price level fall over time",
+        "Output rises while the price level stays exactly constant"
+      ],
+      "answer": 1,
+      "explanation": "The chapter states that technological progress shifts LRAS rightward (raising output, so Y increases) while the Fed's money-supply growth shifts AD rightward (pushing the price level up), so the long-run equilibrium moves up and to the right over time. The text concludes the result is 'continuing growth in output (as shown by increasing Y) and continuing inflation (as shown by increasing P),' a new way of representing the classical analysis of growth and inflation. Deflation or a falling/constant price level is ruled out because AD is also shifting right; output is not fixed because LRAS is shifting right."
+    },
+    {
+      "id": "ch34-q17",
+      "difficulty": "hard",
+      "question": "Consider two hypothetical economies that are identical in their supplies of labor, capital, and natural resources and in their available technology, but one economy has twice as much money in circulation as the other. Reasoning with the long-run aggregate-supply framework from the chapter, which statement is correct?",
+      "options": [
+        "The economy with more money produces twice as much output but has the same price level",
+        "The economy with more money produces the same long-run output, while its price level is twice as high",
+        "The economy with more money has a long-run aggregate-supply curve that is shifted to the right",
+        "Both the output and the price level are identical across the two economies",
+        "The economy with more money has a long-run aggregate-supply curve that slopes upward rather than being vertical"
+      ],
+      "answer": 1,
+      "explanation": "Long-run output depends only on the supplies of labor, capital, and natural resources and on technology, none of which money affects, so real output is identical and the long-run aggregate-supply curve sits in the same vertical position in both economies. The extra money raises only the nominal price level, making it twice as high. Money therefore neither shifts the LRAS curve (which would require a change in a real determinant) nor changes its vertical shape (LRAS is vertical in the long run)."
+    },
+    {
+      "id": "ch34-q18",
+      "difficulty": "easy",
+      "question": "According to the text, what common theme unites all three theories of the upward-sloping short-run aggregate-supply curve?",
+      "options": [
+        "Output deviates from its natural level when the actual price level differs from the expected price level (surprise).",
+        "Higher government spending always raises output.",
+        "Nominal wages and prices adjust instantly to new conditions.",
+        "The money supply has no effect on output in the short run."
+      ],
+      "answer": 0,
+      "explanation": "The chapter states the three theories differ in their details but 'share a common theme: in a word, surprise'—the quantity of output supplied deviates from its natural level when the actual price level deviates from the level people expected. Option 1 concerns aggregate demand, not the SRAS theme; option 2 contradicts the sticky-wage/sticky-price imperfections that drive the theories; option 3 contradicts the chapter's short-run analysis."
+    },
+    {
+      "id": "ch34-q19",
+      "difficulty": "hard",
+      "question": "Three suppliers respond to an unexpectedly LOW overall price level. Supplier A's long-term union contract keeps its $30 nominal wage fixed. Supplier B keeps its catalog prices high to avoid the cost of reprinting catalogs. A wheat farmer C sees the price of wheat drop and assumes the reward for producing wheat has fallen relative to other goods. Which theory of short-run aggregate supply does each illustrate, in order A, B, C?",
+      "options": [
+        "Sticky-price, misperceptions, sticky-wage.",
+        "Misperceptions, sticky-wage, sticky-price.",
+        "Sticky-wage, sticky-price, misperceptions.",
+        "Sticky-wage, misperceptions, sticky-price.",
+        "Sticky-price, sticky-wage, misperceptions."
+      ],
+      "answer": 2,
+      "explanation": "A's nominal wage fixed by a long-term contract is the sticky-wage theory: wages are slow to adjust, so a lower-than-expected price level squeezes profits and cuts output. B's failure to cut prices because of menu costs (printing and distributing catalogs) is the sticky-price theory: firms with higher-than-desired prices see sales fall and reduce production. C mistaking a falling absolute wheat price for a falling relative reward is the misperceptions theory. The order is therefore sticky-wage, sticky-price, misperceptions (index 2). The other options merely reshuffle the same three names and do not match the scenarios."
+    },
+    {
+      "id": "ch34-q20",
+      "difficulty": "medium",
+      "question": "The short-run aggregate-supply relationship is written Y = Yn + a(P - Pexpected), where a > 0. A central bank engineers an increase in the money supply that pushes the ACTUAL price level above what people had expected, while the expected price level (and a and Yn) stay fixed in the short run. What happens to output?",
+      "options": [
+        "Output falls below its natural level Yn.",
+        "Output stays exactly at Yn because expectations did not change.",
+        "Output rises above its natural level Yn.",
+        "Output is indeterminate because P and Pexpected both rose by the same amount.",
+        "The natural level of output Yn itself rises."
+      ],
+      "answer": 2,
+      "explanation": "With Pexpected, a, and Yn fixed and a > 0, an actual price level above the expected level makes a(P - Pexpected) positive, so Y > Yn. This matches the chapter's statement that when the actual price level rises above the expected level, output rises above its natural level. Only the actual price level moved (not the expected level), so they did not rise equally; and the equation leaves Yn unchanged because the natural level depends on labor, capital, and technology, not on the price level."
+    },
+    {
+      "id": "ch34-q21",
+      "difficulty": "hard",
+      "question": "Workers and firms revise their expectation of the price level UPWARD for the coming year, anticipating higher inflation. Holding labor, capital, natural resources, and technology constant, what happens to the short-run aggregate-supply (SRAS) curve, and through what sticky-wage mechanism?",
+      "options": [
+        "SRAS shifts right, because higher expected prices lower negotiated nominal wages and reduce costs.",
+        "SRAS shifts left, because higher expected prices push negotiated nominal wages up, raising firms' costs and reducing the quantity supplied at any actual price level.",
+        "SRAS is unchanged, because the expected price level affects only the long-run aggregate-supply curve.",
+        "The long-run aggregate-supply curve shifts left while SRAS stays fixed.",
+        "SRAS shifts right, because firms anticipate higher revenue and expand output."
+      ],
+      "answer": 1,
+      "explanation": "Per the sticky-wage theory, workers and firms set nominal wages based on the expected price level. When the expected price level rises, wages are set higher, costs increase, and firms supply a smaller quantity at any actual price level, so SRAS shifts left. The expected price level shifts SRAS, not LRAS: LRAS depends only on labor, capital, natural resources, and technology. So option 2 (no shift) and option 3 (LRAS shift) are wrong, option 0 reverses the wage effect, and option 4 names a non-textual mechanism and the wrong direction."
+    },
+    {
+      "id": "ch34-q22",
+      "difficulty": "hard",
+      "question": "An economy starts in long-run equilibrium when a wave of pessimism causes households and firms to cut spending. Tracing the economy from the initial point A to the new SHORT-RUN equilibrium point B, which movement BEST describes what happens?",
+      "options": [
+        "The economy moves down and to the left ALONG the unchanged short-run aggregate-supply curve, so both output and the price level fall.",
+        "The economy moves up and to the left along the unchanged short-run aggregate-supply curve, so output falls and the price level rises.",
+        "The short-run aggregate-supply curve shifts left, producing stagflation.",
+        "The economy stays at the natural level of output because the aggregate-demand shift is purely nominal.",
+        "The long-run aggregate-supply curve shifts left, lowering the natural level of output."
+      ],
+      "answer": 0,
+      "explanation": "Pessimism reduces spending, so aggregate demand shifts left (AD1 to AD2). In the short run the economy moves ALONG the unchanged short-run aggregate-supply curve (AS1) from A to B, lowering both output (Y1 to Y2) and the price level (P1 to P2) -- a recession. Option 1 (output down, price up) describes a supply shock, not an AD shift. Option 2 is wrong because pessimism affects AD, not SRAS. Option 3 (no change in output / purely nominal) describes the LONG-run outcome after expectations adjust, not the short run. Option 4 is wrong because nothing here changes the determinants of long-run aggregate supply, so LRAS does not move."
+    },
+    {
+      "id": "ch34-q23",
+      "difficulty": "hard",
+      "question": "Following a leftward shift in aggregate demand, the economy sits at short-run equilibrium B with output below its natural level and the price level below what people had expected. If policymakers do NOTHING, what mechanism returns the economy to its natural level, and at what price level does it settle?",
+      "options": [
+        "The expected price level rises, shifting short-run aggregate supply left, so output returns to its natural level at a higher price level.",
+        "The expected price level falls, shifting short-run aggregate supply right, so output returns to its natural level at a price level even lower than B's.",
+        "Aggregate demand automatically shifts back to the right, returning the economy to its original point A and price level.",
+        "The long-run aggregate-supply curve shifts right, raising the natural level of output to match the lower demand.",
+        "Output stays permanently below its natural level because there is no self-correcting force."
+      ],
+      "answer": 1,
+      "explanation": "At B the price level (P2) is below what people expected (P1). Over time their expectations catch up: under the sticky-wage theory, once workers and firms expect lower prices they agree to lower nominal wages, cutting firms' costs and prompting more production at any price level. This shifts short-run aggregate supply rightward (AS1 to AS2) until the economy reaches point C, where AD2 crosses long-run aggregate supply, restoring output to its natural level (Y1) at an even lower price level (P3, below P2). Aggregate demand does not rebound on its own, and the long-run aggregate-supply curve (the natural level of output) is unaffected by an AD shift, so the long-run effect is purely nominal."
+    },
+    {
+      "id": "ch34-q24",
+      "difficulty": "hard",
+      "question": "A war abroad sharply raises the cost of imported oil for an economy in long-run equilibrium. In the SHORT RUN, tracing the economy from point A to point B, which describes the result and its name?",
+      "options": [
+        "The economy moves up and to the left along aggregate demand as SRAS shifts left: output falls and the price level rises, called stagflation.",
+        "The economy moves down and to the right as SRAS shifts right: output rises and the price level falls, called disinflation.",
+        "Aggregate demand shifts left: both output and the price level fall, called a demand-pull recession.",
+        "The long-run aggregate-supply curve shifts left, raising the price level while output is unchanged.",
+        "The economy moves down and to the left along SRAS as aggregate demand shifts left, called a deflationary spiral."
+      ],
+      "answer": 0,
+      "explanation": "Higher production costs make supplying output less profitable at every price level, so SRAS shifts left while AD and LRAS are held fixed. The economy slides up the existing AD curve from A to B: output falls (from Y1 to Y2) and the price level rises (from P1 to P2) simultaneously. This combination of falling output and rising prices is stagflation. Option 3 is wrong because the text assumes LRAS does not shift and output is not unchanged; the other distractors misidentify the curve or the term."
+    },
+    {
+      "id": "ch34-q25",
+      "difficulty": "hard",
+      "question": "Faced with an adverse SRAS shift causing stagflation, policymakers choose to ACCOMMODATE the shock by shifting aggregate demand right (AD1 to AD2) by exactly enough to keep output at its natural level, moving the economy directly from A to C. What is the trade-off of this accommodative policy compared with simply waiting for self-correction?",
+      "options": [
+        "It restores output immediately but locks in a permanently higher price level, worsening inflation.",
+        "It restores output immediately and returns the price level to its original level P1.",
+        "It avoids any change in the price level but leaves output permanently below natural.",
+        "It shifts the long-run aggregate-supply curve right, raising the natural level of output.",
+        "It eliminates both the recession and the inflation with no cost."
+      ],
+      "answer": 0,
+      "explanation": "Accommodation shifts AD right (AD1 to AD2) to hold output at its natural level, moving directly from A to C, but the price level rises from P1 to P3 and stays permanently higher. The chapter's lesson: policymakers can mitigate the output loss only at the cost of exacerbating inflation."
+    },
+    {
+      "id": "ch34-q26",
+      "difficulty": "easy",
+      "question": "According to the chapter, what was the central message of John Maynard Keynes's 1936 book The General Theory of Employment, Interest, and Money?",
+      "options": [
+        "Money is neutral in both the short run and the long run.",
+        "Recessions and depressions can occur because of inadequate aggregate demand for goods and services.",
+        "Economic downturns are caused primarily by adverse shifts in aggregate supply.",
+        "Government should never intervene in the economy because markets self-correct quickly.",
+        "Inflation is always and everywhere a monetary phenomenon."
+      ],
+      "answer": 1,
+      "explanation": "The chapter states Keynes's main message was that recessions and depressions can occur because of inadequate aggregate demand for goods and services. He criticized classical theory's exclusive focus on the long run ('in the long run we are all dead') and advocated policies to boost aggregate demand, including government spending on public works."
+    },
+    {
+      "id": "ch34-q27",
+      "difficulty": "medium",
+      "question": "Many economists place primary blame for the Great Depression on a 28 percent decline in the money supply from 1929 to 1933. According to the chapter, what was the Federal Reserve's role in this decline?",
+      "options": [
+        "The Fed deliberately contracted the money supply to fight inflation.",
+        "The Fed raised reserve requirements to force banks to lend more.",
+        "The Fed failed to offset the fall in the money multiplier with expansionary open-market operations.",
+        "The Fed printed money aggressively, but it leaked overseas.",
+        "The Fed accommodated the contraction by buying mortgage-backed securities."
+      ],
+      "answer": 2,
+      "explanation": "As households withdrew deposits from shaky banks and cautious bankers held more reserves, money creation under fractional-reserve banking went into reverse and the money multiplier fell. The Fed failed to offset this with expansionary open-market operations, so the money supply declined by 28 percent. Many economists blame the Fed's inaction for the Depression's severity."
+    },
+    {
+      "id": "ch34-q28",
+      "difficulty": "hard",
+      "question": "The chapter argues the 2020 Covid recession was unusual because BOTH aggregate demand and aggregate supply shifted left simultaneously: closures and infection fears cut spending while shutdowns slashed production. Compared with a recession driven by a leftward AD shift alone, what does the AD-AS model predict about the effect of adding the simultaneous leftward short-run aggregate supply (SRAS) shift on output and the price level?",
+      "options": [
+        "Output falls by even more, while the effect on the price level is ambiguous because the two leftward shifts push the price level in opposite directions.",
+        "Output falls by less, and the price level unambiguously falls.",
+        "Output is unaffected, and the price level rises sharply.",
+        "Output rises while the price level falls, since the two shifts cancel out.",
+        "Both output and the price level unambiguously rise."
+      ],
+      "answer": 0,
+      "explanation": "The chapter teaches that a leftward AD shift lowers output and lowers the price level, while an adverse (leftward) SRAS shift lowers output but raises the price level (stagflation). Adding the simultaneous leftward SRAS shift therefore reinforces the output decline (output falls by more), which matches the chapter's statement that the simultaneous shifts 'led to a sharp reduction in production and employment.' For the price level, the leftward AD shift pushes it down while the leftward SRAS shift pushes it up, so the net direction is ambiguous."
+    }
+  ]
+}

@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Macro Study Desk</title>
+  <style>
+    :root {
+      --ink: #12213f;
+      --muted: #65738c;
+      --line: #d9e0ea;
+      --soft: #f5f7fa;
+      --blue: #225be7;
+      --blue-soft: #eef3ff;
+      --green: #15805d;
+      --green-soft: #eaf8f1;
+      --red: #c83d4b;
+      --red-soft: #fff0f1;
+      --amber: #a65d00;
+      --radius: 12px;
+      --shadow: 0 16px 40px rgba(18, 33, 63, .08);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: var(--ink); background: #fff; font: 15px/1.55 Inter, Pretendard, "Noto Sans KR", system-ui, -apple-system, sans-serif; }
+    button, input { font: inherit; }
+    button { color: inherit; }
+    button:focus-visible, input:focus-visible { outline: 3px solid rgba(34, 91, 231, .25); outline-offset: 2px; }
+    .topbar { position: sticky; z-index: 10; top: 0; height: 72px; display: flex; align-items: center; gap: 28px; padding: 0 28px; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.96); backdrop-filter: blur(12px); }
+    .brand { font-size: 21px; font-weight: 800; letter-spacing: -.03em; white-space: nowrap; }
+    .brand-sub { color: var(--muted); white-space: nowrap; }
+    .top-stats { display: flex; align-items: center; gap: 0; margin-left: auto; }
+    .top-stat { min-width: 92px; padding: 0 20px; border-left: 1px solid var(--line); text-align: center; }
+    .top-stat span { display: block; color: var(--muted); font-size: 12px; }
+    .top-stat strong { display: block; margin-top: 1px; font-size: 18px; }
+    .mobile-controls { display: none; margin-left: auto; padding: 9px 12px; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+    .app { display: grid; grid-template-columns: 310px minmax(0, 1fr); min-height: calc(100vh - 72px); }
+    .sidebar { position: sticky; top: 72px; align-self: start; height: calc(100vh - 72px); overflow-y: auto; padding: 25px 24px 32px; border-right: 1px solid var(--line); background: #fcfdff; }
+    .control-group { margin-bottom: 24px; }
+    .control-title { display: flex; align-items: center; justify-content: space-between; margin: 0 0 10px; font-size: 14px; font-weight: 800; }
+    .text-action { padding: 0; border: 0; color: var(--blue); background: transparent; cursor: pointer; font-size: 13px; }
+    .check-row { display: flex; align-items: flex-start; gap: 9px; padding: 6px 0; cursor: pointer; }
+    .check-row input { width: 17px; height: 17px; margin: 2px 0 0; accent-color: var(--blue); }
+    .check-row .label { flex: 1; }
+    .check-row small { color: var(--muted); }
+    .segmented { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px; }
+    .segmented label { position: relative; }
+    .segmented input { position: absolute; opacity: 0; pointer-events: none; }
+    .segmented span { display: block; padding: 9px 4px; border: 1px solid var(--line); border-radius: 8px; background: #fff; text-align: center; cursor: pointer; }
+    .segmented input:checked + span { border-color: var(--blue); color: #fff; background: var(--blue); }
+    .number-wrap { display: flex; align-items: center; gap: 8px; }
+    .number-wrap input { width: 100%; padding: 9px 10px; border: 1px solid var(--line); border-radius: 8px; background: #fff; text-align: center; }
+    .pool-note { margin: 7px 0 0; color: var(--muted); font-size: 12px; }
+    .primary { width: 100%; padding: 12px 16px; border: 1px solid var(--blue); border-radius: 9px; color: #fff; background: var(--blue); box-shadow: 0 8px 18px rgba(34,91,231,.18); cursor: pointer; font-weight: 800; }
+    .primary:hover { background: #164bd0; }
+    .main { min-width: 0; padding: 28px clamp(22px, 4vw, 58px) 64px; }
+    .section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 14px; }
+    .section-heading h1, .section-heading h2 { margin: 0; font-size: 22px; letter-spacing: -.03em; }
+    .section-heading p { margin: 0; color: var(--muted); }
+    .dashboard { margin-bottom: 34px; }
+    .dashboard-table { overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); }
+    .dash-row { display: grid; grid-template-columns: minmax(180px, 1.6fr) 80px 1.4fr 90px 70px 44px; align-items: center; min-height: 54px; padding: 0 18px; border-top: 1px solid var(--line); gap: 16px; }
+    .dash-row:first-child { border-top: 0; }
+    .dash-row.head { min-height: 40px; color: var(--muted); background: var(--soft); font-size: 12px; }
+    .chapter-name strong { display: block; }
+    .chapter-name small { display: block; overflow: hidden; color: var(--muted); text-overflow: ellipsis; white-space: nowrap; }
+    .progress-track { height: 7px; overflow: hidden; border-radius: 999px; background: #e9edf3; }
+    .progress-track i { display: block; height: 100%; border-radius: inherit; background: var(--blue); }
+    .reset-chapter { width: 32px; height: 32px; padding: 0; border: 1px solid var(--line); border-radius: 7px; background: #fff; cursor: pointer; color: var(--muted); }
+    .empty, .question-card, .results { border: 1px solid var(--line); border-radius: var(--radius); }
+    .empty { display: grid; min-height: 260px; place-items: center; padding: 40px; background: var(--soft); text-align: center; }
+    .empty strong { display: block; margin-bottom: 4px; font-size: 18px; }
+    .empty p { margin: 0; color: var(--muted); }
+    .question-card { overflow: hidden; box-shadow: var(--shadow); }
+    .question-meta { display: flex; align-items: center; gap: 14px; min-height: 54px; padding: 0 22px; border-bottom: 1px solid var(--line); }
+    .question-meta .counter { font-weight: 800; }
+    .meta-tags { display: flex; gap: 9px; margin-left: auto; color: var(--muted); font-size: 13px; }
+    .flag-btn { display: inline-flex; align-items: center; gap: 6px; margin-left: 4px; padding: 7px 9px; border: 0; background: transparent; cursor: pointer; color: var(--muted); }
+    .flag-btn svg { width: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+    .flag-btn.active { color: var(--amber); }
+    .flag-btn.active svg { fill: currentColor; }
+    .question-body { padding: 25px 24px 22px; }
+    .question-text { max-width: 940px; margin: 0 0 22px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(19px, 2vw, 24px); line-height: 1.35; }
+    .options { display: grid; gap: 10px; }
+    .option { display: grid; grid-template-columns: 32px 1fr auto; align-items: center; gap: 12px; width: 100%; min-height: 52px; padding: 9px 14px; border: 1px solid var(--line); border-radius: 9px; background: #fff; text-align: left; cursor: pointer; }
+    .option:hover:not(:disabled) { border-color: #91acf4; background: var(--blue-soft); }
+    .option:disabled { cursor: default; }
+    .option-letter { display: grid; width: 30px; height: 30px; place-items: center; border: 1px solid #aeb9cb; border-radius: 50%; font-weight: 800; }
+    .option.selected { border-color: var(--blue); background: var(--blue-soft); }
+    .option.selected .option-letter { border-color: var(--blue); color: #fff; background: var(--blue); }
+    .option.correct { border-color: #6dc6a4; background: var(--green-soft); }
+    .option.correct .option-letter { border-color: var(--green); color: #fff; background: var(--green); }
+    .option.incorrect { border-color: #e49aa2; background: var(--red-soft); }
+    .option.incorrect .option-letter { border-color: var(--red); color: #fff; background: var(--red); }
+    .option-mark { font-weight: 800; }
+    .option.correct .option-mark { color: var(--green); }
+    .option.incorrect .option-mark { color: var(--red); }
+    .explanation { margin-top: 18px; padding: 17px 18px; border-left: 4px solid var(--blue); background: var(--soft); }
+    .explanation strong { display: block; margin-bottom: 5px; }
+    .explanation p { margin: 0; color: #34415a; }
+    .card-actions { display: flex; align-items: center; gap: 10px; margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .btn { padding: 9px 13px; border: 1px solid var(--line); border-radius: 8px; background: #fff; cursor: pointer; }
+    .btn:hover:not(:disabled) { border-color: #9eb2df; background: var(--soft); }
+    .btn:disabled { opacity: .45; cursor: default; }
+    .btn-blue { border-color: var(--blue); color: var(--blue); }
+    .next { margin-left: auto; }
+    .exam-submit { margin-top: 16px; }
+    .feedback { font-weight: 800; }
+    .feedback.ok { color: var(--green); }
+    .feedback.bad { color: var(--red); }
+    .results { margin-top: 22px; overflow: hidden; }
+    .results-header { display: flex; align-items: center; gap: 22px; padding: 22px; color: #fff; background: var(--ink); }
+    .score-ring { display: grid; width: 94px; height: 94px; flex: 0 0 auto; place-items: center; border: 8px solid rgba(255,255,255,.18); border-top-color: #72a0ff; border-radius: 50%; }
+    .score-ring strong { font-size: 23px; }
+    .results-header h2 { margin: 0 0 4px; }
+    .results-header p { margin: 0; color: #bac5d8; }
+    .results-body { padding: 22px; }
+    .difficulty-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 12px 0 24px; }
+    .difficulty-stat { padding: 14px; border: 1px solid var(--line); border-radius: 9px; }
+    .difficulty-stat span { display: block; color: var(--muted); font-size: 12px; }
+    .difficulty-stat strong { font-size: 20px; }
+    .missed-list { display: grid; gap: 12px; }
+    .missed { padding: 16px; border: 1px solid var(--line); border-radius: 9px; }
+    .missed h4 { margin: 0 0 7px; font: 700 16px/1.45 Georgia, serif; }
+    .missed p { margin: 6px 0 0; color: var(--muted); }
+    .missed .answer-line { color: var(--green); }
+    .toast { position: fixed; z-index: 20; right: 22px; bottom: 22px; max-width: min(360px, calc(100vw - 44px)); padding: 12px 16px; border-radius: 9px; color: #fff; background: var(--ink); box-shadow: var(--shadow); transform: translateY(20px); opacity: 0; pointer-events: none; transition: .2s ease; }
+    .toast.show { transform: translateY(0); opacity: 1; }
+    .hidden { display: none !important; }
+    @media (max-width: 940px) {
+      .brand-sub, .top-stats { display: none; }
+      .mobile-controls { display: inline-flex; }
+      .app { display: block; }
+      .sidebar { position: fixed; z-index: 12; top: 72px; left: 0; width: min(340px, 90vw); height: calc(100vh - 72px); transform: translateX(-105%); box-shadow: var(--shadow); transition: transform .22s ease; }
+      .sidebar.open { transform: translateX(0); }
+      .main { padding: 24px 18px 50px; }
+      .dash-row { grid-template-columns: 1.7fr 72px 1fr 58px 42px; }
+      .dash-row > :nth-child(5), .dash-row.head > :nth-child(5) { display: none; }
+    }
+    @media (max-width: 620px) {
+      .topbar { height: 62px; padding: 0 16px; }
+      .brand { font-size: 18px; }
+      .sidebar { top: 62px; height: calc(100vh - 62px); }
+      .dashboard-table { overflow-x: auto; }
+      .dash-row { min-width: 610px; }
+      .section-heading { align-items: flex-start; flex-direction: column; gap: 4px; }
+      .question-meta { align-items: flex-start; flex-wrap: wrap; padding: 13px 16px; gap: 8px; }
+      .meta-tags { order: 3; width: 100%; margin-left: 0; }
+      .flag-btn { margin-left: auto; }
+      .question-body { padding: 20px 16px; }
+      .option { grid-template-columns: 30px 1fr; }
+      .option-mark { grid-column: 2; }
+      .card-actions { flex-wrap: wrap; }
+      .next { margin-left: 0; }
+      .card-actions .btn { flex: 1; }
+      .feedback { order: -1; width: 100%; }
+      .results-header { align-items: flex-start; }
+      .score-ring { width: 76px; height: 76px; border-width: 6px; }
+      .difficulty-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Macro Study Desk</div>
+    <div class="brand-sub">AP Macroeconomics 문제 은행 · 오프라인</div>
+    <div class="top-stats" aria-label="전체 학습 현황">
+      <div class="top-stat"><span>총 문제</span><strong id="totalQuestions">0</strong></div>
+      <div class="top-stat"><span>풀이 완료</span><strong id="totalSolved">0</strong></div>
+      <div class="top-stat"><span>정답률</span><strong id="totalAccuracy">—</strong></div>
+    </div>
+    <button class="mobile-controls" id="mobileControls" type="button" aria-expanded="false">학습 설정</button>
+  </header>
+
+  <div class="app">
+    <aside class="sidebar" id="sidebar" aria-label="문제 세트 설정">
+      <div class="control-group">
+        <div class="control-title"><span>1. 챕터 선택</span><button class="text-action" id="selectAllChapters" type="button">전체 선택</button></div>
+        <div id="chapterChoices"></div>
+      </div>
+      <div class="control-group">
+        <div class="control-title">2. 난이도</div>
+        <div class="segmented" id="difficultyChoices">
+          <label><input type="checkbox" value="easy" checked><span>쉬움</span></label>
+          <label><input type="checkbox" value="medium" checked><span>보통</span></label>
+          <label><input type="checkbox" value="hard" checked><span>어려움</span></label>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-title" for="questionCount">3. 문제 수</label>
+        <div class="number-wrap"><input id="questionCount" type="number" min="1" value="20" inputmode="numeric"></div>
+        <p class="pool-note" id="poolNote"></p>
+      </div>
+      <div class="control-group">
+        <div class="control-title">4. 출제 방식</div>
+        <label class="check-row"><input id="randomize" type="checkbox" checked><span class="label">문제 순서 무작위</span></label>
+        <label class="check-row"><input id="examMode" type="checkbox"><span class="label">모의고사 모드<small> 제출 전 정답 숨김</small></span></label>
+      </div>
+      <div class="control-group">
+        <div class="control-title">5. 학습 기록 필터</div>
+        <label class="check-row"><input id="unansweredOnly" type="checkbox"><span class="label">풀지 않은 문제만</span></label>
+        <label class="check-row"><input id="incorrectOnly" type="checkbox"><span class="label">오답 기록 있는 문제만</span></label>
+        <label class="check-row"><input id="flaggedOnly" type="checkbox"><span class="label">표시한 문제만</span></label>
+      </div>
+      <button class="primary" id="generateSet" type="button">문제 세트 만들기</button>
+    </aside>
+
+    <main class="main">
+      <section class="dashboard" aria-labelledby="dashboardTitle">
+        <div class="section-heading">
+          <div><h1 id="dashboardTitle">챕터 진행 현황</h1><p>기록은 이 브라우저에 자동 저장됩니다.</p></div>
+        </div>
+        <div class="dashboard-table" id="dashboardTable"></div>
+      </section>
+
+      <section aria-labelledby="quizTitle">
+        <div class="section-heading">
+          <div><h2 id="quizTitle">문제 풀이</h2><p id="quizSubtitle">조건을 선택해 새 문제 세트를 만드세요.</p></div>
+        </div>
+        <div id="quizArea">
+          <div class="empty"><div><strong>학습할 준비가 되었습니다.</strong><p>왼쪽 설정에서 챕터와 난이도를 고른 뒤 문제 세트를 만드세요.</p></div></div>
+        </div>
+        <div id="resultsArea"></div>
+      </section>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="quiz-data.js"></script>
+  <script>
+  (() => {
+    'use strict';
+    const DATA = window.QUIZ_DATA;
+    const DIFFICULTY_LABELS = { easy: '쉬움', medium: '보통', hard: '어려움' };
+    const STORAGE = {
+      settings: 'apmacroQuiz.settings.v1',
+      session: 'apmacroQuiz.session.v1',
+      question: id => `apmacroQuiz.question.${id}`
+    };
+    const $ = selector => document.querySelector(selector);
+    const escapeHtml = value => String(value).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
+    const iconFlag = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 21V4m0 0c4-2.5 8 2.5 12 0v10c-4 2.5-8-2.5-12 0" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    const chapters = Array.isArray(DATA?.chapters) ? [...DATA.chapters].sort((a,b) => a.chapter - b.chapter) : [];
+    const questions = chapters.flatMap(chapter => chapter.questions.map(question => ({...question, chapter: chapter.chapter, chapterTitle: chapter.chapterTitle})));
+    const questionMap = new Map(questions.map(question => [question.id, question]));
+    let settings = loadJson(STORAGE.settings, null) || {
+      chapters: chapters.map(chapter => chapter.chapter),
+      difficulties: ['easy','medium','hard'],
+      count: Math.min(20, questions.length || 1),
+      randomize: true,
+      examMode: false,
+      unansweredOnly: false,
+      incorrectOnly: false,
+      flaggedOnly: false
+    };
+    let session = normalizeSession(loadJson(STORAGE.session, null));
+    let toastTimer;
+
+    function loadJson(key, fallback) {
+      try { return JSON.parse(localStorage.getItem(key)) ?? fallback; }
+      catch { return fallback; }
+    }
+    function saveJson(key, value) { localStorage.setItem(key, JSON.stringify(value)); }
+    function defaultRecord() { return { attempts: 0, correct: 0, incorrect: 0, flagged: false, lastResult: null, lastAnswer: null }; }
+    function getRecord(id) { return {...defaultRecord(), ...loadJson(STORAGE.question(id), {})}; }
+    function setRecord(id, record) { saveJson(STORAGE.question(id), record); }
+    function normalizeSession(value) {
+      if (!value || !Array.isArray(value.ids)) return null;
+      const ids = value.ids.filter(id => questionMap.has(id));
+      if (!ids.length) return null;
+      return {
+        ids,
+        index: Math.max(0, Math.min(Number(value.index) || 0, ids.length - 1)),
+        examMode: Boolean(value.examMode),
+        responses: value.responses && typeof value.responses === 'object' ? value.responses : {},
+        revealed: value.revealed && typeof value.revealed === 'object' ? value.revealed : {},
+        submitted: Boolean(value.submitted)
+      };
+    }
+    function saveSession() { session ? saveJson(STORAGE.session, session) : localStorage.removeItem(STORAGE.session); }
+    function showToast(message) {
+      const toast = $('#toast');
+      toast.textContent = message;
+      toast.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toast.classList.remove('show'), 2200);
+    }
+    function shuffle(items) {
+      const result = [...items];
+      for (let i = result.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [result[i], result[j]] = [result[j], result[i]];
+      }
+      return result;
+    }
+    function allSelected(selector) { return [...document.querySelectorAll(selector)].filter(input => input.checked).map(input => input.value); }
+
+    function init() {
+      if (!chapters.length) {
+        $('#quizArea').innerHTML = '<div class="empty"><div><strong>문제 데이터를 찾지 못했습니다.</strong><p>build_quiz.py를 실행해 quiz-data.js를 다시 만드세요.</p></div></div>';
+        return;
+      }
+      settings.chapters = settings.chapters.filter(number => chapters.some(chapter => chapter.chapter === Number(number))).map(Number);
+      if (!settings.chapters.length) settings.chapters = chapters.map(chapter => chapter.chapter);
+      settings.difficulties = settings.difficulties.filter(value => DIFFICULTY_LABELS[value]);
+      if (!settings.difficulties.length) settings.difficulties = ['easy','medium','hard'];
+      renderControls();
+      bindEvents();
+      renderDashboard();
+      renderHeader();
+      updatePoolNote();
+      if (session) renderQuiz();
+    }
+
+    function renderControls() {
+      $('#chapterChoices').innerHTML = chapters.map(chapter => `
+        <label class="check-row">
+          <input class="chapter-input" type="checkbox" value="${chapter.chapter}" ${settings.chapters.includes(chapter.chapter) ? 'checked' : ''}>
+          <span class="label"><strong>Ch ${chapter.chapter}</strong> · ${escapeHtml(chapter.chapterTitle)}</span>
+          <small>${chapter.questions.length}</small>
+        </label>`).join('');
+      document.querySelectorAll('#difficultyChoices input').forEach(input => input.checked = settings.difficulties.includes(input.value));
+      $('#questionCount').value = Math.max(1, Number(settings.count) || 1);
+      ['randomize','examMode','unansweredOnly','incorrectOnly','flaggedOnly'].forEach(id => { $(`#${id}`).checked = Boolean(settings[id]); });
+    }
+
+    function bindEvents() {
+      $('#selectAllChapters').addEventListener('click', () => {
+        const inputs = [...document.querySelectorAll('.chapter-input')];
+        const shouldSelect = inputs.some(input => !input.checked);
+        inputs.forEach(input => input.checked = shouldSelect);
+        syncSettings();
+      });
+      document.querySelectorAll('.sidebar input').forEach(input => input.addEventListener('change', () => { syncSettings(); updatePoolNote(); }));
+      $('#questionCount').addEventListener('input', syncSettings);
+      $('#generateSet').addEventListener('click', generateSet);
+      $('#mobileControls').addEventListener('click', () => {
+        const open = $('#sidebar').classList.toggle('open');
+        $('#mobileControls').setAttribute('aria-expanded', String(open));
+      });
+      $('#dashboardTable').addEventListener('click', event => {
+        const button = event.target.closest('[data-reset-chapter]');
+        if (!button) return;
+        resetChapter(Number(button.dataset.resetChapter));
+      });
+      $('#quizArea').addEventListener('click', handleQuizClick);
+      $('#resultsArea').addEventListener('click', event => {
+        if (event.target.closest('[data-review-question]')) {
+          session.index = Number(event.target.closest('[data-review-question]').dataset.reviewQuestion);
+          saveSession();
+          renderQuiz();
+          $('#quizTitle').scrollIntoView({behavior:'smooth'});
+        }
+      });
+    }
+
+    function syncSettings() {
+      settings = {
+        chapters: allSelected('.chapter-input').map(Number),
+        difficulties: allSelected('#difficultyChoices input'),
+        count: Math.max(1, Number($('#questionCount').value) || 1),
+        randomize: $('#randomize').checked,
+        examMode: $('#examMode').checked,
+        unansweredOnly: $('#unansweredOnly').checked,
+        incorrectOnly: $('#incorrectOnly').checked,
+        flaggedOnly: $('#flaggedOnly').checked
+      };
+      saveJson(STORAGE.settings, settings);
+    }
+
+    function filteredPool() {
+      return questions.filter(question => {
+        const record = getRecord(question.id);
+        return settings.chapters.includes(question.chapter)
+          && settings.difficulties.includes(question.difficulty)
+          && (!settings.unansweredOnly || record.attempts === 0)
+          && (!settings.incorrectOnly || record.incorrect > 0)
+          && (!settings.flaggedOnly || record.flagged);
+      });
+    }
+
+    function updatePoolNote() {
+      syncSettings();
+      const poolSize = filteredPool().length;
+      $('#questionCount').max = Math.max(1, poolSize);
+      $('#poolNote').textContent = `현재 조건에 맞는 문제 ${poolSize}개`;
+    }
+
+    function generateSet() {
+      syncSettings();
+      if (!settings.chapters.length) return showToast('챕터를 하나 이상 선택하세요.');
+      if (!settings.difficulties.length) return showToast('난이도를 하나 이상 선택하세요.');
+      let pool = filteredPool();
+      if (!pool.length) return showToast('현재 조건에 맞는 문제가 없습니다.');
+      if (settings.randomize) pool = shuffle(pool);
+      const count = Math.min(settings.count, pool.length);
+      session = { ids: pool.slice(0, count).map(question => question.id), index: 0, examMode: settings.examMode, responses: {}, revealed: {}, submitted: false };
+      saveSession();
+      $('#sidebar').classList.remove('open');
+      $('#mobileControls').setAttribute('aria-expanded', 'false');
+      renderQuiz();
+      $('#quizTitle').scrollIntoView({behavior:'smooth'});
+      showToast(`${count}문제 세트를 만들었습니다.`);
+    }
+
+    function renderHeader() {
+      const records = questions.map(question => getRecord(question.id));
+      const solved = records.filter(record => record.attempts > 0).length;
+      const attempts = records.reduce((sum, record) => sum + record.attempts, 0);
+      const correct = records.reduce((sum, record) => sum + record.correct, 0);
+      $('#totalQuestions').textContent = questions.length;
+      $('#totalSolved').textContent = solved;
+      $('#totalAccuracy').textContent = attempts ? `${Math.round(correct / attempts * 100)}%` : '—';
+    }
+
+    function renderDashboard() {
+      const rows = chapters.map(chapter => {
+        const records = chapter.questions.map(question => getRecord(question.id));
+        const solved = records.filter(record => record.attempts > 0).length;
+        const attempts = records.reduce((sum, record) => sum + record.attempts, 0);
+        const correct = records.reduce((sum, record) => sum + record.correct, 0);
+        const flagged = records.filter(record => record.flagged).length;
+        const progress = Math.round(solved / chapter.questions.length * 100);
+        const accuracy = attempts ? `${Math.round(correct / attempts * 100)}%` : '—';
+        return `<div class="dash-row">
+          <div class="chapter-name"><strong>Chapter ${chapter.chapter}</strong><small>${escapeHtml(chapter.chapterTitle)}</small></div>
+          <div>${chapter.questions.length}문제</div>
+          <div><div>${solved}/${chapter.questions.length} · ${progress}%</div><div class="progress-track"><i style="width:${progress}%"></i></div></div>
+          <strong>${accuracy}</strong>
+          <div>${flagged}개</div>
+          <button class="reset-chapter" type="button" data-reset-chapter="${chapter.chapter}" title="Chapter ${chapter.chapter} 학습 기록 초기화" aria-label="Chapter ${chapter.chapter} 학습 기록 초기화">↻</button>
+        </div>`;
+      }).join('');
+      $('#dashboardTable').innerHTML = `<div class="dash-row head"><div>챕터</div><div>문제 수</div><div>진행률</div><div>정답률</div><div>표시</div><div>초기화</div></div>${rows}`;
+    }
+
+    function resetChapter(number) {
+      const chapter = chapters.find(item => item.chapter === number);
+      if (!chapter || !confirm(`Chapter ${number}의 정답/오답 기록을 초기화할까요? 표시한 문제는 유지됩니다.`)) return;
+      chapter.questions.forEach(question => {
+        const record = getRecord(question.id);
+        setRecord(question.id, {...defaultRecord(), flagged: record.flagged});
+      });
+      renderDashboard();
+      renderHeader();
+      updatePoolNote();
+      showToast(`Chapter ${number} 학습 기록을 초기화했습니다.`);
+    }
+
+    function renderQuiz() {
+      if (!session?.ids.length) return;
+      const question = questionMap.get(session.ids[session.index]);
+      const response = session.responses[question.id];
+      const revealed = Boolean(session.revealed[question.id]) || session.submitted;
+      const locked = session.submitted || (!session.examMode && Boolean(response?.graded));
+      const showFeedback = revealed && (!session.examMode || session.submitted);
+      const record = getRecord(question.id);
+      $('#quizSubtitle').textContent = session.examMode ? (session.submitted ? '채점이 완료되었습니다. 오답을 다시 확인하세요.' : '모의고사 모드 · 제출 전에는 정답이 표시되지 않습니다.') : '선택 즉시 채점되며 정답과 해설을 확인할 수 있습니다.';
+      const options = question.options.map((option, index) => {
+        const selected = response?.choice === index;
+        const correct = showFeedback && index === question.answer;
+        const incorrect = showFeedback && selected && index !== question.answer;
+        const className = ['option', selected ? 'selected' : '', correct ? 'correct' : '', incorrect ? 'incorrect' : ''].filter(Boolean).join(' ');
+        const mark = correct ? '정답' : incorrect ? '오답' : '';
+        return `<button class="${className}" type="button" data-answer="${index}" ${locked ? 'disabled' : ''} aria-pressed="${selected}">
+          <span class="option-letter">${String.fromCharCode(65 + index)}</span><span>${escapeHtml(option)}</span><span class="option-mark">${mark}</span>
+        </button>`;
+      }).join('');
+      let feedback = '';
+      if (showFeedback && response?.choice != null) feedback = response.choice === question.answer ? '<span class="feedback ok">정답입니다.</span>' : '<span class="feedback bad">오답입니다.</span>';
+      const explanation = revealed ? `<div class="explanation"><strong>정답 ${String.fromCharCode(65 + question.answer)} · ${escapeHtml(question.options[question.answer])}</strong><p>${escapeHtml(question.explanation)}</p></div>` : '';
+      $('#quizArea').innerHTML = `<article class="question-card">
+        <div class="question-meta">
+          <span class="counter">문제 ${session.index + 1} / ${session.ids.length}</span>
+          <div class="meta-tags"><span>Chapter ${question.chapter}</span><span>난이도 · ${DIFFICULTY_LABELS[question.difficulty]}</span></div>
+          <button class="flag-btn ${record.flagged ? 'active' : ''}" type="button" data-flag aria-pressed="${record.flagged}">${iconFlag}<span>${record.flagged ? '표시됨' : '표시'}</span></button>
+        </div>
+        <div class="question-body">
+          <h3 class="question-text">${escapeHtml(question.question)}</h3>
+          <div class="options">${options}</div>
+          ${explanation}
+          <div class="card-actions">
+            <button class="btn" type="button" data-prev ${session.index === 0 ? 'disabled' : ''}>이전</button>
+            ${session.examMode && !session.submitted ? '' : `<button class="btn btn-blue" type="button" data-reveal>${revealed ? '정답·해설 숨기기' : '정답·해설 보기'}</button>`}
+            ${feedback}
+            <button class="btn next" type="button" data-next ${session.index === session.ids.length - 1 ? 'disabled' : ''}>다음</button>
+          </div>
+        </div>
+      </article>
+      ${session.examMode && !session.submitted ? '<button class="primary exam-submit" type="button" data-submit-exam>모의고사 제출 및 채점</button>' : ''}`;
+      if (session.submitted) renderResults(); else $('#resultsArea').innerHTML = '';
+    }
+
+    function handleQuizClick(event) {
+      if (!session) return;
+      const question = questionMap.get(session.ids[session.index]);
+      const answer = event.target.closest('[data-answer]');
+      if (answer) return chooseAnswer(question, Number(answer.dataset.answer));
+      if (event.target.closest('[data-flag]')) return toggleFlag(question.id);
+      if (event.target.closest('[data-prev]')) { session.index--; saveSession(); return renderQuiz(); }
+      if (event.target.closest('[data-next]')) { session.index++; saveSession(); return renderQuiz(); }
+      if (event.target.closest('[data-reveal]')) {
+        session.revealed[question.id] = !session.revealed[question.id];
+        saveSession();
+        return renderQuiz();
+      }
+      if (event.target.closest('[data-submit-exam]')) return submitExam();
+    }
+
+    function chooseAnswer(question, choice) {
+      if (session.submitted) return;
+      if (session.examMode) {
+        session.responses[question.id] = {choice, graded: false};
+      } else {
+        const correct = choice === question.answer;
+        session.responses[question.id] = {choice, graded: true, correct};
+        session.revealed[question.id] = true;
+        recordAttempt(question.id, choice, correct);
+      }
+      saveSession();
+      renderQuiz();
+    }
+
+    function recordAttempt(id, choice, correct) {
+      const record = getRecord(id);
+      record.attempts += 1;
+      record.correct += correct ? 1 : 0;
+      record.incorrect += correct ? 0 : 1;
+      record.lastResult = correct ? 'correct' : 'incorrect';
+      record.lastAnswer = choice;
+      setRecord(id, record);
+      renderDashboard();
+      renderHeader();
+      updatePoolNote();
+    }
+
+    function toggleFlag(id) {
+      const record = getRecord(id);
+      record.flagged = !record.flagged;
+      setRecord(id, record);
+      renderDashboard();
+      updatePoolNote();
+      renderQuiz();
+    }
+
+    function submitExam() {
+      if (!confirm('현재 답안으로 모의고사를 제출할까요? 제출 후에는 답안을 바꿀 수 없습니다.')) return;
+      session.ids.forEach(id => {
+        const question = questionMap.get(id);
+        const response = session.responses[id];
+        if (response?.choice != null && !response.graded) {
+          const correct = response.choice === question.answer;
+          response.graded = true;
+          response.correct = correct;
+          recordAttempt(id, response.choice, correct);
+        }
+      });
+      session.submitted = true;
+      saveSession();
+      renderQuiz();
+      $('#resultsArea').scrollIntoView({behavior:'smooth'});
+    }
+
+    function renderResults() {
+      const items = session.ids.map((id, index) => ({question: questionMap.get(id), response: session.responses[id], index}));
+      const correct = items.filter(item => item.response?.correct).length;
+      const answered = items.filter(item => item.response?.choice != null).length;
+      const percent = Math.round(correct / items.length * 100);
+      const difficultyStats = ['easy','medium','hard'].map(difficulty => {
+        const group = items.filter(item => item.question.difficulty === difficulty);
+        const hits = group.filter(item => item.response?.correct).length;
+        return group.length ? `<div class="difficulty-stat"><span>${DIFFICULTY_LABELS[difficulty]}</span><strong>${hits}/${group.length}</strong><div>${Math.round(hits/group.length*100)}%</div></div>` : '';
+      }).join('');
+      const missed = items.filter(item => !item.response?.correct).map(item => {
+        const q = item.question;
+        const responseText = item.response?.choice == null ? '미응답' : `${String.fromCharCode(65 + item.response.choice)} · ${escapeHtml(q.options[item.response.choice])}`;
+        return `<div class="missed"><h4>${escapeHtml(q.question)}</h4><div>내 답: ${responseText}</div><div class="answer-line">정답: ${String.fromCharCode(65 + q.answer)} · ${escapeHtml(q.options[q.answer])}</div><p>${escapeHtml(q.explanation)}</p><button class="btn" type="button" data-review-question="${item.index}">문제로 이동</button></div>`;
+      }).join('') || '<p>틀리거나 건너뛴 문제가 없습니다.</p>';
+      $('#resultsArea').innerHTML = `<section class="results" aria-labelledby="resultsTitle">
+        <div class="results-header"><div class="score-ring"><strong>${percent}%</strong></div><div><h2 id="resultsTitle">모의고사 결과</h2><p>${items.length}문제 중 ${answered}문제 응답 · ${correct}문제 정답</p></div></div>
+        <div class="results-body"><h3>난이도별 정답률</h3><div class="difficulty-grid">${difficultyStats}</div><h3>오답 및 미응답 ${items.length-correct}문제</h3><div class="missed-list">${missed}</div></div>
+      </section>`;
+    }
+
+    init();
+  })();
+  </script>
+</body>
+</html>
